@@ -1,5 +1,16 @@
 {
-    "variants": {
-        "normal": { "model": "m5:manganese_block" }
-    }
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"all": "m5:blocks/manganese_block"
+		}
+	},
+	"variants": {
+		"normal": {
+			"model": "cube_all"
+		},
+		"inventory": {
+			"model": "cube_all"
+		}
+	}
 }
