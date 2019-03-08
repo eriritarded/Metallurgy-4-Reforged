@@ -9,15 +9,19 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent;
 
 public class TraitStrongly extends AbstractArmorTrait{
+	
+	private int levels;
 
-	public TraitStrongly() {
-		super("strongly", TextFormatting.LIGHT_PURPLE);
+	public TraitStrongly(int levels) {
+		super("strongly" + "_" + levels, TextFormatting.LIGHT_PURPLE);
+		
+		this.levels = levels;
 	}
 	
 	@SubscribeEvent
 	public void onArmorTick(PlayerTickEvent event){	
 		if(MetallurgyConArmorStats.isThatArmorTrait(event.player, "strongly"))
-			event.player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 60, 1, false, false));
+			event.player.addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 60, levels, false, false));
 	}
 
 }
