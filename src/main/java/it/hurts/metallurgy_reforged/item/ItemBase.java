@@ -11,40 +11,24 @@
 
 package it.hurts.metallurgy_reforged.item;
 
-import it.hurts.metallurgy_reforged.Metallurgy;
-import net.minecraft.creativetab.CreativeTabs;
+import it.hurts.metallurgy_reforged.util.IHasModel;
+import it.hurts.metallurgy_reforged.util.ItemUtils;
+import it.hurts.metallurgy_reforged.util.MetallurgyTabs;
 import net.minecraft.item.Item;
 
 import javax.annotation.Nonnull;
 
-public class ItemBase extends Item{
-
-	protected String name;
+public class ItemBase extends Item implements IHasModel {
 
 	public ItemBase(String name)
     {
-		this.name = name;
-		setTranslationKey(Metallurgy.MODID + "." + name);
-		setRegistryName(Metallurgy.MODID, name);
-		ModItems.itemList.add(this);
-	}
-	
-	public void registerItemModel()
-    {
-		Metallurgy.proxy.registerItemRenderer(this, 0, name);
-	}
-
-	public void registerItemModel(String subdirectory)
-	{
-		Metallurgy.proxy.registerItemRenderer(this, 0, name, subdirectory);
+		ItemUtils.initItem(this, name, MetallurgyTabs.tabSpecial);
 	}
 
 	@Nonnull
 	@Override
-	public ItemBase setCreativeTab(@Nonnull CreativeTabs tab)
-    {
-		super.setCreativeTab(tab);
-		return this;
+	public String getCategory()
+	{
+		return "";
 	}
-	
 }
