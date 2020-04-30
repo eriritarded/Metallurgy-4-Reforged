@@ -14,10 +14,11 @@ package it.hurts.metallurgy_reforged.block;
 public enum BlockTypes {
 
 	BLOCK("block"),
-	ENGRAVED_BLOCK("engravedBlock"),
-	LARGE_BRICKS("largeBricks"),
+	ENGRAVED_BLOCK("engraved_block"),
+	LARGE_BRICKS("large_bricks"),
 	BRICKS("bricks"),
-	CRYSTAL("crystals");
+	CRYSTAL("crystals"),
+	GLASS("reinforced_glass");
 
 	private String prefix;
 
