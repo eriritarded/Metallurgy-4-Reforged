@@ -1,5 +1,5 @@
 /*==============================================================================
- = Class: ItemTartariteShield
+ = Class: ItemSanguiniteShield
  = This class is part of Metallurgy 4: Reforged
  = Complete source code is available at https://github.com/Davoleo/Metallurgy-4-Reforged
  = This code is licensed under GNU GPLv3
@@ -37,13 +37,11 @@ public class ItemSanguiniteShield extends ItemShieldBase {
 	}
 
 	@Override
-	public void onDamageBlocked(EntityLivingBase entity, DamageSource damageSource)
-	{
-		if (damageSource.getTrueSource() instanceof EntityLivingBase)
-		{
-			EntityLivingBase target = ((EntityLivingBase) damageSource.getTrueSource());
-			target.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60, 1));
-		}
-	}
+    public void onDamageBlocked(EntityLivingBase player, DamageSource damageSource, float amount) {
+        if (damageSource.getTrueSource() instanceof EntityLivingBase) {
+            EntityLivingBase target = ((EntityLivingBase) damageSource.getTrueSource());
+            target.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60, 1));
+        }
+    }
 
 }
