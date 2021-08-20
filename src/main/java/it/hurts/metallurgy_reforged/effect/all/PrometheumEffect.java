@@ -40,7 +40,7 @@ public class PrometheumEffect extends BaseMetallurgyEffect {
 
 		if (entityIn.world.provider.isSurfaceWorld() && entityIn.world.isDaytime() && entityIn.world.canSeeSky(entityIn.getPosition()))
 		{
-			if (Math.random() < 0.5F && stack.getItemDamage() > 0)
+			if (Math.random() < 0.5 && stack.getItemDamage() > 0)
 				stack.setItemDamage(stack.getItemDamage() - 1);
 		}
 	}
