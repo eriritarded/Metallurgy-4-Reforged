@@ -9,7 +9,6 @@
 
 package it.hurts.metallurgy_reforged.effect.armor;
 
-import it.hurts.metallurgy_reforged.capabilities.effect.EffectDataProvider;
 import it.hurts.metallurgy_reforged.capabilities.effect.ExtraFilledDataBundle;
 import it.hurts.metallurgy_reforged.effect.BaseMetallurgyEffect;
 import it.hurts.metallurgy_reforged.effect.EnumEffectCategory;
@@ -56,7 +55,7 @@ public class CelenegilArmorEffect extends BaseMetallurgyEffect implements IProgr
 			return;
 
 		EntityPlayer entity = ((EntityPlayer) event.getEntityLiving());
-		ExtraFilledDataBundle data = entity.getCapability(EffectDataProvider.PLAYER_EFFECT_DATA_CAPABILITY, null).celenegilArmorBundle;
+		ExtraFilledDataBundle data = getEffectCapability(entity).celenegilArmorBundle;
 
 		int hits = data.getExtraInt("hits");
 
@@ -91,7 +90,7 @@ public class CelenegilArmorEffect extends BaseMetallurgyEffect implements IProgr
 	@Override
 	public void onStep(World world, EntityPlayer player, ItemStack effectStack, int maxSteps, int step)
 	{
-		ExtraFilledDataBundle bundle = player.getCapability(EffectDataProvider.PLAYER_EFFECT_DATA_CAPABILITY, null).celenegilArmorBundle;
+		ExtraFilledDataBundle bundle = getEffectCapability(player).celenegilArmorBundle;
 
 		if (step == 1 && !bundle.getExtraBool("inactive"))
 		{
