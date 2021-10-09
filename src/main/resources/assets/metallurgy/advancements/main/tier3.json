@@ -2,7 +2,7 @@
   "parent": "metallurgy:main/tier2",
   "display": {
     "icon": {
-      "item": "metallurgy:steel_pickaxe",
+      "item": "metallurgy:black_steel_pickaxe",
       "nbt": "{\"tier_showcase\": 0.3}"
     },
     "frame": "goal",
