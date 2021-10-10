@@ -1,5 +1,5 @@
 {
-  "parent": "metallurgy:main/tier2",
+  "parent": "metallurgy:main/steel",
   "display": {
     "icon": {
       "item": "metallurgy:hepatizon_ingot"
