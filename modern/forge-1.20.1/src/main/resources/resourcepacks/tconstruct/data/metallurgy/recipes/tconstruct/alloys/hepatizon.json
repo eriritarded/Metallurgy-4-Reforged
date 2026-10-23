@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_infuscolium",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_steel",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_hepatizon",
+    "amount": 180
+  },
+  "temperature": 1000
+}

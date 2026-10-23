@@ -1,0 +1,7 @@
+{
+  "name": "Installed Integrations",
+  "description": "How the installed companion mods work with Metallurgy.",
+  "icon": "metallurgy:electrum_ingot",
+  "sortnum": 7,
+  "flag": "|mod:jei,mod:tetra,mod:silentgear,mod:silentgems,mod:tconstruct,mod:spartanweaponry,mod:enderio,mod:mekanism,mod:immersiveengineering,mod:industrialforegoing,mod:thermal,mod:projecte,mod:crafttweaker"
+}

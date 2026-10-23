@@ -1,0 +1,30 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/crusher_ingots/shadow_steel"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "item": "metallurgy:shadow_steel_dust",
+    "count": 1
+  },
+  "experience": 0,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_dust"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/crusher_ingots/shadow_steel"
+      }
+    }
+  ]
+}

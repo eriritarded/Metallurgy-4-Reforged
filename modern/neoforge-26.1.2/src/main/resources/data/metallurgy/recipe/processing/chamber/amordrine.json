@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:amordrine_block"
+  ],
+  "amounts": [
+    3
+  ],
+  "effect": "minecraft:jump_boost",
+  "duration": 18000,
+  "amplifier": 0
+}

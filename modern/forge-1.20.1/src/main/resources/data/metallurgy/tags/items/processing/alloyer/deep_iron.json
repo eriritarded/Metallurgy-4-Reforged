@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:deep_iron_ingot",
+    "metallurgy:deep_iron_dust",
+    {
+      "id": "#forge:ingots/deep_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/deep_iron",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/deep_iron",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/deep_iron",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_atlarus",
+  "category": "metal",
+  "primary": 8.0,
+  "secondary": 5.9,
+  "tertiary": 5.5,
+  "durability": 1750,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 132,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 11.0,
+  "tints": {
+    "glyph": "F2CB59",
+    "texture": "F2CB59"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:atlarus_ingot"
+    ]
+  },
+  "effects": {
+    "armorPenetration": 15,
+    "crushing": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

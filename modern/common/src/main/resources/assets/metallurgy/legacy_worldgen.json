@@ -1,0 +1,402 @@
+{
+  "sourceCommit": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "sourceHashes": {
+    "world/ModWorldGen.java": "af36a405fe2d58c163b9daa62f808b78882691a1bf7e60a02ef336362a982020",
+    "config/WorldGenerationConfig.java": "3aa3ddb5b901b55ad5de02da2d70dac38fe34267805237fcb8f85d5b4dccfd99"
+  },
+  "rarity": {
+    "COMMON": 10,
+    "UNCOMMON": 7,
+    "RARE": 5,
+    "VERY_RARE": 3,
+    "ULTRA_RARE": 1
+  },
+  "ores": [
+    {
+      "name": "copper",
+      "block": "copper_ore",
+      "dimension": "overworld",
+      "min_y": 35,
+      "max_y": 120,
+      "vein_size": 8,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "deep_iron",
+      "block": "deep_iron_ore",
+      "dimension": "overworld",
+      "min_y": 10,
+      "max_y": 30,
+      "vein_size": 5,
+      "attempts": 10,
+      "biomes": [
+        "minecraft:ocean",
+        "minecraft:beaches",
+        "minecraft:river",
+        "minecraft:frozen_river",
+        "minecraft:frozen_ocean",
+        "minecraft:stone_beach",
+        "minecraft:cold_beach"
+      ],
+      "special": "normal"
+    },
+    {
+      "name": "tin",
+      "block": "tin_ore",
+      "dimension": "overworld",
+      "min_y": 28,
+      "max_y": 50,
+      "vein_size": 8,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "prometheum",
+      "block": "prometheum_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 64,
+      "vein_size": 6,
+      "attempts": 10,
+      "biomes": [
+        "minecraft:jungle",
+        "minecraft:jungle_hills",
+        "minecraft:jungle_edge"
+      ],
+      "special": "normal"
+    },
+    {
+      "name": "manganese",
+      "block": "manganese_ore",
+      "dimension": "overworld",
+      "min_y": 16,
+      "max_y": 128,
+      "vein_size": 8,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "oureclase",
+      "block": "oureclase_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 96,
+      "vein_size": 6,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "infuscolium",
+      "block": "infuscolium_ore",
+      "dimension": "overworld",
+      "min_y": 18,
+      "max_y": 72,
+      "vein_size": 5,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "adamantine",
+      "block": "adamantine_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 30,
+      "vein_size": 3,
+      "attempts": 3,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "rubracium",
+      "block": "rubracium_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 30,
+      "vein_size": 6,
+      "attempts": 7,
+      "biomes": [],
+      "special": "lava_adjacent"
+    },
+    {
+      "name": "atlarus",
+      "block": "atlarus_ore",
+      "dimension": "overworld",
+      "min_y": 22,
+      "max_y": 48,
+      "vein_size": 5,
+      "attempts": 3,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "carmot",
+      "block": "carmot_ore",
+      "dimension": "overworld",
+      "min_y": 24,
+      "max_y": 52,
+      "vein_size": 4,
+      "attempts": 5,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "mithril",
+      "block": "mithril_ore",
+      "dimension": "overworld",
+      "min_y": 32,
+      "max_y": 128,
+      "vein_size": 5,
+      "attempts": 1,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "zinc",
+      "block": "zinc_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 128,
+      "vein_size": 8,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "orichalcum",
+      "block": "orichalcum_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 128,
+      "vein_size": 6,
+      "attempts": 5,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "astral_silver",
+      "block": "astral_silver_ore",
+      "dimension": "overworld",
+      "min_y": 40,
+      "max_y": 140,
+      "vein_size": 6,
+      "attempts": 7,
+      "biomes": [],
+      "special": "high_y"
+    },
+    {
+      "name": "silver",
+      "block": "silver_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 128,
+      "vein_size": 8,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "platinum",
+      "block": "platinum_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 80,
+      "vein_size": 4,
+      "attempts": 3,
+      "biomes": [],
+      "special": "warm_chunk"
+    },
+    {
+      "name": "osmium",
+      "block": "osmium_ore",
+      "dimension": "overworld",
+      "min_y": 3,
+      "max_y": 10,
+      "vein_size": 6,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "sulfur",
+      "block": "sulfur_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 15,
+      "vein_size": 6,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "phosphorite",
+      "block": "phosphorite_ore",
+      "dimension": "overworld",
+      "min_y": 0,
+      "max_y": 100,
+      "vein_size": 5,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "potash",
+      "block": "potash_ore",
+      "dimension": "overworld",
+      "min_y": 32,
+      "max_y": 72,
+      "vein_size": 7,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "ignatius",
+      "block": "ignatius_ore",
+      "dimension": "nether",
+      "min_y": 32,
+      "max_y": 96,
+      "vein_size": 8,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "shadow_iron",
+      "block": "shadow_iron_ore",
+      "dimension": "nether",
+      "min_y": 96,
+      "max_y": 32,
+      "vein_size": 7,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "lemurite",
+      "block": "lemurite_ore",
+      "dimension": "nether",
+      "min_y": 0,
+      "max_y": 50,
+      "vein_size": 6,
+      "attempts": 10,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "lutetium",
+      "block": "lutetium_ore",
+      "dimension": "nether",
+      "min_y": 20,
+      "max_y": 50,
+      "vein_size": 4,
+      "attempts": 3,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "midasium",
+      "block": "midasium_ore",
+      "dimension": "nether",
+      "min_y": 32,
+      "max_y": 127,
+      "vein_size": 6,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "vyroxeres",
+      "block": "vyroxeres_ore",
+      "dimension": "nether",
+      "min_y": 0,
+      "max_y": 120,
+      "vein_size": 5,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "ceruclase",
+      "block": "ceruclase_ore",
+      "dimension": "nether",
+      "min_y": 0,
+      "max_y": 127,
+      "vein_size": 5,
+      "attempts": 3,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "alduorite",
+      "block": "alduorite_ore",
+      "dimension": "nether",
+      "min_y": 70,
+      "max_y": 127,
+      "vein_size": 4,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "kalendrite",
+      "block": "kalendrite_ore",
+      "dimension": "nether",
+      "min_y": 27,
+      "max_y": 120,
+      "vein_size": 5,
+      "attempts": 5,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "vulcanite",
+      "block": "vulcanite_ore",
+      "dimension": "nether",
+      "min_y": 27,
+      "max_y": 39,
+      "vein_size": 5,
+      "attempts": 7,
+      "biomes": [],
+      "special": "normal"
+    },
+    {
+      "name": "sanguinite",
+      "block": "sanguinite_ore",
+      "dimension": "nether",
+      "min_y": 0,
+      "max_y": 128,
+      "vein_size": 4,
+      "attempts": 3,
+      "biomes": [],
+      "special": "fortress"
+    },
+    {
+      "name": "eximite",
+      "block": "eximite_ore",
+      "dimension": "end",
+      "min_y": 0,
+      "max_y": 128,
+      "vein_size": 7,
+      "attempts": 10,
+      "biomes": [],
+      "special": "outer_islands"
+    },
+    {
+      "name": "meutoite",
+      "block": "meutoite_ore",
+      "dimension": "end",
+      "min_y": 0,
+      "max_y": 128,
+      "vein_size": 7,
+      "attempts": 5,
+      "biomes": [],
+      "special": "normal"
+    }
+  ]
+}

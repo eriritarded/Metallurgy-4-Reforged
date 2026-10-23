@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:krik_dust"
+  },
+  "result": "metallurgy:krik_ingot",
+  "experience": 0.6,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_ingot"
+    }
+  ]
+}

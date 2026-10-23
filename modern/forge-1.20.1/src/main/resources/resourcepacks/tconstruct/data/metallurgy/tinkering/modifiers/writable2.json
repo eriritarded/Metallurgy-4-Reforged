@@ -1,0 +1,10 @@
+{
+  "level_display": "tconstruct:single_level",
+  "modules": [
+    {
+      "type": "tconstruct:modifier_slot",
+      "name": "upgrades",
+      "flat": 1
+    }
+  ]
+}

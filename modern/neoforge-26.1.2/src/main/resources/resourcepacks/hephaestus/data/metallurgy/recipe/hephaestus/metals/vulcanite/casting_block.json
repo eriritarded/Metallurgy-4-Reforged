@@ -1,0 +1,17 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "metallurgy:vulcanite"
+  },
+  "result": {
+    "id": "metallurgy:vulcanite_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vulcanite_block"
+    }
+  ]
+}

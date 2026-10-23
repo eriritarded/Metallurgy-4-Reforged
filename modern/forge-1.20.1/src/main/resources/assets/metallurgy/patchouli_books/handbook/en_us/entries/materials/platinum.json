@@ -1,0 +1,45 @@
+{
+  "name": "Platinum",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:platinum_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:platinum_ore",
+      "title": "Finding Platinum",
+      "text": "Default deposits: Overworld, Y 0 to 80. Veins target up to 4 blocks, with 3 placement attempts per chunk. Mining requirement: level 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Platinum",
+      "text": "Smelt Platinum Ore or Platinum Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:platinum_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 998 uses.$(br)Harvest level: 4.$(br)Mining efficiency: 9.0.$(br)Material damage bonus: 3.2.$(br)Enchantability: 30.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:platinum_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 4, leggings 4, boots 3.$(br2)Toughness per piece: 0.0.$(br)Enchantability: 30.$(br)Extra full-set health: 8.0 HP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Purification",
+      "text": "Purifies negative effects like Weakness, Slowness and Poison to their positive counterparts."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Cathartic Strike",
+      "text": "Extra cathartic damage will be dealt to undead enemies as well as setting them on fire."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Equipment: Flawless",
+      "text": "Tools become unbreakable when equipped in the main hand. This trait does not make Platinum armor unbreakable."
+    }
+  ]
+}

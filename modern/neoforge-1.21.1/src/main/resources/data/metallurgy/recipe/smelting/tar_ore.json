@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:tar_ore"
+  },
+  "result": {
+    "id": "metallurgy:tar"
+  },
+  "experience": 0.5,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tar"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_damascus_steel",
+  "category": "metal",
+  "primary": 5.5,
+  "secondary": 6.133,
+  "tertiary": 3.0,
+  "durability": 395,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 162,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 6.0,
+  "tints": {
+    "glyph": "C4BCAA",
+    "texture": "C4BCAA"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:damascus_steel_ingot"
+    ]
+  },
+  "effects": {
+    "bleeding": 1,
+    "intuit": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

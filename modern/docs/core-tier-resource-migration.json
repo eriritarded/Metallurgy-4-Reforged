@@ -1,0 +1,202 @@
+[
+  {
+    "source": "forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\tags\\blocks\\needs_level_5.json",
+    "destination": "forge-1.20.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\blocks\\needs_level_5.json",
+    "sha256": "8217e532d7b5d1c8992dff1a22793b2d70f36b804a3ee7b6ff6c6b90e2ba6da2"
+  },
+  {
+    "source": "forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\tags\\blocks\\needs_level_6.json",
+    "destination": "forge-1.20.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\blocks\\needs_level_6.json",
+    "sha256": "4ad0035a1f6761409aa5a2951eb60c14a6700bdf7957e5c0458c41b777226189"
+  },
+  {
+    "source": "forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\tags\\blocks\\needs_level_7.json",
+    "destination": "forge-1.20.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\blocks\\needs_level_7.json",
+    "sha256": "3927c159b0c308b0dc5d85d56c63838b682fa1854bb3f76c42e62cffa70c8749"
+  },
+  {
+    "source": "forge-1.20.1\\src\\main\\resources\\data\\minecraft\\tags\\blocks\\needs_diamond_tool.json",
+    "destination": "forge-1.20.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\blocks\\needs_diamond_tool.json",
+    "sha256": "90c27a52c5e77b048d0050775a77c230e3410cff2e0e1cb507c62ca0b1354285"
+  },
+  {
+    "source": "forge-1.20.1\\src\\main\\resources\\data\\minecraft\\tags\\blocks\\needs_iron_tool.json",
+    "destination": "forge-1.20.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\blocks\\needs_iron_tool.json",
+    "sha256": "9a326cb6c7f7d69d7ebcda48697a888a8e317e80a268e78b263e71b62eda60ca"
+  },
+  {
+    "source": "forge-1.20.1\\src\\main\\resources\\data\\minecraft\\tags\\blocks\\needs_stone_tool.json",
+    "destination": "forge-1.20.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\blocks\\needs_stone_tool.json",
+    "sha256": "272b0cdc93f6b718694271f63ef50a8b5d0ff2b04011da4df7c2bd7e5a0d3e75"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_0.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_0.json",
+    "sha256": "0c61e713439cbfb1cd7a857f965e141ab54eb9e3d600178f639214f0201058a5"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_1.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_1.json",
+    "sha256": "51b70564b588bb219eebe90764b0a21c5cc1ebb8262b1a8e12e674b187e09714"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_2.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_2.json",
+    "sha256": "7850af362fab3dd5a884cf1cd8941c8fc1a75b35714ecfda2b664473907d9040"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_3.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_3.json",
+    "sha256": "5836ca4ab9a13f476f3dfd6ccfea539b7e36380bea3c5157f89e07676f293165"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_4.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_4.json",
+    "sha256": "060fc7484d72e573329875c0469b7e95d6e26f3508bb24fe2a5b0bd60a772e67"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_5.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_5.json",
+    "sha256": "4ad0035a1f6761409aa5a2951eb60c14a6700bdf7957e5c0458c41b777226189"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_6.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_6.json",
+    "sha256": "3927c159b0c308b0dc5d85d56c63838b682fa1854bb3f76c42e62cffa70c8749"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_7.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_7.json",
+    "sha256": "3927c159b0c308b0dc5d85d56c63838b682fa1854bb3f76c42e62cffa70c8749"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_diamond_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_diamond_tool.json",
+    "sha256": "5836ca4ab9a13f476f3dfd6ccfea539b7e36380bea3c5157f89e07676f293165"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_gold_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_gold_tool.json",
+    "sha256": "956b73c98e2a7ec9a62acc8f69432dc83e840c4a56156890b0e1ed29d9c417e2"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_iron_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_iron_tool.json",
+    "sha256": "90c27a52c5e77b048d0050775a77c230e3410cff2e0e1cb507c62ca0b1354285"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_netherite_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_netherite_tool.json",
+    "sha256": "060fc7484d72e573329875c0469b7e95d6e26f3508bb24fe2a5b0bd60a772e67"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_stone_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_stone_tool.json",
+    "sha256": "dba8687a8d2edf3b4ad7d40ab367482a156db77a755205119dfb30e304cc23a9"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_wooden_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_wooden_tool.json",
+    "sha256": "956b73c98e2a7ec9a62acc8f69432dc83e840c4a56156890b0e1ed29d9c417e2"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\needs_diamond_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\needs_diamond_tool.json",
+    "sha256": "90c27a52c5e77b048d0050775a77c230e3410cff2e0e1cb507c62ca0b1354285"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\needs_iron_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\needs_iron_tool.json",
+    "sha256": "9a326cb6c7f7d69d7ebcda48697a888a8e317e80a268e78b263e71b62eda60ca"
+  },
+  {
+    "source": "neoforge-1.21.1\\src\\main\\resources\\data\\minecraft\\tags\\block\\needs_stone_tool.json",
+    "destination": "neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\needs_stone_tool.json",
+    "sha256": "272b0cdc93f6b718694271f63ef50a8b5d0ff2b04011da4df7c2bd7e5a0d3e75"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_0.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_0.json",
+    "sha256": "0c61e713439cbfb1cd7a857f965e141ab54eb9e3d600178f639214f0201058a5"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_1.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_1.json",
+    "sha256": "51b70564b588bb219eebe90764b0a21c5cc1ebb8262b1a8e12e674b187e09714"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_2.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_2.json",
+    "sha256": "7850af362fab3dd5a884cf1cd8941c8fc1a75b35714ecfda2b664473907d9040"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_3.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_3.json",
+    "sha256": "5836ca4ab9a13f476f3dfd6ccfea539b7e36380bea3c5157f89e07676f293165"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_4.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_4.json",
+    "sha256": "060fc7484d72e573329875c0469b7e95d6e26f3508bb24fe2a5b0bd60a772e67"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_5.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_5.json",
+    "sha256": "4ad0035a1f6761409aa5a2951eb60c14a6700bdf7957e5c0458c41b777226189"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_6.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_6.json",
+    "sha256": "3927c159b0c308b0dc5d85d56c63838b682fa1854bb3f76c42e62cffa70c8749"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\tags\\block\\incorrect_for_level_7.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\metallurgy\\tags\\block\\incorrect_for_level_7.json",
+    "sha256": "3927c159b0c308b0dc5d85d56c63838b682fa1854bb3f76c42e62cffa70c8749"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_diamond_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_diamond_tool.json",
+    "sha256": "5836ca4ab9a13f476f3dfd6ccfea539b7e36380bea3c5157f89e07676f293165"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_gold_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_gold_tool.json",
+    "sha256": "956b73c98e2a7ec9a62acc8f69432dc83e840c4a56156890b0e1ed29d9c417e2"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_iron_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_iron_tool.json",
+    "sha256": "90c27a52c5e77b048d0050775a77c230e3410cff2e0e1cb507c62ca0b1354285"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_netherite_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_netherite_tool.json",
+    "sha256": "060fc7484d72e573329875c0469b7e95d6e26f3508bb24fe2a5b0bd60a772e67"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_stone_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_stone_tool.json",
+    "sha256": "dba8687a8d2edf3b4ad7d40ab367482a156db77a755205119dfb30e304cc23a9"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\incorrect_for_wooden_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\incorrect_for_wooden_tool.json",
+    "sha256": "956b73c98e2a7ec9a62acc8f69432dc83e840c4a56156890b0e1ed29d9c417e2"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\needs_diamond_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\needs_diamond_tool.json",
+    "sha256": "90c27a52c5e77b048d0050775a77c230e3410cff2e0e1cb507c62ca0b1354285"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\needs_iron_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\needs_iron_tool.json",
+    "sha256": "9a326cb6c7f7d69d7ebcda48697a888a8e317e80a268e78b263e71b62eda60ca"
+  },
+  {
+    "source": "neoforge-26.1.2\\src\\main\\resources\\data\\minecraft\\tags\\block\\needs_stone_tool.json",
+    "destination": "neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\core_tiers\\data\\minecraft\\tags\\block\\needs_stone_tool.json",
+    "sha256": "272b0cdc93f6b718694271f63ef50a8b5d0ff2b04011da4df7c2bd7e5a0d3e75"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:tartarite_ingot",
+    "count": 1
+  },
+  "result": [
+    {
+      "item": "metallurgy:adamantine_ingot",
+      "count": 1
+    },
+    {
+      "item": "metallurgy:atlarus_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tartarite_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:adamantine_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:atlarus_ingot"
+    }
+  ]
+}

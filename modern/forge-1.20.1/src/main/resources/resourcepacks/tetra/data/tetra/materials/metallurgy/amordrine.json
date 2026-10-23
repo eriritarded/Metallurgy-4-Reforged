@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_amordrine",
+  "category": "metal",
+  "primary": 7.0,
+  "secondary": 6.133,
+  "tertiary": 5.5,
+  "durability": 832,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 240,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 11.0,
+  "tints": {
+    "glyph": "9E69AF",
+    "texture": "9E69AF"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:amordrine_ingot"
+    ]
+  },
+  "effects": {
+    "criticalStrike": [
+      8,
+      1.35
+    ],
+    "intuit": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

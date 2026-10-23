@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:manganese_ore"
+  },
+  "result": "metallurgy:manganese_ingot",
+  "experience": 1,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:manganese_ingot"
+    }
+  ]
+}

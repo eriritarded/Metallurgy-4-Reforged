@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/rubracium"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:rubracium",
+  "ingredient": {
+    "tag": "c:ingots/rubracium"
+  },
+  "color": 12467794,
+  "handle_stats": {
+    "durability_mult": -0.25,
+    "speed_mult": 0.0,
+    "damage_mult": 0.0,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 47
+  }
+}

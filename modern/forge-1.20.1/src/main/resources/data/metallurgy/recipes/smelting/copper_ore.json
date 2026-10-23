@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:copper_ore"
+  },
+  "result": "metallurgy:copper_ingot",
+  "experience": 1,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:copper_ingot"
+    }
+  ]
+}

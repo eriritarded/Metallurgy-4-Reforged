@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "BPB",
+    "SSS"
+  ],
+  "key": {
+    "P": {
+      "item": "metallurgy:phosphorus"
+    },
+    "S": {
+      "tag": "forge:nuggets/steel"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "metallurgy:phosphorus_lamp",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:phosphorus_lamp"
+    }
+  ]
+}

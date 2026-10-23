@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:plates/shadow_iron"
+  },
+  "result": {
+    "tag": "forge:molten_shadow_iron",
+    "amount": 90
+  },
+  "temperature": 1300,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/shadow_iron"
+      }
+    }
+  ]
+}

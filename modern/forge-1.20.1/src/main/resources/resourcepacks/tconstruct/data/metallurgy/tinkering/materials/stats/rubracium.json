@@ -1,0 +1,11 @@
+{
+  "stats": {
+    "tconstruct:handle": {
+      "durability": -0.25
+    },
+    "tconstruct:binding": {},
+    "tconstruct:grip": {
+      "durability": -0.25
+    }
+  }
+}

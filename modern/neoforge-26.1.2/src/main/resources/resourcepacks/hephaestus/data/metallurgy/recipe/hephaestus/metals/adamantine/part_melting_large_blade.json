@@ -1,0 +1,27 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:adamantine"
+    },
+    "items": "hephaestus_tools:large_blade",
+    "strict": false
+  },
+  "result": {
+    "amount": 720,
+    "id": "metallurgy:adamantine"
+  },
+  "temperature": 1900,
+  "time": 240,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    }
+  ]
+}

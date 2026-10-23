@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CWC",
+    "SCS"
+  ],
+  "key": {
+    "C": "#c:ingots/ceruclase",
+    "W": "#minecraft:planks",
+    "S": "minecraft:snow"
+  },
+  "result": {
+    "id": "metallurgy:ceruclase_shield",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ceruclase_shield"
+    }
+  ]
+}

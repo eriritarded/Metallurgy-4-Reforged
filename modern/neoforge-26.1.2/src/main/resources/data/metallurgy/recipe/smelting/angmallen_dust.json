@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "metallurgy:angmallen_dust",
+  "result": {
+    "id": "metallurgy:angmallen_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:angmallen_ingot"
+    }
+  ]
+}

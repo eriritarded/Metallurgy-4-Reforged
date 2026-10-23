@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:lemurite",
+  "result": {
+    "tag": "forge:molten_lemurite",
+    "amount": 90
+  },
+  "temperature": 1700
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": "#c:ingots/carmot",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:carmot_sword",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:carmot_sword"
+    }
+  ]
+}

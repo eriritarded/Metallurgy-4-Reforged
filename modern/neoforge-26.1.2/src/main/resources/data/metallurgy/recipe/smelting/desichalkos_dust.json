@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "metallurgy:desichalkos_dust",
+  "result": {
+    "id": "metallurgy:desichalkos_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:desichalkos_ingot"
+    }
+  ]
+}

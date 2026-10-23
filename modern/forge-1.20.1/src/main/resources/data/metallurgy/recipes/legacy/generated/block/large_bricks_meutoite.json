@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "BDB",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/meutoite"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    },
+    "B": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "metallurgy:meutoite_large_bricks",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_large_bricks"
+    }
+  ]
+}

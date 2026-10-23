@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/shadow_steel"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:shadow_steel_nugget",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_nugget"
+    }
+  ]
+}

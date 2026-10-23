@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/mithril",
+    "amount": 90
+  },
+  "output": "metallurgy:mithril",
+  "temperature": 1700
+}

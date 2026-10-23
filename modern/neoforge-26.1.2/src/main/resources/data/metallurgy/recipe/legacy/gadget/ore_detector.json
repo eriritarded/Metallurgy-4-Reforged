@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AL",
+    "ACA",
+    "RA "
+  ],
+  "key": {
+    "C": "#c:storage_blocks/copper",
+    "A": "#c:ingots/carmot",
+    "R": "#c:storage_blocks/redstone",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "metallurgy:ore_detector",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ore_detector"
+    }
+  ]
+}

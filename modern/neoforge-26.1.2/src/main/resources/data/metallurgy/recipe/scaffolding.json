@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TZT",
+    "Z Z",
+    "TZT"
+  ],
+  "key": {
+    "T": "#metallurgy:ingots/tin",
+    "Z": "#metallurgy:ingots/zinc"
+  },
+  "result": {
+    "id": "metallurgy:bimetal_structure_block",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bimetal_structure_block"
+    }
+  ]
+}

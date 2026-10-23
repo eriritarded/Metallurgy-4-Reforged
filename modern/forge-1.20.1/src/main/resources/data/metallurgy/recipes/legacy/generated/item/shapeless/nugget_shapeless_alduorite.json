@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/alduorite"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:alduorite_nugget",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:alduorite_nugget"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/root",
+  "display": {
+    "icon": {
+      "id": "metallurgy:copper_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.copper"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.copper.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/copper"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/copper"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/copper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

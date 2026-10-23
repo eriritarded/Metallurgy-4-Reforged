@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:infuscolium_dust"
+  },
+  "result": {
+    "id": "metallurgy:infuscolium_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:infuscolium_ingot"
+    }
+  ]
+}

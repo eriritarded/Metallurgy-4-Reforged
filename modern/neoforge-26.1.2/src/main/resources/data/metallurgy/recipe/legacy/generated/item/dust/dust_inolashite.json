@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/ceruclase",
+    "#c:dusts/alduorite"
+  ],
+  "result": {
+    "id": "metallurgy:inolashite_dust",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_dust"
+    }
+  ]
+}

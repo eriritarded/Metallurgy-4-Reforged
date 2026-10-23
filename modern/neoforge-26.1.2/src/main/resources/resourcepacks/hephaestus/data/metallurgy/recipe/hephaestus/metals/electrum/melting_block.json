@@ -1,0 +1,47 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:storage_blocks/electrum",
+  "result": {
+    "amount": 810,
+    "id": "hephaestus:molten_electrum"
+  },
+  "temperature": 1100,
+  "time": 200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/electrum"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "alltheores",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "ftbmaterials",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    }
+  ]
+}

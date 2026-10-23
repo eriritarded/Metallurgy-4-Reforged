@@ -1,0 +1,17 @@
+{
+  "name": "Choosing a Chest",
+  "category": "metallurgy:storage",
+  "icon": "metallurgy:platinum_chest",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:platinum_chest",
+      "title": "Choosing a Chest",
+      "text": "The five chest tiers hold 54, 72, 81, 90, and 108 slots: Brass, Silver, Electrum, Rubracium, and Platinum. Choose a size that suits the workshop rather than splitting the same material across many small chests."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the individual chest entries for crafting. Contents are stored with the chest and can be moved through normal inventory automation. Breaking a chest drops its stored items; clear space before dismantling a full store."
+    }
+  ]
+}

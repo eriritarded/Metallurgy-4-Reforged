@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:rubracium_ore",
+    {
+      "id": "#forge:ores/rubracium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/rubracium",
+      "required": false
+    }
+  ]
+}

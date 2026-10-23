@@ -1,0 +1,593 @@
+{
+  "reviewed": "2026-10-16",
+  "state": "Source inspection only. No compatibility JAR was downloaded or loaded; no build/JVM/game launched.",
+  "repositories": [
+    {
+      "mod": "tetra",
+      "repository": "https://github.com/mickelus/tetra",
+      "revision": "d212377491eaf2ef58ea841f0e45d532d5e69f95",
+      "branch": "1.20",
+      "releaseListed": "6.17.0 for1.20.1; no1.21.1 or26.1.2 release found",
+      "note": "Public branch revision predates6.17; published6.17 binary is not inspected. Native6.x schema review is not runtime version certification."
+    },
+    {
+      "mod": "silentgear",
+      "repository": "https://github.com/SilentChaos512/Silent-Gear",
+      "targets": [
+        {
+          "minecraft": "1.20.1",
+          "branch": "1.20.x",
+          "revision": "8af569e03ad29e0f8aeeea6bef616bd29d1f4a97",
+          "releaseListed": "3.6.7"
+        },
+        {
+          "minecraft": "1.21.1",
+          "branch": "1.21.1",
+          "revision": "aa936c3ec4d54ccec0fad178488b60fae0243543",
+          "sourceVersion": "4.2.1",
+          "releaseListed": "4.2.1.1"
+        },
+        {
+          "minecraft": "26.1.2",
+          "branch": "26.1.x",
+          "revision": "cb9926f4a3215a2f6016e4b465d1029ce06251e4",
+          "sourceVersion": "4.2.3",
+          "releaseListed": "4.2.3"
+        }
+      ]
+    },
+    {
+      "mod": "silentgems",
+      "repository": "https://github.com/SilentChaos512/SilentGems",
+      "targets": [
+        {
+          "minecraft": "1.20.1",
+          "revision": "56daee7c83558d64b1e7cfb3594ad8d3afc57fe1",
+          "releaseListed": "4.7.0"
+        },
+        {
+          "minecraft": "1.21.1",
+          "revision": "7d961666ebc8f0bc2757e35d8369bbb35831c2ef",
+          "sourceVersion": "5.1.3"
+        },
+        {
+          "minecraft": "26.1.2",
+          "revision": "09e7f2bcecd83550f1834c6823742c7a2325ec09",
+          "sourceVersion": "5.1.4"
+        }
+      ]
+    }
+  ],
+  "releasePages": [
+    "https://www.curseforge.com/minecraft/mc-mods/tetra/files/all",
+    "https://www.curseforge.com/minecraft/mc-mods/silent-gear/files/all",
+    "https://www.curseforge.com/minecraft/mc-mods/silents-gems/files/all"
+  ],
+  "files": [
+    {
+      "key": "gear20Pickaxe",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/main/java/net/silentchaos512/gear/item/gear/GearPickaxeItem.java",
+      "gitBlobSha": "afd910fc983820bb32acc9d44e4988b32a084bed"
+    },
+    {
+      "key": "tetraHandheld",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/items/modular/ItemModularHandheld.java",
+      "gitBlobSha": "233c9da3eea6f29a42c64f331378ce670b602edc"
+    },
+    {
+      "key": "tetraRegistries",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/TetraRegistries.java",
+      "gitBlobSha": "e7905b3c350c9fe41849249264714c96222ad741"
+    },
+    {
+      "key": "tetraBuild",
+      "url": "https://github.com/mickelus/tetra/blob/1.20/build.gradle",
+      "gitBlobSha": "03ab61e65ff9f07238012d24c821f4d7086ed1b0"
+    },
+    {
+      "key": "tetraSchema",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/schemas/materials/material.schema.json",
+      "gitBlobSha": "a07273856f2f7acb7f38e819b99649ede8be8811"
+    },
+    {
+      "key": "tetraTieredValue",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/schemas/tiered_value.schema.json",
+      "gitBlobSha": "371927d0e5de6e061dc871c0add9fda5e61ec5a3"
+    },
+    {
+      "key": "tetraStore",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/data/MaterialStore.java",
+      "gitBlobSha": "8451634b8570a563b13f25ad79049d6d865f9b38"
+    },
+    {
+      "key": "tetraManager",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/data/DataManager.java",
+      "gitBlobSha": "92cf66df20cec305f3fe16554f6b26f2005e3abe"
+    },
+    {
+      "key": "tetraMaterial",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/module/data/MaterialData.java",
+      "gitBlobSha": "bddafa789bb6fce4c9817a50691c54d98ce08daa"
+    },
+    {
+      "key": "tetraIron",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/resources/data/tetra/materials/metal/iron.json",
+      "gitBlobSha": "873e641833d7c15dab5701c15e67cfa66ec1241a"
+    },
+    {
+      "key": "tetraGold",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/resources/data/tetra/materials/metal/gold.json",
+      "gitBlobSha": "01d1fcc48bae7cc814dcd65f0b67c6cddcd6f190"
+    },
+    {
+      "key": "tetraTiers",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/resources/data/tetra/tiers/vanilla.json",
+      "gitBlobSha": "26b5dc779b3a990b7cbd25800204bacef1b68510"
+    },
+    {
+      "key": "tetraTierHelper",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/util/TierHelper.java",
+      "gitBlobSha": "8c14e8867fcb26511afc6aad64025ab0c993c441"
+    },
+    {
+      "key": "tetraEffects",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/effect/ItemEffect.java",
+      "gitBlobSha": "f14623a2c2209890c116417dc269bd76a9f863d6"
+    },
+    {
+      "key": "tetraBlood",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/effect/BloodboundEffect.java",
+      "gitBlobSha": "a80bc859bc5cf2551785996d84f499426edc000e"
+    },
+    {
+      "key": "tetraCombust",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/effect/CombustingEffect.java",
+      "gitBlobSha": "5ea4c8878db0645f8e7e70f5e190e55197f4dcb1"
+    },
+    {
+      "key": "tetraRepair",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/java/se/mickelus/tetra/module/schematic/RepairDefinition.java",
+      "gitBlobSha": "0e74112f2e485c7b8177628c833ba5f1e23fad25"
+    },
+    {
+      "key": "tetraLang",
+      "url": "https://github.com/mickelus/tetra/blob/d212377491eaf2ef58ea841f0e45d532d5e69f95/src/main/resources/assets/tetra/lang/en_us.json",
+      "gitBlobSha": "2f6a25287da91ff5af8b45b15d6a658300463953"
+    },
+    {
+      "key": "gear20Iron",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_materials/iron.json",
+      "gitBlobSha": "a10725c47ad50bd8d08967029d8d1d237facdda8"
+    },
+    {
+      "key": "gear21Iron",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_materials/iron.json",
+      "gitBlobSha": "c52711ccfa0de88e4b24021bfdba55d16a1ec393"
+    },
+    {
+      "key": "gear26Iron",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/cb9926f4a3215a2f6016e4b465d1029ce06251e4/src/generated/resources/data/silentgear/silentgear_materials/iron.json",
+      "gitBlobSha": "db461a343228026e39813f4a238f74683a6a9d52"
+    },
+    {
+      "key": "gear20Loader",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/main/java/net/silentchaos512/gear/gear/material/MaterialManager.java",
+      "gitBlobSha": "aacb0baf5d5451ce09a26df32796897303439888"
+    },
+    {
+      "key": "gear21Loader",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/gear/material/MaterialManager.java",
+      "gitBlobSha": "5fd8984547b5cf7422f1b53304cdcf6673e44a34"
+    },
+    {
+      "key": "gear26Loader",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/cb9926f4a3215a2f6016e4b465d1029ce06251e4/src/main/java/net/silentchaos512/gear/gear/material/MaterialManager.java",
+      "gitBlobSha": "b2d9c1057b1ad0eb53f1dbded8e110753bb2c6b3"
+    },
+    {
+      "key": "gear20Abstract",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/main/java/net/silentchaos512/gear/gear/material/AbstractMaterial.java",
+      "gitBlobSha": "0e096b6da11dabdf35f044b009d4c523d7cc59b6"
+    },
+    {
+      "key": "gear21Material",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/gear/material/SimpleMaterial.java",
+      "gitBlobSha": "02d008297be8c08baf4f884f7177cf215b378fd9"
+    },
+    {
+      "key": "gear21ResMgr",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/core/DataResourceManager.java",
+      "gitBlobSha": "87b46b94cb4ad52a703b7bdb19c38d2d59e9d681"
+    },
+    {
+      "key": "gear21Crafting",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/api/material/MaterialCraftingData.java",
+      "gitBlobSha": "5372523e984822320ce8d10b70eb9931f450937e"
+    },
+    {
+      "key": "gear26Display",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/cb9926f4a3215a2f6016e4b465d1029ce06251e4/src/main/java/net/silentchaos512/gear/api/material/MaterialDisplayData.java",
+      "gitBlobSha": "faefcbf0a7862479fcc26e4204fc7180dc2e2d33"
+    },
+    {
+      "key": "gear21Harvest",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/api/property/HarvestTier.java",
+      "gitBlobSha": "a0c47582831a66b3464a51193113b4190719b119"
+    },
+    {
+      "key": "gear20Display",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/main/java/net/silentchaos512/gear/client/material/MaterialDisplay.java",
+      "gitBlobSha": "21389bc417b1297bbedca5175622cc0d8cc5cdc6"
+    },
+    {
+      "key": "gear20Layer",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/main/java/net/silentchaos512/gear/api/material/MaterialLayer.java",
+      "gitBlobSha": "828da9c37ed3986b83866e07b4e14c1fd817825b"
+    },
+    {
+      "key": "gear20Ratio",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/main/java/net/silentchaos512/gear/gear/trait/condition/MaterialRatioTraitCondition.java",
+      "gitBlobSha": "f2ab43b60da8d4243cd20fd9b063b52c4d69e7ca"
+    },
+    {
+      "key": "gear21Ratio",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/gear/trait/condition/MaterialRatioTraitCondition.java",
+      "gitBlobSha": "8eaf49c82690663e0b4c7c22d5cbcaee9cdec861"
+    },
+    {
+      "key": "gems20Readme",
+      "url": "https://github.com/SilentChaos512/SilentGems/blob/56daee7c83558d64b1e7cfb3594ad8d3afc57fe1/README.md",
+      "gitBlobSha": "a8fc13de060d5e6c39b57b55a2676b8ab8c76cc4"
+    },
+    {
+      "key": "gems20Version",
+      "url": "https://github.com/SilentChaos512/SilentGems/blob/56daee7c83558d64b1e7cfb3594ad8d3afc57fe1/gradle.properties",
+      "gitBlobSha": "6181b6074a3d4c955c6f8b555afc13f1ec325e77"
+    },
+    {
+      "key": "gems21Version",
+      "url": "https://github.com/SilentChaos512/SilentGems/blob/7d961666ebc8f0bc2757e35d8369bbb35831c2ef/gradle.properties",
+      "gitBlobSha": "2199ed059482be7e4b33fc2a1358028367fa8796"
+    },
+    {
+      "key": "gems26Version",
+      "url": "https://github.com/SilentChaos512/SilentGems/blob/09e7f2bcecd83550f1834c6823742c7a2325ec09/gradle.properties",
+      "gitBlobSha": "e75dd49bab869bb442df8b746a68ecfb5fcb3af8"
+    },
+    {
+      "key": "gems26Ruby",
+      "url": "https://github.com/SilentChaos512/SilentGems/blob/09e7f2bcecd83550f1834c6823742c7a2325ec09/src/generated/resources/data/silentgems/silentgear_materials/ruby.json",
+      "gitBlobSha": "18493556b2326f0c5ba249e6229ece492c262d2d"
+    },
+    {
+      "key": "gear20Traitadamant",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/adamant.json",
+      "gitBlobSha": "1931fd5fa2cc1cb180d370ddacffb4fdfc6b6cec"
+    },
+    {
+      "key": "gear20Traitaquatic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/aquatic.json",
+      "gitBlobSha": "3943a91823833723d236b6a44fd82ec8b38b2515"
+    },
+    {
+      "key": "gear20Traitbastion",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/bastion.json",
+      "gitBlobSha": "0d763d23533a727f51143119be069c0fe787a16a"
+    },
+    {
+      "key": "gear20Traitchilled",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/chilled.json",
+      "gitBlobSha": "33d41a36c0f60662a2e177333d1fddfb4a93c33b"
+    },
+    {
+      "key": "gear20Traitcrushing",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/crushing.json",
+      "gitBlobSha": "41d0602098d60305a1819e865f7964821d787728"
+    },
+    {
+      "key": "gear20Traitfiery",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/fiery.json",
+      "gitBlobSha": "8f1079dbbadb5367e19015fb9a5b0761cd6026ee"
+    },
+    {
+      "key": "gear20Traitfireproof",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/fireproof.json",
+      "gitBlobSha": "0809d6e7d1ef1dddae3f4f71219762720d73dbca"
+    },
+    {
+      "key": "gear20Traitflexible",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/flexible.json",
+      "gitBlobSha": "ae4bc0e34a0c2fb24a64639a33f5240287ea523c"
+    },
+    {
+      "key": "gear20Traitgreedy",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/greedy.json",
+      "gitBlobSha": "49618251589e5a38a93ac17cda69fed16a414605"
+    },
+    {
+      "key": "gear20Traithard",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/hard.json",
+      "gitBlobSha": "256123a83cfa0cd8f59dfd25cf3f35d753d3c371"
+    },
+    {
+      "key": "gear20Traitholy",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/holy.json",
+      "gitBlobSha": "4d5ad941810943233c32a8a8e73d232dfce54b71"
+    },
+    {
+      "key": "gear20Traitindestructible",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/indestructible.json",
+      "gitBlobSha": "25f44d858f0188fea952fd7c9f57fb5827021b35"
+    },
+    {
+      "key": "gear20Traitjagged",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/jagged.json",
+      "gitBlobSha": "73c4a73e526e592bfdb99e4d206c195878cb1228"
+    },
+    {
+      "key": "gear20Traitkitty_vision",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/kitty_vision.json",
+      "gitBlobSha": "b19b875cfe278477c2bcde2a4b86897fc610b48f"
+    },
+    {
+      "key": "gear20Traitlight",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/light.json",
+      "gitBlobSha": "3c3f2ee7928786bef64a6dffe60c32d027201dc4"
+    },
+    {
+      "key": "gear20Traitlucky",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/lucky.json",
+      "gitBlobSha": "b4e60e9addd81b1df16798b159790f7f2f47d6ed"
+    },
+    {
+      "key": "gear20Traitlustrous",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/lustrous.json",
+      "gitBlobSha": "304fab5b1eee0323f8e8cb869e7eb291ebb1e6f8"
+    },
+    {
+      "key": "gear20Traitmagmatic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/magmatic.json",
+      "gitBlobSha": "03e9da4bb7046a12e8525ab15c5a0a4a8945fd25"
+    },
+    {
+      "key": "gear20Traitmagnetic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/magnetic.json",
+      "gitBlobSha": "6cd6a1222e4e63f2241335510894d72a56151268"
+    },
+    {
+      "key": "gear20Traitmalleable",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/malleable.json",
+      "gitBlobSha": "f123537fecf61ad272cdc793b7bce43777354d1f"
+    },
+    {
+      "key": "gear20Traitmighty",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/mighty.json",
+      "gitBlobSha": "f0079e27ee68c7ed5481539fc7662cecac93b574"
+    },
+    {
+      "key": "gear20Traitorganic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/organic.json",
+      "gitBlobSha": "13f5753467a33cc3de06c329d64fab6668fac42d"
+    },
+    {
+      "key": "gear20Traitreach",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/reach.json",
+      "gitBlobSha": "2749477acdf32a9d968aecafd20a5d4f765b971b"
+    },
+    {
+      "key": "gear20Traitrefractive",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/refractive.json",
+      "gitBlobSha": "349e25711234d4f8cd589e71e7c25239e3649a46"
+    },
+    {
+      "key": "gear20Traitrenew",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/renew.json",
+      "gitBlobSha": "d3d2c27e1e23f7066e1c1682aac1aa588e9ee8e7"
+    },
+    {
+      "key": "gear20Traitsharp",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/sharp.json",
+      "gitBlobSha": "96a367e6f480888f41baa40f46c8359f19431535"
+    },
+    {
+      "key": "gear20Traitsturdy",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/sturdy.json",
+      "gitBlobSha": "f74b0d7cb0dc04454bc147b2b128345c23d38961"
+    },
+    {
+      "key": "gear20Traitswift_swim",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/swift_swim.json",
+      "gitBlobSha": "5f17a260576de911f625c423f459e86836607fe7"
+    },
+    {
+      "key": "gear20Traitsynergistic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/synergistic.json",
+      "gitBlobSha": "7f5e518d1521b738b66aa7b06454017621369ad2"
+    },
+    {
+      "key": "gear20Traitvenom",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/venom.json",
+      "gitBlobSha": "2a4087d7b44f4d466d2134eeb57fbeaf838be8fc"
+    },
+    {
+      "key": "gear20Traitvulcan",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/vulcan.json",
+      "gitBlobSha": "a83d0227fcd21bbeb46fbf2956b49388df95c968"
+    },
+    {
+      "key": "gear20Traitbrittle",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/8af569e03ad29e0f8aeeea6bef616bd29d1f4a97/src/generated/resources/data/silentgear/silentgear_traits/brittle.json",
+      "gitBlobSha": "74370a5705e520f9e01b87d757a1edf500c19170"
+    },
+    {
+      "key": "gear21Traitadamant",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/adamant.json",
+      "gitBlobSha": "ca6c76e7d82edfa62880a6e7ccaecc7f4a81e21b"
+    },
+    {
+      "key": "gear21Traitaquatic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/aquatic.json",
+      "gitBlobSha": "1e8f075cecc1abc97c11ec36630f99c9af727249"
+    },
+    {
+      "key": "gear21Traitbastion",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/bastion.json",
+      "gitBlobSha": "95f75c502d7591be0f240f585ede52a37c0ac216"
+    },
+    {
+      "key": "gear21Traitchilled",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/chilled.json",
+      "gitBlobSha": "ab0f3fee73200851064576f2a4f676fa073dd9c9"
+    },
+    {
+      "key": "gear21Traitcrushing",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/crushing.json",
+      "gitBlobSha": "b0db44323c08cdfed5eb9292399daf82a24db57e"
+    },
+    {
+      "key": "gear21Traitfiery",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/fiery.json",
+      "gitBlobSha": "713dfff0a027db771b3f20c7722c2fd144ee2d9b"
+    },
+    {
+      "key": "gear21Traitfireproof",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/fireproof.json",
+      "gitBlobSha": "95c226603766e82c54c6f2dbb8656c761192d590"
+    },
+    {
+      "key": "gear21Traitflexible",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/flexible.json",
+      "gitBlobSha": "4833a7306a528024ada5e90d5b3284ba0dfc3ba7"
+    },
+    {
+      "key": "gear21Traitgreedy",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/greedy.json",
+      "gitBlobSha": "1c75ca7fcf1fd944474447c03e1d6fd525d1c72d"
+    },
+    {
+      "key": "gear21Traithard",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/hard.json",
+      "gitBlobSha": "809d4d207702927a8ebeb1eaf88fdd5a3480f871"
+    },
+    {
+      "key": "gear21Traitholy",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/holy.json",
+      "gitBlobSha": "7c884fc7f8661cb670ddd07343c7f6ee14af092d"
+    },
+    {
+      "key": "gear21Traitindestructible",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/indestructible.json",
+      "gitBlobSha": "fdd2b06034671347b986f2b1eb5db31f799359b6"
+    },
+    {
+      "key": "gear21Traitjagged",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/jagged.json",
+      "gitBlobSha": "4628d10a5fc2ad0999c8d1513ecaf82a229c29bc"
+    },
+    {
+      "key": "gear21Traitkitty_vision",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/kitty_vision.json",
+      "gitBlobSha": "6d494b3ef665e38ec037434da76320a498da7c18"
+    },
+    {
+      "key": "gear21Traitlight",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/light.json",
+      "gitBlobSha": "cc9f8d2ea6b8e645e39f2e6da875bf1ae54edaa5"
+    },
+    {
+      "key": "gear21Traitlucky",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/lucky.json",
+      "gitBlobSha": "0e18c04f8b7123e439858931ed0c8ba5ed05603c"
+    },
+    {
+      "key": "gear21Traitlustrous",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/lustrous.json",
+      "gitBlobSha": "c33329b5378ee871f09028fe0969fdcc285072a7"
+    },
+    {
+      "key": "gear21Traitmagmatic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/magmatic.json",
+      "gitBlobSha": "4764f66c10433adfaca7d8d621f06b1fc06b84a1"
+    },
+    {
+      "key": "gear21Traitmagnetic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/magnetic.json",
+      "gitBlobSha": "547a073793b81b2cff20e10d15dd4d5431fe2d50"
+    },
+    {
+      "key": "gear21Traitmalleable",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/malleable.json",
+      "gitBlobSha": "24aaf87b117befc6acdc438a943abad8e1543287"
+    },
+    {
+      "key": "gear21Traitmighty",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/mighty.json",
+      "gitBlobSha": "d217bebdb41a7e0c7322d0cebea29a6cdb511581"
+    },
+    {
+      "key": "gear21Traitorganic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/organic.json",
+      "gitBlobSha": "356dd8e3efec33995cff9ac00200d3abafa3786d"
+    },
+    {
+      "key": "gear21Traitreach",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/reach.json",
+      "gitBlobSha": "6d7fbbea9df9b684fb36f2911ec4a7025347b738"
+    },
+    {
+      "key": "gear21Traitrefractive",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/refractive.json",
+      "gitBlobSha": "5a45cdb9aba8dbb65e842d561c4991a8e6a0473a"
+    },
+    {
+      "key": "gear21Traitrenew",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/renew.json",
+      "gitBlobSha": "8edc063c019d1d65e433641258e0f211b0d752c5"
+    },
+    {
+      "key": "gear21Traitsharp",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/sharp.json",
+      "gitBlobSha": "3d629b5ebcb8af179222798dbc9cdcf94d78a768"
+    },
+    {
+      "key": "gear21Traitsturdy",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/sturdy.json",
+      "gitBlobSha": "d585929941659357b152614567edd01a3ce83162"
+    },
+    {
+      "key": "gear21Traitswift_swim",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/swift_swim.json",
+      "gitBlobSha": "c52ecd078e10ca479adc56ef9fcaf8347217cfa3"
+    },
+    {
+      "key": "gear21Traitsynergistic",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/synergistic.json",
+      "gitBlobSha": "2cbf8cf82493a4d648506cf7f6b851aa02540ce4"
+    },
+    {
+      "key": "gear21Traitvenom",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/venom.json",
+      "gitBlobSha": "250d7a1857b0e1d0439a14ba0a71af426aeef897"
+    },
+    {
+      "key": "gear21Traitvulcan",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/vulcan.json",
+      "gitBlobSha": "5e3369c7782731354950d863dd794bb823abd749"
+    },
+    {
+      "key": "gear21Traitbrittle",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/generated/resources/data/silentgear/silentgear_traits/brittle.json",
+      "gitBlobSha": "18c87e0ace1ba18d737307d5d6c935d5a994640d"
+    },
+    {
+      "key": "gear21Core",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/aa936c3ec4d54ccec0fad178488b60fae0243543/src/main/java/net/silentchaos512/gear/core/DataResourceManager.java",
+      "gitBlobSha": "87b46b94cb4ad52a703b7bdb19c38d2d59e9d681"
+    },
+    {
+      "key": "gear26Core",
+      "url": "https://github.com/SilentChaos512/Silent-Gear/blob/cb9926f4a3215a2f6016e4b465d1029ce06251e4/src/main/java/net/silentchaos512/gear/core/DataResourceManager.java",
+      "gitBlobSha": "10e75f048f9b49fc66c0841bcaa4075b45eae5b1"
+    }
+  ]
+}

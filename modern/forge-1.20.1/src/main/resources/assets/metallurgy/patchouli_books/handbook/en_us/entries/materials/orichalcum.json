@@ -1,0 +1,40 @@
+{
+  "name": "Orichalcum",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:orichalcum_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:orichalcum_ore",
+      "title": "Finding Orichalcum",
+      "text": "Default deposits: Overworld, Y 0 to 128. Veins target up to 6 blocks, with 5 placement attempts per chunk. Mining requirement: level 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Orichalcum",
+      "text": "Smelt Orichalcum Ore or Orichalcum Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:orichalcum_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 1350 uses.$(br)Harvest level: 4.$(br)Mining efficiency: 7.7.$(br)Material damage bonus: 6.2.$(br)Enchantability: 20.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:orichalcum_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 4, chestplate 7, leggings 6, boots 2.$(br2)Toughness per piece: 1.5.$(br)Enchantability: 14."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Equipment: Champion",
+      "text": "Killing monsters restores durability to Orichalcum Items (Amount is equal to the max health of the killed monster)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Berserker",
+      "text": "Killing a mob grants a strength buff, level of which is equal to the count of every other remaining hostile mob around the wearer. (Max Potion Level: 6) (Armor scales the radius and duration of the bonus)"
+    }
+  ]
+}

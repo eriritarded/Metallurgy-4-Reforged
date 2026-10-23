@@ -1,0 +1,37 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    "#metallurgy:processing/alloyer/copper",
+    "#metallurgy:processing/alloyer/tin"
+  ],
+  "amounts": [
+    3,
+    1
+  ],
+  "result": {
+    "id": "metallurgy:bronze_ingot",
+    "count": 4
+  },
+  "experience": 1.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bronze_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/copper"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/tin"
+      }
+    }
+  ]
+}

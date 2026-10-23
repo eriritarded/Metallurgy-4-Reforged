@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:oureclase_ingot",
+    {
+      "id": "#forge:ingots/oureclase",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/oureclase",
+      "required": false
+    }
+  ]
+}

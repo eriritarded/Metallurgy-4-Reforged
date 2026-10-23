@@ -1,0 +1,24 @@
+{
+  "parent": "spartanweaponry:item/base/parrying_dagger",
+  "loader": "spartanweaponry:oil_coated_item",
+  "overrides": [
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/parrying_dagger_blocking",
+      "predicate": {
+        "spartanweaponry:blocking": 1
+      }
+    },
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/parrying_dagger_throwing",
+      "predicate": {
+        "spartanweaponry:throwing": 1
+      }
+    }
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/parrying_dagger",
+    "layer0": "metallurgy:spartanweaponry/items/parrying_dagger_wood",
+    "layer1": "metallurgy:spartanweaponry/items/custom/parrying_dagger_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/parrying_dagger_layer_2"
+  }
+}

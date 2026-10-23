@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:raw_materials/angmallen"
+  },
+  "result": {
+    "tag": "forge:molten_angmallen",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:raw_materials/angmallen"
+      }
+    }
+  ],
+  "rate": "metal"
+}

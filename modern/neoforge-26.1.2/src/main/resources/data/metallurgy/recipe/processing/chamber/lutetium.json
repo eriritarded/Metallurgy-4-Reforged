@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:lutetium_block"
+  ],
+  "amounts": [
+    4
+  ],
+  "effect": "minecraft:levitation",
+  "duration": 24000,
+  "amplifier": 0
+}

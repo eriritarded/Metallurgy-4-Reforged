@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/astral_silver",
+    "#c:dusts/silver"
+  ],
+  "result": {
+    "id": "metallurgy:quicksilver_dust",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_dust"
+    }
+  ]
+}

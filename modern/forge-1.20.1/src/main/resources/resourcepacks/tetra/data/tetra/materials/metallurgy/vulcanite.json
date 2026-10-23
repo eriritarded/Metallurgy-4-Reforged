@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_vulcanite",
+  "category": "metal",
+  "primary": 6.8,
+  "secondary": 4.967,
+  "tertiary": 4.4,
+  "durability": 712,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 114,
+  "toolLevel": "metallurgy:level_5",
+  "toolEfficiency": 8.8,
+  "tints": {
+    "glyph": "E45930",
+    "texture": "E45930"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:vulcanite_ingot"
+    ]
+  },
+  "effects": {
+    "combusting": [
+      2,
+      8
+    ],
+    "crushing": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

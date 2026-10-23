@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/root",
+  "display": {
+    "icon": {
+      "item": "metallurgy:zinc_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.zinc"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.zinc.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/zinc"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/zinc"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/zinc"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

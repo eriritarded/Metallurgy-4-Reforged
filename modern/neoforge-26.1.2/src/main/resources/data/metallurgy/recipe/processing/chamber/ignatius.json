@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:ignatius_block"
+  ],
+  "amounts": [
+    4
+  ],
+  "effect": "minecraft:fire_resistance",
+  "duration": 18000,
+  "amplifier": 0
+}

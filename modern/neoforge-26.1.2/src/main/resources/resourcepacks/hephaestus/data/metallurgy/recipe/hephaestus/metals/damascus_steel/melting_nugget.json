@@ -1,0 +1,23 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:nuggets/damascus_steel",
+  "result": {
+    "amount": 10,
+    "id": "metallurgy:damascus_steel"
+  },
+  "temperature": 900,
+  "time": 33,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:nuggets/damascus_steel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "metallurgy:potash"
+  },
+  "result": [
+    {
+      "item": "metallurgy:potash_fertilizer"
+    }
+  ],
+  "energy": 4000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:potash_fertilizer"
+    }
+  ]
+}

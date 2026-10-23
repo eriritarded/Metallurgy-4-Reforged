@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_silver",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_astral_silver",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_quicksilver",
+    "amount": 180
+  },
+  "temperature": 1000
+}

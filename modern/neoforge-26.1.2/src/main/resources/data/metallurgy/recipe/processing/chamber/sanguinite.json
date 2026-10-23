@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:sanguinite_block"
+  ],
+  "amounts": [
+    3
+  ],
+  "effect": "minecraft:saturation",
+  "duration": 19200,
+  "amplifier": 0
+}

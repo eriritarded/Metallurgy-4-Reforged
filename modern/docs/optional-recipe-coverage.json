@@ -1,0 +1,30 @@
+{
+  "sourceRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "state": "Generated native resources, not dependency-decoded or runtime-tested.",
+  "targets": {
+    "forge-1.20.1": {
+      "mekanism": 1,
+      "enderio": 18,
+      "industrialforegoing": 29,
+      "thermal_expansion": 559
+    },
+    "neoforge-1.21.1": {
+      "mekanism": 1,
+      "enderio": 18,
+      "industrialforegoing": 29
+    },
+    "neoforge-26.1.2": {
+      "mekanism": 1,
+      "enderio": 18
+    }
+  },
+  "nativeMetalFluidAmounts": {
+    "ingot": 90,
+    "nugget": 10,
+    "block": 810
+  },
+  "limits": [
+    "No reviewed IF26 or Thermal21/26 release: those recipes are not fabricated.",
+    "Original Ender IO XML editing uses opt-in preserved native JSON folders; see ENDERIO-CUSTOMIZATION.md. No XML is parsed or overwritten."
+  ]
+}

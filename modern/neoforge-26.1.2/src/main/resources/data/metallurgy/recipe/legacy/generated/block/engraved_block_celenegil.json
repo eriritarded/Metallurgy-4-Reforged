@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CDC",
+    "ICI"
+  ],
+  "key": {
+    "I": "#c:ingots/celenegil",
+    "D": "metallurgy:bimetal_structure_block",
+    "C": "minecraft:chiseled_stone_bricks"
+  },
+  "result": {
+    "id": "metallurgy:celenegil_engraved_block",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:celenegil_engraved_block"
+    }
+  ]
+}

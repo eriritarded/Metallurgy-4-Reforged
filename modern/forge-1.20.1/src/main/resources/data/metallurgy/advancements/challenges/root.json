@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "metallurgy:tartarite_ingot"
+    },
+    "title": "Metallurgy 4: Reforged Challenges",
+    "description": "Metallurgy Challenges!",
+    "background": "metallurgy:textures/blocks/prometheum_block.png",
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

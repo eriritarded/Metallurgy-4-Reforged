@@ -1,0 +1,30 @@
+{
+  "color": "FF9294BE",
+  "fallbacks": [
+    "metal"
+  ],
+  "generator": {
+    "supported_stats": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:grip",
+      "tconstruct:repair_kit"
+    ],
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": {
+          "000": "FF000000",
+          "063": "FF1F2035",
+          "102": "FF323454",
+          "140": "FF4B4E7E",
+          "178": "FF686BA5",
+          "216": "FF9294BE",
+          "255": "FFC7C8DD"
+        }
+      }
+    }
+  }
+}

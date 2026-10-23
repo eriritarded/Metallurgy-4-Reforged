@@ -1,0 +1,17 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "metallurgy:lutetium"
+  },
+  "result": {
+    "id": "metallurgy:lutetium_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_block"
+    }
+  ]
+}

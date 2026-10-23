@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VPV",
+    "VBV",
+    "SFS"
+  ],
+  "key": {
+    "V": "#c:ingots/vyroxeres",
+    "S": "#c:ingots/steel",
+    "F": "minecraft:furnace",
+    "P": "minecraft:brewing_stand",
+    "B": "metallurgy:bimetal_structure_block"
+  },
+  "result": {
+    "id": "metallurgy:sublimation_chamber",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sublimation_chamber"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/desichalkos",
+    "amount": 90
+  },
+  "output": "metallurgy:desichalkos",
+  "temperature": 1700
+}

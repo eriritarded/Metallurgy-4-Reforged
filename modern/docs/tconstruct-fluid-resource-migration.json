@@ -1,0 +1,343 @@
+{
+  "reason": "TConstruct3 resolves the first material-fluid match; delegate its native Hepatizon/Osmium and isolate40 own material fluid tags",
+  "files": [
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_adamantine.json",
+      "sha256": "BBAD51FE35B1382134846E31B843EFC0E967F381C7E4B6EED311C5C6204BBBF7"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_alduorite.json",
+      "sha256": "622557775087B7F8E9F9A0BD85E1ED564FD9E47D6094AB51D2A0BDA20EE281A3"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_amordrine.json",
+      "sha256": "AF28AE2151D7D80C3472270B38221BDF127A8017CAD3EDE29A7396AF44BC9B01"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_angmallen.json",
+      "sha256": "A0FF45B40DDAD1B6AD0F0283A3EA58B92303170A730D789DCC1C7B85CCF311CD"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_astral_silver.json",
+      "sha256": "5B4F223BE30034C04F0D54C9199E7597BCB7EC2E202941FCE3E807BA6D7DE66E"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_atlarus.json",
+      "sha256": "D8CBEBA3364D6E0B746057D3B778DF9589859C2D665B1F6159B090E110C2509B"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_black_steel.json",
+      "sha256": "D2490E308825F6FB661F732C6889546E0A6CE8A78BD8466B6D31EA66F17A843A"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_brass.json",
+      "sha256": "E46CE1D5E94A7AC1D9CCE4518B89B516DF05A8CA05E90C0B9456EFCF7559F341"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_carmot.json",
+      "sha256": "3C5B50B901642FAAF9893493CD8C3A7C2737DCA51C865EFB02FF6153B4C5C58F"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_celenegil.json",
+      "sha256": "BA51A976AFED681CC78995996F1C76B41CA53863C4963415F543B475177874EA"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_ceruclase.json",
+      "sha256": "F7FE08F244B83C4DDEDA5DB6FBEC3AE0FFCE5BF9960961AF82A9F8FF0C6D731A"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_damascus_steel.json",
+      "sha256": "D0CBA064AC317761D9CCFBF6C6FAC95A16255E143E4CB83ED4A2F799CA5E2D42"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_deep_iron.json",
+      "sha256": "B0316F3E5D74BF40E3E472261A0AAFBF37E110CA38BF9C9202316B9EFEAC288A"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_desichalkos.json",
+      "sha256": "5C62F4978A2992DD5095B27F18DCAA537C72F9D5706034B9E0FE4372EF67986A"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_etherium.json",
+      "sha256": "61FC2A50DCBB99511BE5DFA0FEBA4B3D221E62CB5C50F50E5867609ADA69F3A4"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_eximite.json",
+      "sha256": "A79A96692517B019340882B98E39F573BBC5D3D663E7EAB6282E0C9FAF4C8E2E"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_haderoth.json",
+      "sha256": "BAA23CF411DA2E6DD604F515051E6320191AC8F1CA0BB1900A32B729D9E55E56"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_ignatius.json",
+      "sha256": "D6E8E716B8AB2461AD4CBB80C76778C54FFD81D455B18171E3FCC20D68F523D6"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_infuscolium.json",
+      "sha256": "DA7AE648E3A3F2CD3DADBCDFE8FDF111B2563CDCEC2A2F3F203E87428A4FE6BD"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_inolashite.json",
+      "sha256": "F125A620928A3C5EA88236D1547A7D6248B1437114CB0DCF965FE80538C1DDA9"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_kalendrite.json",
+      "sha256": "19D5B52126C2FBA31FA255998BCD1B5F43AAF97B4E258F0655E0223FEBEECB8C"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_krik.json",
+      "sha256": "E59EBB0200966068CFF38984256779D0CF4450A7D40136AF6A3BB4E029F0472C"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_lemurite.json",
+      "sha256": "4ED0F777601205F9B1F413724C0D4C773BD6F00208AAEAC0259B8E1F73129AF7"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_lutetium.json",
+      "sha256": "31F7E89CE8741D2B0A07B6C1CA79B1B0C0407213CE843A4529D2543514044C36"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_manganese.json",
+      "sha256": "E4C9DE9C2DEEF67CB20324EB236184E4BC1FF6F7FA056DF4B070A2B7D37E8CD6"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_meutoite.json",
+      "sha256": "7B881366F523065D5380C522AA61466CEA4D018D292786CECB80DC7679325BCC"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_midasium.json",
+      "sha256": "729509B8FA00E76B6436762FBE956CD431947D6ADA8E956511F0B83C5090EB8E"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_mithril.json",
+      "sha256": "8C773C77DD13DFA9E3FF46E5C7F31F1E79CEDC121B50665B47B4AB0ED8D13035"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_orichalcum.json",
+      "sha256": "0ACCE67A44DCD703A3A91C63F5AD67DD3E18E5414F631451B27B7E4A0518CA26"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_oureclase.json",
+      "sha256": "00E6CE73EDAC8FED4EA091BB8E4EEC507E28B381A28501162E36BFC099BCF841"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_platinum.json",
+      "sha256": "168FF2CC8706EF0F0633E61BA99F96961B98CF8CCFC44DE88E3B3CF61D3484BE"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_prometheum.json",
+      "sha256": "B0603BD93B3AF6EE1B9124EF613A3018FBAC02F510A62B6C8E46652CA7681922"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_quicksilver.json",
+      "sha256": "D03203280293245231143C3B4E35B2D84F7B0C663EAE08FD0ACD740F87006037"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_rubracium.json",
+      "sha256": "7DE663C3AF8AC6177B14962F10008AF8EF2C28A2591A5B226682FC3BAC48DC24"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_sanguinite.json",
+      "sha256": "F6DFB0A7BCB2DCA3D0033DF0ADA838136ECD42BFCB892184C723BFD5B5ADAF7B"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_shadow_iron.json",
+      "sha256": "559CE7331CACD9C65FD7B8EC9A25CF2243B528F6C1BAB90778877DAD37FE6E35"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_shadow_steel.json",
+      "sha256": "E72472AB6B1429DBF05A3F6767821914D0BF2843DC9470B8A5427A97FF27F347"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_tartarite.json",
+      "sha256": "6B4D6426E66DCBCC77CC82D0ACB6A127424AD9B49C33319E06EF9A4DB79EB4F5"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_vulcanite.json",
+      "sha256": "32C6456B68C5DA61C2C73DD69742412348D0EC6FB2FE74809E56FD68C5A3B1DA"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\forge\\tags\\fluids\\molten_vyroxeres.json",
+      "sha256": "1AA49421E2746638551E8D6FE55811C3389321C7C3B8C643C5876AD2EDE48B4B"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\tinkering\\materials\\definition\\hepatizon.json",
+      "sha256": "2497566AAAB381BBBE90AA9ECEE7B28E7E9FB7A3C6942F7DD6C9930825C5EA08"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\tinkering\\materials\\stats\\hepatizon.json",
+      "sha256": "E81553035F926A4F4BF70CD07017BA2981285E531DB70D9C0A7BEE204B04BE26"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\tinkering\\materials\\traits\\hepatizon.json",
+      "sha256": "17F1CDDF00D66404390CBCAF59324FC6635BEF4064F1D3A66AC4C63A08808752"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\assets\\metallurgy\\tinkering\\materials\\hepatizon.json",
+      "sha256": "6A5F5EBC6EAFE179773DACAAB99FFE3A8DAE35042E62EC65FC71A6F916A760D5"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\casting_block.json",
+      "sha256": "2694BFBF2E8C778667CEEF5FB62974755E21988AE4CABFB841749E5BBCF6E146"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\casting_ingot_sand.json",
+      "sha256": "04D866F71BDA3436A33D41AD7A85F8A516567E71DA91FA11BC56694D4F26C6CF"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\casting_ingot.json",
+      "sha256": "B12F0E080134719953649F50B15C5D93F79330D5E05BCC0D45DD8B4420598162"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\casting_nugget_sand.json",
+      "sha256": "295CBC7B6BD833B6A1CAD98CF169E9ADE6E7FE0F59E11855FA6EA90C664534B8"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\casting_nugget.json",
+      "sha256": "CAC04593B412AA2B2123D91A4F1E5BAB3670098E5BFD9F7C6ADDED0CB69FCB25"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\material_block.json",
+      "sha256": "E8DC06575B0457C10D8EBA99A0D5BB7310D1592D544F3DFF9B71D4270DEAE7BF"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\material_ingot.json",
+      "sha256": "637B54AE98AB1A14095113A14062BF44BCE08D537F99F98ABBED33F4EF868CDF"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\material_nugget.json",
+      "sha256": "18E3ABD97CDA0CFF36FD37A4089C7A4E95AB6A56136B644CEAE9536B4DF436BB"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_block.json",
+      "sha256": "8299EE839E9374C3D3FC80F71BC016DC6ABEA1B3C150CE77FB270B9218E5406B"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_dust.json",
+      "sha256": "B7131495AF2A2350024C76357CA7A55A09C64FED997B6B59930D3D66043F6911"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_gear.json",
+      "sha256": "CFB0C7AA8664F3F72C7263406DFAD239CE97CF75D883A9A829FCA785ABE041ED"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_ingot.json",
+      "sha256": "41F8D388502B8EFD2469A8A1B0AD6CCCD378E9FD8376DFEABD7B467A8F5550B4"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_nugget.json",
+      "sha256": "CAC7AAFDBB078FA7B4822F756DABA1D2B74B6E19010F6B86DD0C2DCE055EA63B"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_ore.json",
+      "sha256": "B81B888CEE734C7A134A41BC34F73AB8856EFF1E3F7C55485BCEAD8C31EF54D2"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_plate.json",
+      "sha256": "6CC1BD1C75BFFBE1F9B8B2D1430FA17ADB411E4E467068F516EA72629EC76312"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\melting_raw.json",
+      "sha256": "633BDB58BBECCCB9AB6CA3ED2BC046F7AE510F63907D142C767B99AFEF9A61A9"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\part_casting.json",
+      "sha256": "7222CE81F966E5A936EE0CDC1EF9ED38780E2FF49A122D168E07E5FA60B9A2A8"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\hepatizon\\part_melting.json",
+      "sha256": "18100FF29B79DE07F1B264FB91E0FC5D18BFE149D9FEABB5D40CF7985D75F931"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\tinkering\\materials\\definition\\osmium.json",
+      "sha256": "B3169C7B699F618B9359B5C7A888514786AA62E658E87C0CDFFBB84F53F84BA5"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\tinkering\\materials\\stats\\osmium.json",
+      "sha256": "6C20DC8CB94382DE7817B846B12319167450B1C5AD11602C40036CCB6D35BF00"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\tinkering\\materials\\traits\\osmium.json",
+      "sha256": "264A627B6FA076CABCE20A05ABA8C367723BB8B346FBADA0302E7D4C1CEF9A4F"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\assets\\metallurgy\\tinkering\\materials\\osmium.json",
+      "sha256": "2EED7FB3B8FF227D0298D09B2276EAD7954877C5F256C7380868D1C15423C4B0"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\casting_block.json",
+      "sha256": "F7B1BE37B71D4076CFD12E621D93B4794D52F3DFC2EDAA44AF04403000D751DA"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\casting_ingot_sand.json",
+      "sha256": "6102076C49BD1D867921F56FF6885BBE1ACB1D11EDA7C41DE2B4E684DCFD2C4A"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\casting_ingot.json",
+      "sha256": "8004E9CFCCB1699DB4D2A24D7D5EB855215C2DE850AAC9F9D0BDC429C3427DC7"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\casting_nugget_sand.json",
+      "sha256": "9077E72423E2AA2247D2F2DD7F8B333683B3075629F8D2E4B56401CCD64AAA00"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\casting_nugget.json",
+      "sha256": "8129730C7562F21044E001CBE8EF9F8E594CB01D486DFB7061E6EC024946830F"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\material_block.json",
+      "sha256": "1C710E6CBC0E7E47C12139F95C121EFE5664B4A5A3490163E80D5A3A983BF4CB"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\material_ingot.json",
+      "sha256": "5D6891082A85159B1B14B8695FC6B6B7924A3F4610FFEDD3C85AFC938766369A"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\material_nugget.json",
+      "sha256": "0DEAF3AA07DA613E6724530947EC883A96CA74EBCB259690830645EDFF120128"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_block.json",
+      "sha256": "D20E7EABB1DFE1DF3889D440C60B6B81B5FE4B6723D53C44431014E7CDAFDBEC"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_dust.json",
+      "sha256": "B8A9A60ACD93511C02E14B1D069F6056AE39CC54AB1485991D6BFCF8A815CCC6"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_gear.json",
+      "sha256": "77F76CF0333E0617D1AFA74F6C6B49E07856BDABF5CBC2EE253525C7D48B4861"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_ingot.json",
+      "sha256": "6FFDDB85523BFFC0639941FBFF5A44111772A47F35C0CE042BDCE2F76D43F386"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_nugget.json",
+      "sha256": "F95501AF7561439A0C89F5B6988F7AEE80A0612505BAA98086B8952055924A28"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_ore.json",
+      "sha256": "9CA27C04E2E8688F14B1F3045670B7175924B156FF1A11E789A574E65E406727"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_plate.json",
+      "sha256": "F512C78E49E8F970EFA68237D9A2F54160132934552127CE7A551E3098FC20CA"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\melting_raw.json",
+      "sha256": "D69A9BA00854BD9B1F7394B1E1060EA6CCC91776E6F0C0A26EF12812E2399133"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\part_casting.json",
+      "sha256": "3A581686C8C4C9DB62A5167C47FF589A9908A2AB0CAC674AEC6A179B1D274BCA"
+    },
+    {
+      "path": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\tconstruct\\data\\metallurgy\\recipes\\tconstruct\\metals\\osmium\\part_melting.json",
+      "sha256": "9687A048DE29B1CBED7F7AF3492CBB052B76C4BB6DBA98263ECFDACC8F768AE1"
+    }
+  ],
+  "count": 84,
+  "installedFilesChanged": false
+}

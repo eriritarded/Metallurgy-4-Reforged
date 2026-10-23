@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/quicksilver"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:quicksilver_ingot",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_ingot"
+    }
+  ]
+}

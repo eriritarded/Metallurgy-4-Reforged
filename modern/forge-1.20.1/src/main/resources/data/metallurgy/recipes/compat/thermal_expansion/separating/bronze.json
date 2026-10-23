@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:bronze_ingot",
+    "count": 4
+  },
+  "result": [
+    {
+      "item": "metallurgy:copper_ingot",
+      "count": 3
+    },
+    {
+      "item": "metallurgy:tin_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 10000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bronze_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:copper_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tin_ingot"
+    }
+  ]
+}

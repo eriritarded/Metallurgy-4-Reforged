@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:infuscolium"
+    },
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_steel"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:hepatizon"
+  },
+  "temperature": 1100
+}

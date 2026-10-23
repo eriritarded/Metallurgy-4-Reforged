@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:quicksilver",
+  "result": {
+    "tag": "forge:molten_quicksilver",
+    "amount": 90
+  },
+  "temperature": 1300
+}

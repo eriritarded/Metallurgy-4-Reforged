@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:astral_silver_ore",
+    {
+      "id": "#forge:ores/astral_silver",
+      "required": false
+    },
+    {
+      "id": "#c:ores/astral_silver",
+      "required": false
+    }
+  ]
+}

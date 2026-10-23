@@ -1,0 +1,23 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "item": "metallurgy:tar_ore"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "item": "metallurgy:tar",
+    "count": 4
+  },
+  "experience": 0.75,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tar"
+    }
+  ]
+}

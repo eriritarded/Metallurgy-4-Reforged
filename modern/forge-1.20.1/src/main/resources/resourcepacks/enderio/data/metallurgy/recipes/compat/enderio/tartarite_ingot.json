@@ -1,0 +1,37 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 12000,
+  "experience": 0.5,
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/adamantine"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/atlarus"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:tartarite_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tartarite_ingot"
+    }
+  ]
+}

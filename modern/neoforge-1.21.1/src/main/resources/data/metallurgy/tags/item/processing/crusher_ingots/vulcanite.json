@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:vulcanite_ingot",
+    {
+      "id": "#forge:ingots/vulcanite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/vulcanite",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:kalendrite_ore",
+    {
+      "id": "#forge:ores/kalendrite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/kalendrite",
+      "required": false
+    }
+  ]
+}

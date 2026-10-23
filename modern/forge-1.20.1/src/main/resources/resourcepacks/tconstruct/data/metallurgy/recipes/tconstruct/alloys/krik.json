@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_lutetium",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_osmium",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_krik",
+    "amount": 180
+  },
+  "temperature": 1000
+}

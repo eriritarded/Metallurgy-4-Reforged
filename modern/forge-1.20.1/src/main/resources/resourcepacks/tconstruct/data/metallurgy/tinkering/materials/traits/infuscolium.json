@@ -1,0 +1,30 @@
+{
+  "default": [],
+  "perStat": {
+    "tconstruct:head": [],
+    "tconstruct:handle": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ]
+  }
+}

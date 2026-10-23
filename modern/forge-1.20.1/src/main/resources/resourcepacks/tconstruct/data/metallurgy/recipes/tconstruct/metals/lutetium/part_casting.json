@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/lutetium",
+    "amount": 90
+  },
+  "output": "metallurgy:lutetium",
+  "temperature": 1900
+}

@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_brass",
+  "category": "metal",
+  "primary": 6.2,
+  "secondary": 6.133,
+  "tertiary": 3.4,
+  "durability": 895,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 48,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 6.8,
+  "tints": {
+    "glyph": "CDAA3A",
+    "texture": "CDAA3A"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:brass_ingot"
+    ]
+  },
+  "effects": {
+    "stabilizing": 5
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

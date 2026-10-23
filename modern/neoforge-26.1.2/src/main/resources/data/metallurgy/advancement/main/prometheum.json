@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/root",
+  "display": {
+    "icon": {
+      "id": "metallurgy:prometheum_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.prometheum"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.prometheum.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/prometheum"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/prometheum"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/prometheum"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

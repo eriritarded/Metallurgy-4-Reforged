@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_angmallen",
+  "category": "metal",
+  "primary": 5.7,
+  "secondary": 6.133,
+  "tertiary": 3.6,
+  "durability": 164,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 192,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 7.2,
+  "tints": {
+    "glyph": "C9B080",
+    "texture": "C9B080"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:angmallen_ingot"
+    ]
+  },
+  "effects": {
+    "criticalStrike": [
+      10,
+      1.5
+    ],
+    "intuit": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

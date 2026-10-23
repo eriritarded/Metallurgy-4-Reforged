@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:function",
+  "function": "metallurgy:machineprocessingfuelandsidedautomation",
+  "environment": "minecraft:default",
+  "structure": "metallurgy:empty",
+  "max_ticks": 220,
+  "required": true
+}

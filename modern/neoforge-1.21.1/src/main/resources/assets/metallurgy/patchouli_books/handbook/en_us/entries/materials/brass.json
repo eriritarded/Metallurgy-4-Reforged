@@ -1,0 +1,30 @@
+{
+  "name": "Brass",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:brass_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:brass_ingot",
+      "title": "Making Brass",
+      "text": "Make this alloy in an Alloyer:$(br2)3 Copper + 1 Zinc = 4 Brass"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:brass_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 895 uses.$(br)Harvest level: 2.$(br)Mining efficiency: 6.8.$(br)Material damage bonus: 3.2.$(br)Enchantability: 8.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:brass_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 2, chestplate 3, leggings 3, boots 2.$(br2)Toughness per piece: 3.0.$(br)Enchantability: 18."
+    }
+  ]
+}

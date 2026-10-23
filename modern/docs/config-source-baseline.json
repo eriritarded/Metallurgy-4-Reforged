@@ -1,0 +1,35 @@
+{
+  "sourceCommit": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "files": {
+    "GeneralConfig": {
+      "sourceSha256": "9141d4cf40ec084bb2681ead9afabb18a899f5dbd2f9080e62bb49f5e7e8d51a",
+      "implementation": "common/src/main/java/it/hurts/metallurgy_reforged/config/GeneralConfig.java",
+      "adaptation": "Original mutable fields/defaults and metadata retained; native modern JSON loader. Worldgen dimension IDs use resource identifiers. Legacy UI listener/obsolete biome proof-check omitted."
+    },
+    "RegistrationConfig": {
+      "sourceSha256": "2561956f076cd0b8c8d1e150357245357cb6571d58bdd6e332db9b5060f010e2",
+      "implementation": "common/src/main/java/it/hurts/metallurgy_reforged/config/RegistrationConfig.java",
+      "adaptation": "Original mutable fields/defaults and metadata retained; native modern JSON loader. Worldgen dimension IDs use resource identifiers. Legacy UI listener/obsolete biome proof-check omitted."
+    },
+    "EffectsRosterConfig": {
+      "sourceSha256": "e510656253c10f1af90504bd7307ff2f9432c74f581c3a926caadef75776f5c9",
+      "implementation": "common/src/main/java/it/hurts/metallurgy_reforged/config/EffectsRosterConfig.java",
+      "adaptation": "Original mutable fields/defaults and metadata retained; native modern JSON loader. Worldgen dimension IDs use resource identifiers. Legacy UI listener/obsolete biome proof-check omitted."
+    },
+    "EffectTweaksConfig": {
+      "sourceSha256": "a4c855aa8ce4825b5960eee7ad592dcf68be96757b29f97faff6d19b7ac9d113",
+      "implementation": "common/src/main/java/it/hurts/metallurgy_reforged/config/EffectTweaksConfig.java",
+      "adaptation": "Original mutable fields/defaults and metadata retained; native modern JSON loader. Worldgen dimension IDs use resource identifiers. Legacy UI listener/obsolete biome proof-check omitted."
+    },
+    "GadgetsConfig": {
+      "sourceSha256": "0308157fec5bcf51b7a38d09b9c128171580567496a90c94ece64339715a153a",
+      "implementation": "common/src/main/java/it/hurts/metallurgy_reforged/config/GadgetsConfig.java",
+      "adaptation": "Original mutable fields/defaults and metadata retained; native modern JSON loader. Worldgen dimension IDs use resource identifiers. Legacy UI listener/obsolete biome proof-check omitted."
+    },
+    "WorldGenerationConfig": {
+      "sourceSha256": "3aa3ddb5b901b55ad5de02da2d70dac38fe34267805237fcb8f85d5b4dccfd99",
+      "implementation": "common/src/main/java/it/hurts/metallurgy_reforged/config/WorldGenerationConfig.java",
+      "adaptation": "Original mutable fields/defaults and metadata retained; native modern JSON loader. Worldgen dimension IDs use resource identifiers. Legacy UI listener/obsolete biome proof-check omitted."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:deep_iron_ore",
+    {
+      "id": "#forge:ores/deep_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ores/deep_iron",
+      "required": false
+    }
+  ]
+}

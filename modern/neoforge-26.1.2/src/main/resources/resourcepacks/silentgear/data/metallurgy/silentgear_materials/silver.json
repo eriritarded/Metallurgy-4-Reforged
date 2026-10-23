@@ -1,0 +1,117 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": "metallurgy:silver_ingot",
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.silver.name"
+    },
+    "name_prefix": "",
+    "color": "#FFCDD3D3",
+    "main_texture_type": "HIGH_CONTRAST",
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 75,
+      "harvest_speed": 11.2,
+      "enchantment_value": 19,
+      "attack_damage": 3.4,
+      "armor_durability": 8,
+      "armor": 11,
+      "armor/boots": 2,
+      "armor/leggings": 3,
+      "armor/chestplate": 4,
+      "armor/helmet": 2,
+      "armor_toughness": 2.1,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:holy",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Silver",
+        "level_hint": "2",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_2"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 11.25
+      },
+      "traits": [
+        {
+          "trait": "silentgear:holy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 11.25
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.12
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.51
+      },
+      "harvest_tier": {
+        "name": "Silver",
+        "level_hint": "2",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_2"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:holy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "forge:molten_lutetium",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/lutetium"
+  },
+  "cooling_time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/lutetium"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  }
+}

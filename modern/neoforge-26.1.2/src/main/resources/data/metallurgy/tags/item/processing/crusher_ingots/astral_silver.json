@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:astral_silver_ingot",
+    {
+      "id": "#forge:ingots/astral_silver",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/astral_silver",
+      "required": false
+    }
+  ]
+}

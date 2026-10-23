@@ -1,0 +1,21 @@
+{
+  "name": "Molten Metals",
+  "category": "metallurgy:fluids",
+  "icon": "metallurgy:adamantine_bucket",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:adamantine_bucket",
+      "title": "Molten Metals",
+      "text": "Every one of the 49 metals has a molten fluid and matching bucket. The liquid uses that metal's original color. A bucket holds 1000 mB, and placed hot fluids give off light."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Molten metals are dangerous to touch: they burn like lava. Their temperature depends on the metal tier. They do not make infinite sources, and placing a hot fluid in an ultra-warm realm can vaporize it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Molten-metal handling recipes depend on the installed integrations. Installing Metallurgy alone does not turn the ordinary Alloyer into a fluid tank. Use the relevant integration section and current recipe display for melting or casting."
+    }
+  ]
+}

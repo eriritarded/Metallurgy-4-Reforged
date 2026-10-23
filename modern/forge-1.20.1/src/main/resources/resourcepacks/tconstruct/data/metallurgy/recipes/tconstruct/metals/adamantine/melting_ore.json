@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/adamantine"
+  },
+  "result": {
+    "tag": "forge:molten_adamantine",
+    "amount": 180
+  },
+  "temperature": 1900,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/adamantine"
+      }
+    }
+  ],
+  "rate": "metal"
+}

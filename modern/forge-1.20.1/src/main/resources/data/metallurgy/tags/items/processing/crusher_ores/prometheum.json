@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:prometheum_ore",
+    {
+      "id": "#forge:ores/prometheum",
+      "required": false
+    },
+    {
+      "id": "#c:ores/prometheum",
+      "required": false
+    }
+  ]
+}

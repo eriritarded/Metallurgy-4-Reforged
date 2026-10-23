@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/oureclase"
+  },
+  "result": {
+    "tag": "forge:molten_oureclase",
+    "amount": 810
+  },
+  "temperature": 1300,
+  "time": 136,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/oureclase"
+      }
+    }
+  ]
+}

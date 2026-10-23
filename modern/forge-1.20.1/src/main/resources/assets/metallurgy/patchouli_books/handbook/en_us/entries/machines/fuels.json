@@ -1,0 +1,17 @@
+{
+  "name": "Furnace Fuels and Boosts",
+  "category": "metallurgy:machines",
+  "icon": "metallurgy:thermite_dust",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:thermite_dust",
+      "title": "Furnace Fuels and Boosts",
+      "text": "The Crusher and Alloyer use furnace fuels. Thermite Dust gives a 2x processing boost; Ignatius Fuel gives a 3x boost. A faster recipe still needs its complete inputs and enough output space."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A machine will wait when inputs, fuel, or output room are missing. Adding more fuel does not let it produce an item without its required ingredients. Keep a spare output chest nearby to avoid stalled work."
+    }
+  ]
+}

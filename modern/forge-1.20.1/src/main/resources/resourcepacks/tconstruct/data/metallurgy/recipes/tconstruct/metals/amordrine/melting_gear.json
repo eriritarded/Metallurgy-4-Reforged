@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:gears/amordrine"
+  },
+  "result": {
+    "tag": "forge:molten_amordrine",
+    "amount": 360
+  },
+  "temperature": 1500,
+  "time": 104,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/amordrine"
+      }
+    }
+  ]
+}

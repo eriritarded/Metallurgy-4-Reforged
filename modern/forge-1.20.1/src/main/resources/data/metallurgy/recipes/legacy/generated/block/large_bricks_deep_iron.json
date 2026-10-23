@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "BDB",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/deep_iron"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    },
+    "B": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "metallurgy:deep_iron_large_bricks",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:deep_iron_large_bricks"
+    }
+  ]
+}

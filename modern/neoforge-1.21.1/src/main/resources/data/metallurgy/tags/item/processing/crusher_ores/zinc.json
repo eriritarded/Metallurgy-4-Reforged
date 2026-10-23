@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:zinc_ore",
+    {
+      "id": "#forge:ores/zinc",
+      "required": false
+    },
+    {
+      "id": "#c:ores/zinc",
+      "required": false
+    }
+  ]
+}

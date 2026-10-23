@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:ignatius_ingot",
+    "metallurgy:ignatius_dust",
+    {
+      "id": "#forge:ingots/ignatius",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/ignatius",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/ignatius",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/ignatius",
+      "required": false
+    }
+  ]
+}

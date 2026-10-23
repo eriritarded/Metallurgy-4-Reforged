@@ -1,0 +1,10 @@
+{
+  "parent": "spartanweaponry:item/base/quarterstaff_blocking",
+  "loader": "spartanweaponry:oil_coated_item",
+  "textures": {
+    "coating": "spartanweaponry:item/coating/quarterstaff",
+    "layer0": "metallurgy:spartanweaponry/items/custom/quarterstaff_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/quarterstaff_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/quarterstaff_layer_2"
+  }
+}

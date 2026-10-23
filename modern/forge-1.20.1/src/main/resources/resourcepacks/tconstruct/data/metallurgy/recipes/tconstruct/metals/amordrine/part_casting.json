@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/amordrine",
+    "amount": 90
+  },
+  "output": "metallurgy:amordrine",
+  "temperature": 1500
+}

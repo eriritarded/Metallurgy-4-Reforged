@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": "#c:ingots/mithril",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:mithril_sword",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:mithril_sword"
+    }
+  ]
+}

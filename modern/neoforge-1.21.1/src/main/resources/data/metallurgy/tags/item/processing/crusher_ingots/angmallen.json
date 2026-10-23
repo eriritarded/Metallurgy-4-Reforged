@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:angmallen_ingot",
+    {
+      "id": "#forge:ingots/angmallen",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/angmallen",
+      "required": false
+    }
+  ]
+}

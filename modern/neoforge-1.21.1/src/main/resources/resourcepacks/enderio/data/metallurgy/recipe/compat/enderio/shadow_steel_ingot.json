@@ -1,0 +1,33 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4500,
+  "experience": 0.5,
+  "inputs": [
+    {
+      "tag": "c:ingots/shadow_iron",
+      "count": 2
+    },
+    {
+      "tag": "c:ingots/lemurite",
+      "count": 1
+    }
+  ],
+  "output": {
+    "id": "metallurgy:shadow_steel_ingot",
+    "count": 3
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_ingot"
+    }
+  ]
+}

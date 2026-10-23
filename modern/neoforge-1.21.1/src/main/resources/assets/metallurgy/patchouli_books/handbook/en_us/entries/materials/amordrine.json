@@ -1,0 +1,45 @@
+{
+  "name": "Amordrine",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:amordrine_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:amordrine_ingot",
+      "title": "Making Amordrine",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Kalendrite + 1 Platinum = 2 Amordrine"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:amordrine_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 832 uses.$(br)Harvest level: 4.$(br)Mining efficiency: 11.0.$(br)Material damage bonus: 4.0.$(br)Enchantability: 40.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:amordrine_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 5, leggings 4, boots 3.$(br2)Toughness per piece: 2.0.$(br)Enchantability: 40."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Sky-High",
+      "text": "Grants extra jumps (from 1 to 4) depending on how many armor pieces the player is wearing"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Equipment: Soulbound",
+      "text": "This item will persist in your inventory after death"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Divine Grace",
+      "text": "Bonus Damage depending on target's health, the less health target has the more damage the weapon does (up to 200% damage boost) Only a direct melee attack qualifies; arrows, projectiles, and spells do not inherit this bonus from a held weapon."
+    }
+  ]
+}

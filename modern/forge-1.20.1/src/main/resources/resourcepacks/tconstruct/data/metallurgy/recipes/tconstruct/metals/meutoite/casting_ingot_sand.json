@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "forge:molten_meutoite",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/meutoite"
+  },
+  "cooling_time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/meutoite"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true
+}

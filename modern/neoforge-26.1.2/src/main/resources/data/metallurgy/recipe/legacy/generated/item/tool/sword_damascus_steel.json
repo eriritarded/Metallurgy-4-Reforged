@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": "#c:ingots/damascus_steel",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:damascus_steel_sword",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_sword"
+    }
+  ]
+}

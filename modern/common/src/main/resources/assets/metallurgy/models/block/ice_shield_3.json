@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/frosted_ice_3",
+  "render_type": "minecraft:translucent"
+}

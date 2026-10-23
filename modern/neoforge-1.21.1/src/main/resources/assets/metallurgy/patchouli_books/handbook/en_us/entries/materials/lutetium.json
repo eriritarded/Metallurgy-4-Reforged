@@ -1,0 +1,24 @@
+{
+  "name": "Lutetium",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:lutetium_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:lutetium_ore",
+      "title": "Finding Lutetium",
+      "text": "Default deposits: Nether, Y 20 to 50. Veins target up to 4 blocks, with 3 placement attempts per chunk. Mining requirement: level 6."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Lutetium",
+      "text": "Smelt Lutetium Ore or Lutetium Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:lutetium_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 4, chestplate 5, leggings 6, boots 5.$(br2)Toughness per piece: 3.0.$(br)Enchantability: 17."
+    }
+  ]
+}

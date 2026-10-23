@@ -1,0 +1,28 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "#metallurgy:processing/crusher_raw/astral_silver"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:astral_silver_dust",
+    "count": 2
+  },
+  "experience": 0.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:astral_silver_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/crusher_raw/astral_silver"
+      }
+    }
+  ]
+}

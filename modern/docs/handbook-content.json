@@ -1,0 +1,66 @@
+{
+  "source": "content/handbook-topics.json + maintained material/worldgen/effect/recipe defaults",
+  "targets": [
+    {
+      "target": "forge-1.20.1",
+      "entries": 97,
+      "pages": 419,
+      "materials": 49,
+      "integrations": [
+        "jei",
+        "tetra",
+        "silentgear",
+        "silentgems",
+        "tconstruct",
+        "spartanweaponry",
+        "enderio",
+        "mekanism",
+        "immersiveengineering",
+        "industrialforegoing",
+        "thermal",
+        "projecte",
+        "crafttweaker"
+      ],
+      "optionalPatchouli": true,
+      "recipe": "metallurgy:handbook",
+      "book": "metallurgy:handbook"
+    },
+    {
+      "target": "neoforge-1.21.1",
+      "entries": 93,
+      "pages": 411,
+      "materials": 49,
+      "integrations": [
+        "jei",
+        "silentgear",
+        "silentgems",
+        "enderio",
+        "mekanism",
+        "immersiveengineering",
+        "industrialforegoing",
+        "projecte",
+        "crafttweaker"
+      ],
+      "optionalPatchouli": true,
+      "recipe": "metallurgy:handbook",
+      "book": "metallurgy:handbook"
+    },
+    {
+      "target": "neoforge-26.1.2",
+      "entries": 89,
+      "pages": 403,
+      "materials": 49,
+      "integrations": [
+        "jei",
+        "silentgear",
+        "silentgems",
+        "enderio",
+        "mekanism"
+      ],
+      "optionalPatchouli": true,
+      "recipe": "metallurgy:handbook",
+      "book": "metallurgy:handbook"
+    }
+  ],
+  "renderingObserved": false
+}

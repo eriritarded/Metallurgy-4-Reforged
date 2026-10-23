@@ -1,0 +1,29 @@
+{
+  "name": "Osmium",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:osmium_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:osmium_ore",
+      "title": "Finding Osmium",
+      "text": "Default deposits: Overworld, Y 3 to 10. Veins target up to 6 blocks, with 7 placement attempts per chunk. Mining requirement: level 2."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Osmium",
+      "text": "Smelt Osmium Ore or Osmium Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:osmium_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 5, chestplate 6, leggings 6, boots 5.$(br2)Toughness per piece: 3.5.$(br)Enchantability: 8."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Titan",
+      "text": "Enemies are knocked back when they attack you"
+    }
+  ]
+}

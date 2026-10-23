@@ -1,0 +1,18 @@
+{
+  "name": "Ender IO",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:bronze_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:bronze_ingot",
+      "title": "Ender IO",
+      "text": "Ender IO's alloy processing can use the supplied Metallurgy alloy recipes. The integration has an editable recipe mode for packs that want to customize those equations."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use Ender IO's current recipe display for ingredient amounts and processing costs. Its machine is separate from Metallurgy's ordinary fuel-burning Alloyer."
+    }
+  ],
+  "flag": "mod:enderio"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/thermite",
+    "#c:dusts/ignatius",
+    "#c:dusts/phosphorus"
+  ],
+  "result": {
+    "id": "metallurgy:ignatius_fuel",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ignatius_fuel"
+    }
+  ]
+}

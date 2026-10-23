@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/meutoite"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:meutoite_ingot",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_ingot"
+    }
+  ]
+}

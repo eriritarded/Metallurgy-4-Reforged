@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/black_steel"
+  },
+  "result": {
+    "tag": "forge:molten_black_steel",
+    "amount": 10
+  },
+  "temperature": 1100,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/black_steel"
+      }
+    }
+  ]
+}

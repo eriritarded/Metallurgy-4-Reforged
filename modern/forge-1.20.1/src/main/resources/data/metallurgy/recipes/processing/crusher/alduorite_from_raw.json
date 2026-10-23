@@ -1,0 +1,30 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/crusher_raw/alduorite"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "item": "metallurgy:alduorite_dust",
+    "count": 2
+  },
+  "experience": 0.75,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:alduorite_dust"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/crusher_raw/alduorite"
+      }
+    }
+  ]
+}

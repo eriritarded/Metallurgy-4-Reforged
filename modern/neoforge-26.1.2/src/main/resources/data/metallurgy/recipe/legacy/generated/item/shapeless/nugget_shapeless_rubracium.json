@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:ingots/rubracium"
+  ],
+  "result": {
+    "id": "metallurgy:rubracium_nugget",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:rubracium_nugget"
+    }
+  ]
+}

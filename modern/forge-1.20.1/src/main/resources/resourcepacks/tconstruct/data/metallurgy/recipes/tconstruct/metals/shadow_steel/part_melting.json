@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:shadow_steel",
+  "result": {
+    "tag": "forge:molten_shadow_steel",
+    "amount": 90
+  },
+  "temperature": 1700
+}

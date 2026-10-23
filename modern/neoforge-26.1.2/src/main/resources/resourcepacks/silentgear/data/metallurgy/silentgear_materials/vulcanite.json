@@ -1,0 +1,147 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": "metallurgy:vulcanite_ingot",
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.vulcanite.name"
+    },
+    "name_prefix": "",
+    "color": "#FFE45930",
+    "main_texture_type": "HIGH_CONTRAST",
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 712,
+      "harvest_speed": 8.8,
+      "enchantment_value": 19,
+      "attack_damage": 3.8,
+      "armor_durability": 111,
+      "armor": 18,
+      "armor/boots": 3,
+      "armor/leggings": 6,
+      "armor/chestplate": 6,
+      "armor/helmet": 3,
+      "armor_toughness": 4.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:fiery",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:magmatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Vulcanite",
+        "level_hint": "5",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_5"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 106.8
+      },
+      "traits": [
+        {
+          "trait": "silentgear:fiery",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:magmatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 106.8
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.88
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.57
+      },
+      "harvest_tier": {
+        "name": "Vulcanite",
+        "level_hint": "5",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_5"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:fiery",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:magmatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

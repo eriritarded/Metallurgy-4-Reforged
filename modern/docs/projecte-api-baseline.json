@@ -1,0 +1,66 @@
+{
+  "reviewed": "2026-10-16",
+  "nativeDecodingChecked": false,
+  "targets": [
+    {
+      "repository": "sinkillerj/ProjectE",
+      "revision": "68fbb2dea0cf8a6394fa6c7c084063046d94cee5",
+      "files": [
+        {
+          "path": "src/api/java/moze_intel/projecte/api/nss/NSSItem.java",
+          "blob": "428fc3dc111aa8c8cc4ec629939f044789d2ae25"
+        },
+        {
+          "path": "src/datagen/generated/data/projecte/pe_custom_conversions/defaults.json",
+          "blob": "b7bcfc6a03dd55a017e3efa0f533d0736f43ba94"
+        },
+        {
+          "path": "src/datagen/generated/data/projecte/pe_custom_conversions/metals.json",
+          "blob": "530c6eb113e275d1fe7004eb8676eb35cd377fff"
+        },
+        {
+          "path": "src/main/java/moze_intel/projecte/emc/mappers/customConversions/CustomConversionMapper.java",
+          "blob": "497fbe662f3aa6e92d82f73d0d53704ea4dcc081"
+        },
+        {
+          "path": "src/main/java/moze_intel/projecte/emc/mappers/customConversions/json/CustomConversionFile.java",
+          "blob": "0bc2aef98133a9aa1cd24c51f6139d1ed42e3761"
+        },
+        {
+          "path": "src/main/java/moze_intel/projecte/emc/mappers/customConversions/json/FixedValues.java",
+          "blob": "e5471e94d98116fc9aed419d2cecde75d2865c80"
+        }
+      ]
+    },
+    {
+      "repository": "sinkillerj/ProjectE",
+      "revision": "f432b0c66837759fb0731c9144dc53176b949c5d",
+      "files": [
+        {
+          "path": "src/api/java/moze_intel/projecte/api/conversion/CustomConversionFile.java",
+          "blob": "d848624900ed7714260c8ba2ef17e3845f401011"
+        },
+        {
+          "path": "src/api/java/moze_intel/projecte/api/conversion/FixedValues.java",
+          "blob": "aef3e6981242ce9ce10063d41a95346af7b58aa8"
+        },
+        {
+          "path": "src/api/java/moze_intel/projecte/api/nss/NSSItem.java",
+          "blob": "79813e73b298e5087e677865c29d3a1095b9103e"
+        },
+        {
+          "path": "src/datagen/generated/data/projecte/pe_custom_conversions/defaults.json",
+          "blob": "5871eea6feaebbc0168d34616807c2bc6416f4b8"
+        },
+        {
+          "path": "src/datagen/generated/data/projecte/pe_custom_conversions/metals.json",
+          "blob": "0481506310d5b77be60313dd73b4f09892c88117"
+        },
+        {
+          "path": "src/main/java/moze_intel/projecte/emc/mappers/customConversions/CustomConversionMapper.java",
+          "blob": "48c6101ce8ff46a967f86d69da66f61b49facbed"
+        }
+      ]
+    }
+  ]
+}

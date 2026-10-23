@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/ignatius",
+    "amount": 90
+  },
+  "output": "metallurgy:ignatius",
+  "temperature": 1300
+}

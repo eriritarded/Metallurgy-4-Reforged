@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:hepatizon_ingot",
+    "metallurgy:hepatizon_dust",
+    {
+      "id": "#forge:ingots/hepatizon",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/hepatizon",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/hepatizon",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/hepatizon",
+      "required": false
+    }
+  ]
+}

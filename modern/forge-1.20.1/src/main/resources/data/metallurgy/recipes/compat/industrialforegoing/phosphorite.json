@@ -1,0 +1,69 @@
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens12"
+  },
+  "output": {
+    "item": "metallurgy:phosphorite_ore",
+    "count": 1
+  },
+  "rarity": [
+    {
+      "depth_min": 0,
+      "depth_max": 255,
+      "weight": 5,
+      "whitelist": {},
+      "blacklist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:nether_wastes",
+          "minecraft:crimson_forest",
+          "minecraft:warped_forest",
+          "minecraft:soul_sand_valley",
+          "minecraft:basalt_deltas",
+          "minecraft:the_end",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands",
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens"
+        ]
+      }
+    },
+    {
+      "depth_min": 0,
+      "depth_max": 60,
+      "weight": 15,
+      "whitelist": {},
+      "blacklist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:nether_wastes",
+          "minecraft:crimson_forest",
+          "minecraft:warped_forest",
+          "minecraft:soul_sand_valley",
+          "minecraft:basalt_deltas",
+          "minecraft:the_end",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands",
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens"
+        ]
+      }
+    }
+  ],
+  "pointer": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "industrialforegoing"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:phosphorite_ore"
+    }
+  ]
+}

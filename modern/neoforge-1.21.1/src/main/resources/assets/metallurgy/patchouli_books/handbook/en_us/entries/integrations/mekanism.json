@@ -1,0 +1,18 @@
+{
+  "name": "Mekanism",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:lutetium_ore",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:lutetium_ore",
+      "title": "Mekanism",
+      "text": "The supplied special Enrichment Chamber recipe turns one Lutetium Ore into two Lutetium Dust. The ore and dust must both be available in the server's material settings."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Other ores can gain routes through common material tags or the pack's own recipes. Check the current Mekanism recipe display rather than assuming that every metal has the same processing chain."
+    }
+  ],
+  "flag": "mod:mekanism"
+}

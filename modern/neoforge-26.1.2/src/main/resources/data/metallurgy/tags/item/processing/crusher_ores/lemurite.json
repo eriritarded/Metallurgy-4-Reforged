@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:lemurite_ore",
+    {
+      "id": "#forge:ores/lemurite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/lemurite",
+      "required": false
+    }
+  ]
+}

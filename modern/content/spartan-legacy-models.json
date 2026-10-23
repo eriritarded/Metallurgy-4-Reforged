@@ -1,0 +1,158 @@
+{
+  "battleaxe": {
+    "layer0": "spartanweaponry:items/custom/battleaxe_layer_0",
+    "layer1": "spartanweaponry:items/custom/battleaxe_layer_1",
+    "layer2": "spartanweaponry:items/custom/battleaxe_layer_2"
+  },
+  "boomerang": {
+    "layer0": "spartanweaponry:items/custom/boomerang_layer_0",
+    "layer1": "spartanweaponry:items/custom/boomerang_layer_1",
+    "layer2": "spartanweaponry:items/custom/boomerang_layer_2"
+  },
+  "crossbow": {
+    "layer0": "spartanweaponry:items/custom/crossbow_standby_layer_0",
+    "layer1": "spartanweaponry:items/custom/crossbow_standby_layer_1",
+    "layer2": "spartanweaponry:items/custom/crossbow_standby_layer_2"
+  },
+  "crossbow_custom_firing": {
+    "layer0": "spartanweaponry:items/custom/crossbow_loaded_layer_0",
+    "layer1": "spartanweaponry:items/custom/crossbow_loaded_layer_1",
+    "layer2": "spartanweaponry:items/custom/crossbow_loaded_layer_2"
+  },
+  "crossbow_custom_loaded": {
+    "layer0": "spartanweaponry:items/custom/crossbow_loaded_layer_0",
+    "layer1": "spartanweaponry:items/custom/crossbow_loaded_layer_1",
+    "layer2": "spartanweaponry:items/custom/crossbow_loaded_layer_2"
+  },
+  "crossbow_custom_pulling_0": {
+    "layer0": "spartanweaponry:items/custom/crossbow_pulling_0_layer_0",
+    "layer1": "spartanweaponry:items/custom/crossbow_pulling_0_layer_1",
+    "layer2": "spartanweaponry:items/custom/crossbow_pulling_0_layer_2"
+  },
+  "crossbow_custom_pulling_1": {
+    "layer0": "spartanweaponry:items/custom/crossbow_pulling_1_layer_0",
+    "layer1": "spartanweaponry:items/custom/crossbow_pulling_1_layer_1",
+    "layer2": "spartanweaponry:items/custom/crossbow_pulling_1_layer_2"
+  },
+  "crossbow_custom_pulling_2": {
+    "layer0": "spartanweaponry:items/custom/crossbow_pulling_2_layer_0",
+    "layer1": "spartanweaponry:items/custom/crossbow_pulling_2_layer_1",
+    "layer2": "spartanweaponry:items/custom/crossbow_pulling_2_layer_2"
+  },
+  "dagger": {
+    "layer0": "spartanweaponry:items/custom/dagger_layer_0",
+    "layer1": "spartanweaponry:items/custom/dagger_layer_1",
+    "layer2": "spartanweaponry:items/custom/dagger_layer_2"
+  },
+  "glaive": {
+    "layer0": "spartanweaponry:items/custom/glaive_layer_0",
+    "layer1": "spartanweaponry:items/custom/glaive_layer_1",
+    "layer2": "spartanweaponry:items/custom/glaive_layer_2"
+  },
+  "greatsword": {
+    "layer0": "spartanweaponry:items/custom/greatsword_layer_0",
+    "layer1": "spartanweaponry:items/custom/greatsword_layer_1",
+    "layer2": "spartanweaponry:items/custom/greatsword_layer_2"
+  },
+  "halberd": {
+    "layer0": "spartanweaponry:items/custom/halberd_layer_0",
+    "layer1": "spartanweaponry:items/custom/halberd_layer_1",
+    "layer2": "spartanweaponry:items/custom/halberd_layer_2"
+  },
+  "hammer": {
+    "layer0": "spartanweaponry:items/custom/hammer_layer_0",
+    "layer1": "spartanweaponry:items/custom/hammer_layer_1",
+    "layer2": "spartanweaponry:items/custom/hammer_layer_2"
+  },
+  "javelin": {
+    "layer0": "spartanweaponry:items/custom/javelin_layer_0",
+    "layer1": "spartanweaponry:items/custom/javelin_layer_1",
+    "layer2": "spartanweaponry:items/custom/javelin_layer_2"
+  },
+  "katana": {
+    "layer0": "spartanweaponry:items/custom/katana_layer_0",
+    "layer1": "spartanweaponry:items/custom/katana_layer_1",
+    "layer2": "spartanweaponry:items/custom/katana_layer_2"
+  },
+  "lance": {
+    "layer0": "spartanweaponry:items/custom/lance_layer_0",
+    "layer1": "spartanweaponry:items/custom/lance_layer_1",
+    "layer2": "spartanweaponry:items/custom/lance_layer_2"
+  },
+  "longbow": {
+    "layer0": "spartanweaponry:items/custom/longbow_standby_layer_0",
+    "layer1": "spartanweaponry:items/custom/longbow_standby_layer_1",
+    "layer2": "spartanweaponry:items/custom/longbow_standby_layer_2"
+  },
+  "longbow_custom_pulling_0": {
+    "layer0": "spartanweaponry:items/custom/longbow_pulling_0_layer_0",
+    "layer1": "spartanweaponry:items/custom/longbow_pulling_0_layer_1",
+    "layer2": "spartanweaponry:items/custom/longbow_pulling_0_layer_2"
+  },
+  "longbow_custom_pulling_1": {
+    "layer0": "spartanweaponry:items/custom/longbow_pulling_1_layer_0",
+    "layer1": "spartanweaponry:items/custom/longbow_pulling_1_layer_1",
+    "layer2": "spartanweaponry:items/custom/longbow_pulling_1_layer_2"
+  },
+  "longbow_custom_pulling_2": {
+    "layer0": "spartanweaponry:items/custom/longbow_pulling_2_layer_0",
+    "layer1": "spartanweaponry:items/custom/longbow_pulling_2_layer_1",
+    "layer2": "spartanweaponry:items/custom/longbow_pulling_2_layer_2"
+  },
+  "longsword": {
+    "layer0": "spartanweaponry:items/custom/longsword_layer_0",
+    "layer1": "spartanweaponry:items/custom/longsword_layer_1",
+    "layer2": "spartanweaponry:items/custom/longsword_layer_2"
+  },
+  "mace": {
+    "layer0": "spartanweaponry:items/custom/mace_layer_0",
+    "layer1": "spartanweaponry:items/custom/mace_layer_1",
+    "layer2": "spartanweaponry:items/custom/mace_layer_2"
+  },
+  "parrying_dagger": {
+    "layer0": "spartanweaponry:items/parrying_dagger_wood",
+    "layer1": "spartanweaponry:items/custom/parrying_dagger_layer_1",
+    "layer2": "spartanweaponry:items/custom/parrying_dagger_layer_2"
+  },
+  "parrying_dagger_blocking": {},
+  "pike": {
+    "layer0": "spartanweaponry:items/custom/pike_layer_0",
+    "layer1": "spartanweaponry:items/custom/pike_layer_1",
+    "layer2": "spartanweaponry:items/custom/pike_layer_2"
+  },
+  "rapier": {
+    "layer0": "spartanweaponry:items/custom/rapier_layer_0",
+    "layer1": "spartanweaponry:items/custom/rapier_layer_1",
+    "layer2": "spartanweaponry:items/custom/rapier_layer_2"
+  },
+  "saber": {
+    "layer0": "spartanweaponry:items/custom/saber_layer_0",
+    "layer1": "spartanweaponry:items/custom/saber_layer_1",
+    "layer2": "spartanweaponry:items/custom/saber_layer_2"
+  },
+  "spear": {
+    "layer0": "spartanweaponry:items/custom/spear_layer_0",
+    "layer1": "spartanweaponry:items/custom/spear_layer_1",
+    "layer2": "spartanweaponry:items/custom/spear_layer_2"
+  },
+  "staff": {
+    "layer0": "spartanweaponry:items/custom/quarterstaff_layer_0",
+    "layer1": "spartanweaponry:items/custom/quarterstaff_layer_1",
+    "layer2": "spartanweaponry:items/custom/quarterstaff_layer_2"
+  },
+  "throwing_axe": {
+    "layer0": "spartanweaponry:items/custom/throwing_axe_layer_0",
+    "layer1": "spartanweaponry:items/custom/throwing_axe_layer_1",
+    "layer2": "spartanweaponry:items/custom/throwing_axe_layer_2"
+  },
+  "throwing_knife": {
+    "layer0": "spartanweaponry:items/throwing_knife_iron",
+    "layer1": "spartanweaponry:items/custom/throwing_knife_layer_1",
+    "layer2": "spartanweaponry:items/custom/throwing_knife_layer_2"
+  },
+  "warhammer": {
+    "layer0": "spartanweaponry:items/custom/warhammer_layer_0",
+    "layer1": "spartanweaponry:items/custom/warhammer_layer_1",
+    "layer2": "spartanweaponry:items/custom/warhammer_layer_2"
+  }
+}

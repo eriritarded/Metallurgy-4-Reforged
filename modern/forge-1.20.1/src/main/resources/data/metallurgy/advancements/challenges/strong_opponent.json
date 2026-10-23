@@ -1,0 +1,24 @@
+{
+  "parent": "metallurgy:challenges/root",
+  "display": {
+    "icon": {
+      "item": "metallurgy:tartarite_chestplate"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.challenges.strong_opponent"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.challenges.strong_opponent.desc"
+    }
+  },
+  "criteria": {
+    "strong_opponent": {
+      "trigger": "metallurgy:strong_opponent"
+    }
+  },
+  "requirements": [
+    [
+      "strong_opponent"
+    ]
+  ]
+}

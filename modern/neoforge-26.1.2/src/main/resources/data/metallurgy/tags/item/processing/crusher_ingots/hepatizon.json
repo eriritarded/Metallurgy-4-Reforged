@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:hepatizon_ingot",
+    {
+      "id": "#forge:ingots/hepatizon",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/hepatizon",
+      "required": false
+    }
+  ]
+}

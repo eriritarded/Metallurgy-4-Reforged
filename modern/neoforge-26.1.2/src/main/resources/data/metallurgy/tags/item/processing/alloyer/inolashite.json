@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:inolashite_ingot",
+    "metallurgy:inolashite_dust",
+    {
+      "id": "#forge:ingots/inolashite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/inolashite",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/inolashite",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/inolashite",
+      "required": false
+    }
+  ]
+}

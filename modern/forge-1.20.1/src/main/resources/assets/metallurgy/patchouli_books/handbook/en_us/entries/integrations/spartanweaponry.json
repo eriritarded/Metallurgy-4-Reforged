@@ -1,0 +1,18 @@
+{
+  "name": "Spartan Weaponry",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:steel_ingot",
+      "title": "Spartan Weaponry",
+      "text": "Metallurgy metals are available to the supported Spartan Weaponry weapon families. Build and use them through Spartan's native recipes and combat rules."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The integration keeps the metal palette and source weapon artwork. Its weapon-specific actions and material stats are supplied by the supported Spartan integration; check the item and recipe display for each family."
+    }
+  ],
+  "flag": "mod:spartanweaponry"
+}

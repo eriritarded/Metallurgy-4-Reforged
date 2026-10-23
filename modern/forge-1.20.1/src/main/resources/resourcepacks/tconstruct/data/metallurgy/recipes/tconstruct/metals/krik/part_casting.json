@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/krik",
+    "amount": 90
+  },
+  "output": "metallurgy:krik",
+  "temperature": 1700
+}

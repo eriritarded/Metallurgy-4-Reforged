@@ -1,0 +1,25 @@
+{
+  "name": "The Metallurgist's Handbook",
+  "category": "metallurgy:getting_started",
+  "icon": "minecraft:book",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:book",
+      "title": "Metallurgist's Guide",
+      "text": "Start with a furnace and a pickaxe. Smelt metal ores into ingots, then build a Crusher to obtain more material from each deposit. An Alloyer combines metals into new alloys."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Craft this handbook from one normal Book and one Copper Ingot from Minecraft. It is available only while Patchouli is installed. Use the index or search to find any metal, machine, or gadget."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Numbers in this handbook are the supplied defaults. Server settings and recipe changes can alter them. Hold SHIFT on equipment for current stats and CTRL for its trait descriptions."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:handbook"
+    }
+  ]
+}

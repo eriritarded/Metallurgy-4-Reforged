@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:steel_ingot",
+    "metallurgy:steel_dust",
+    {
+      "id": "#forge:ingots/steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/steel",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/steel",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/steel",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": {
+      "item": "metallurgy:tartarite_ingot"
+    },
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.tartarite.name"
+    },
+    "name_prefix": "",
+    "color": "#FFEF7823",
+    "main_texture_type": "HIGH_CONTRAST"
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 3782,
+      "harvest_speed": 12.0,
+      "enchantment_value": 14,
+      "attack_damage": 9.0,
+      "armor_durability": 298,
+      "armor": 23,
+      "armor/boots": 5,
+      "armor/leggings": 6,
+      "armor/chestplate": 7,
+      "armor/helmet": 5,
+      "armor_toughness": 6.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:synergistic",
+          "level": 3,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Tartarite",
+        "level_hint": "7",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_7"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 567.3
+      },
+      "traits": [
+        {
+          "trait": "silentgear:synergistic",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 567.3
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.2
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.35
+      },
+      "harvest_tier": {
+        "name": "Tartarite",
+        "level_hint": "7",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_7"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:synergistic",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

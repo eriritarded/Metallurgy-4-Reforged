@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/atlarus",
+    "amount": 90
+  },
+  "output": "metallurgy:atlarus",
+  "temperature": 1900
+}

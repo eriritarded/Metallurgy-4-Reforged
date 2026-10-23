@@ -1,0 +1,30 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/crusher_ingots/lemurite"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:lemurite_dust",
+    "count": 1
+  },
+  "experience": 0,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lemurite_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/crusher_ingots/lemurite"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:kalendrite_block"
+  ],
+  "amounts": [
+    4
+  ],
+  "effect": "minecraft:regeneration",
+  "duration": 24000,
+  "amplifier": 1
+}

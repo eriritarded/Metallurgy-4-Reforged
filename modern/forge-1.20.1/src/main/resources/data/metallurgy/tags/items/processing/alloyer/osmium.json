@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:osmium_ingot",
+    "metallurgy:osmium_dust",
+    {
+      "id": "#forge:ingots/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/osmium",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/osmium",
+      "required": false
+    }
+  ]
+}

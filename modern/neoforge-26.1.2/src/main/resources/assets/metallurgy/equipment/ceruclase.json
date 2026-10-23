@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:ceruclase"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:ceruclase"
+      }
+    ]
+  }
+}

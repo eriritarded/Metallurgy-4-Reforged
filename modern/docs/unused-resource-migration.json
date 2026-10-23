@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-16",
+  "reason": "Unregistered original template/item names and misspelled phosphorus_ore are absent from active native content. Native Spartan API12 models use templates under their own supported target. Preserve source copies outside resource packs instead of loading stale parents/textures.",
+  "files": [
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/battleaxe.json",
+      "sha256": "96a4f294eab8135d98f20ad6019c370da1fe48b8538d6b906fdbcc8ada186af6",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/battleaxe.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/boomerang.json",
+      "sha256": "a2aad80206243103931bb5f053198888e76921d5501fa9061f64f56a9cacdcbd",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/boomerang.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/crossbow.json",
+      "sha256": "9342636c12bb9a4676e41fdf5a1fa47246a4da7a266e9725e41d808475321586",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/crossbow.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_firing.json",
+      "sha256": "e2163ca7fa95771f6a326f6bd214d22ed7082fc4ede3666026f9b0bc4036c0cb",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_firing.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_loaded.json",
+      "sha256": "d3dea4c79ad80c33fb1df137eea35391eca24dc8f16e0e870cc47ee0feb544eb",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_loaded.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_pulling_0.json",
+      "sha256": "d83ea8e694fae5d5d5cd6acebf53564e2a2c4348e360821708b00f488ea22650",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_pulling_0.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_pulling_1.json",
+      "sha256": "625cd878e13d53a419c25e9dbb70596e7408f6526d658ab3fb30eef59d2df4ce",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_pulling_1.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_pulling_2.json",
+      "sha256": "fb3578b77c3815d07125979b9c9a565495bf579071e2baa6517d0fc0a07a2d01",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/crossbow_custom_pulling_2.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/dagger.json",
+      "sha256": "65b7b2a415045ca1ccc339f1e247987f142d03f7c2fbae3c1ef679ed5bb76820",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/dagger.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/duplication_token.json",
+      "sha256": "f622ed5907c768e044783144943308df19e083f5b514e471d2f861760064e4fc",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/duplication_token.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/glaive.json",
+      "sha256": "6d17b8c607c4c2979365624274906eeec979ebbd5722b43441e48a0c0ad40772",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/glaive.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/greatsword.json",
+      "sha256": "c1c369a4502f5704cd345b48a6b5c0428cfaede46013f0776c9ccd13ba173e46",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/greatsword.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/halberd.json",
+      "sha256": "e20fc2c791c7bdea5954c2d839210faec0d6e4ff5353e4484d225f3ea7068541",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/halberd.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/hammer.json",
+      "sha256": "2a55386ec4b95803178f8e8ee4fa7b66a6799efceb2e2eb23bde0c53aa5b0d1b",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/hammer.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/ice_shield.json",
+      "sha256": "4430831184697d1ea51b3984aebde49bb17984e9646a4f60d56d0ed388cff638",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/ice_shield.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/javelin.json",
+      "sha256": "823dcbae8e415ec3e02a6e1867f8a32fb95854a6bb92584710be3e4f0bfffdd6",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/javelin.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/katana.json",
+      "sha256": "c2f7fe1963401f121ce769893a82190bd84c2fc80849e2b0ad3283310a96a83b",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/katana.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/lance.json",
+      "sha256": "d24f9a9573bd7332cef50900468173961fbf488ea299494c090bd8568c96a1a7",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/lance.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/longbow.json",
+      "sha256": "f692846deedda6536b4a8645d9bf430af488177fa59ba2e6dfa686b4eef2beb2",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/longbow.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/longbow_custom_pulling_0.json",
+      "sha256": "204540efb0cbde6b0c326e3e2fc4fc1b3c87d3de48a41cc258d2189d28408613",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/longbow_custom_pulling_0.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/longbow_custom_pulling_1.json",
+      "sha256": "496b03063664ab2517ff9d62d675b7e6ba4c033f1fb9bf2017c2df4ef2bd9d4a",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/longbow_custom_pulling_1.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/longbow_custom_pulling_2.json",
+      "sha256": "f1b04f47841741e460856fea3835360b1fcf59ebdea6db42d028b01b4c27c5e1",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/longbow_custom_pulling_2.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/longsword.json",
+      "sha256": "2653dbfa6bb263f7db485807953de6c451d0c2c1f0f714d013e2c7f4547a3a6c",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/longsword.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/mace.json",
+      "sha256": "9fca6b6122cba4333a126265c985ef75367cab0ddf16fa7b3c9600739baa5110",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/mace.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/parrying_dagger.json",
+      "sha256": "e5005b5d4c39194b8523826c4e50bbbb4b2b259f74c8d1b04a5ff9eccabe46e4",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/parrying_dagger.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/parrying_dagger_blocking.json",
+      "sha256": "a0b845574a35e8c62299e23fc38aecf7493d6edc19cce3712e24601ee2fdfe42",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/parrying_dagger_blocking.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/phosphorus_ore.json",
+      "sha256": "be4bb081b48021193451664537159d898a8495040207fc1165ad6721c08e74e7",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/phosphorus_ore.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/pike.json",
+      "sha256": "ff386f4c82c17bf45e387060c0ef53294a38b32e268f0e3e2423e0d088c1b009",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/pike.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/rapier.json",
+      "sha256": "4d6d7e79182c8d3034041f7b29bc7e81e03fae97fffb75dac138ce0498fe0fb3",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/rapier.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/saber.json",
+      "sha256": "184519c68395c0ea8d78e7dd447d0b6bb72136f18b8901b0566b30f44560a7e8",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/saber.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/spear.json",
+      "sha256": "86b989e1c6b1002445df1b134fbc0611515c88f6181df478687a5fd3b366f3fb",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/spear.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/staff.json",
+      "sha256": "60a250e1f0243f305febe0caf4f73913943901b8ea0601fef7c64972e0f33003",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/staff.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/throwing_axe.json",
+      "sha256": "34651de50c5af6e9228a5bd2d10411325ce3de2a1440870ffabf25364d81d4b8",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/throwing_axe.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/throwing_knife.json",
+      "sha256": "508d9ecb26e19494066dcda7fce3a18f623e87160b420109403ee9dd81763632",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/throwing_knife.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/item/warhammer.json",
+      "sha256": "abe8d6ac36ce5e256f9cbcad6a726e262a2fcccfb981ebe77e7a499381ef7c37",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/item/warhammer.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/blockstates/phosphorus_ore.json",
+      "sha256": "90f9027627bbe5cd2d20c844e45395746a2eef5ef97bb7538d73e4f6fbde7b17",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/blockstates/phosphorus_ore.json"
+    },
+    {
+      "source": "common/src/main/resources/assets/metallurgy/models/block/phosphorus_ore.json",
+      "sha256": "92ddb413920c67de42ce8a57ac941ba63bc295c44504bb486aa7a89a9907786b",
+      "archive": "content/legacy-unused-resources/common/src/main/resources/assets/metallurgy/models/block/phosphorus_ore.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/battleaxe.json",
+      "sha256": "5b4e827127690b5cfb4286389e4f730cd654c6a1fe8effa1b169981e0cbfe093",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/battleaxe.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/boomerang.json",
+      "sha256": "aae9a134d5f20886cb13abb9bfe2180963f48adf08e319c9d81190d48d01924f",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/boomerang.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow.json",
+      "sha256": "6db2b4fd90476c4164fb94d826f295b3221756f0046fe1754e2967a622a2cfb7",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_firing.json",
+      "sha256": "c97f9fa0d8aa51682e625634bdf64e7c97077e9392ca52018b469ac6e386149e",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_firing.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_loaded.json",
+      "sha256": "10f067efe06164209bedf6055ea1879ddbb157af717cf4afb89f48d693056f80",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_loaded.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_pulling_0.json",
+      "sha256": "324488a3c34298562974af0302de4fded071dca06792b25ddb07ca919161a2fe",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_pulling_0.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_pulling_1.json",
+      "sha256": "77fd9ab29d4a38ae46901d9cf6ccc4b45d0eef4af7eeb4110ed7b21ef961130d",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_pulling_1.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_pulling_2.json",
+      "sha256": "861c7d1f7650647f95ec55f147dcd0a54d619e34a8e31379c5bc6d6f1d7cf1b9",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/crossbow_custom_pulling_2.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/dagger.json",
+      "sha256": "e3f51e7de7aa5b8f56d0ecdb55f49bcb1eda894289521d49e696c2ac048c6615",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/dagger.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/duplication_token.json",
+      "sha256": "265f5a12ad0ebaa399867db1b30dde5a388122e0015319d34b461a4864d4077d",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/duplication_token.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/glaive.json",
+      "sha256": "4f3dea1b0a8f7d73d9a53083666ee57fd89d721883ba8a9f2d92bbf1da80ffee",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/glaive.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/greatsword.json",
+      "sha256": "41a0d3a7da48fd84770e55e8cb8d4b0eb1a7e38590a43f96a606a05e1c535ccf",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/greatsword.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/halberd.json",
+      "sha256": "8d0dcd23294627257933914c037817ffc289ebf6d9618576678ce858c3c0968e",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/halberd.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/hammer.json",
+      "sha256": "5221ac0f93f1d72f4ff4b59d130f5efa9cb86e259868af61ee29478de1c6533e",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/hammer.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/ice_shield.json",
+      "sha256": "db3da3121867efe676b6685862ac75e9766b810a2cb885da335b8f4ecc4ad397",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/ice_shield.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/javelin.json",
+      "sha256": "619130bdf6e94f5c7975f959bb75fafdb365b114e2c44c1566ca04b4448a46bf",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/javelin.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/katana.json",
+      "sha256": "856ae9c6a59e5d1c6fd8b09dbbf7a9e943e7df92ef1e046f57746c59feb36f00",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/katana.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/lance.json",
+      "sha256": "58ef7930667389469b1dad2bc4164a1ffff16de067c74b9d0f79fdf28430dbf3",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/lance.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow.json",
+      "sha256": "428be6e004cd65220ab6489dbef842b284218129ac474d75fd7db07d1f062d9b",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow_custom_pulling_0.json",
+      "sha256": "d7e10ca3f049d3aeabb8d0034e9fbe5aa002b7247d050445e738f3bb9e9d8e19",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow_custom_pulling_0.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow_custom_pulling_1.json",
+      "sha256": "42af69fded70b73a0bdc3b922e68c90bc8e0d6319b7c72c2c950a313c2f21f1e",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow_custom_pulling_1.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow_custom_pulling_2.json",
+      "sha256": "bafd2ba4c9c378cc679ae3b020d7c7c3f5d8e2e1b18440768e83cf92a7ecbc4f",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longbow_custom_pulling_2.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longsword.json",
+      "sha256": "d2fffa5b5a8e8602fafdbfcc2f1cb7603aff58c1522385308588542a4635b8ac",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/longsword.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/mace.json",
+      "sha256": "c7090117ab1663570b1beae346481fe88e7d5644aea9633ffbce24bb83999ae6",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/mace.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/parrying_dagger.json",
+      "sha256": "516798d79bcf6e08ec4d7925bab0346d66477f494d76c70deab805a256111404",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/parrying_dagger.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/parrying_dagger_blocking.json",
+      "sha256": "087ef1c8163412c82cec98d7691d80da59eedae8f037caf81c2d7ed8f020f90a",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/parrying_dagger_blocking.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/phosphorus_ore.json",
+      "sha256": "31dcc126bcd7d446ea4951d35ad7c0defefb78620f0f93ad400b5b4c1a867b11",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/phosphorus_ore.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/pike.json",
+      "sha256": "0c8e447a8ecbc8da9b85c5f38bf7391940044585713f0e5e061f01d0285d1b97",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/pike.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/rapier.json",
+      "sha256": "6d5511753dc7d5a1b556939cf4d67196d6ca3f4792481d7f1591cf38ca7f726a",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/rapier.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/saber.json",
+      "sha256": "459b69e65b6a80a264ca291aa913fb334e804112b14d8c10d8318d28c59094dc",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/saber.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/spear.json",
+      "sha256": "ccc91bdb275f8d8779b77ab4a24d24efaf544d45c62b66468a426679c7a3ef3f",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/spear.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/staff.json",
+      "sha256": "9f3b8e30abda1d7fe167392e87bcd80d08f500d558efcae8908a3858611dc062",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/staff.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/throwing_axe.json",
+      "sha256": "c957713d7f4d6ba1789c2903048622e8332b955f4489cc4675d9bb636769581a",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/throwing_axe.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/throwing_knife.json",
+      "sha256": "2463f3cf3af01c0a005e35643758b37d0690eba3b1e7f51cb02b60785dc2e11a",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/throwing_knife.json"
+    },
+    {
+      "source": "neoforge-26.1.2/src/main/resources/assets/metallurgy/items/warhammer.json",
+      "sha256": "56e0cba21ebf74f4a62082eaf78abe88876bc062636e1c18dc3dff542a819c44",
+      "archive": "content/legacy-unused-resources/neoforge-26.1.2/src/main/resources/assets/metallurgy/items/warhammer.json"
+    }
+  ]
+}

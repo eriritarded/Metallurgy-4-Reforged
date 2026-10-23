@@ -1,0 +1,24 @@
+{
+  "name": "Rubracium Gauntlets",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:rubracium_gauntlet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:rubracium_gauntlet",
+      "title": "Rubracium Gauntlets",
+      "text": "Equip a gauntlet in each hand to charge the throw effect while striking a living target. Repeated hits keep charging it; a short pause releases the target along your look direction. Charging needs at least two food points outside Creative."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A long charge throws harder and can break suitable softer blocks along the target's path. Protection rules still apply. The pair shares durability wear, so keep both gauntlets repaired."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/rubracium_gauntlet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:rubracium_gauntlet": 2
+  }
+}

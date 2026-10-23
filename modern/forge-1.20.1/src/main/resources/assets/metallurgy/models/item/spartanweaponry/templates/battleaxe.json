@@ -1,0 +1,24 @@
+{
+  "parent": "spartanweaponry:item/base/battleaxe",
+  "loader": "spartanweaponry:oil_coated_item",
+  "overrides": [
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/battleaxe_blocking",
+      "predicate": {
+        "spartanweaponry:blocking": 1
+      }
+    },
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/battleaxe_throwing",
+      "predicate": {
+        "spartanweaponry:throwing": 1
+      }
+    }
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/battleaxe",
+    "layer0": "metallurgy:spartanweaponry/items/custom/battleaxe_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/battleaxe_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/battleaxe_layer_2"
+  }
+}

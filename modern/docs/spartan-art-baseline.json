@@ -1,0 +1,460 @@
+{
+  "sourceDependency": "curse.maven:spartanweaponry_1.5.3-278141:4467344",
+  "sha256": "d7f376edce9581006b4115277c5015b8e7ac3e396171938217705ae7b6cc1d18",
+  "license": "Apache-2.0",
+  "licenseSource": "ObliviousSpartan/SpartanWeaponry@af87ea162cc043f1ea4236e5da5e723c600001ed/LICENSE",
+  "pixelArtModified": false,
+  "assets": [
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/battleaxe_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/battleaxe_layer_0.png",
+      "sha256": "bdb20935270a233a9b8b4f6f8928e07ce6110cadd67b2e49129eef24076fe774"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/battleaxe_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/battleaxe_layer_1.png",
+      "sha256": "bbb1579b7b2e960d7ac090fb808fb7044cc5e96b33c1944775a3181f5d6756d7"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/battleaxe_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/battleaxe_layer_2.png",
+      "sha256": "e2d95698b73997880abf60f344afdb58f395ea6e344165e070a18e21aab2fda3"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/boomerang_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/boomerang_layer_0.png",
+      "sha256": "a04ec1280ad10aa4a230402c3fd1ab5af277e677bbafc1f0ee9aa6d79ea6c462"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/boomerang_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/boomerang_layer_1.png",
+      "sha256": "63830ef519478acaac3f9e73e9527c64316b1a8c0a6a26683c9f0c8616606752"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/boomerang_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/boomerang_layer_2.png",
+      "sha256": "700b51828be6ba4f2270d7a8b5451e133089997afa6aebe887ae724da61e74d6"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_loaded_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_loaded_layer_0.png",
+      "sha256": "8a2de8b16f8f5d352ec310346d3edb9ca2e7f7fa627f212caebe8eac798f0553"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_loaded_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_loaded_layer_1.png",
+      "sha256": "e512259797274336b64ab5742abb79f2b4d98b2e4648aba9a644d525e7ae312a"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_loaded_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_loaded_layer_2.png",
+      "sha256": "05965770741f5f7f3512b72e0ff6e5f6663431b9b9f989243f7016f435eb0400"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_0_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_0_layer_0.png",
+      "sha256": "a1468e8692eb448f348fbdc4a4740f7abb3c22c4c9ca00f354e0234d2cf6920c"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_0_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_0_layer_1.png",
+      "sha256": "2d8ae2dda9cb78e716ee714d387cf73661e7846ea379d4efe15815917594258f"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_0_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_0_layer_2.png",
+      "sha256": "d59f85b9c712b3ab2206e70a0e246f11b48923483d6de2bae008cb349042a6cd"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_1_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_1_layer_0.png",
+      "sha256": "a21502bd4ae4697daef213c28a88c774083d10cfcf7ec55f2fe30549e9d3a891"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_1_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_1_layer_1.png",
+      "sha256": "5d46b7676fbb9977a1b908d9993bab02fd913f70e4421ebbdb0bdf54ae1722cb"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_1_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_1_layer_2.png",
+      "sha256": "f79573e1c0612767d65876a9a2d129e4921b7054704455b93ee72cf936ba0ef6"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_2_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_2_layer_0.png",
+      "sha256": "b012851a973cfbf46d294e69a7649576b9777148c32e07ff2d39192a42430f97"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_2_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_2_layer_1.png",
+      "sha256": "1e7e10f9554d7efba62651f75569f3c730bed19a889c02f04f1e76b7f823ce50"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_pulling_2_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_pulling_2_layer_2.png",
+      "sha256": "0a8e993e51f567982d0b27f5ac618837e69e355fc66012010d65ca56bd980c28"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_standby_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_standby_layer_0.png",
+      "sha256": "14d86d61c07776e99957cd9204b6a4d18d0b5dc750d8535bdd35dcaec06f1f4d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_standby_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_standby_layer_1.png",
+      "sha256": "41e772bcc1293580e6c189c3beed0858da71c31412d70c3f1bc0e9f6a24057b2"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/crossbow_standby_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/crossbow_standby_layer_2.png",
+      "sha256": "b81602b1f0728099e4c0ae6e6876faa40eae97977424c8a77dc3037af07bf2f7"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/dagger_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/dagger_layer_0.png",
+      "sha256": "3d1937ab4b4509d433a2976d374cddf7fa4d3a0326bac6254326addc54b42d10"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/dagger_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/dagger_layer_1.png",
+      "sha256": "526a4117a6ee5e751bc30994cb0a3408f4e0cd8446c862ea81776e90c0729583"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/dagger_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/dagger_layer_2.png",
+      "sha256": "cb725cc3926c14d4afb24aaf83b9eb756f51871377425e44aa465d5fcc37455a"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/glaive_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/glaive_layer_0.png",
+      "sha256": "9f2a4d555a3b57b827def8ed353d510714908af63cc58d71b3476ef01d049f2e"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/glaive_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/glaive_layer_1.png",
+      "sha256": "f19ffb4c27ff2e1012ea057711b28b01a65ab99a734ad16918b67abcdc96a9b2"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/glaive_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/glaive_layer_2.png",
+      "sha256": "a23139f51a4942d97203e8587b34e56e0ea1ff51567bf0eb26286ab33c20f40b"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/greatsword_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/greatsword_layer_0.png",
+      "sha256": "89582ecf8afa3a3505ef6570df5119145eccb0fcbf2dc38ea156e6695f7fa200"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/greatsword_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/greatsword_layer_1.png",
+      "sha256": "627edf8c4b34e5e1175fd7e7d9e8dd2d353b862eeab02f39b82f89ced22da893"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/greatsword_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/greatsword_layer_2.png",
+      "sha256": "11ba895bab97d02e83e4e03994130e7ff4ffeb9e36cc61ab1872de66150c8624"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/halberd_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/halberd_layer_0.png",
+      "sha256": "1a9cb12a34db0849904f7ef2e77bfdfdc044528d21b247c6c560040c937e8a6b"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/halberd_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/halberd_layer_1.png",
+      "sha256": "113179ef940b4ab4709ba2ece0c3b11988854e2985bae6865a3ddde3f223042c"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/halberd_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/halberd_layer_2.png",
+      "sha256": "38aa4218c9c2b2e8e92f2d05788eb4d392de9c6f8317a8b408178d8626f34516"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/hammer_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/hammer_layer_0.png",
+      "sha256": "21b05721a3991883ca976a7f403c7a72aafaaa05061bb87cdafe3ab6620c6a4d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/hammer_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/hammer_layer_1.png",
+      "sha256": "ddd05a0a3e3c6fccf7c681260ace693c5d37c0902dadf0bf9a61c3af5f272a24"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/hammer_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/hammer_layer_2.png",
+      "sha256": "3379e95734faa6cd3d5327e3a7c288a749c25bb60e11b2b81c7b2c345d0efc81"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/javelin_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/javelin_layer_0.png",
+      "sha256": "80cd7c0e9b8f9b3716e373ff6e3c65b46052bc98ad39d317fc2cd155641a8bfc"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/javelin_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/javelin_layer_1.png",
+      "sha256": "299494169187dd857bab4e7a616455a32b7e998a2393717149f32c324cd4ece7"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/javelin_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/javelin_layer_2.png",
+      "sha256": "41498e79b16ecf21c05c41e2ed7f4c310cf0cdcf6e77fd082122d27c882bfbd6"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/katana_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/katana_layer_0.png",
+      "sha256": "f865c564581dc3ceff980d1ae7e6e370e98859d73f398bd5a360fc8ffd7904b6"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/katana_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/katana_layer_1.png",
+      "sha256": "d66ffb402564f8bd8a262275f05572c33067b8e48fff8c6603f9085fad64aa50"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/katana_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/katana_layer_2.png",
+      "sha256": "2dcffa97f51d5bc1da7de51604bb6e1e986e5d96752b6339a3b32d8265b0b919"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/lance_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/lance_layer_0.png",
+      "sha256": "4d95a2642994ed662f00c505995a6acdc2a1292df942f4803d083746dd6b9c83"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/lance_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/lance_layer_1.png",
+      "sha256": "d926f2b0403acc06fa9580b59d91c667ca3936e50e76f9370cdc3d8a717d226d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/lance_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/lance_layer_2.png",
+      "sha256": "48883e231319d0d8bed34b2db982fbf40ec270da0960afabeb0a47bdc3cd19b3"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_0_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_0_layer_0.png",
+      "sha256": "39871522fddf86a8d5bfa7bc43cc475a6eef0f20b9bcc2c89f8fac09b2bb1c4b"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_0_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_0_layer_1.png",
+      "sha256": "3b2044c650cb97fc7a05842e92a080ee39cec99f6b66adf91aa3d403dbb9dd29"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_0_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_0_layer_2.png",
+      "sha256": "6469c30ade990d389d218a04c80add8752a242e3060ca7b4cb2bc50a560a5805"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_1_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_1_layer_0.png",
+      "sha256": "55afa7e04fd28678abdc953a3cbcb1cb955540282fad8af8c8217dc89fa3de4d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_1_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_1_layer_1.png",
+      "sha256": "35ba46e42f33993c35dabefbc277e79fbc4a74e7d62c3cdb4e79343881fda954"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_1_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_1_layer_2.png",
+      "sha256": "5bbe68c722f8bab7d838eedf99ed5d5815ca9d0c9a2481f92213bbf7f0f90195"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_2_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_2_layer_0.png",
+      "sha256": "62fff8ef55c4b55f438ddcbbeb718dfe45735c9c9fcf9ab4c6ec53d2c466bec4"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_2_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_2_layer_1.png",
+      "sha256": "6f2ab0fd00deca5ba2619bb50d3b33c8f52a4943df4731267789932479694132"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_pulling_2_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_pulling_2_layer_2.png",
+      "sha256": "ff9eec24781f37117bf86d6649791e7cb555e2225514450308288f701f2cb0c8"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_standby_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_standby_layer_0.png",
+      "sha256": "9bd8a7fc6127b1ba03140c0ed7bed505a10b95e318ad7655a83faa003297a3b6"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_standby_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_standby_layer_1.png",
+      "sha256": "9ddef99a5663f274e27bb53a3920ba7accd9699482b4dd1033371f7ebc4d869b"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longbow_standby_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longbow_standby_layer_2.png",
+      "sha256": "a5313b5dbc3ee94f4ade44405fb9ce18d39a6f93f55472d156c7723be430111d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longsword_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longsword_layer_0.png",
+      "sha256": "e11e35e363fb9238206b073a65be70fe9fe1acc554edd31eb8190ab655e1275f"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longsword_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longsword_layer_1.png",
+      "sha256": "aae32cf279f830a6f8ce0b0054363fa57d89e2c86d9e39def96131a7cf03fe7e"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/longsword_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/longsword_layer_2.png",
+      "sha256": "2a15f70af443bc3c8baba5acd332b7c9a9beb718ced63aecb8f7f30dad239056"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/mace_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/mace_layer_0.png",
+      "sha256": "fd286ec8e848efa714b8dfdb45ab57bfaaf1f707ff7792b2add45b623f794436"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/mace_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/mace_layer_1.png",
+      "sha256": "d919d5de0eb0d6836777d7c6c9cc374578380109cc35905752bc29f2fd4dae69"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/mace_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/mace_layer_2.png",
+      "sha256": "a016910098267d2fdbf5299058fe6d804d059920bfdd719fbf10c8ddedb65d33"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/parrying_dagger_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/parrying_dagger_layer_1.png",
+      "sha256": "182d0df6b8cec8e8b5de9d067d12fef33c469015e15d915a4d133b436dc02960"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/parrying_dagger_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/parrying_dagger_layer_2.png",
+      "sha256": "2984abb0103f90a1135a8fd32b6f397c24ffb7f005d15b8e74510bdb9a042f18"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/pike_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/pike_layer_0.png",
+      "sha256": "77efc8a0903d0a7d81fda3a0589109d81f900f84c4c689c359648d649a648898"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/pike_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/pike_layer_1.png",
+      "sha256": "5051c0328b5a68cf3f4bb67a8dc8f73d28e3cef9642a9263057f53bf31b3a77d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/pike_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/pike_layer_2.png",
+      "sha256": "180e2d3a99470a151b0521f84a49c53cc2e266600fae4891cede8d3ec56ad656"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/quarterstaff_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/quarterstaff_layer_0.png",
+      "sha256": "53443b319fd8b6aab26b02332237ed76d82b05fb1151dc67acab04513be3862c"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/quarterstaff_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/quarterstaff_layer_1.png",
+      "sha256": "ce6f61b48c50f30fba91a398df6f799672bbe49a13728b9f2b21e49e2a2fe0e5"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/quarterstaff_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/quarterstaff_layer_2.png",
+      "sha256": "ede5396157c959072c0b04f480d55a086a8f8adf83d309e5f1bb97bdd7c75985"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/rapier_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/rapier_layer_0.png",
+      "sha256": "2ce48a7c317fafc052016d7230f84839ca9fcd39099a9d8baae4a595b675f6f1"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/rapier_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/rapier_layer_1.png",
+      "sha256": "0c38092abec03320662cff1459760c0db9756c74d780c907bab18d718c491238"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/rapier_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/rapier_layer_2.png",
+      "sha256": "99ee6e3b0f448ac26bcd332c30c36d2bff8cbe009dc95ff0a728827c56bd8e3f"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/saber_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/saber_layer_0.png",
+      "sha256": "541db4b4ac7e2ed5320f3aa9420c6c60c1c61eaefda6d98380f71504a6e9b093"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/saber_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/saber_layer_1.png",
+      "sha256": "55912f5df894fa8fd5b3235a9f3f1a99fcd497549521ef9a7823df3d95e708fc"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/saber_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/saber_layer_2.png",
+      "sha256": "fa45a50276ad675e1e4b4c7391bc212260bb79766773cf4cca402de8a3d89081"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/spear_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/spear_layer_0.png",
+      "sha256": "99080e7f0115d2eba12fd4a5757574add2fce08e2d2a73c2eaf04549f591ce00"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/spear_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/spear_layer_1.png",
+      "sha256": "ab5450eaea62c0f522afd0016cce9d99d612666b64217bce61a5a0ddd92e37a5"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/spear_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/spear_layer_2.png",
+      "sha256": "886e6a6a01feeab541b44e15b44ea49a72fd2b1225fa1a1f2fd1a2d23ed72374"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/throwing_axe_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/throwing_axe_layer_0.png",
+      "sha256": "05f6fc7375d955ffae3e28d990502804ef2abf3211353b0b2cad710923bb8b17"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/throwing_axe_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/throwing_axe_layer_1.png",
+      "sha256": "bcffd49667d8811f92a2760005df6c35e84cd7b91d64fef7c0e920cc68a11341"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/throwing_axe_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/throwing_axe_layer_2.png",
+      "sha256": "b54e9f38a2200e9333a2728bd7f749182067eaf9f64a901b166267d6ca912c1a"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/throwing_knife_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/throwing_knife_layer_1.png",
+      "sha256": "9d8900ae82e6cb33a446198907c26e255c42fd03ff36afa35a9b9a51c9939513"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/throwing_knife_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/throwing_knife_layer_2.png",
+      "sha256": "61a68f220b72d1878ac2f69348d20abf3237299d3e876b9413e632376e50caee"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/warhammer_layer_0.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/warhammer_layer_0.png",
+      "sha256": "1684f9f24db480ed5bfaab3a257111179040906733b586afd8fed3a74da26f99"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/warhammer_layer_1.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/warhammer_layer_1.png",
+      "sha256": "a76c0f9145570e2eaf2b7d07bd363eb3c3f5ccb87ca632b9be222b84302944e5"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/custom/warhammer_layer_2.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/custom/warhammer_layer_2.png",
+      "sha256": "5abad62c8637e7f81814d27093dafb04c1bb4e1c0f17167f11bfbb4dbf6838a7"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/parrying_dagger_wood.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/parrying_dagger_wood.png",
+      "sha256": "bed501ca66c95b81022d019fd1420215293ad87dacb2c277d92c856ef710f89d"
+    },
+    {
+      "source": "assets/spartanweaponry/textures/items/throwing_knife_iron.png",
+      "output": "forge-1.20.1/src/main/resources/assets/metallurgy/textures/spartanweaponry/items/throwing_knife_iron.png",
+      "sha256": "aa2b5f78124a3a7ce26c823fc5d00d219cce1260270a7140070d733c36404638"
+    }
+  ],
+  "recipeCount": 897
+}

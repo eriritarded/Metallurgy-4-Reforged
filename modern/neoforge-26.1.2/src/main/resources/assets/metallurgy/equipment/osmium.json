@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:osmium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:osmium"
+      }
+    ]
+  }
+}

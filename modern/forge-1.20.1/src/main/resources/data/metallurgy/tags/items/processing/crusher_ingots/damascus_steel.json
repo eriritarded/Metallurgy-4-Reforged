@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:damascus_steel_ingot",
+    {
+      "id": "#forge:ingots/damascus_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/damascus_steel",
+      "required": false
+    }
+  ]
+}

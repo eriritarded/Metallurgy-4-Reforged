@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/platinum"
+    },
+    {
+      "tag": "forge:dusts/kalendrite"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:amordrine_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:amordrine_dust"
+    }
+  ]
+}

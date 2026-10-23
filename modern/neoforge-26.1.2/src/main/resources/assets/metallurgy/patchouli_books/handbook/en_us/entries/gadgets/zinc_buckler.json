@@ -1,0 +1,24 @@
+{
+  "name": "Zinc Buckler",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:zinc_buckler",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:zinc_buckler",
+      "title": "Zinc Buckler",
+      "text": "A quick defensive option with 396 durability. Hold use to block for up to two seconds. Releasing, timing out, or taking a blocked hit starts a 1.5-second cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Bucklers allow normal movement and melee attacks while raised. Time the short blocking window around the incoming hit rather than keeping it up indefinitely."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/zinc_buckler"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:zinc_buckler": 2
+  }
+}

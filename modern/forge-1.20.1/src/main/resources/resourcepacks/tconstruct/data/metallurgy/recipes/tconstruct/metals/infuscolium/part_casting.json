@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/infuscolium",
+    "amount": 90
+  },
+  "output": "metallurgy:infuscolium",
+  "temperature": 1100
+}

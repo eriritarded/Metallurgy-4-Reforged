@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/meutoite"
+    },
+    {
+      "tag": "forge:dusts/eximite"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:desichalkos_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:desichalkos_dust"
+    }
+  ]
+}

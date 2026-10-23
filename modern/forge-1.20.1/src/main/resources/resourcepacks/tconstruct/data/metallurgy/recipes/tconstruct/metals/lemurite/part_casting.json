@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/lemurite",
+    "amount": 90
+  },
+  "output": "metallurgy:lemurite",
+  "temperature": 1700
+}

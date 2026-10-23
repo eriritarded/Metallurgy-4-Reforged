@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:krik_ingot",
+    {
+      "id": "#forge:ingots/krik",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/krik",
+      "required": false
+    }
+  ]
+}

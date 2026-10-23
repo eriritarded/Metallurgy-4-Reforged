@@ -1,0 +1,21 @@
+{
+  "name": "Tartarite: Paragon",
+  "category": "metallurgy:equipment",
+  "icon": "metallurgy:tartarite_sword",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:tartarite_sword",
+      "title": "Tartarite: Paragon",
+      "text": "Tartarite equipment can absorb another material's eligible traits. Use the special Paragon crafting recipe with the equipment in the center of a cross of four metal blocks. The top block chooses the absorbed material."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The three other blocks may use other metals. Existing enchantments and item data stay with the result. The absorbed material must have suitable tool or armor stats, and its powers still respect the equipment type."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Tartarite armor counts as two pieces for an absorbed armor effect, up to a maximum effective level of four. The item tooltip shows its absorbed material. Use the recipe viewer's Paragon examples to see the cross layout."
+    }
+  ]
+}

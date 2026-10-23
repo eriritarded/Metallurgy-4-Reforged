@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/astral_silver"
+  },
+  "result": {
+    "tag": "forge:molten_astral_silver",
+    "amount": 180
+  },
+  "temperature": 1300,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/astral_silver"
+      }
+    }
+  ],
+  "rate": "metal"
+}

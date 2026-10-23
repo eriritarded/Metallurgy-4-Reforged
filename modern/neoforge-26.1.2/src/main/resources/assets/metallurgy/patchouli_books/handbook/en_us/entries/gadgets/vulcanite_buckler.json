@@ -1,0 +1,24 @@
+{
+  "name": "Vulcanite Buckler",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:vulcanite_buckler",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:vulcanite_buckler",
+      "title": "Vulcanite Buckler",
+      "text": "This buckler has 662 durability, a 2.5-second blocking window, and a two-second cooldown. Blocking a direct living attacker retaliates with a small explosion and strong knockback."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The retaliation does not destroy terrain. It still needs a successfully blocked direct attack; merely holding the buckler does not damage everything nearby."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/vulcanite_buckler"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:vulcanite_buckler": 2
+  }
+}

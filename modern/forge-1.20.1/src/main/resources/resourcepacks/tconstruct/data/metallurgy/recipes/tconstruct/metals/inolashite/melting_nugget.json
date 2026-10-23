@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/inolashite"
+  },
+  "result": {
+    "tag": "forge:molten_inolashite",
+    "amount": 10
+  },
+  "temperature": 1900,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/inolashite"
+      }
+    }
+  ]
+}

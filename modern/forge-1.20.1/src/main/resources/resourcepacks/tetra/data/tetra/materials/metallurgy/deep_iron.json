@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_deep_iron",
+  "category": "metal",
+  "primary": 4.7,
+  "secondary": 3.833,
+  "tertiary": 3.1,
+  "durability": 230,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 114,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 6.2,
+  "tints": {
+    "glyph": "436182",
+    "texture": "436182"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:deep_iron_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 1,
+    "stabilizing": 5
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

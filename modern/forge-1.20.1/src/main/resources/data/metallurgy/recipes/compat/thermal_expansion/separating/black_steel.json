@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:black_steel_ingot",
+    "count": 4
+  },
+  "result": [
+    {
+      "item": "metallurgy:deep_iron_ingot",
+      "count": 3
+    },
+    {
+      "item": "metallurgy:infuscolium_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 10000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:black_steel_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:deep_iron_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:infuscolium_ingot"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/desichalkos"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:desichalkos",
+  "ingredient": {
+    "tag": "c:ingots/desichalkos"
+  },
+  "color": 8477149,
+  "head_stats": {
+    "durability": 2232,
+    "mining_speed": 10.0,
+    "attack_damage": 3.7,
+    "attack_speed": 1.0,
+    "tier": 7,
+    "enchantability": 21
+  },
+  "handle_stats": {
+    "durability_mult": 0.4,
+    "speed_mult": 0.08,
+    "damage_mult": 0.051,
+    "attack_speed_mult": -0.02
+  },
+  "binding_stats": {
+    "durability": 558
+  }
+}

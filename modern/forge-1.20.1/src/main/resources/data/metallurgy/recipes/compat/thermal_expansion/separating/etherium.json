@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:etherium_ingot",
+    "count": 2
+  },
+  "result": [
+    {
+      "item": "metallurgy:sanguinite_ingot",
+      "count": 1
+    },
+    {
+      "item": "metallurgy:alduorite_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:etherium_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sanguinite_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:alduorite_ingot"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:sanguinite_ore",
+    {
+      "id": "#forge:ores/sanguinite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/sanguinite",
+      "required": false
+    }
+  ]
+}

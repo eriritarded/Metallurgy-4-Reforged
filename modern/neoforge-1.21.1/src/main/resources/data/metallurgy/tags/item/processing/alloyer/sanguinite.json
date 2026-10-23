@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:sanguinite_ingot",
+    "metallurgy:sanguinite_dust",
+    {
+      "id": "#forge:ingots/sanguinite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/sanguinite",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/sanguinite",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/sanguinite",
+      "required": false
+    }
+  ]
+}

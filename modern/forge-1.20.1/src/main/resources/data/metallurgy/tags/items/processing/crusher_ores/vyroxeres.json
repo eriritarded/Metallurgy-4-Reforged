@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:vyroxeres_ore",
+    {
+      "id": "#forge:ores/vyroxeres",
+      "required": false
+    },
+    {
+      "id": "#c:ores/vyroxeres",
+      "required": false
+    }
+  ]
+}

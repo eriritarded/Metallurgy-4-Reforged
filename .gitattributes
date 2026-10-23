@@ -5,3 +5,5 @@ src/main/resources/assets/metallurgy/recipes/**/*.json text eol=lf
 
 # Gradle
 *.gradle linguist-detectable
+# Preserve imported modern source bytes across platforms.
+modern/** -text

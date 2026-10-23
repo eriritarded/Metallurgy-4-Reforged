@@ -1,0 +1,23 @@
+{
+  "parent": "spartanweaponry:item/base/throwing_knife",
+  "overrides": [
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/throwing_knife_throwing",
+      "predicate": {
+        "spartanweaponry:empty": 0,
+        "spartanweaponry:throwing": 1
+      }
+    },
+    {
+      "model": "spartanweaponry:item/base/throwing_knife_empty",
+      "predicate": {
+        "spartanweaponry:empty": 1
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "metallurgy:spartanweaponry/items/throwing_knife_iron",
+    "layer1": "metallurgy:spartanweaponry/items/custom/throwing_knife_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/throwing_knife_layer_2"
+  }
+}

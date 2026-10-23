@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "tconstruct:plating_boots": {
+      "durability": 217,
+      "armor": 5
+    },
+    "tconstruct:plating_leggings": {
+      "durability": 250,
+      "armor": 6
+    },
+    "tconstruct:plating_chestplate": {
+      "durability": 267,
+      "armor": 5
+    },
+    "tconstruct:plating_helmet": {
+      "durability": 183,
+      "armor": 4
+    },
+    "tconstruct:maille": {}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:function",
+  "function": "metallurgy:damascusknightidentitydamageandownercleanup",
+  "environment": "minecraft:default",
+  "structure": "metallurgy:empty",
+  "max_ticks": 150,
+  "required": true
+}

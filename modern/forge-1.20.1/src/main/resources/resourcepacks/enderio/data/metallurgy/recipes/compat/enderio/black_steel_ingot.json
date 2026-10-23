@@ -1,0 +1,37 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4500,
+  "experience": 0.75,
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/deep_iron"
+      },
+      "count": 3
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/infuscolium"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:black_steel_ingot",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:black_steel_ingot"
+    }
+  ]
+}

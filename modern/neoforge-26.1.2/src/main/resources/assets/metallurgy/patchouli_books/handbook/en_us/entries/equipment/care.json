@@ -1,0 +1,21 @@
+{
+  "name": "Repair, Rebirth, and Enchanting",
+  "category": "metallurgy:equipment",
+  "icon": "metallurgy:haderoth_pickaxe",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:haderoth_pickaxe",
+      "title": "Equipment Care",
+      "text": "Haderoth can be reborn near the end of its durability, trading the ordinary item state for its stronger reborn form. Mithril gains benefits from enchantments. Platinum's Equipment trait makes tools unbreakable; it does not apply that rule to armor."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prometheum can repair slowly in Overworld daylight under open sky. Shadow Steel prefers darkness. Adamantine needs a well-fed wearer and recovers durability when the wearer eats."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Amordrine's Soulbound trait keeps qualifying equipment through death. Sanguinite's Equipment trait has the opposite risk: its gear is destroyed on death. Read the material entry before carrying a valuable enchanted set."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "CraftTweaker",
+  "category": "metallurgy:integrations",
+  "icon": "minecraft:writable_book",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:writable_book",
+      "title": "CraftTweaker",
+      "text": "Pack authors can add or remove Metallurgy processing recipes through CraftTweaker's native recipe manager. Crusher, Alloyer, and chamber recipes share the Metallurgy processing recipe type."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Recipe changes also change what the machines and their recipe-viewer pages accept. The ordinary handbook descriptions list stock behavior; current server recipes take priority."
+    }
+  ],
+  "flag": "mod:crafttweaker"
+}

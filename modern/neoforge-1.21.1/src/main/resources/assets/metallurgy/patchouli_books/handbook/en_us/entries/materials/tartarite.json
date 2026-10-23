@@ -1,0 +1,35 @@
+{
+  "name": "Tartarite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:tartarite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:tartarite_ingot",
+      "title": "Making Tartarite",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Adamantine + 1 Atlarus = 1 Tartarite"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:tartarite_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 3782 uses.$(br)Harvest level: 7.$(br)Mining efficiency: 12.0.$(br)Material damage bonus: 9.0.$(br)Enchantability: 14.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:tartarite_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 5, chestplate 7, leggings 6, boots 5.$(br2)Toughness per piece: 6.0.$(br)Enchantability: 14.$(br)Extra full-set health: 10.0 HP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Paragon Absorption",
+      "text": "Use the Paragon cross recipe to absorb a suitable material. The top metal block selects it. Tartarite armor counts twice for eligible absorbed armor powers, up to an effective level of four."
+    }
+  ]
+}

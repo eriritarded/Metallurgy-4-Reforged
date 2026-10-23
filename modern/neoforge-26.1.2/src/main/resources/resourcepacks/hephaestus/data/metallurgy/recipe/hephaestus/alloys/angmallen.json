@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_gold"
+    },
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_iron"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:angmallen"
+  },
+  "temperature": 1100
+}

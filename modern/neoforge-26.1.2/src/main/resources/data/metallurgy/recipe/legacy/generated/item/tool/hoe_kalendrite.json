@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    " S",
+    " S"
+  ],
+  "key": {
+    "I": "#c:ingots/kalendrite",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:kalendrite_hoe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:kalendrite_hoe"
+    }
+  ]
+}

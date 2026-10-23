@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:ingots/astral_silver"
+  ],
+  "result": {
+    "id": "metallurgy:astral_silver_nugget",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:astral_silver_nugget"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Angmallen",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:angmallen_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:angmallen_ingot",
+      "title": "Making Angmallen",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Gold Ingot + 1 Iron Ingot = 2 Angmallen$(br2)1 Gold Dust + 1 Iron Dust = 2 Angmallen"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:angmallen_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 164 uses.$(br)Harvest level: 2.$(br)Mining efficiency: 7.2.$(br)Material damage bonus: 2.7.$(br)Enchantability: 32.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:angmallen_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 2, chestplate 4, leggings 3, boots 2.$(br2)Toughness per piece: 0.5.$(br)Enchantability: 32."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Reactive I",
+      "text": "Deals Bonus Damage to armored enemies"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Pickaxe: Transmute",
+      "text": "Mining an ore sometimes drops another ore of +1/-1/+0 harvest level (50% chance)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Reactive II",
+      "text": "Plays a sound sometimes when you're near some rare ore, every armor piece increases the chance to detect rare ores"
+    }
+  ]
+}

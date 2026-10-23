@@ -1,0 +1,573 @@
+{
+  "categories": [
+    {
+      "id": "getting_started",
+      "name": "Getting Started",
+      "icon": "metallurgy:copper_ingot",
+      "description": "From the first ore to a working metal workshop."
+    },
+    {
+      "id": "materials",
+      "name": "Materials",
+      "icon": "metallurgy:tartarite_ingot",
+      "description": "Every metal, its deposits or alloy ingredients, default equipment stats, and special traits."
+    },
+    {
+      "id": "machines",
+      "name": "The Workshop",
+      "icon": "metallurgy:alloyer",
+      "description": "Crushing, alloying, sublimation, fuel, and moving items."
+    },
+    {
+      "id": "storage",
+      "name": "Metal Chests",
+      "icon": "metallurgy:brass_chest",
+      "description": "Five storage tiers and their crafting recipes."
+    },
+    {
+      "id": "equipment",
+      "name": "Tools and Armor",
+      "icon": "metallurgy:amordrine_sword",
+      "description": "Choosing equipment, using its abilities, and improving it."
+    },
+    {
+      "id": "gadgets",
+      "name": "Gadgets and Defenses",
+      "icon": "metallurgy:ore_detector",
+      "description": "Detectors, magnets, bucklers, gauntlets, and other workshop inventions."
+    },
+    {
+      "id": "fluids",
+      "name": "Fluids and Resources",
+      "icon": "metallurgy:adamantine_bucket",
+      "description": "Molten metals, tar, thermite, and useful nonmetal resources."
+    }
+  ],
+  "entries": [
+    {
+      "id": "getting_started/welcome",
+      "name": "The Metallurgist's Handbook",
+      "category": "getting_started",
+      "icon": "minecraft:book",
+      "text": [
+        "Start with a furnace and a pickaxe. Smelt metal ores into ingots, then build a Crusher to obtain more material from each deposit. An Alloyer combines metals into new alloys.",
+        "Craft this handbook from one normal Book and one Copper Ingot from Minecraft. It is available only while Patchouli is installed. Use the index or search to find any metal, machine, or gadget.",
+        "Numbers in this handbook are the supplied defaults. Server settings and recipe changes can alter them. Hold SHIFT on equipment for current stats and CTRL for its trait descriptions."
+      ],
+      "craft_item": "patchouli:guide_book"
+    },
+    {
+      "id": "getting_started/workflow",
+      "name": "A Small Metal Workshop",
+      "category": "getting_started",
+      "icon": "metallurgy:crusher",
+      "text": [
+        "A practical order is Furnace, Crusher, Alloyer, then Sublimation Chamber. Keep separate chests for ores, dusts, and ingots so it is easy to see what an alloy needs.",
+        "Crush a metal ore into dust, then smelt the dust. Combine suitable ingots or dusts in an Alloyer. The material entries list the stock alloy ratios; installed recipe changes take priority.",
+        "Metal blocks store nine ingots and can be crafted back. Most metals also have engraved blocks, bricks, large bricks, crystals, hazard blocks, and reinforced glass for building."
+      ]
+    },
+    {
+      "id": "getting_started/reading_materials",
+      "name": "Reading a Material Entry",
+      "category": "getting_started",
+      "icon": "metallurgy:mithril_ingot",
+      "text": [
+        "A deposit entry gives the default realm, height range, vein size, and mining requirement. World settings can change deposits, and an existing chunk will not gain new ore simply because a setting changes.",
+        "A tool's harvest level determines what it can mine. Efficiency is its base mining speed. Durability is its number of uses before enchantments, special traits, and other modifiers.",
+        "Armor protection is listed by slot. Some sets grant extra health or movement as well as special powers. Traits labeled Equipment can apply more broadly than weapon-only or armor-only traits."
+      ]
+    },
+    {
+      "id": "machines/crusher",
+      "name": "Crusher",
+      "category": "machines",
+      "icon": "metallurgy:crusher",
+      "text": [
+        "Place the input in the Crusher's input slot and a valid furnace fuel in its fuel slot. Crushing metal ore normally gives two dusts; smelt those dusts to recover ingots. A full output slot stops processing.",
+        "The Crusher also breaks ingots into dust and handles several nonmetal resources. Compatible ores from other mods may be accepted through their common material tags. Check the current recipe display for the actual output.",
+        "One ordinary operation takes 140 ticks, or seven seconds. Special fuels can speed it up. Remove finished output by hand to collect the machine's stored experience."
+      ],
+      "craft_item": "metallurgy:crusher"
+    },
+    {
+      "id": "machines/alloyer",
+      "name": "Alloyer",
+      "category": "machines",
+      "icon": "metallurgy:alloyer",
+      "text": [
+        "Put the two alloy ingredients in the Alloyer's two input slots and add furnace fuel. Both ingredient amounts must be available, and the result must fit in the output slot. Swapping the two input slots is allowed.",
+        "For example, three Copper and one Tin make four Bronze. One Adamantine and one Atlarus make one Tartarite. Each alloy's material entry lists its own exact stock ratio.",
+        "Metallurgy alloy inputs usually accept ingots or dusts. Angmallen's Iron/Gold fallback uses two matching forms: ingot with ingot, or dust with dust. A normal operation takes 140 ticks."
+      ],
+      "craft_item": "metallurgy:alloyer"
+    },
+    {
+      "id": "machines/sublimation_chamber",
+      "name": "Sublimation Chamber",
+      "category": "machines",
+      "icon": "metallurgy:sublimation_chamber",
+      "text": [
+        "The Sublimation Chamber turns a batch of metal into a timed area effect. Right-click the top with the required metal blocks and a side with furnace fuel. The selected effect, remaining metal, fuel, and active time are shown near the crosshair while looking at the chamber.",
+        "A batch starts only when its required amount is present. It keeps its stored effect and timer after starting; running out of fuel pauses the clock and removes its active aura. The chamber's visible vapor follows the active effect's color.",
+        "Different metals provide different effects and durations. The following pages list the supplied batches. Recipe packs may replace them; a recipe viewer shows the current selection."
+      ],
+      "craft_item": "metallurgy:sublimation_chamber",
+      "append_chamber_batches": true
+    },
+    {
+      "id": "machines/fuels",
+      "name": "Furnace Fuels and Boosts",
+      "category": "machines",
+      "icon": "metallurgy:thermite_dust",
+      "text": [
+        "The Crusher and Alloyer use furnace fuels. Thermite Dust gives a 2x processing boost; Ignatius Fuel gives a 3x boost. A faster recipe still needs its complete inputs and enough output space.",
+        "A machine will wait when inputs, fuel, or output room are missing. Adding more fuel does not let it produce an item without its required ingredients. Keep a spare output chest nearby to avoid stalled work."
+      ]
+    },
+    {
+      "id": "machines/automation",
+      "name": "Moving Items and Experience",
+      "category": "machines",
+      "icon": "minecraft:hopper",
+      "text": [
+        "Hoppers and compatible item pipes can move items through machine inventories. Only suitable recipe inputs belong in input slots; fuel goes in the fuel slot. Extract finished products from the output.",
+        "The machines track recipe experience as they work. Taking completed output manually pays out stored experience. Automated extraction moves the products without creating extra copies or extra experience.",
+        "Metal chests also expose their normal inventory to hoppers and item pipes. Upgrading a storage setup does not require changing the kinds of items stored in it."
+      ]
+    },
+    {
+      "id": "storage/comparison",
+      "name": "Choosing a Chest",
+      "category": "storage",
+      "icon": "metallurgy:platinum_chest",
+      "text": [
+        "The five chest tiers hold 54, 72, 81, 90, and 108 slots: Brass, Silver, Electrum, Rubracium, and Platinum. Choose a size that suits the workshop rather than splitting the same material across many small chests.",
+        "Use the individual chest entries for crafting. Contents are stored with the chest and can be moved through normal inventory automation. Breaking a chest drops its stored items; clear space before dismantling a full store."
+      ]
+    },
+    {
+      "id": "equipment/traits",
+      "name": "Using Equipment Traits",
+      "category": "equipment",
+      "icon": "metallurgy:celenegil_sword",
+      "text": [
+        "A metal's powers depend on the item type. Weapon, Tool, Pickaxe, Hoe, Armor, and Equipment traits are listed separately in each material entry. A metal without an active trait still has its own equipment stats.",
+        "Some powers are passive, some trigger on a hit or block break, and others use right-click or movement controls. Watch cooldowns and durability. Hold CTRL on an item for its trait descriptions.",
+        "Equipment enchantments and server settings can change the result. In particular, holding a Divine Grace weapon does not boost arrows, thrown weapons, or spells: that bonus requires a direct melee attack."
+      ]
+    },
+    {
+      "id": "equipment/armor_controls",
+      "name": "Movement Armor",
+      "category": "equipment",
+      "icon": "metallurgy:amordrine_boots",
+      "text": [
+        "Amordrine grants extra airborne jumps according to how many matching armor pieces you wear. Press Jump again in the air; landing restores the jump budget.",
+        "A full Krik set uses its remappable Raise/Lower controls, initially the Up and Down arrows. Empty main-inventory slots determine the available height. The set also protects against falls.",
+        "Inolashite uses sneak-jump to recall an older position and health/food state after a short delay. Etherium uses sneaking against solid blocks to charge phasing. Give these powers room to finish and watch their cooldowns.",
+        "Quicksilver armor builds speed while sprinting. At full charge it can run over water; three or more matching pieces also support lava. Slowing down or removing the set ends those movement benefits."
+      ]
+    },
+    {
+      "id": "equipment/paragon",
+      "name": "Tartarite: Paragon",
+      "category": "equipment",
+      "icon": "metallurgy:tartarite_sword",
+      "text": [
+        "Tartarite equipment can absorb another material's eligible traits. Use the special Paragon crafting recipe with the equipment in the center of a cross of four metal blocks. The top block chooses the absorbed material.",
+        "The three other blocks may use other metals. Existing enchantments and item data stay with the result. The absorbed material must have suitable tool or armor stats, and its powers still respect the equipment type.",
+        "Tartarite armor counts as two pieces for an absorbed armor effect, up to a maximum effective level of four. The item tooltip shows its absorbed material. Use the recipe viewer's Paragon examples to see the cross layout."
+      ]
+    },
+    {
+      "id": "equipment/care",
+      "name": "Repair, Rebirth, and Enchanting",
+      "category": "equipment",
+      "icon": "metallurgy:haderoth_pickaxe",
+      "text": [
+        "Haderoth can be reborn near the end of its durability, trading the ordinary item state for its stronger reborn form. Mithril gains benefits from enchantments. Platinum's Equipment trait makes tools unbreakable; it does not apply that rule to armor.",
+        "Prometheum can repair slowly in Overworld daylight under open sky. Shadow Steel prefers darkness. Adamantine needs a well-fed wearer and recovers durability when the wearer eats.",
+        "Amordrine's Soulbound trait keeps qualifying equipment through death. Sanguinite's Equipment trait has the opposite risk: its gear is destroyed on death. Read the material entry before carrying a valuable enchanted set."
+      ]
+    },
+    {
+      "id": "gadgets/detector",
+      "name": "Ore Detector",
+      "category": "gadgets",
+      "icon": "metallurgy:ore_detector",
+      "text": [
+        "Craft an empty Ore Detector with one to three nonalloy metal ingots to program it. Its three lights follow the chosen metals. Craft the detector by itself to clear its program before choosing new materials.",
+        "Right-click a programmed detector to scan loaded terrain up to eight blocks along each axis. The scan is visible for about four seconds. It outlines the selected ores through walls and uses lights and beeps to help locate them. Each selected metal supplies 25 uses; scanning has a five-second cooldown.",
+        "After its last charge, the next use clears it to an empty detector. The detector does not generate new chunks or guarantee that a selected ore exists in the current realm."
+      ],
+      "craft_item": "metallurgy:ore_detector"
+    },
+    {
+      "id": "gadgets/magnet",
+      "name": "Electrum Magnet",
+      "category": "gadgets",
+      "icon": "metallurgy:electrum_magnet",
+      "text": [
+        "Sneak-use cycles Off, Metals Only, All Items, then Off. Carry an active magnet to pull nearby dropped items toward your feet. Metals Only accepts recognized ingots, dusts, ores, and Metallurgy material items.",
+        "Its collection area extends about six blocks in each direction. The active icon helps distinguish a running magnet from a disabled one. Turn it off when working beside dropped items you want to leave in place."
+      ],
+      "craft_item": "metallurgy:electrum_magnet"
+    },
+    {
+      "id": "gadgets/knuckles",
+      "name": "Brass Knuckles",
+      "category": "gadgets",
+      "icon": "metallurgy:brass_knuckles",
+      "text": [
+        "Brass Knuckles are fast close-range equipment with 250 durability. A successful strike slows the victim's horizontal motion and briefly limits repeated damage. They have their own behavior rather than metal sword powers.",
+        "They accept the supported melee and durability enchantments, including Sharpness, Smite, Bane of Arthropods, Unbreaking, and Mending, subject to the normal enchantment rules."
+      ],
+      "craft_item": "metallurgy:brass_knuckles"
+    },
+    {
+      "id": "gadgets/gauntlets",
+      "name": "Rubracium Gauntlets",
+      "category": "gadgets",
+      "icon": "metallurgy:rubracium_gauntlet",
+      "text": [
+        "Equip a gauntlet in each hand to charge the throw effect while striking a living target. Repeated hits keep charging it; a short pause releases the target along your look direction. Charging needs at least two food points outside Creative.",
+        "A long charge throws harder and can break suitable softer blocks along the target's path. Protection rules still apply. The pair shares durability wear, so keep both gauntlets repaired."
+      ],
+      "craft_item": "metallurgy:rubracium_gauntlet"
+    },
+    {
+      "id": "gadgets/zinc_buckler",
+      "name": "Zinc Buckler",
+      "category": "gadgets",
+      "icon": "metallurgy:zinc_buckler",
+      "text": [
+        "A quick defensive option with 396 durability. Hold use to block for up to two seconds. Releasing, timing out, or taking a blocked hit starts a 1.5-second cooldown.",
+        "Bucklers allow normal movement and melee attacks while raised. Time the short blocking window around the incoming hit rather than keeping it up indefinitely."
+      ],
+      "craft_item": "metallurgy:zinc_buckler"
+    },
+    {
+      "id": "gadgets/vulcanite_buckler",
+      "name": "Vulcanite Buckler",
+      "category": "gadgets",
+      "icon": "metallurgy:vulcanite_buckler",
+      "text": [
+        "This buckler has 662 durability, a 2.5-second blocking window, and a two-second cooldown. Blocking a direct living attacker retaliates with a small explosion and strong knockback.",
+        "The retaliation does not destroy terrain. It still needs a successfully blocked direct attack; merely holding the buckler does not damage everything nearby."
+      ],
+      "craft_item": "metallurgy:vulcanite_buckler"
+    },
+    {
+      "id": "gadgets/orichalcum_buckler",
+      "name": "Orichalcum Buckler",
+      "category": "gadgets",
+      "icon": "metallurgy:orichalcum_buckler",
+      "text": [
+        "A projectile-focused buckler with 413 durability. Its blocking window and cooldown are both 1.5 seconds. A blocked projectile returns 1.45 times the blocked damage to its living owner.",
+        "The reflection also attempts a short teleport ahead and above you. It checks the destination for collision, so a blocked destination will not force you into solid terrain."
+      ],
+      "craft_item": "metallurgy:orichalcum_buckler"
+    },
+    {
+      "id": "gadgets/lemurite_shield",
+      "name": "Lemurite Shield",
+      "category": "gadgets",
+      "icon": "metallurgy:lemurite_shield",
+      "text": [
+        "Using the Lemurite Shield hides its wearer, armor, and held equipment from view and suppresses ordinary target acquisition. It has 256 durability and can remain active for up to ten seconds.",
+        "The cooldown depends on how long it was used, from one to ten seconds. Ending the effect costs durability. It is a temporary concealment tool, not a permanent invisibility toggle."
+      ],
+      "craft_item": "metallurgy:lemurite_shield"
+    },
+    {
+      "id": "gadgets/ceruclase_shield",
+      "name": "Ceruclase Shield",
+      "category": "gadgets",
+      "icon": "metallurgy:ceruclase_shield",
+      "text": [
+        "The Ceruclase Shield can build a temporary ice shell around the wearer, reaching about five blocks away. The other hand must not be eating or drinking. It has 500 durability and a seven-second cooldown after the dome ends.",
+        "The shell uses suitable empty or replaceable space and respects placement protection. Its ice melts after the holder stops maintaining it. The shield also halves accumulated fall distance."
+      ],
+      "craft_item": "metallurgy:ceruclase_shield"
+    },
+    {
+      "id": "gadgets/lighters",
+      "name": "Metal Lighters",
+      "category": "gadgets",
+      "icon": "metallurgy:flint_and_ignatius",
+      "text": [
+        "Flint and Ignatius has 150 durability. Ordinary use lights fire like flint and steel; sneak-use can attempt a wider three-by-three fire square at a greater durability cost.",
+        "Flint and Vulcanite has 500 durability. Ordinary use attempts the wider fire square. Sneak-use places lava for 25 durability and gives a 20-second cooldown outside Creative. Keep it away from a wooden workshop."
+      ],
+      "craft_items": [
+        "metallurgy:flint_and_ignatius",
+        "metallurgy:flint_and_vulcanite"
+      ]
+    },
+    {
+      "id": "gadgets/goggles",
+      "name": "Etherium Goggles",
+      "category": "gadgets",
+      "icon": "metallurgy:etherium_goggles",
+      "text": [
+        "Wear Etherium Goggles in the head slot to reveal the supported redstone-related overlays. They help inspect circuitry without replacing the blocks or changing their stored state.",
+        "Use them alongside an Ore Detector when investigating a workshop or underground base: the goggles explain machinery, while a programmed detector searches for metals."
+      ],
+      "craft_item": "metallurgy:etherium_goggles"
+    },
+    {
+      "id": "gadgets/building",
+      "name": "Workshop Fixtures",
+      "category": "gadgets",
+      "icon": "metallurgy:phosphorus_lamp",
+      "text": [
+        "Phosphorus Lamps provide configurable workshop lighting and can use their supported floor, wall, or hanging placement. Road Blocks and Striped Road Blocks provide a faster route through a base.",
+        "Vulcanite TNT is a genuine terrain explosive. Clear valuables and storage before ignition; it is different from the terrain-safe retaliation of a Vulcanite Buckler."
+      ],
+      "craft_items": [
+        "metallurgy:phosphorus_lamp",
+        "metallurgy:road_block",
+        "metallurgy:striped_road_block",
+        "metallurgy:vulcanite_tnt"
+      ]
+    },
+    {
+      "id": "fluids/molten_metals",
+      "name": "Molten Metals",
+      "category": "fluids",
+      "icon": "metallurgy:adamantine_bucket",
+      "text": [
+        "Every one of the 49 metals has a molten fluid and matching bucket. The liquid uses that metal's original color. A bucket holds 1000 mB, and placed hot fluids give off light.",
+        "Molten metals are dangerous to touch: they burn like lava. Their temperature depends on the metal tier. They do not make infinite sources, and placing a hot fluid in an ultra-warm realm can vaporize it.",
+        "Molten-metal handling recipes depend on the installed integrations. Installing Metallurgy alone does not turn the ordinary Alloyer into a fluid tank. Use the relevant integration section and current recipe display for melting or casting."
+      ]
+    },
+    {
+      "id": "fluids/tar",
+      "name": "Tar and Bitumen",
+      "category": "fluids",
+      "icon": "metallurgy:molten_tar_bucket",
+      "text": [
+        "Tar is a dark, sticky liquid. Moving through it is slow, but it supports water-like swimming and can extinguish fire. Default world generation can place tar lakes in the Overworld.",
+        "An isolated tar source can harden into Tar Ore when no neighboring face contains another tar source. Tar Ore, Tar, and Bitumen feed their supported processing and fuel recipes; they are different items."
+      ]
+    },
+    {
+      "id": "fluids/thermite",
+      "name": "Thermite",
+      "category": "fluids",
+      "icon": "metallurgy:thermite_dust",
+      "text": [
+        "Thermite Dust is a high-powered machine fuel. Molten Thermite is a separate, extremely hot fluid with its own bucket. Do not treat the dust item and the liquid as interchangeable recipe inputs.",
+        "Molten Thermite burns on contact and has a default temperature of 4000. Store and place it with the same care as other hot fluids."
+      ]
+    },
+    {
+      "id": "fluids/nonmetals",
+      "name": "Useful Nonmetal Ores",
+      "category": "fluids",
+      "icon": "metallurgy:phosphorite_ore",
+      "text": [
+        "Sulfur Ore, Phosphorite Ore, Potash Ore, and Tar Ore supply workshop materials beyond metal ingots. Furnace and Crusher recipes turn them into their useful products.",
+        "Sulfur Dust, Phosphorus, Potash, Tar, and Bitumen have different crafting and processing roles. Use Recipes and Uses in an installed recipe viewer before committing a large supply to one route."
+      ]
+    },
+    {
+      "id": "fluids/fertilizer",
+      "name": "Potash Fertilizer",
+      "category": "fluids",
+      "icon": "metallurgy:potash_fertilizer",
+      "text": [
+        "Use Potash Fertilizer on a plant that accepts bonemeal. A successful use grows the plant through the normal bonemeal behavior and releases warm-colored dripping particles. Unsupported blocks do not consume it.",
+        "Prometheum tools and armor offer other farming abilities. Read the Prometheum material entry if you want to grow a workshop's own crop and fuel supply."
+      ],
+      "craft_item": "metallurgy:potash_fertilizer"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "mod": "jei",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1",
+        "neoforge-26.1.2"
+      ],
+      "icon": "metallurgy:ore_detector",
+      "text": [
+        "JEI supplies searchable Recipes and Uses. Metallurgy adds Crusher, Alloyer, and Sublimation Chamber categories, with ingredient amounts, outputs, and current machine recipes.",
+        "Use its detector examples to learn programming and clearing. Paragon examples show the Tartarite cross and absorbed material. The recipe viewer follows the loaded recipes; those take priority over stock numbers in this handbook."
+      ]
+    },
+    {
+      "id": "tetra",
+      "name": "Tetra",
+      "mod": "tetra",
+      "targets": [
+        "forge-1.20.1"
+      ],
+      "icon": "metallurgy:mithril_ingot",
+      "text": [
+        "Metallurgy adds native Tetra material definitions for its 39 tool-making metals. Use those materials in the compatible modules at Tetra's workbench.",
+        "Materials keep their Metallurgy colors and adapted material stats. A modular component does not automatically receive every complete Metallurgy armor-set or weapon power."
+      ]
+    },
+    {
+      "id": "silentgear",
+      "name": "Silent Gear",
+      "mod": "silentgear",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1",
+        "neoforge-26.1.2"
+      ],
+      "icon": "metallurgy:celenegil_ingot",
+      "text": [
+        "Metallurgy supplies 41 native Silent Gear material definitions. Use the matching ingots or material ingredients in supported Gear parts, then assemble them through Silent Gear's own system.",
+        "The integration adapts stats, color, and supported material traits. It does not attach an entire Metallurgy armor set's powers to one modular part. The server's integration and material settings control availability."
+      ]
+    },
+    {
+      "id": "silentgems",
+      "name": "Silent's Gems",
+      "mod": "silentgems",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1",
+        "neoforge-26.1.2"
+      ],
+      "icon": "metallurgy:astral_silver_ingot",
+      "text": [
+        "Modern Silent's Gems and Silent Gear have distinct jobs. Gems supplies its gem content; Metallurgy's modular equipment materials are supplied through the installed Silent Gear integration.",
+        "If Silent Gear is also loaded, its section explains how to build with the Metallurgy metals. Ordinary common-tag recipe matching still depends on the materials and recipes present in the pack."
+      ]
+    },
+    {
+      "id": "tconstruct",
+      "name": "Tinkers' Construct",
+      "mod": "tconstruct",
+      "targets": [
+        "forge-1.20.1"
+      ],
+      "icon": "metallurgy:amordrine_ingot",
+      "text": [
+        "Metallurgy adds native Tinkers' Construct materials, part stats, adapted traits, and melting/alloying/casting recipes. Use Tinkers' own tool-building and smeltery systems for these parts.",
+        "Supported armor roles use Tinkers' plating and maille materials. This is the modern Tinkers' armor path, so a separate old Construct's Armory jar is not required. Traits apply to suitable parts and tools rather than copying every standalone equipment effect."
+      ]
+    },
+    {
+      "id": "spartanweaponry",
+      "name": "Spartan Weaponry",
+      "mod": "spartanweaponry",
+      "targets": [
+        "forge-1.20.1"
+      ],
+      "icon": "metallurgy:steel_ingot",
+      "text": [
+        "Metallurgy metals are available to the supported Spartan Weaponry weapon families. Build and use them through Spartan's native recipes and combat rules.",
+        "The integration keeps the metal palette and source weapon artwork. Its weapon-specific actions and material stats are supplied by the supported Spartan integration; check the item and recipe display for each family."
+      ]
+    },
+    {
+      "id": "enderio",
+      "name": "Ender IO",
+      "mod": "enderio",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1",
+        "neoforge-26.1.2"
+      ],
+      "icon": "metallurgy:bronze_ingot",
+      "text": [
+        "Ender IO's alloy processing can use the supplied Metallurgy alloy recipes. The integration has an editable recipe mode for packs that want to customize those equations.",
+        "Use Ender IO's current recipe display for ingredient amounts and processing costs. Its machine is separate from Metallurgy's ordinary fuel-burning Alloyer."
+      ]
+    },
+    {
+      "id": "mekanism",
+      "name": "Mekanism",
+      "mod": "mekanism",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1",
+        "neoforge-26.1.2"
+      ],
+      "icon": "metallurgy:lutetium_ore",
+      "text": [
+        "The supplied special Enrichment Chamber recipe turns one Lutetium Ore into two Lutetium Dust. The ore and dust must both be available in the server's material settings.",
+        "Other ores can gain routes through common material tags or the pack's own recipes. Check the current Mekanism recipe display rather than assuming that every metal has the same processing chain."
+      ]
+    },
+    {
+      "id": "immersiveengineering",
+      "name": "Immersive Engineering",
+      "mod": "immersiveengineering",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1"
+      ],
+      "icon": "metallurgy:crusher",
+      "text": [
+        "A supported External Heater can warm the Metallurgy Crusher or Alloyer. It spends the heater's energy budget and requires a valid recipe and output room to add useful processing progress.",
+        "Redstone can keep the machine warm. Electrical heating uses its own progress behavior rather than multiplying a previously used Thermite or Ignatius fuel boost."
+      ]
+    },
+    {
+      "id": "industrialforegoing",
+      "name": "Industrial Foregoing",
+      "mod": "industrialforegoing",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1"
+      ],
+      "icon": "metallurgy:atlarus_ore",
+      "text": [
+        "The supported integration adds Metallurgy's supplied ore outputs to Industrial Foregoing's laser-drill recipes. Required lenses, weights, and realm/height rules are taken from the current recipe data.",
+        "A laser route is available only when its output material is enabled. Use the installed recipe display to plan lenses and drill placement."
+      ]
+    },
+    {
+      "id": "thermal",
+      "name": "Thermal",
+      "mod": "thermal",
+      "targets": [
+        "forge-1.20.1"
+      ],
+      "icon": "metallurgy:copper_dust",
+      "text": [
+        "The supplied Thermal integration adds metal processing and fuel recipes to the supported Thermal machines. Those recipes coexist with Metallurgy's Crusher and Alloyer routes.",
+        "Use the current recipe display for machine selection, amounts, energy, and byproducts. Disabled materials and absent ingredients do not become free outputs."
+      ]
+    },
+    {
+      "id": "projecte",
+      "name": "ProjectE",
+      "mod": "projecte",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1"
+      ],
+      "icon": "metallurgy:gold_dust",
+      "text": [
+        "The enabled ProjectE integration supplies fixed material values and supported tool conversions. A value is offered only when its material and acquisition settings allow it.",
+        "Use the current EMC display as the authority after pack overrides. The integration can be disabled independently in Metallurgy's settings."
+      ]
+    },
+    {
+      "id": "crafttweaker",
+      "name": "CraftTweaker",
+      "mod": "crafttweaker",
+      "targets": [
+        "forge-1.20.1",
+        "neoforge-1.21.1"
+      ],
+      "icon": "minecraft:writable_book",
+      "text": [
+        "Pack authors can add or remove Metallurgy processing recipes through CraftTweaker's native recipe manager. Crusher, Alloyer, and chamber recipes share the Metallurgy processing recipe type.",
+        "Recipe changes also change what the machines and their recipe-viewer pages accept. The ordinary handbook descriptions list stock behavior; current server recipes take priority."
+      ]
+    }
+  ]
+}

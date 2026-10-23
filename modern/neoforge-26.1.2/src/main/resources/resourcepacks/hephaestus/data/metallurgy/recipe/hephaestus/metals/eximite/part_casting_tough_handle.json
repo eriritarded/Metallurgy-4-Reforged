@@ -1,0 +1,20 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus_tools:tough_handle_cast",
+  "cast_consumed": false,
+  "cooling_time": 140,
+  "fluid": {
+    "amount": 270,
+    "id": "metallurgy:eximite"
+  },
+  "result": {
+    "count": 1,
+    "id": "hephaestus_tools:tough_handle"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    }
+  ]
+}

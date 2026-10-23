@@ -1,0 +1,24 @@
+{
+  "name": "Orichalcum Buckler",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:orichalcum_buckler",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:orichalcum_buckler",
+      "title": "Orichalcum Buckler",
+      "text": "A projectile-focused buckler with 413 durability. Its blocking window and cooldown are both 1.5 seconds. A blocked projectile returns 1.45 times the blocked damage to its living owner."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The reflection also attempts a short teleport ahead and above you. It checks the destination for collision, so a blocked destination will not force you into solid terrain."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/orichalcum_buckler"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:orichalcum_buckler": 2
+  }
+}

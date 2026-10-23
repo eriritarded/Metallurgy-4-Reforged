@@ -1,0 +1,18 @@
+{
+  "name": "ProjectE",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:gold_dust",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:gold_dust",
+      "title": "ProjectE",
+      "text": "The enabled ProjectE integration supplies fixed material values and supported tool conversions. A value is offered only when its material and acquisition settings allow it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the current EMC display as the authority after pack overrides. The integration can be disabled independently in Metallurgy's settings."
+    }
+  ],
+  "flag": "mod:projecte"
+}

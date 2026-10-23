@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/atlarus"
+    },
+    {
+      "tag": "forge:dusts/adamantine"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:tartarite_dust",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tartarite_dust"
+    }
+  ]
+}

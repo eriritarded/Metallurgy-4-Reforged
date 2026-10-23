@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "metallurgy:block/ice_shield_0"
+    },
+    "age=1": {
+      "model": "metallurgy:block/ice_shield_1"
+    },
+    "age=2": {
+      "model": "metallurgy:block/ice_shield_2"
+    },
+    "age=3": {
+      "model": "metallurgy:block/ice_shield_3"
+    }
+  }
+}

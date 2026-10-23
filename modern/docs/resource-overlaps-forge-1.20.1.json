@@ -1,0 +1,9 @@
+{
+  "target": "forge-1.20.1",
+  "overlaps": [
+    {
+      "path": "assets/minecraft/atlases/blocks.json",
+      "same": false
+    }
+  ]
+}

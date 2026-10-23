@@ -1,0 +1,12 @@
+{
+  "implementedTargets": [
+    "forge-1.20.1",
+    "neoforge-1.21.1"
+  ],
+  "unreviewedTarget": "neoforge-26.1.2",
+  "materialBases": 49,
+  "fixedValues": 367,
+  "toolConversions": 195,
+  "dependencyDecodingChecked": false,
+  "configuration": "Dependency/config-gated built-in pack, filtered by runtime content availability"
+}

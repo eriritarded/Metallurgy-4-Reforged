@@ -1,0 +1,21 @@
+{
+  "name": "A Small Metal Workshop",
+  "category": "metallurgy:getting_started",
+  "icon": "metallurgy:crusher",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:crusher",
+      "title": "A Small Metal Workshop",
+      "text": "A practical order is Furnace, Crusher, Alloyer, then Sublimation Chamber. Keep separate chests for ores, dusts, and ingots so it is easy to see what an alloy needs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crush a metal ore into dust, then smelt the dust. Combine suitable ingots or dusts in an Alloyer. The material entries list the stock alloy ratios; installed recipe changes take priority."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Metal blocks store nine ingots and can be crafted back. Most metals also have engraved blocks, bricks, large bricks, crystals, hazard blocks, and reinforced glass for building."
+    }
+  ]
+}

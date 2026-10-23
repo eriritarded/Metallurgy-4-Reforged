@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_electrum",
+  "category": "metal",
+  "primary": 5.7,
+  "secondary": 6.133,
+  "tertiary": 3.95,
+  "durability": 366,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 102,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 7.9,
+  "tints": {
+    "glyph": "EFEF57",
+    "texture": "EFEF57"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:electrum_ingot"
+    ]
+  },
+  "effects": {
+    "quickStrike": 2,
+    "criticalStrike": [
+      6,
+      1.5
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

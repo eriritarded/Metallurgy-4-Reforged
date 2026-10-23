@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_shadow_steel",
+  "category": "metal",
+  "primary": 9.8,
+  "secondary": 6.133,
+  "tertiary": 4.5,
+  "durability": 214,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 30,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 9.0,
+  "tints": {
+    "glyph": "C6BBB9",
+    "texture": "C6BBB9"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:shadow_steel_ingot"
+    ]
+  },
+  "effects": {
+    "backstab": 2,
+    "quickStrike": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

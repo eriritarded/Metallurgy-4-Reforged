@@ -1,0 +1,62 @@
+{
+  "reviewed": "2026-10-16",
+  "repository": "ObliviousSpartan/SpartanWeaponry",
+  "revision": "e45342c53cd2c6fb185d149019fd326e4c1ac696",
+  "modVersion": "3.2.1",
+  "apiVersion": 12,
+  "coordinate": "maven.modrinth:spartan-weaponry:4U6gwadt",
+  "artifactSha1": "187977cf09972df5773c92b8af5fd342a9d726cb",
+  "files": [
+    {
+      "path": "gradle.properties",
+      "gitBlob": "0afd817563fc4bb42aa80a014554f4e9fe8f859b",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/gradle.properties"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/api/SpartanWeaponryAPI.java",
+      "gitBlob": "8b9ff857a7c274f371f5dbb4f6e98a6d6ac2545b",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/api/SpartanWeaponryAPI.java"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/api/WeaponMaterial.java",
+      "gitBlob": "3f4150e51726072e68dbdce079401e911b2b5ce3",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/api/WeaponMaterial.java"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/api/ReloadableHandler.java",
+      "gitBlob": "cd4ade5f077abbf7b1f432faae0662d9cd3d49e8",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/api/ReloadableHandler.java"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/util/WeaponFactory.java",
+      "gitBlob": "47899d8b3eb81bc88c7ada0180e4608427a17e60",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/util/WeaponFactory.java"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/item/SwordBaseItem.java",
+      "gitBlob": "f7779ebc8bbc0ebd7abd45d84ab7b0e1543921e0",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/item/SwordBaseItem.java"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/item/ThrowingWeaponItem.java",
+      "gitBlob": "88950c9f564dca0dbad4d8eda2dcfea7cb5d4d91",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/item/ThrowingWeaponItem.java"
+    },
+    {
+      "path": "src/main/java/com/oblivioussp/spartanweaponry/client/model/OilCoatedItemModel.java",
+      "gitBlob": "2e408a5b0f77eb442aa6e1cf7ca2b93b87fe037b",
+      "url": "https://github.com/ObliviousSpartan/SpartanWeaponry/blob/e45342c53cd2c6fb185d149019fd326e4c1ac696/src/main/java/com/oblivioussp/spartanweaponry/client/model/OilCoatedItemModel.java"
+    }
+  ],
+  "branchInventory": [
+    {
+      "branch": "1.21.1",
+      "found": false
+    },
+    {
+      "branch": "26.1.2",
+      "found": false
+    }
+  ],
+  "runtimeChecked": false
+}

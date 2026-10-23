@@ -1,0 +1,121 @@
+{
+  "reviewed": "2026-10-16",
+  "runtimeChecked": false,
+  "dependencies": [
+    {
+      "key": "jei20",
+      "repository": "mezz/JustEnoughItems",
+      "revision": "95fe13052ab3a0eeb0bd371420a996c948eba0a5",
+      "files": [
+        {
+          "path": "CommonApi/src/main/java/mezz/jei/api/gui/builder/IRecipeLayoutBuilder.java",
+          "blob": "bea97abff394c55d21074c55c58f31011718cef5"
+        },
+        {
+          "path": "CommonApi/src/main/java/mezz/jei/api/recipe/RecipeType.java",
+          "blob": "1ff5218312f87134f737e21e2d0b0d40c64c8503"
+        },
+        {
+          "path": "CommonApi/src/main/java/mezz/jei/api/recipe/category/IRecipeCategory.java",
+          "blob": "3864bc96fc8aa2c955c1e248f6e1d668b62e47ea"
+        },
+        {
+          "path": "CommonApi/src/main/java/mezz/jei/api/registration/IRecipeRegistration.java",
+          "blob": "40985abe4c25b3221d8408d5d7a01e84256d679e"
+        },
+        {
+          "path": "CommonApi/src/main/java/mezz/jei/api/registration/IRecipeTransferRegistration.java",
+          "blob": "fe8f6813cb8ee9845faa904ff4cf7aca207262a0"
+        },
+        {
+          "path": "gradle.properties",
+          "blob": "564491259d87da480966da007cacf49c024524b8"
+        }
+      ]
+    },
+    {
+      "key": "jei21",
+      "repository": "mezz/JustEnoughItems",
+      "revision": "881197311f260c8b241813436081543ff7dc42a4",
+      "files": [
+        {
+          "path": "Common/src/api/java/mezz/jei/api/gui/builder/IRecipeLayoutBuilder.java",
+          "blob": "124b37d7769d0ae49c3d344957d90c4d39618a86"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/recipe/RecipeType.java",
+          "blob": "2f80023317df8d9ee5b6e2f9eb98b1b8ea67277a"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/recipe/category/IRecipeCategory.java",
+          "blob": "49c2a3107e38de2d5b6fb36f8a1ede75343e9727"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/registration/IRecipeRegistration.java",
+          "blob": "ef9c129ea5f86bdb3c7f67af323dbf7f4a03ee03"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/registration/IRecipeTransferRegistration.java",
+          "blob": "0ce9461457cee2f9e0c466350368ffa43cedc075"
+        },
+        {
+          "path": "gradle.properties",
+          "blob": "91409babd751e93ead19e3e1c86420632152542b"
+        }
+      ]
+    },
+    {
+      "key": "jei26",
+      "repository": "mezz/JustEnoughItems",
+      "revision": "34efbaf307cad1ed0facc49c392ff226c0afe66b",
+      "files": [
+        {
+          "path": "Common/src/api/java/mezz/jei/api/gui/builder/IRecipeLayoutBuilder.java",
+          "blob": "ec2088d47e514d694a13cb10bf903a3b62d09453"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/recipe/RecipeType.java",
+          "blob": "1194f8aca90651e225bfd556e9a861b6da1d0191"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/recipe/category/IRecipeCategory.java",
+          "blob": "3e3a12f519f7ab49316d9f541287d63fffd28461"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/registration/IRecipeRegistration.java",
+          "blob": "1bc37a017bc56bc8ab0ff14ca5445e842b54cb6a"
+        },
+        {
+          "path": "Common/src/api/java/mezz/jei/api/registration/IRecipeTransferRegistration.java",
+          "blob": "921ea81af22142976a314dc88e355510ec28815b"
+        },
+        {
+          "path": "gradle.properties",
+          "blob": "2c255772505a9b81b3b86e4f01d941fee15882b1"
+        }
+      ]
+    },
+    {
+      "key": "ct20",
+      "repository": "CraftTweaker/CraftTweaker",
+      "revision": "f63201946a95c0944571fb92e9172f63196d7c4d",
+      "files": [
+        {
+          "path": "Common/src/main/java/com/blamejared/crafttweaker/api/recipe/manager/base/IRecipeManager.java",
+          "blob": "106e6c624c76c3ddee69488253c78d1c406be251"
+        }
+      ]
+    },
+    {
+      "key": "ct21",
+      "repository": "CraftTweaker/CraftTweaker",
+      "revision": "c0467befe01d83632929378a337b64d44a0cbe67",
+      "files": [
+        {
+          "path": "common/src/main/java/com/blamejared/crafttweaker/api/recipe/manager/base/IRecipeManager.java",
+          "blob": "46ba01d0537a05d85a4c379e44f3ad9809de1467"
+        }
+      ]
+    }
+  ]
+}

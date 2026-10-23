@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/lutetium"
+  },
+  "result": {
+    "tag": "forge:molten_lutetium",
+    "amount": 810
+  },
+  "temperature": 1900,
+  "time": 136,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/lutetium"
+      }
+    }
+  ]
+}

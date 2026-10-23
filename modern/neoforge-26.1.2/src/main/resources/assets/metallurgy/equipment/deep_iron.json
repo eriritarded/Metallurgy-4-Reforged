@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:deep_iron"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:deep_iron"
+      }
+    ]
+  }
+}

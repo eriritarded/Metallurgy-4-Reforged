@@ -1,0 +1,35 @@
+{
+  "key": "metallurgy_ignatius",
+  "category": "metal",
+  "primary": 5.4,
+  "secondary": 3.833,
+  "tertiary": 2.0,
+  "durability": 84,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 66,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 4.0,
+  "tints": {
+    "glyph": "FD9663",
+    "texture": "FD9663"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:ignatius_ingot"
+    ]
+  },
+  "effects": {
+    "combusting": [
+      1,
+      5
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

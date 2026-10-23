@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "metallurgy:block/vulcanite_hazard_block"
+    }
+  }
+}

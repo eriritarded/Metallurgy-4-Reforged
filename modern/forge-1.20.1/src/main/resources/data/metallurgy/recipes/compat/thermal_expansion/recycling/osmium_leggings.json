@@ -1,0 +1,40 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "metallurgy:osmium_leggings"
+    }
+  ],
+  "result": [
+    {
+      "item": "metallurgy:osmium_ingot",
+      "count": 3
+    },
+    {
+      "item": "thermal:slag",
+      "chance": 0.2
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:osmium_leggings"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:osmium_ingot"
+    }
+  ]
+}

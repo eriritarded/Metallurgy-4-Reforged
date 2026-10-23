@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_platinum",
+  "category": "metal",
+  "primary": 6.2,
+  "secondary": 4.267,
+  "tertiary": 4.5,
+  "durability": 998,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 180,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 9.0,
+  "tints": {
+    "glyph": "7193D4",
+    "texture": "7193D4"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:platinum_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 3
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

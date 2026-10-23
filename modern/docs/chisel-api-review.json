@@ -1,0 +1,126 @@
+{
+  "reviewed": "2026-10-16",
+  "repository": "Chisel-Team/Chisel",
+  "reference": "https://api.github.com/repos/Chisel-Team/Chisel/branches?per_page=100",
+  "officialBranches": [
+    {
+      "name": "1.7/dev",
+      "revision": "6a3111a7a58a044a4ad511485804a12b7e2d199f"
+    },
+    {
+      "name": "1.7/dev-3.0",
+      "revision": "60031b80ae19ede9319ad8bf1c106447de85f03f"
+    },
+    {
+      "name": "1.7/overlay_refactor",
+      "revision": "ca4505f969276658205ff4e5b749645f59f96132"
+    },
+    {
+      "name": "1.7/release",
+      "revision": "686b8a2209fbca3503be89e58e9c1b3bba7d2b64"
+    },
+    {
+      "name": "1.9/dev",
+      "revision": "23af85e9241d12969d5c7bff7ad1da3c378dcf53"
+    },
+    {
+      "name": "1.9/fullbright",
+      "revision": "236e8865df84a49ed55434e7f77031cadb89dbea"
+    },
+    {
+      "name": "1.9/resourcepack_addon",
+      "revision": "46a2050d0533cddd8461173290cdf8235c1112a2"
+    },
+    {
+      "name": "1.9/villages",
+      "revision": "ebb8c1e39444b6b538c0b7d2eda67966f4d3d140"
+    },
+    {
+      "name": "1.10/autochisel",
+      "revision": "0f4a7391d676dd852be2c647cd907987d26de6e1"
+    },
+    {
+      "name": "1.10/carving_refactor",
+      "revision": "3a9ae85bad9599972147f6213f978479bfff5617"
+    },
+    {
+      "name": "1.10/chisel_model",
+      "revision": "ed40dedf9754e761e0adfe2d36338007079540ab"
+    },
+    {
+      "name": "1.10/chisel_modes",
+      "revision": "8b4ade933da8771fa8f08456621e06e6d61423a5"
+    },
+    {
+      "name": "1.10/ctm_models",
+      "revision": "23d6afe08f585efd92bbe4e1fa36588dcc073ba0"
+    },
+    {
+      "name": "1.10/dev",
+      "revision": "cddb22a56d557dea8fd4fe9c08d34d51e52ea76b"
+    },
+    {
+      "name": "1.10/glass_panes",
+      "revision": "528a886d3a7595057ae7aebeb7bf082e32abd5f7"
+    },
+    {
+      "name": "1.10/models_v2",
+      "revision": "4e590fc53e0e2beef6fbc91552c4c3dad5224907"
+    },
+    {
+      "name": "1.10/sound_refactor",
+      "revision": "2dd81360bd384f8007a0e8fa5626839e839d9480"
+    },
+    {
+      "name": "1.11/dev",
+      "revision": "0f75695a76fcaa58ffdfd4343682a1a48965f71d"
+    },
+    {
+      "name": "1.11/new_ifacade",
+      "revision": "de8fc2167d2286b4d3b6d630ca0e1edca4a795bc"
+    },
+    {
+      "name": "1.12/ctm_models",
+      "revision": "463d5e07329f75223f48c915fb20454ca4d57e6b"
+    },
+    {
+      "name": "1.12/dev",
+      "revision": "a0df1047a979bc55b3c81d5875e6890c21063bec"
+    },
+    {
+      "name": "1.12/glasspane",
+      "revision": "170738a8ade88fa5a679f9a02bbfc2debf8b3223"
+    },
+    {
+      "name": "1.14/dev",
+      "revision": "e4423cc5a1459d8f7b466d1af66b6af4093d690a"
+    },
+    {
+      "name": "1.15/dev",
+      "revision": "0d137e7d70f790ff69ede19cbf3fec7a846b6677"
+    },
+    {
+      "name": "1.16/dev",
+      "revision": "c3be282062a3f9ada43c9479bbf1b6fb03edbb99"
+    },
+    {
+      "name": "1.18/dev",
+      "revision": "46d31fa6999556f7bb696cf0c59a13ac258a76cd"
+    },
+    {
+      "name": "blockstate_separation",
+      "revision": "3a37905e8f4003c126182e045ec36d9517773d0d"
+    },
+    {
+      "name": "ctm_dep",
+      "revision": "4e590fc53e0e2beef6fbc91552c4c3dad5224907"
+    },
+    {
+      "name": "tterrag1098-patch-1",
+      "revision": "b95c665b2047957cf1f1cf35c01ed3dd2f78316e"
+    }
+  ],
+  "decision": "No matching official 1.20.1, 1.21.1 or 26.1.2 native API in the reviewed branch inventory. The optional add_variation IMC integration is omitted; decoration blocks and crafting are preserved. Unofficial forks were not certified.",
+  "source": "integration/IntegrationChisel.java",
+  "sourceRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704"
+}

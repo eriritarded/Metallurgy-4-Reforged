@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/deep_iron",
+    "amount": 90
+  },
+  "output": "metallurgy:deep_iron",
+  "temperature": 900
+}

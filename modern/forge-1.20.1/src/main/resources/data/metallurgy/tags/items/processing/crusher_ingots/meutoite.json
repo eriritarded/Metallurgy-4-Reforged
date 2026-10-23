@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:meutoite_ingot",
+    {
+      "id": "#forge:ingots/meutoite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/meutoite",
+      "required": false
+    }
+  ]
+}

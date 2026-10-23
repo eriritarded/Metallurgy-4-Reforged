@@ -1,0 +1,18 @@
+{
+  "name": "Industrial Foregoing",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:atlarus_ore",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:atlarus_ore",
+      "title": "Industrial Foregoing",
+      "text": "The supported integration adds Metallurgy's supplied ore outputs to Industrial Foregoing's laser-drill recipes. Required lenses, weights, and realm/height rules are taken from the current recipe data."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A laser route is available only when its output material is enabled. Use the installed recipe display to plan lenses and drill placement."
+    }
+  ],
+  "flag": "mod:industrialforegoing"
+}

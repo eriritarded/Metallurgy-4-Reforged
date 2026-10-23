@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:desichalkos",
+  "result": {
+    "tag": "forge:molten_desichalkos",
+    "amount": 90
+  },
+  "temperature": 1700
+}

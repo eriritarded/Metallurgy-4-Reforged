@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/rubracium",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "metallurgy:rubracium_gauntlet",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:rubracium_gauntlet"
+    }
+  ]
+}

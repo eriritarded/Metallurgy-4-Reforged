@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:carmot_block"
+  ],
+  "amounts": [
+    4
+  ],
+  "effect": "minecraft:haste",
+  "duration": 21600,
+  "amplifier": 0
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Sanguinite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:sanguinite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:sanguinite_ore",
+      "title": "Finding Sanguinite",
+      "text": "Default deposits: Nether, Y 0 to 128. Veins target up to 4 blocks, with 3 placement attempts per chunk. Mining requirement: level 5."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Sanguinite",
+      "text": "Smelt Sanguinite Ore or Sanguinite Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:sanguinite_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 666 uses.$(br)Harvest level: 5.$(br)Mining efficiency: 11.0.$(br)Material damage bonus: 8.0.$(br)Enchantability: 25.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:sanguinite_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 5, chestplate 7, leggings 6, boots 4.$(br2)Toughness per piece: 4.0.$(br)Enchantability: 25.$(br)Extra full-set health: 4.0 HP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Equipment: Deceitful",
+      "text": "This item will disappear completely after death."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Devour",
+      "text": "You deal more damage as you grow hungry, killing enemies appeases your hunger depending on the max health of the enemy but also makes you hungry for more."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tool: Blood Tap",
+      "text": "Activating the tool will exchange some of your life for increased harvest speed and level also restoring a bit of durability"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Necromastery",
+      "text": "Killing a hostile mob might revive its corpse with lower health allowing it to be killed again for more drops and experience."
+    }
+  ]
+}

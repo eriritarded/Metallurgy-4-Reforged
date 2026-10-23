@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/midasium",
+    "#c:dusts/shadow_iron"
+  ],
+  "result": {
+    "id": "metallurgy:gold_dust",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:gold_dust"
+    }
+  ]
+}

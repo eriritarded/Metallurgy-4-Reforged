@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_deep_iron",
+      "amount": 270
+    },
+    {
+      "tag": "forge:molten_infuscolium",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_black_steel",
+    "amount": 360
+  },
+  "temperature": 1000
+}

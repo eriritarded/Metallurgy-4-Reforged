@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:tin_ore",
+    {
+      "id": "#forge:ores/tin",
+      "required": false
+    },
+    {
+      "id": "#c:ores/tin",
+      "required": false
+    }
+  ]
+}

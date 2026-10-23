@@ -1,0 +1,23 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "item": "metallurgy:phosphorite_ore"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:phosphorus",
+    "count": 4
+  },
+  "experience": 0.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:phosphorus"
+    }
+  ]
+}

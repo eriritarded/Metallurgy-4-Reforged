@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:angmallen_ingot",
+    "metallurgy:angmallen_dust",
+    {
+      "id": "#forge:ingots/angmallen",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/angmallen",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/angmallen",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/angmallen",
+      "required": false
+    }
+  ]
+}

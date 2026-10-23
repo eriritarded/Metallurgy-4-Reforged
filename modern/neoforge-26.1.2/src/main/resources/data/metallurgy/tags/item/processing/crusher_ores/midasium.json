@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:midasium_ore",
+    {
+      "id": "#forge:ores/midasium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/midasium",
+      "required": false
+    }
+  ]
+}

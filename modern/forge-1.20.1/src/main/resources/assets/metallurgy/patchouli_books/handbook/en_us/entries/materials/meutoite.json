@@ -1,0 +1,18 @@
+{
+  "name": "Meutoite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:meutoite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:meutoite_ore",
+      "title": "Finding Meutoite",
+      "text": "Default deposits: End, Y 0 to 128. Veins target up to 7 blocks, with 5 placement attempts per chunk. Mining requirement: level 5."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Meutoite",
+      "text": "Smelt Meutoite Ore or Meutoite Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    }
+  ]
+}

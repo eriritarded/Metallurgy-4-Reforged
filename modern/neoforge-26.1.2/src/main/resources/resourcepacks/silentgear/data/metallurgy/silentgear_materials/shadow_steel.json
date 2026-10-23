@@ -1,0 +1,147 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": "metallurgy:shadow_steel_ingot",
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.shadow_steel.name"
+    },
+    "name_prefix": "",
+    "color": "#FFC6BBB9",
+    "main_texture_type": "HIGH_CONTRAST",
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 214,
+      "harvest_speed": 9.0,
+      "enchantment_value": 5,
+      "attack_damage": 6.8,
+      "armor_durability": 21,
+      "armor": 19,
+      "armor/boots": 4,
+      "armor/leggings": 5,
+      "armor/chestplate": 6,
+      "armor/helmet": 4,
+      "armor_toughness": 3.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:kitty_vision",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:light",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Shadow Steel",
+        "level_hint": "6",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_6"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 32.1
+      },
+      "traits": [
+        {
+          "trait": "silentgear:kitty_vision",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:light",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 32.1
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.9
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 1.02
+      },
+      "harvest_tier": {
+        "name": "Shadow Steel",
+        "level_hint": "6",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_6"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:kitty_vision",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:light",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

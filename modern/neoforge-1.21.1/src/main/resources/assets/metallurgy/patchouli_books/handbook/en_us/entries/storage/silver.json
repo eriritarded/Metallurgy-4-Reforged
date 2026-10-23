@@ -1,0 +1,20 @@
+{
+  "name": "Silver Chest",
+  "category": "metallurgy:storage",
+  "icon": "metallurgy:silver_chest",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:silver_chest",
+      "title": "Silver Chest",
+      "text": "This tier holds 72 slots. Its full inventory is available to normal chest interactions, hoppers, and compatible item pipes. Use the recipe below to build this storage tier."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:silver_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:silver_chest": 1
+  }
+}

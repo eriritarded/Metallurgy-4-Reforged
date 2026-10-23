@@ -1,0 +1,27 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "metallurgy:damascus_steel_nugget"
+  },
+  "result": [
+    {
+      "fluid": "metallurgy:damascus_steel",
+      "amount": 10
+    }
+  ],
+  "energy": 500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_nugget"
+    }
+  ]
+}

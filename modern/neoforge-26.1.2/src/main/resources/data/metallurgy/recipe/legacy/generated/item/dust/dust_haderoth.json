@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/rubracium",
+    "#c:dusts/rubracium",
+    "#c:dusts/mithril"
+  ],
+  "result": {
+    "id": "metallurgy:haderoth_dust",
+    "count": 3
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:haderoth_dust"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/deep_iron"
+  },
+  "result": {
+    "tag": "forge:molten_deep_iron",
+    "amount": 180
+  },
+  "temperature": 900,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/deep_iron"
+      }
+    }
+  ],
+  "rate": "metal"
+}

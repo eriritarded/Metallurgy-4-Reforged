@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:black_steel",
+  "result": {
+    "tag": "forge:molten_black_steel",
+    "amount": 90
+  },
+  "temperature": 1100
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Sublimation Chamber",
+  "category": "metallurgy:machines",
+  "icon": "metallurgy:sublimation_chamber",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:sublimation_chamber",
+      "title": "Sublimation Chamber",
+      "text": "The Sublimation Chamber turns a batch of metal into a timed area effect. Right-click the top with the required metal blocks and a side with furnace fuel. The selected effect, remaining metal, fuel, and active time are shown near the crosshair while"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "looking at the chamber."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A batch starts only when its required amount is present. It keeps its stored effect and timer after starting; running out of fuel pauses the clock and removes its active aura. The chamber's visible vapor follows the active effect's color."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Different metals provide different effects and durations. The following pages list the supplied batches. Recipe packs may replace them; a recipe viewer shows the current selection."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:adamantine_block",
+      "title": "Adamantine Block Batch",
+      "text": "3 Adamantine Block supplies Health Boost I for 900 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:amordrine_block",
+      "title": "Amordrine Block Batch",
+      "text": "3 Amordrine Block supplies Jump Boost I for 900 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:astral_silver_block",
+      "title": "Astral Silver Batch",
+      "text": "3 Astral Silver Block supplies Night Vision I for 900 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:black_steel_block",
+      "title": "Black Steel Block Batch",
+      "text": "3 Black Steel Block supplies Resistance I for 900 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:carmot_block",
+      "title": "Carmot Block Batch",
+      "text": "4 Carmot Block supplies Haste I for 1080 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:deep_iron_block",
+      "title": "Deep Iron Block Batch",
+      "text": "4 Deep Iron Block supplies Water Breathing I for 1200 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:ignatius_block",
+      "title": "Ignatius Block Batch",
+      "text": "4 Ignatius Block supplies Fire Resistance I for 900 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:kalendrite_block",
+      "title": "Kalendrite Block Batch",
+      "text": "4 Kalendrite Block supplies Regeneration I for 1200 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:lemurite_block",
+      "title": "Lemurite Block Batch",
+      "text": "3 Lemurite Block supplies Invisibility I for 960 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:lutetium_block",
+      "title": "Lutetium Block Batch",
+      "text": "4 Lutetium Block supplies Levitation I for 1200 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:midasium_block",
+      "title": "Midasium Block Batch",
+      "text": "3 Midasium Block supplies Luck I for 1080 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:orichalcum_block",
+      "title": "Orichalcum Block Batch",
+      "text": "3 Orichalcum Block supplies Strength I for 1080 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:quicksilver_block",
+      "title": "Quicksilver Block Batch",
+      "text": "4 Quicksilver Block supplies Speed I for 1200 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:sanguinite_block",
+      "title": "Sanguinite Block Batch",
+      "text": "3 Sanguinite Block supplies Saturation I for 960 seconds per batch. The chamber applies level I auras, following its original behavior. Current server recipes take priority."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/block/sublimation_chamber"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:sublimation_chamber": 18
+  }
+}

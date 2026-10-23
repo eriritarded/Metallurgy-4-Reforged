@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OBO",
+    "OSO",
+    "TFT"
+  ],
+  "key": {
+    "O": "#c:ingots/osmium",
+    "T": "#c:ingots/tin",
+    "F": "minecraft:furnace",
+    "B": "minecraft:bucket",
+    "S": "metallurgy:bimetal_structure_block"
+  },
+  "result": {
+    "id": "metallurgy:alloyer",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:alloyer"
+    }
+  ]
+}

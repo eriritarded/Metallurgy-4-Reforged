@@ -1,0 +1,129 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:base_stone_overworld",
+      "required": false
+    },
+    {
+      "id": "#minecraft:base_stone_nether",
+      "required": false
+    },
+    {
+      "id": "#minecraft:stone_ore_replaceables",
+      "required": false
+    },
+    {
+      "id": "#minecraft:stone_bricks",
+      "required": false
+    },
+    {
+      "id": "#minecraft:stone_crafting_materials",
+      "required": false
+    },
+    {
+      "id": "#minecraft:coal_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:iron_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:copper_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:gold_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:lapis_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:redstone_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:diamond_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:emerald_ores",
+      "required": false
+    },
+    {
+      "id": "#minecraft:terracotta",
+      "required": false
+    },
+    "minecraft:end_stone",
+    "minecraft:end_stone_bricks",
+    "minecraft:obsidian",
+    "minecraft:crying_obsidian",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:bricks",
+    "minecraft:nether_bricks",
+    "minecraft:red_nether_bricks",
+    "minecraft:netherrack",
+    "minecraft:nether_quartz_ore",
+    "minecraft:nether_gold_ore",
+    "minecraft:smooth_stone",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:polished_granite",
+    "minecraft:polished_diorite",
+    "minecraft:polished_andesite",
+    "minecraft:sandstone",
+    "minecraft:cut_sandstone",
+    "minecraft:chiseled_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:cut_red_sandstone",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:blackstone",
+    "minecraft:polished_blackstone",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:basalt",
+    "minecraft:polished_basalt",
+    "metallurgy:adamantine_ore",
+    "metallurgy:alduorite_ore",
+    "metallurgy:astral_silver_ore",
+    "metallurgy:atlarus_ore",
+    "metallurgy:carmot_ore",
+    "metallurgy:ceruclase_ore",
+    "metallurgy:copper_ore",
+    "metallurgy:deep_iron_ore",
+    "metallurgy:eximite_ore",
+    "metallurgy:ignatius_ore",
+    "metallurgy:infuscolium_ore",
+    "metallurgy:kalendrite_ore",
+    "metallurgy:lemurite_ore",
+    "metallurgy:lutetium_ore",
+    "metallurgy:manganese_ore",
+    "metallurgy:meutoite_ore",
+    "metallurgy:midasium_ore",
+    "metallurgy:mithril_ore",
+    "metallurgy:orichalcum_ore",
+    "metallurgy:osmium_ore",
+    "metallurgy:oureclase_ore",
+    "metallurgy:platinum_ore",
+    "metallurgy:prometheum_ore",
+    "metallurgy:rubracium_ore",
+    "metallurgy:sanguinite_ore",
+    "metallurgy:shadow_iron_ore",
+    "metallurgy:silver_ore",
+    "metallurgy:tin_ore",
+    "metallurgy:vulcanite_ore",
+    "metallurgy:vyroxeres_ore",
+    "metallurgy:zinc_ore",
+    "metallurgy:sulfur_ore",
+    "metallurgy:phosphorite_ore",
+    "metallurgy:tar_ore",
+    "metallurgy:potash_ore",
+    "metallurgy:road_block",
+    "metallurgy:striped_road_block",
+    "metallurgy:bitumen_block",
+    "metallurgy:sulfur_block",
+    "metallurgy:charcoal_block"
+  ]
+}

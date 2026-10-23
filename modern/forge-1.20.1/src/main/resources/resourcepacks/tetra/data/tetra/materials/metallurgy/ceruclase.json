@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_ceruclase",
+  "category": "metal",
+  "primary": 6.5,
+  "secondary": 4.167,
+  "tertiary": 2.5,
+  "durability": 103,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 96,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 5.0,
+  "tints": {
+    "glyph": "9ECFD5",
+    "texture": "9ECFD5"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:ceruclase_ingot"
+    ]
+  },
+  "effects": {
+    "earthbind": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

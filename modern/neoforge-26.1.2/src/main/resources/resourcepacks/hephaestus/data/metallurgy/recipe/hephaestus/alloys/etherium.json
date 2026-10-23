@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:sanguinite"
+    },
+    {
+      "amount": 90,
+      "id": "metallurgy:alduorite"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:etherium"
+  },
+  "temperature": 1900
+}

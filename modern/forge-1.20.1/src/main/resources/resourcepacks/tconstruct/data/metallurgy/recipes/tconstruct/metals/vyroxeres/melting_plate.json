@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:plates/vyroxeres"
+  },
+  "result": {
+    "tag": "forge:molten_vyroxeres",
+    "amount": 90
+  },
+  "temperature": 1700,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/vyroxeres"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "item": "metallurgy:thermite_dust"
+  },
+  "result": {
+    "amount": 1000,
+    "id": "metallurgy:molten_thermite"
+  },
+  "temperature": 100,
+  "time": 80,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:thermite_dust"
+    }
+  ]
+}

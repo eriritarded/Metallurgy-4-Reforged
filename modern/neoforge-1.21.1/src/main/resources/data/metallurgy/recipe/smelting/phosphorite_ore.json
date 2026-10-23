@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:phosphorite_ore"
+  },
+  "result": {
+    "id": "metallurgy:phosphorus"
+  },
+  "experience": 0.5,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:phosphorus"
+    }
+  ]
+}

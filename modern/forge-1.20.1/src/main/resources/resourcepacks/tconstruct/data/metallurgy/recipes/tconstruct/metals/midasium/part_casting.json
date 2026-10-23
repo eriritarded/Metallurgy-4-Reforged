@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/midasium",
+    "amount": 90
+  },
+  "output": "metallurgy:midasium",
+  "temperature": 1500
+}

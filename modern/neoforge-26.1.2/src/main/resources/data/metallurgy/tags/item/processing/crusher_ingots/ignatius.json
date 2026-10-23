@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:ignatius_ingot",
+    {
+      "id": "#forge:ingots/ignatius",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/ignatius",
+      "required": false
+    }
+  ]
+}

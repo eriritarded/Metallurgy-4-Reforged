@@ -1,0 +1,142 @@
+{
+  "reviewed": "2026-10-16",
+  "repository": "SlimeKnights/TinkersConstruct",
+  "revision": "f4e77d43f39ba1047bf93ae816b7e1beaab514c2",
+  "modVersion": "3.12.1",
+  "minecraft": "1.20.1",
+  "forge": "47.4.0",
+  "mantle": "1.11.115",
+  "files": [
+    {
+      "path": "src/generated/resources/data/tconstruct/tinkering/materials/definition/cobalt.json",
+      "sha": "612a44bce69936ea4ca81970d6a62962a7b6e3dc"
+    },
+    {
+      "path": "src/generated/resources/data/tconstruct/tinkering/materials/stats/cobalt.json",
+      "sha": "1fdcfccfcc71b4812350eea42e49e6fa10c8bfd1"
+    },
+    {
+      "path": "src/generated/resources/data/tconstruct/tinkering/materials/traits/cobalt.json",
+      "sha": "53397deda9931b28b03fb718354a86b5f246f52c"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/materials/definition/MaterialManager.java",
+      "sha": "6f3891cc8b83ed2cd40169ea2760ca826dcf028f"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/ModifierHooks.java",
+      "sha": "02103662a37883783a59ab323ba69eed46554b15"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/stats/GripMaterialStats.java",
+      "sha": "f0d057d08d4867deaf94ec08bd70b8f9932f3fe2"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/stats/HandleMaterialStats.java",
+      "sha": "bf8b819fb5b18ce26df0c731bca371578da4850e"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/stats/HeadMaterialStats.java",
+      "sha": "b08a3c9dd4d382807ce2eadeee5944ff39610d4c"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/stats/LimbMaterialStats.java",
+      "sha": "47ec28775c174a921b07d4b3cd8a9331105022fc"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/stats/PlatingMaterialStats.java",
+      "sha": "fb2964bb42d21322144d4b8367036158b9929502"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/modules/ModifierModule.java",
+      "sha": "83e95327ff90f382e6ca0cf12b3eabc6a6f98ab3"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/combat/MeleeHitModifierHook.java",
+      "sha": "41d91530085e255c6cf933e208936496251f13c5"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/combat/MeleeDamageModifierHook.java",
+      "sha": "406cccc5ebd8f65bd384dd08f0a2096e42b5557a"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/behavior/ToolDamageModifierHook.java",
+      "sha": "5223ad30b2fa51ad57d966f139d2594e0a115355"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/behavior/ProcessLootModifierHook.java",
+      "sha": "6fd60590b570295ed8bbe1faca75a4c95135ddab"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/mining/BlockBreakModifierHook.java",
+      "sha": "b3c59df6792c158fa666b193499e7ec41c9ea32b"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/mining/BreakSpeedModifierHook.java",
+      "sha": "057575e97ee72da114d6731f390ece4060aecdb2"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/build/ValidateModifierHook.java",
+      "sha": "4d2b055fdc2eb541a387593f7de201ecf1bfdc7b"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/modifiers/hook/build/ToolStatsModifierHook.java",
+      "sha": "9a4e09eb9bc4d041db3766ec7d297e32cb930a3b"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/tools/definition/module/material/ToolMaterialHook.java",
+      "sha": "e5e000abf637cafa590193eba71868157fd2b727"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/library/tools/stat/FloatToolStat.java",
+      "sha": "7037571cb72209c08c07cde9ee47a574dabe0697"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/modifiers/ModifierLootModifier.java",
+      "sha": "61614b823cc1da12ab56a39b63a79efcdb01d9bd"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/tools/modules/AutosmeltModule.java",
+      "sha": "1282b2f9f0dc0e5580416c49976b3d633f308a76"
+    },
+    {
+      "path": "src/main/java/slimeknights/tconstruct/common/config/Config.java",
+      "sha": "1283856c463cda3bdc49dec99bc56d4ba6dda524"
+    }
+  ],
+  "implementationState": "Native tools/materials/smeltery and armor implemented; all three base target compilers passed in optional-tools-compile-checkpoint.json; native dependency runtime behavior unverified",
+  "notes": [
+    "Only official1.20.1 branch found in reviewed branch inventory.",
+    "Large GitHub recursive tree failed connector transport; exact primary API paths were read from GitHub API with PowerShell in memory.",
+    "Legacy MetallurgyTiCStats halves head durability, quarters extra durability and has source handle/bow equations; preserve/adapt deliberately.",
+    "ConArmory and native TConstruct armor require explicit source comparison, not copied Tetra/Gear trait profiles."
+  ],
+  "activeSourceCache": "H:/CodexScratch/terraria_modding/.test-runtime/metallurgy-port-db483af2b05d489dbffdbf8f18398e4c/dependency-source/tconstruct",
+  "compileDependencies": {
+    "tconstruct": "slimeknights.tconstruct:TConstruct:1.20.1-3.12.1.237",
+    "mantle": "slimeknights.mantle:Mantle:1.20.1-1.11.115",
+    "repository": "https://dvs1.progwml6.com/files/maven"
+  },
+  "legacyConarm": {
+    "coordinate": "curse.maven:constructs_armory_1.2.5.10-287683:3174535",
+    "sha256": "3ce60a0e2c757937eab9cafb2baa9bc823e96a9d41f39f462bf276c224ae099f",
+    "review": "javap constructor inspection only; not executed or bundled. SubEvent.init explicitly registers both Strongly instances and Cat Eyes."
+  },
+  "resolvedCompileArtifacts": [
+    {
+      "coordinate": "slimeknights.tconstruct:TConstruct:1.20.1-3.12.1.237",
+      "filename": "TConstruct-1.20.1-3.12.1.237.jar",
+      "sha256": "f690ffab2ca814cbfd6a67f19121d6543d21fb97c5ace9023a1a2c5fde0a5798"
+    },
+    {
+      "coordinate": "slimeknights.mantle:Mantle:1.20.1-1.11.115",
+      "filename": "Mantle-1.20.1-1.11.115.jar",
+      "sha256": "c1e1cda07179bd220d55db468dc8863d41f8bf0ea38d15b6661e90e941f50f4b"
+    },
+    {
+      "coordinate": "maven.modrinth:spartan-weaponry:4U6gwadt",
+      "filename": "spartan-weaponry-4U6gwadt.jar",
+      "sha256": "2736ac2dd52a7b3a188df454e61a4154cd36e273fa770f3ab89dcf6e732e88ad"
+    }
+  ]
+}

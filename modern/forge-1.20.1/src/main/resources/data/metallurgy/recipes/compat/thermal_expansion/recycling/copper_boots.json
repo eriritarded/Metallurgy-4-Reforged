@@ -1,0 +1,40 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "metallurgy:copper_boots"
+    }
+  ],
+  "result": [
+    {
+      "item": "metallurgy:copper_ingot",
+      "count": 1
+    },
+    {
+      "item": "thermal:slag",
+      "chance": 0.15
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:copper_boots"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:copper_ingot"
+    }
+  ]
+}

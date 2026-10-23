@@ -1,0 +1,18 @@
+{
+  "name": "Silent Gear",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:celenegil_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:celenegil_ingot",
+      "title": "Silent Gear",
+      "text": "Metallurgy supplies 41 native Silent Gear material definitions. Use the matching ingots or material ingredients in supported Gear parts, then assemble them through Silent Gear's own system."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The integration adapts stats, color, and supported material traits. It does not attach an entire Metallurgy armor set's powers to one modular part. The server's integration and material settings control availability."
+    }
+  ],
+  "flag": "mod:silentgear"
+}

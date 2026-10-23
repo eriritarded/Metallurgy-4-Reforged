@@ -1,0 +1,40 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "metallurgy:quicksilver_shovel"
+    }
+  ],
+  "result": [
+    {
+      "item": "metallurgy:quicksilver_ingot",
+      "count": 1
+    },
+    {
+      "item": "thermal:slag",
+      "chance": 0.1
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_shovel"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_ingot"
+    }
+  ]
+}

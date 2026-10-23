@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:electrum_ingot",
+    {
+      "id": "#forge:ingots/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/electrum",
+      "required": false
+    }
+  ]
+}

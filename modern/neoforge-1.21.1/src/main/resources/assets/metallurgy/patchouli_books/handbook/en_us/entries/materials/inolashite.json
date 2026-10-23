@@ -1,0 +1,45 @@
+{
+  "name": "Inolashite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:inolashite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:inolashite_ingot",
+      "title": "Making Inolashite",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Alduorite + 1 Ceruclase = 2 Inolashite"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:inolashite_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 1028 uses.$(br)Harvest level: 6.$(br)Mining efficiency: 7.2.$(br)Material damage bonus: 5.0.$(br)Enchantability: 22.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:inolashite_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 5, chestplate 7, leggings 6, boots 3.$(br2)Toughness per piece: 1.0.$(br)Enchantability: 22."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Time Cleave",
+      "text": "When attacking, another attack will be time-collapsed to your first attack allowing you to attack two times at full power in quick succession."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tool: Time Leap",
+      "text": "Upon activation, transports the player 7 blocks in the direction they are looking breaking all the blocks in the way (as long as the tool can harvest them)."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Warp",
+      "text": "Shift + Jump will teleport the player back in time of 2..8 seconds depending on how much armor is worn"
+    }
+  ]
+}

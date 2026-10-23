@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/meutoite",
+    "amount": 90
+  },
+  "output": "metallurgy:meutoite",
+  "temperature": 1700
+}

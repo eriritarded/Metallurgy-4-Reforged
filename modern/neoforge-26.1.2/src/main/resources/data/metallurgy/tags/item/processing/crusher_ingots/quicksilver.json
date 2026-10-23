@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:quicksilver_ingot",
+    {
+      "id": "#forge:ingots/quicksilver",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/quicksilver",
+      "required": false
+    }
+  ]
+}

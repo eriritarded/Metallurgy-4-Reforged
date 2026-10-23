@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:oureclase_ingot",
+    "metallurgy:oureclase_dust",
+    {
+      "id": "#forge:ingots/oureclase",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/oureclase",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/oureclase",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/oureclase",
+      "required": false
+    }
+  ]
+}

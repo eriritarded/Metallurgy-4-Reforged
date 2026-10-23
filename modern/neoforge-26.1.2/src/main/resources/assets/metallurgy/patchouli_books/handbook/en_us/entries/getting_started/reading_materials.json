@@ -1,0 +1,21 @@
+{
+  "name": "Reading a Material Entry",
+  "category": "metallurgy:getting_started",
+  "icon": "metallurgy:mithril_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:mithril_ingot",
+      "title": "Reading a Material Entry",
+      "text": "A deposit entry gives the default realm, height range, vein size, and mining requirement. World settings can change deposits, and an existing chunk will not gain new ore simply because a setting changes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A tool's harvest level determines what it can mine. Efficiency is its base mining speed. Durability is its number of uses before enchantments, special traits, and other modifiers."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Armor protection is listed by slot. Some sets grant extra health or movement as well as special powers. Traits labeled Equipment can apply more broadly than weapon-only or armor-only traits."
+    }
+  ]
+}

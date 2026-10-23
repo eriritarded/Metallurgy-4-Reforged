@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 270,
+      "id": "metallurgy:deep_iron"
+    },
+    {
+      "amount": 90,
+      "id": "metallurgy:infuscolium"
+    }
+  ],
+  "output": {
+    "amount": 360,
+    "id": "metallurgy:black_steel"
+  },
+  "temperature": 1100
+}

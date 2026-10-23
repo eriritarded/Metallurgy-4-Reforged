@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:etherium_ingot",
+    {
+      "id": "#forge:ingots/etherium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/etherium",
+      "required": false
+    }
+  ]
+}

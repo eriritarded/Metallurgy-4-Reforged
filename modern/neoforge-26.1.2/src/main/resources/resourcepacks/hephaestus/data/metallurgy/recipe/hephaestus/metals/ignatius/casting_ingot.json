@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:ingot_cast",
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 90,
+    "id": "metallurgy:ignatius"
+  },
+  "result": {
+    "id": "metallurgy:ignatius_ingot"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ignatius_ingot"
+    }
+  ]
+}

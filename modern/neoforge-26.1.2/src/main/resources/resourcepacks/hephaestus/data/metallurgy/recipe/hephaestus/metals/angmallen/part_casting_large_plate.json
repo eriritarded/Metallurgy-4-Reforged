@@ -1,0 +1,20 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus_tools:large_plate_cast",
+  "cast_consumed": false,
+  "cooling_time": 160,
+  "fluid": {
+    "amount": 360,
+    "id": "metallurgy:angmallen"
+  },
+  "result": {
+    "count": 1,
+    "id": "hephaestus_tools:large_plate"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    }
+  ]
+}

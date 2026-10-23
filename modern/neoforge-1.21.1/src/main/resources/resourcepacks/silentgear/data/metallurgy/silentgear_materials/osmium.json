@@ -1,0 +1,69 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": {
+      "item": "metallurgy:osmium_ingot"
+    },
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": [
+      "silentgear:tool",
+      "silentgear:projectile"
+    ]
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.osmium.name"
+    },
+    "name_prefix": "",
+    "color": "#FF737496",
+    "main_texture_type": "HIGH_CONTRAST"
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor_durability": 5,
+      "armor": 22,
+      "armor/boots": 5,
+      "armor/leggings": 6,
+      "armor/chestplate": 6,
+      "armor/helmet": 5,
+      "armor_toughness": 3.5,
+      "enchantment_value": 8,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:bastion",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

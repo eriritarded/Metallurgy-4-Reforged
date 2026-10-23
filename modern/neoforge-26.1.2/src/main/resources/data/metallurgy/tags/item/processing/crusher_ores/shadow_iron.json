@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:shadow_iron_ore",
+    {
+      "id": "#forge:ores/shadow_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ores/shadow_iron",
+      "required": false
+    }
+  ]
+}

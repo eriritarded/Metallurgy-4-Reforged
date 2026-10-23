@@ -1,0 +1,30 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/crusher_raw/carmot"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:carmot_dust",
+    "count": 2
+  },
+  "experience": 0.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:carmot_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/crusher_raw/carmot"
+      }
+    }
+  ]
+}

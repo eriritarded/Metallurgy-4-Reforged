@@ -1,0 +1,40 @@
+{
+  "name": "Eximite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:eximite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:eximite_ore",
+      "title": "Finding Eximite",
+      "text": "Default deposits: End, Y 0 to 128. Veins target up to 7 blocks, with 10 placement attempts per chunk. Mining requirement: level 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Eximite",
+      "text": "Smelt Eximite Ore or Eximite Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:eximite_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 789 uses.$(br)Harvest level: 5.$(br)Mining efficiency: 7.8.$(br)Material damage bonus: 4.9.$(br)Enchantability: 28.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:eximite_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 4, leggings 4, boots 3.$(br2)Toughness per piece: 3.0.$(br)Enchantability: 28."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: End Domestic",
+      "text": "Shulkers become neutral, but you're not immune to the effect of lingering bullets."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Outworlder",
+      "text": "Grants bonus damage and a looting effect to mobs in the End."
+    }
+  ]
+}

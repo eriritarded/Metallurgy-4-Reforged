@@ -1,0 +1,18 @@
+{
+  "name": "Thermal",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:copper_dust",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:copper_dust",
+      "title": "Thermal",
+      "text": "The supplied Thermal integration adds metal processing and fuel recipes to the supported Thermal machines. Those recipes coexist with Metallurgy's Crusher and Alloyer routes."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use the current recipe display for machine selection, amounts, energy, and byproducts. Disabled materials and absent ingredients do not become free outputs."
+    }
+  ],
+  "flag": "mod:thermal"
+}

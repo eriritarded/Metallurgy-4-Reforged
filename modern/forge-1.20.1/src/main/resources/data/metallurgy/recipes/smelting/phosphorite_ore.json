@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:phosphorite_ore"
+  },
+  "result": "metallurgy:phosphorus",
+  "experience": 0.5,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:phosphorus"
+    }
+  ]
+}

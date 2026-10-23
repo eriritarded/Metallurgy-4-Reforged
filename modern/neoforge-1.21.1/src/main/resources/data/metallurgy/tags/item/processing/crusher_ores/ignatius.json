@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:ignatius_ore",
+    {
+      "id": "#forge:ores/ignatius",
+      "required": false
+    },
+    {
+      "id": "#c:ores/ignatius",
+      "required": false
+    }
+  ]
+}

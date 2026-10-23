@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:sanguinite_dust"
+  },
+  "result": {
+    "id": "metallurgy:sanguinite_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sanguinite_ingot"
+    }
+  ]
+}

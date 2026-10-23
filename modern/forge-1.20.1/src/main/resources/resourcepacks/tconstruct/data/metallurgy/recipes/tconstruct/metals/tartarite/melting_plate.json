@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:plates/tartarite"
+  },
+  "result": {
+    "tag": "forge:molten_tartarite",
+    "amount": 90
+  },
+  "temperature": 1900,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/tartarite"
+      }
+    }
+  ]
+}

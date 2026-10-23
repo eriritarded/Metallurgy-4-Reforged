@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/iron"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/manganese"
+    }
+  ],
+  "amounts": [
+    1,
+    2
+  ],
+  "result": {
+    "id": "metallurgy:steel_ingot",
+    "count": 2
+  },
+  "experience": 1.5,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:steel_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/iron"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/manganese"
+      }
+    }
+  ]
+}

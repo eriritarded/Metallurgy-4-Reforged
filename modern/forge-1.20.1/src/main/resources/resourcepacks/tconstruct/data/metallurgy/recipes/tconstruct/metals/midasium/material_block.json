@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/midasium"
+  },
+  "material": "metallurgy:midasium",
+  "needed": 1,
+  "value": 9,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/midasium"
+      }
+    }
+  ]
+}

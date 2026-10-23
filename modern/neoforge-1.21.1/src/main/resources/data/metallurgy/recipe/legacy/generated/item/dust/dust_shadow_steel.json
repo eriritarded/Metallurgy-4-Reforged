@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/lemurite"
+    },
+    {
+      "tag": "c:dusts/shadow_iron"
+    },
+    {
+      "tag": "c:dusts/shadow_iron"
+    }
+  ],
+  "result": {
+    "id": "metallurgy:shadow_steel_dust",
+    "count": 3
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_dust"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Using Equipment Traits",
+  "category": "metallurgy:equipment",
+  "icon": "metallurgy:celenegil_sword",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:celenegil_sword",
+      "title": "Using Equipment Traits",
+      "text": "A metal's powers depend on the item type. Weapon, Tool, Pickaxe, Hoe, Armor, and Equipment traits are listed separately in each material entry. A metal without an active trait still has its own equipment stats."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Some powers are passive, some trigger on a hit or block break, and others use right-click or movement controls. Watch cooldowns and durability. Hold CTRL on an item for its trait descriptions."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Equipment enchantments and server settings can change the result. In particular, holding a Divine Grace weapon does not boost arrows, thrown weapons, or spells: that bonus requires a direct melee attack."
+    }
+  ]
+}

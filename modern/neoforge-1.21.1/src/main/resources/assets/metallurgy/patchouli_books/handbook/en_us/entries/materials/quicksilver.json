@@ -1,0 +1,45 @@
+{
+  "name": "Quicksilver",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:quicksilver_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:quicksilver_ingot",
+      "title": "Making Quicksilver",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Silver + 1 Astral Silver = 2 Quicksilver"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:quicksilver_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 452 uses.$(br)Harvest level: 3.$(br)Mining efficiency: 10.0.$(br)Material damage bonus: 2.5.$(br)Enchantability: 24.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:quicksilver_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 4, chestplate 4, leggings 5, boots 5.$(br2)Toughness per piece: 0.0.$(br)Enchantability: 24."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Sleight of blade",
+      "text": "On every successful attack you're launched through the enemy damaging them more."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tool: Tailwind",
+      "text": "Mining speed will remain the same over any block independently from harvest level or block hardness"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Acceleration",
+      "text": "Sprinting will allow you to build up momentum, once full speed is reached you'll be able to run on liquids, but you will sink as soon as you stop or slow down."
+    }
+  ]
+}

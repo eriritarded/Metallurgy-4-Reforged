@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:shadow_steel_ingot",
+    "count": 3
+  },
+  "result": [
+    {
+      "item": "metallurgy:shadow_iron_ingot",
+      "count": 2
+    },
+    {
+      "item": "metallurgy:lemurite_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 8000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_iron_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lemurite_ingot"
+    }
+  ]
+}

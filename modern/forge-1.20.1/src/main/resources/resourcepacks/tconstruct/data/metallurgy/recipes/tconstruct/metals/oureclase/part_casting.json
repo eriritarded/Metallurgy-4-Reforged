@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/oureclase",
+    "amount": 90
+  },
+  "output": "metallurgy:oureclase",
+  "temperature": 1300
+}

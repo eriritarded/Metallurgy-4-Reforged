@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/prometheum"
+  },
+  "result": {
+    "tag": "forge:molten_prometheum",
+    "amount": 90
+  },
+  "temperature": 900,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/prometheum"
+      }
+    }
+  ]
+}

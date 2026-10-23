@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    " I "
+  ],
+  "key": {
+    "I": "#c:ingots/prometheum"
+  },
+  "result": {
+    "id": "minecraft:bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/midasium"
+    },
+    {
+      "tag": "forge:dusts/ceruclase"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:gold_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:gold_dust"
+    }
+  ]
+}

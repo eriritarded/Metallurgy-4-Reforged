@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/deep_iron"
+  },
+  "result": {
+    "tag": "forge:molten_deep_iron",
+    "amount": 810
+  },
+  "temperature": 900,
+  "time": 136,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/deep_iron"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:midasium_dust"
+  },
+  "result": "metallurgy:midasium_ingot",
+  "experience": 0.6,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:midasium_ingot"
+    }
+  ]
+}

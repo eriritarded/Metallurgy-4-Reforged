@@ -1,0 +1,42 @@
+{
+  "parent": "metallurgy:main/root",
+  "display": {
+    "icon": {
+      "id": "metallurgy:brass_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.brass"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.brass.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/brass"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/brass"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust"
+    ]
+  ]
+}

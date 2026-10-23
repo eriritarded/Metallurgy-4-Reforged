@@ -1,0 +1,17 @@
+{
+  "name": "Tar and Bitumen",
+  "category": "metallurgy:fluids",
+  "icon": "metallurgy:molten_tar_bucket",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:molten_tar_bucket",
+      "title": "Tar and Bitumen",
+      "text": "Tar is a dark, sticky liquid. Moving through it is slow, but it supports water-like swimming and can extinguish fire. Default world generation can place tar lakes in the Overworld."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "An isolated tar source can harden into Tar Ore when no neighboring face contains another tar source. Tar Ore, Tar, and Bitumen feed their supported processing and fuel recipes; they are different items."
+    }
+  ]
+}

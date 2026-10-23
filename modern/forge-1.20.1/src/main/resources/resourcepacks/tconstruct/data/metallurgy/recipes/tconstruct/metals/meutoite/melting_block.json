@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/meutoite"
+  },
+  "result": {
+    "tag": "forge:molten_meutoite",
+    "amount": 810
+  },
+  "temperature": 1700,
+  "time": 136,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/meutoite"
+      }
+    }
+  ]
+}

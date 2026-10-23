@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/potash",
+    "#c:dusts/iron",
+    "#c:dusts/sulfur"
+  ],
+  "result": {
+    "id": "metallurgy:thermite_dust",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:thermite_dust"
+    }
+  ]
+}

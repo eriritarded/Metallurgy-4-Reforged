@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "forge:molten_shadow_steel",
+    "amount": 10
+  },
+  "result": {
+    "tag": "forge:nuggets/shadow_steel"
+  },
+  "cooling_time": 20,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/shadow_steel"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:adamantine_ingot",
+    {
+      "id": "#forge:ingots/adamantine",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/adamantine",
+      "required": false
+    }
+  ]
+}

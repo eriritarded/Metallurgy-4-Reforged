@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:raw_materials/prometheum",
+      "required": false
+    },
+    {
+      "id": "#c:raw_materials/prometheum",
+      "required": false
+    }
+  ]
+}

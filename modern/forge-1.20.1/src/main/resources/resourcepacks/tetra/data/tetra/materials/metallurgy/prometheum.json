@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_prometheum",
+  "category": "metal",
+  "primary": 5.4,
+  "secondary": 3.767,
+  "tertiary": 2.35,
+  "durability": 121,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 84,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 4.7,
+  "tints": {
+    "glyph": "6E9E61",
+    "texture": "6E9E61"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:prometheum_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 1,
+    "workable": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

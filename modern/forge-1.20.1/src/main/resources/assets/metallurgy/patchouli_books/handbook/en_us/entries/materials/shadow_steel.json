@@ -1,0 +1,45 @@
+{
+  "name": "Shadow Steel",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:shadow_steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:shadow_steel_ingot",
+      "title": "Making Shadow Steel",
+      "text": "Make this alloy in an Alloyer:$(br2)2 Shadow Iron + 1 Lemurite = 3 Shadow Steel"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:shadow_steel_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 214 uses.$(br)Harvest level: 6.$(br)Mining efficiency: 9.0.$(br)Material damage bonus: 6.8.$(br)Enchantability: 5.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:shadow_steel_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 4, chestplate 6, leggings 5, boots 4.$(br2)Toughness per piece: 3.0.$(br)Enchantability: 3."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Umbral-synthesis",
+      "text": "This item regenerates durability in the darkness, regen speed is relative to the darkness level"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Eclipse",
+      "text": "Whether if you're attacked in light or in darkness you either blind and damage enemies with fire or evade anymore damage and gain speed boost for a few seconds"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Harmony",
+      "text": "This weapon hits faster in the dark and stronger in the light."
+    }
+  ]
+}

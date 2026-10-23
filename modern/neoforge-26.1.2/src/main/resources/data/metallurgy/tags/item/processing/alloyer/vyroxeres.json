@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:vyroxeres_ingot",
+    "metallurgy:vyroxeres_dust",
+    {
+      "id": "#forge:ingots/vyroxeres",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/vyroxeres",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/vyroxeres",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/vyroxeres",
+      "required": false
+    }
+  ]
+}

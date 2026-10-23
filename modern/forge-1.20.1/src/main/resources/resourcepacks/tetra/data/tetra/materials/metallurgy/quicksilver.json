@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_quicksilver",
+  "category": "metal",
+  "primary": 5.5,
+  "secondary": 6.133,
+  "tertiary": 5.0,
+  "durability": 452,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 144,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 10.0,
+  "tints": {
+    "glyph": "62AAA2",
+    "texture": "62AAA2"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:quicksilver_ingot"
+    ]
+  },
+  "effects": {
+    "quickStrike": 3
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Kalendrite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:kalendrite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:kalendrite_ore",
+      "title": "Finding Kalendrite",
+      "text": "Default deposits: Nether, Y 27 to 120. Veins target up to 5 blocks, with 5 placement attempts per chunk. Mining requirement: level 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Kalendrite",
+      "text": "Smelt Kalendrite Ore or Kalendrite Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:kalendrite_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 212 uses.$(br)Harvest level: 4.$(br)Mining efficiency: 8.1.$(br)Material damage bonus: 4.0.$(br)Enchantability: 19.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:kalendrite_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 1, chestplate 2, leggings 2, boots 1.$(br2)Toughness per piece: 3.0.$(br)Enchantability: 16.$(br)Extra full-set health: 8.0 HP."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Tranquil",
+      "text": "If the player has not received any damage for the past 10 seconds and they don't have full hp, they gain a regeneration buff."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tool: Restoration",
+      "text": "Breaking blocks restores half a heart but tools lose more durability the lower the user's health is."
+    }
+  ]
+}

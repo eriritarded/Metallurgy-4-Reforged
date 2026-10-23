@@ -1,0 +1,64 @@
+{
+  "reviewedAt": "2026-10-16",
+  "status": "Research only; adapters not yet implemented. No game/tests.",
+  "references": [
+    {
+      "repository": "BluSunrize/ImmersiveEngineering",
+      "ref": "e63e4824800945eccf3684200a2c2270e2e1cdf2",
+      "path": "src/api/java/blusunrize/immersiveengineering/api/tool/ExternalHeaterHandler.java",
+      "gitBlob": "c581cc09ded5c985c929c6ad8d7d829ab581b59f",
+      "url": "https://github.com/BluSunrize/ImmersiveEngineering/blob/e63e4824800945eccf3684200a2c2270e2e1cdf2/src/api/java/blusunrize/immersiveengineering/api/tool/ExternalHeaterHandler.java"
+    },
+    {
+      "repository": "BluSunrize/ImmersiveEngineering",
+      "ref": "75a27f03e4243544243567e8d5c38d336f4f10f4",
+      "path": "src/api/java/blusunrize/immersiveengineering/api/tool/ExternalHeaterHandler.java",
+      "gitBlob": "33471a7e74b9739ad4b23f549359287d13257517",
+      "url": "https://github.com/BluSunrize/ImmersiveEngineering/blob/75a27f03e4243544243567e8d5c38d336f4f10f4/src/api/java/blusunrize/immersiveengineering/api/tool/ExternalHeaterHandler.java"
+    },
+    {
+      "repository": "sinkillerj/ProjectE",
+      "ref": "68fbb2dea0cf8a6394fa6c7c084063046d94cee5",
+      "path": "src/api/java/moze_intel/projecte/api/imc/CustomEMCRegistration.java",
+      "gitBlob": "244f63618678d638ce7f9ddc22dc5e5181858bef",
+      "url": "https://github.com/sinkillerj/ProjectE/blob/68fbb2dea0cf8a6394fa6c7c084063046d94cee5/src/api/java/moze_intel/projecte/api/imc/CustomEMCRegistration.java"
+    },
+    {
+      "repository": "sinkillerj/ProjectE",
+      "ref": "f432b0c66837759fb0731c9144dc53176b949c5d",
+      "path": "src/api/java/moze_intel/projecte/api/conversion/CustomConversionFile.java",
+      "gitBlob": "d848624900ed7714260c8ba2ef17e3845f401011",
+      "url": "https://github.com/sinkillerj/ProjectE/blob/f432b0c66837759fb0731c9144dc53176b949c5d/src/api/java/moze_intel/projecte/api/conversion/CustomConversionFile.java"
+    },
+    {
+      "repository": "sinkillerj/ProjectE",
+      "ref": "f432b0c66837759fb0731c9144dc53176b949c5d",
+      "path": "src/main/java/moze_intel/projecte/emc/mappers/customConversions/CustomConversionMapper.java",
+      "gitBlob": "48c6101ce8ff46a967f86d69da66f61b49facbed",
+      "url": "https://github.com/sinkillerj/ProjectE/blob/f432b0c66837759fb0731c9144dc53176b949c5d/src/main/java/moze_intel/projecte/emc/mappers/customConversions/CustomConversionMapper.java"
+    },
+    {
+      "repository": "mekanism/Mekanism",
+      "ref": "96c736241e308a9cf1c73f7dcfa9aa221ea559d3",
+      "gitBlob": "4945f8a95c69102743a8331641ceb25c021d6440",
+      "url": "https://github.com/mekanism/Mekanism/blob/96c736241e308a9cf1c73f7dcfa9aa221ea559d3/src/datagen/generated/mekanism/data/mekanism/recipes/processing/osmium/dust/from_ore.json"
+    },
+    {
+      "repository": "mekanism/Mekanism",
+      "ref": "bcd7a8bf594cff9614eb12238fe3776f19da24d9",
+      "gitBlob": "b908c4f4b96ad215319e53af8942441c31779854",
+      "url": "https://github.com/mekanism/Mekanism/blob/bcd7a8bf594cff9614eb12238fe3776f19da24d9/src/datagen/generated/mekanism/data/mekanism/recipe/processing/osmium/dust/from_ore.json"
+    },
+    {
+      "repository": "mekanism/Mekanism",
+      "ref": "4718860a0c98598cf1b34e9f631b24eaa7c7ff47",
+      "gitBlob": "d0b841d69ebf73b58017d0c7b1a4c787f5d93eb5",
+      "url": "https://github.com/mekanism/Mekanism/blob/4718860a0c98598cf1b34e9f631b24eaa7c7ff47/src/datagen/generated/mekanism/data/mekanism/recipe/processing/osmium/dust/from_ore.json"
+    }
+  ],
+  "findings": [
+    "IE20 exposes external heating through a Forge null-side Capability; IE21 uses a sided native BlockCapability. Exact doHeatTick interface remains.",
+    "ProjectE20 custom EMC IMC uses CustomEMCRegistration; ProjectE21 removed that API and reads pe_custom_conversions datapack codecs.",
+    "Mekanism current target branches use distinct native enriching ingredient JSON layouts;26.1 branch is explicitly Minecraft26.1.2."
+  ]
+}

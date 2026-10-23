@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:amordrine_ingot",
+    {
+      "id": "#forge:ingots/amordrine",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/amordrine",
+      "required": false
+    }
+  ]
+}

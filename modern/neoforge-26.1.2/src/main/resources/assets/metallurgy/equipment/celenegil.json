@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:celenegil"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:celenegil"
+      }
+    ]
+  }
+}

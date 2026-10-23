@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Metallurgy native Silent Gear materials",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

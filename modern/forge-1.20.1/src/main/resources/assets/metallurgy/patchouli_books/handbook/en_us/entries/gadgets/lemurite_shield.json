@@ -1,0 +1,24 @@
+{
+  "name": "Lemurite Shield",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:lemurite_shield",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:lemurite_shield",
+      "title": "Lemurite Shield",
+      "text": "Using the Lemurite Shield hides its wearer, armor, and held equipment from view and suppresses ordinary target acquisition. It has 256 durability and can remain active for up to ten seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The cooldown depends on how long it was used, from one to ten seconds. Ending the effect costs durability. It is a temporary concealment tool, not a permanent invisibility toggle."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/lemurite_shield"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:lemurite_shield": 2
+  }
+}

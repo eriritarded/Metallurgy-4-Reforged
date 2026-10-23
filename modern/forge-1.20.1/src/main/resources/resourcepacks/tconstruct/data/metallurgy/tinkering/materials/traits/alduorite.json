@@ -1,0 +1,33 @@
+{
+  "default": [],
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "metallurgy:unnatural",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "metallurgy:unnatural",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ]
+  }
+}

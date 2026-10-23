@@ -1,0 +1,1109 @@
+{
+  "repository": "ObliviousSpartan/SpartanWeaponry",
+  "revision": "e45342c53cd2c6fb185d149019fd326e4c1ac696",
+  "forms": {
+    "dagger": "dagger",
+    "longsword": "longsword",
+    "katana": "katana",
+    "saber": "saber",
+    "rapier": "rapier",
+    "greatsword": "greatsword",
+    "hammer": "battle_hammer",
+    "warhammer": "warhammer",
+    "spear": "spear",
+    "halberd": "halberd",
+    "pike": "pike",
+    "lance": "lance",
+    "throwing_knife": "throwing_knife",
+    "throwing_axe": "tomahawk",
+    "javelin": "javelin",
+    "boomerang": "boomerang",
+    "battleaxe": "battleaxe",
+    "mace": "flanged_mace",
+    "glaive": "glaive",
+    "staff": "quarterstaff",
+    "parrying_dagger": "parrying_dagger",
+    "longbow": "longbow",
+    "crossbow": "heavy_crossbow"
+  },
+  "models": {
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_battle_hammer.json": {
+      "gitBlob": "ffdd00a868da06f5647509772f5bfd7f3a99e40c",
+      "model": {
+        "parent": "spartanweaponry:item/base/battle_hammer",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_battle_hammer_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_battle_hammer_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/battle_hammer",
+          "layer0": "spartanweaponry:item/iron_battle_hammer"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_battle_hammer_blocking.json": {
+      "gitBlob": "e9983845d8849b493480cd49a73ed5f78038f8a0",
+      "model": {
+        "parent": "spartanweaponry:item/base/battle_hammer_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/battle_hammer",
+          "layer0": "spartanweaponry:item/iron_battle_hammer"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_battle_hammer_throwing.json": {
+      "gitBlob": "dfde93d8be08fdd6c38b0bf553b3dc1db3f04f22",
+      "model": {
+        "parent": "spartanweaponry:item/base/battle_hammer_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/battle_hammer",
+          "layer0": "spartanweaponry:item/iron_battle_hammer"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_battleaxe.json": {
+      "gitBlob": "5d45d0862aeb5bb7aef609251a69658254a3ae67",
+      "model": {
+        "parent": "spartanweaponry:item/base/battleaxe",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_battleaxe_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_battleaxe_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/battleaxe",
+          "layer0": "spartanweaponry:item/iron_battleaxe"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_battleaxe_blocking.json": {
+      "gitBlob": "c4cef95bd67269b8717951a16ac47ffb91e51394",
+      "model": {
+        "parent": "spartanweaponry:item/base/battleaxe_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/battleaxe",
+          "layer0": "spartanweaponry:item/iron_battleaxe"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_battleaxe_throwing.json": {
+      "gitBlob": "db5ee0d03d2388f070e63c8e7c2841778526afaf",
+      "model": {
+        "parent": "spartanweaponry:item/base/battleaxe_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/battleaxe",
+          "layer0": "spartanweaponry:item/iron_battleaxe"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_boomerang.json": {
+      "gitBlob": "58325016a5c2cbbb4d1e49c142994aab7ab6516b",
+      "model": {
+        "parent": "spartanweaponry:item/base/boomerang",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_boomerang_throwing",
+            "predicate": {
+              "spartanweaponry:empty": 0,
+              "spartanweaponry:throwing": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/base/boomerang_empty",
+            "predicate": {
+              "spartanweaponry:empty": 1
+            }
+          }
+        ],
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_boomerang"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_boomerang_throwing.json": {
+      "gitBlob": "fca7051129e2a0d8d07155039bb02219ac2805a5",
+      "model": {
+        "parent": "spartanweaponry:item/base/boomerang_throwing",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_boomerang"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_dagger.json": {
+      "gitBlob": "00efb09b375286abe219b13b819c3ef55e269713",
+      "model": {
+        "parent": "spartanweaponry:item/base/dagger",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_dagger_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_dagger_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/dagger",
+          "layer0": "spartanweaponry:item/iron_dagger"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_dagger_blocking.json": {
+      "gitBlob": "d93dd1f1b7f748097cc491de5461001991e90f78",
+      "model": {
+        "parent": "spartanweaponry:item/base/dagger_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/dagger",
+          "layer0": "spartanweaponry:item/iron_dagger"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_dagger_throwing.json": {
+      "gitBlob": "a9a24678efdcb72e65ceda431a16d3e29aed0fd7",
+      "model": {
+        "parent": "spartanweaponry:item/base/dagger_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/dagger",
+          "layer0": "spartanweaponry:item/iron_dagger"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_flanged_mace.json": {
+      "gitBlob": "403c337fa3442cf80e697d9e41079be4943951e5",
+      "model": {
+        "parent": "spartanweaponry:item/base/flanged_mace",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_flanged_mace_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_flanged_mace_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/flanged_mace",
+          "layer0": "spartanweaponry:item/iron_flanged_mace"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_flanged_mace_blocking.json": {
+      "gitBlob": "7682dceac5bde0717fba53bea409bb2ec6a430ce",
+      "model": {
+        "parent": "spartanweaponry:item/base/flanged_mace_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/flanged_mace",
+          "layer0": "spartanweaponry:item/iron_flanged_mace"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_flanged_mace_throwing.json": {
+      "gitBlob": "485ed71eb31454713545407627d67e4f432777f4",
+      "model": {
+        "parent": "spartanweaponry:item/base/flanged_mace_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/flanged_mace",
+          "layer0": "spartanweaponry:item/iron_flanged_mace"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_glaive.json": {
+      "gitBlob": "9ba1bf70c65e451cb3249c8d0e05b21670996183",
+      "model": {
+        "parent": "spartanweaponry:item/base/glaive",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_glaive_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_glaive_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/glaive",
+          "layer0": "spartanweaponry:item/iron_glaive"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_glaive_blocking.json": {
+      "gitBlob": "fe9bcc859add0cbe555e3b4fcb5b8c6779c86497",
+      "model": {
+        "parent": "spartanweaponry:item/base/glaive_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/glaive",
+          "layer0": "spartanweaponry:item/iron_glaive"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_glaive_throwing.json": {
+      "gitBlob": "a92e4d7f96197cbc6ef1158d72223bc903c1863e",
+      "model": {
+        "parent": "spartanweaponry:item/base/glaive_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/glaive",
+          "layer0": "spartanweaponry:item/iron_glaive"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_greatsword.json": {
+      "gitBlob": "71a5d74636ae8174c4a0901ccb149891b4af6749",
+      "model": {
+        "parent": "spartanweaponry:item/base/greatsword",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_greatsword_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_greatsword_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/greatsword",
+          "layer0": "spartanweaponry:item/iron_greatsword"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_greatsword_blocking.json": {
+      "gitBlob": "09b1d828e4d2fa7def94741710ac54e5fc4799e2",
+      "model": {
+        "parent": "spartanweaponry:item/base/greatsword_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/greatsword",
+          "layer0": "spartanweaponry:item/iron_greatsword"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_greatsword_throwing.json": {
+      "gitBlob": "c798622b8d2d23e718c5fd6d57bdb2d3160de19d",
+      "model": {
+        "parent": "spartanweaponry:item/base/greatsword_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/greatsword",
+          "layer0": "spartanweaponry:item/iron_greatsword"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_halberd.json": {
+      "gitBlob": "d8aa29e18ace2105db1c76a22343c198c0b28a0c",
+      "model": {
+        "parent": "spartanweaponry:item/base/halberd",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_halberd_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_halberd_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/halberd",
+          "layer0": "spartanweaponry:item/iron_halberd"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_halberd_blocking.json": {
+      "gitBlob": "ef22f0723930df73ae2c54dd2191ffbef778a788",
+      "model": {
+        "parent": "spartanweaponry:item/base/halberd_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/halberd",
+          "layer0": "spartanweaponry:item/iron_halberd"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_halberd_throwing.json": {
+      "gitBlob": "f8dcaa52c7ec573026eb4f971d67f05bfd01baeb",
+      "model": {
+        "parent": "spartanweaponry:item/base/halberd_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/halberd",
+          "layer0": "spartanweaponry:item/iron_halberd"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_heavy_crossbow.json": {
+      "gitBlob": "ee5530aeb42f2003237f1203774179ae904874ab",
+      "model": {
+        "parent": "spartanweaponry:item/base/heavy_crossbow",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_heavy_crossbow_pulling_0",
+            "predicate": {
+              "spartanweaponry:pulling": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_heavy_crossbow_pulling_1",
+            "predicate": {
+              "spartanweaponry:pull": 0.65,
+              "spartanweaponry:pulling": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_heavy_crossbow_pulling_2",
+            "predicate": {
+              "spartanweaponry:pull": 1,
+              "spartanweaponry:pulling": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_heavy_crossbow_loaded",
+            "predicate": {
+              "spartanweaponry:charged": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_heavy_crossbow_firing",
+            "predicate": {
+              "spartanweaponry:charged": 1,
+              "spartanweaponry:pulling": 1
+            }
+          }
+        ],
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_heavy_crossbow_standby"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_heavy_crossbow_firing.json": {
+      "gitBlob": "e55665bfff4a3e61dedd0edcf4fe6dd1e5013f36",
+      "model": {
+        "parent": "spartanweaponry:item/base/heavy_crossbow_firing",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_heavy_crossbow_loaded"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_heavy_crossbow_loaded.json": {
+      "gitBlob": "8fda6d4e547cf2b5eed4b75b73f84580f96f02d0",
+      "model": {
+        "parent": "spartanweaponry:item/base/heavy_crossbow_loaded",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_heavy_crossbow_loaded"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_heavy_crossbow_pulling_0.json": {
+      "gitBlob": "617d3b78f488b6134562f64dfe3b977fb6a14ba3",
+      "model": {
+        "parent": "spartanweaponry:item/base/heavy_crossbow_pulling",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_heavy_crossbow_pulling_0"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_heavy_crossbow_pulling_1.json": {
+      "gitBlob": "d45fa6f7eb6c4addae1bdba9368953b9ae08241b",
+      "model": {
+        "parent": "spartanweaponry:item/base/heavy_crossbow_pulling",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_heavy_crossbow_pulling_1"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_heavy_crossbow_pulling_2.json": {
+      "gitBlob": "f95462985dc934d7234d34fba5b3eb45a923c1ea",
+      "model": {
+        "parent": "spartanweaponry:item/base/heavy_crossbow_pulling",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_heavy_crossbow_pulling_2"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_javelin.json": {
+      "gitBlob": "5ff3bad8c1be3ba2424dbb69db450d1748045bf5",
+      "model": {
+        "parent": "spartanweaponry:item/base/javelin",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_javelin_throwing",
+            "predicate": {
+              "spartanweaponry:empty": 0,
+              "spartanweaponry:throwing": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/base/javelin_empty",
+            "predicate": {
+              "spartanweaponry:empty": 1
+            }
+          }
+        ],
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_javelin"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_javelin_throwing.json": {
+      "gitBlob": "51921f5ff81e9724250041e40decb14a13a9d3f0",
+      "model": {
+        "parent": "spartanweaponry:item/base/javelin_throwing",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_javelin"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_katana.json": {
+      "gitBlob": "31c7fa1ae77167f1c816fb99de11f41ab9d1316a",
+      "model": {
+        "parent": "spartanweaponry:item/base/katana",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_katana_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_katana_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/katana",
+          "layer0": "spartanweaponry:item/iron_katana"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_katana_blocking.json": {
+      "gitBlob": "b0e3ad4d9fb821beeaee53ffb1e82a7798063233",
+      "model": {
+        "parent": "spartanweaponry:item/base/katana_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/katana",
+          "layer0": "spartanweaponry:item/iron_katana"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_katana_throwing.json": {
+      "gitBlob": "a98028ded115ac1330bdb01235ce3dcccd102c3b",
+      "model": {
+        "parent": "spartanweaponry:item/base/katana_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/katana",
+          "layer0": "spartanweaponry:item/iron_katana"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_lance.json": {
+      "gitBlob": "84582c909f32302b32985d892531200e23f4db76",
+      "model": {
+        "parent": "spartanweaponry:item/base/lance",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_lance_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_lance_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/lance",
+          "layer0": "spartanweaponry:item/iron_lance"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_lance_blocking.json": {
+      "gitBlob": "6d3cf79440c42e4f3e4a0e9c1aa55738b101c20d",
+      "model": {
+        "parent": "spartanweaponry:item/base/lance_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/lance",
+          "layer0": "spartanweaponry:item/iron_lance"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_lance_throwing.json": {
+      "gitBlob": "bccdc43e1e7dabd793f76ca30123baedcbd0054f",
+      "model": {
+        "parent": "spartanweaponry:item/base/lance_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/lance",
+          "layer0": "spartanweaponry:item/iron_lance"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longbow.json": {
+      "gitBlob": "86ba98e797d8e79299a1ca76cda4f920d61082e2",
+      "model": {
+        "parent": "spartanweaponry:item/base/longbow",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_longbow_pulling_0",
+            "predicate": {
+              "spartanweaponry:pulling": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_longbow_pulling_1",
+            "predicate": {
+              "spartanweaponry:pull": 0.65,
+              "spartanweaponry:pulling": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_longbow_pulling_2",
+            "predicate": {
+              "spartanweaponry:pull": 0.9,
+              "spartanweaponry:pulling": 1
+            }
+          }
+        ],
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_longbow_standby"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longbow_pulling_0.json": {
+      "gitBlob": "9957462b72a7aa840624893262133c67be68a1e3",
+      "model": {
+        "parent": "spartanweaponry:item/base/longbow_pulling",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_longbow_pulling_0"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longbow_pulling_1.json": {
+      "gitBlob": "5ae31856b8b9acfb5627d1ab13cb06766cae0272",
+      "model": {
+        "parent": "spartanweaponry:item/base/longbow_pulling",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_longbow_pulling_1"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longbow_pulling_2.json": {
+      "gitBlob": "27924dc8ac44535b10de000c0233af549676692d",
+      "model": {
+        "parent": "spartanweaponry:item/base/longbow_pulling",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_longbow_pulling_2"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longsword.json": {
+      "gitBlob": "01873dca8fcc9e2d8bc0b4e6647a947a229961d7",
+      "model": {
+        "parent": "spartanweaponry:item/base/longsword",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_longsword_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_longsword_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/longsword",
+          "layer0": "spartanweaponry:item/iron_longsword"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longsword_blocking.json": {
+      "gitBlob": "a110f7167d9ed564bff874b896e4142a4d9dd3be",
+      "model": {
+        "parent": "spartanweaponry:item/base/longsword_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/longsword",
+          "layer0": "spartanweaponry:item/iron_longsword"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_longsword_throwing.json": {
+      "gitBlob": "557273c7bff3c6e85b80e2c430e043c3410a78d8",
+      "model": {
+        "parent": "spartanweaponry:item/base/longsword_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/longsword",
+          "layer0": "spartanweaponry:item/iron_longsword"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_parrying_dagger.json": {
+      "gitBlob": "1a309b9b6ea4d03d85aecf5d451a1ce3851d37d4",
+      "model": {
+        "parent": "spartanweaponry:item/base/parrying_dagger",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_parrying_dagger_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_parrying_dagger_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/parrying_dagger",
+          "layer0": "spartanweaponry:item/iron_parrying_dagger"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_parrying_dagger_blocking.json": {
+      "gitBlob": "2566d853223741f892b82445989f23180100afe3",
+      "model": {
+        "parent": "spartanweaponry:item/base/parrying_dagger_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/parrying_dagger",
+          "layer0": "spartanweaponry:item/iron_parrying_dagger"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_parrying_dagger_throwing.json": {
+      "gitBlob": "cb5de474b0389b37a8722ce946502c9ce7bde6eb",
+      "model": {
+        "parent": "spartanweaponry:item/base/parrying_dagger_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/parrying_dagger",
+          "layer0": "spartanweaponry:item/iron_parrying_dagger"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_pike.json": {
+      "gitBlob": "67c225ccb7be53d951a8331e6f004463141b5978",
+      "model": {
+        "parent": "spartanweaponry:item/base/pike",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_pike_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_pike_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/pike",
+          "layer0": "spartanweaponry:item/iron_pike"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_pike_blocking.json": {
+      "gitBlob": "8d31fff55f4f2c57b026acf7c1d3f33a4446e65a",
+      "model": {
+        "parent": "spartanweaponry:item/base/pike_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/pike",
+          "layer0": "spartanweaponry:item/iron_pike"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_pike_throwing.json": {
+      "gitBlob": "c6b079ffb3ea2b7dd32bc3420dd012615b2b17e3",
+      "model": {
+        "parent": "spartanweaponry:item/base/pike_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/pike",
+          "layer0": "spartanweaponry:item/iron_pike"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_quarterstaff.json": {
+      "gitBlob": "58ad42a2d3f56b12ddb0e646b1aa4da33ef875e4",
+      "model": {
+        "parent": "spartanweaponry:item/base/quarterstaff",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_quarterstaff_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_quarterstaff_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/quarterstaff",
+          "layer0": "spartanweaponry:item/iron_quarterstaff"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_quarterstaff_blocking.json": {
+      "gitBlob": "b0637bb2c26ceafe7679be6a45cb223630dbb2d8",
+      "model": {
+        "parent": "spartanweaponry:item/base/quarterstaff_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/quarterstaff",
+          "layer0": "spartanweaponry:item/iron_quarterstaff"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_quarterstaff_throwing.json": {
+      "gitBlob": "388d2c8018a6356a6be2d214de5b7259952ed488",
+      "model": {
+        "parent": "spartanweaponry:item/base/quarterstaff_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/quarterstaff",
+          "layer0": "spartanweaponry:item/iron_quarterstaff"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_rapier.json": {
+      "gitBlob": "c06fcfa71aca5de19334a87558cc5ec1edd651c5",
+      "model": {
+        "parent": "spartanweaponry:item/base/rapier",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_rapier_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_rapier_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/rapier",
+          "layer0": "spartanweaponry:item/iron_rapier"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_rapier_blocking.json": {
+      "gitBlob": "0aabf4c9fafc4cbb1b414ac2277f6a8b88e473d9",
+      "model": {
+        "parent": "spartanweaponry:item/base/rapier_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/rapier",
+          "layer0": "spartanweaponry:item/iron_rapier"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_rapier_throwing.json": {
+      "gitBlob": "a8458ae5cb97d75a43febd591c49971648230a8c",
+      "model": {
+        "parent": "spartanweaponry:item/base/rapier_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/rapier",
+          "layer0": "spartanweaponry:item/iron_rapier"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_saber.json": {
+      "gitBlob": "35291b7c93c21a10ea963e418fc0eee0840e5fbb",
+      "model": {
+        "parent": "spartanweaponry:item/base/saber",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_saber_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_saber_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/saber",
+          "layer0": "spartanweaponry:item/iron_saber"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_saber_blocking.json": {
+      "gitBlob": "9b48ae0c2392b11adfc5cdf060dda55d44776bbf",
+      "model": {
+        "parent": "spartanweaponry:item/base/saber_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/saber",
+          "layer0": "spartanweaponry:item/iron_saber"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_saber_throwing.json": {
+      "gitBlob": "ee8b0fd26c9c2b1782a7f0a0208a2b008d287004",
+      "model": {
+        "parent": "spartanweaponry:item/base/saber_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/saber",
+          "layer0": "spartanweaponry:item/iron_saber"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_spear.json": {
+      "gitBlob": "baea326e7390d6df47d30b1808c12cb1ad291cca",
+      "model": {
+        "parent": "spartanweaponry:item/base/spear",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_spear_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_spear_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/spear",
+          "layer0": "spartanweaponry:item/iron_spear"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_spear_blocking.json": {
+      "gitBlob": "c6ebb8bbaf8134801e6c572945db8978bac86aed",
+      "model": {
+        "parent": "spartanweaponry:item/base/spear_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/spear",
+          "layer0": "spartanweaponry:item/iron_spear"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_spear_throwing.json": {
+      "gitBlob": "556ce5db76e00ed26cbc37ad6e53b8cf0be461eb",
+      "model": {
+        "parent": "spartanweaponry:item/base/spear_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/spear",
+          "layer0": "spartanweaponry:item/iron_spear"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_throwing_knife.json": {
+      "gitBlob": "964b5b0f652d654a998cc4b2a6fdcc6357060a0e",
+      "model": {
+        "parent": "spartanweaponry:item/base/throwing_knife",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_throwing_knife_throwing",
+            "predicate": {
+              "spartanweaponry:empty": 0,
+              "spartanweaponry:throwing": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/base/throwing_knife_empty",
+            "predicate": {
+              "spartanweaponry:empty": 1
+            }
+          }
+        ],
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_throwing_knife"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_throwing_knife_throwing.json": {
+      "gitBlob": "5f91f56d344a944588b287365eb40ea39d8ab684",
+      "model": {
+        "parent": "spartanweaponry:item/base/throwing_knife_throwing",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_throwing_knife"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_tomahawk.json": {
+      "gitBlob": "63a95ba8d4c37807141b772b21951bc638abcccb",
+      "model": {
+        "parent": "spartanweaponry:item/base/tomahawk",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_tomahawk_throwing",
+            "predicate": {
+              "spartanweaponry:empty": 0,
+              "spartanweaponry:throwing": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/base/tomahawk_empty",
+            "predicate": {
+              "spartanweaponry:empty": 1
+            }
+          }
+        ],
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_tomahawk"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_tomahawk_throwing.json": {
+      "gitBlob": "b618cec64199adef8c45177c100f2d9cb69a6c22",
+      "model": {
+        "parent": "spartanweaponry:item/base/tomahawk_throwing",
+        "textures": {
+          "layer0": "spartanweaponry:item/iron_tomahawk"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_warhammer.json": {
+      "gitBlob": "ee25fe12f861c464fce4da9dde8caf3b6f626472",
+      "model": {
+        "parent": "spartanweaponry:item/base/warhammer",
+        "loader": "spartanweaponry:oil_coated_item",
+        "overrides": [
+          {
+            "model": "spartanweaponry:item/iron_warhammer_blocking",
+            "predicate": {
+              "spartanweaponry:blocking": 1
+            }
+          },
+          {
+            "model": "spartanweaponry:item/iron_warhammer_throwing",
+            "predicate": {
+              "spartanweaponry:throwing": 1
+            }
+          }
+        ],
+        "textures": {
+          "coating": "spartanweaponry:item/coating/warhammer",
+          "layer0": "spartanweaponry:item/iron_warhammer"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_warhammer_blocking.json": {
+      "gitBlob": "a6cbff42775fd80fa5b1451b7ddde9b56596ff68",
+      "model": {
+        "parent": "spartanweaponry:item/base/warhammer_blocking",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/warhammer",
+          "layer0": "spartanweaponry:item/iron_warhammer"
+        }
+      }
+    },
+    "src/generated/resources/assets/spartanweaponry/models/item/iron_warhammer_throwing.json": {
+      "gitBlob": "52e22bc7236d9af032e310599b9bdcec2ca77b3f",
+      "model": {
+        "parent": "spartanweaponry:item/base/warhammer_throwing",
+        "loader": "spartanweaponry:oil_coated_item",
+        "textures": {
+          "coating": "spartanweaponry:item/coating/warhammer",
+          "layer0": "spartanweaponry:item/iron_warhammer"
+        }
+      }
+    }
+  }
+}

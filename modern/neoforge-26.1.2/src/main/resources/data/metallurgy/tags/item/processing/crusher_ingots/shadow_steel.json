@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:shadow_steel_ingot",
+    {
+      "id": "#forge:ingots/shadow_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/shadow_steel",
+      "required": false
+    }
+  ]
+}

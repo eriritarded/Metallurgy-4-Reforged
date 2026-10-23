@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_midasium",
+  "category": "metal",
+  "primary": 5.6,
+  "secondary": 4.2,
+  "tertiary": 3.5,
+  "durability": 89,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 168,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 7.0,
+  "tints": {
+    "glyph": "FFBD45",
+    "texture": "FFBD45"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:midasium_ingot"
+    ]
+  },
+  "effects": {
+    "criticalStrike": [
+      8,
+      1.5
+    ],
+    "stabilizing": 10
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

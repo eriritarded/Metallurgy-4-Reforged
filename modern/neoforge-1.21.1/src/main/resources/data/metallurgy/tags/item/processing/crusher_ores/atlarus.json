@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:atlarus_ore",
+    {
+      "id": "#forge:ores/atlarus",
+      "required": false
+    },
+    {
+      "id": "#c:ores/atlarus",
+      "required": false
+    }
+  ]
+}

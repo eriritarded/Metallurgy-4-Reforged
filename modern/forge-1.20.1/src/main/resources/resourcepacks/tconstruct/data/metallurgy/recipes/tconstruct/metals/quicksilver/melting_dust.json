@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/quicksilver"
+  },
+  "result": {
+    "tag": "forge:molten_quicksilver",
+    "amount": 90
+  },
+  "temperature": 1300,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/quicksilver"
+      }
+    }
+  ]
+}

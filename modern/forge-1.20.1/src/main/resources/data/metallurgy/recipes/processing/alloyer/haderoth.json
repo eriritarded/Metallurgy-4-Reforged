@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/mithril"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/rubracium"
+    }
+  ],
+  "amounts": [
+    1,
+    2
+  ],
+  "result": {
+    "item": "metallurgy:haderoth_ingot",
+    "count": 3
+  },
+  "experience": 1.5,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:haderoth_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/mithril"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/rubracium"
+      }
+    }
+  ]
+}

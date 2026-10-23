@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:lutetium_ingot",
+    {
+      "id": "#forge:ingots/lutetium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lutetium",
+      "required": false
+    }
+  ]
+}

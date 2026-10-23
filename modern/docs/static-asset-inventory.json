@@ -1,0 +1,32 @@
+{
+  "reviewed": "2026-10-16",
+  "targets": [
+    {
+      "target": "forge-1.20.1",
+      "files": 9644,
+      "jsonOrMetadataParsed": 8454,
+      "overlappingPaths": [],
+      "missingOwnModelOrTextureReferences": [],
+      "blockAtlasSources": 12,
+      "scope": "JSON syntax, explicit Metallurgy model/texture reference existence, duplicate paths and atlas inventory only. Does not decode native schemas, render, launch or establish gameplay."
+    },
+    {
+      "target": "neoforge-1.21.1",
+      "files": 6047,
+      "jsonOrMetadataParsed": 4948,
+      "overlappingPaths": [],
+      "missingOwnModelOrTextureReferences": [],
+      "blockAtlasSources": 12,
+      "scope": "JSON syntax, explicit Metallurgy model/texture reference existence, duplicate paths and atlas inventory only. Does not decode native schemas, render, launch or establish gameplay."
+    },
+    {
+      "target": "neoforge-26.1.2",
+      "files": 7103,
+      "jsonOrMetadataParsed": 5915,
+      "overlappingPaths": [],
+      "missingOwnModelOrTextureReferences": [],
+      "blockAtlasSources": 12,
+      "scope": "JSON syntax, explicit Metallurgy model/texture reference existence, duplicate paths and atlas inventory only. Does not decode native schemas, render, launch or establish gameplay."
+    }
+  ]
+}

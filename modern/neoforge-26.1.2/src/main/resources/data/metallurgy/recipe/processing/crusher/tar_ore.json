@@ -1,0 +1,21 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "metallurgy:tar_ore"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:tar",
+    "count": 4
+  },
+  "experience": 0.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tar"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "metallurgy:blocks/iron_reinforced_glass"
+  },
+  "render_type": "minecraft:cutout"
+}

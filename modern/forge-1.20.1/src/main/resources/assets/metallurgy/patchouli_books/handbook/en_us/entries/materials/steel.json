@@ -1,0 +1,30 @@
+{
+  "name": "Steel",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:steel_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:steel_ingot",
+      "title": "Making Steel",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Iron + 2 Manganese = 2 Steel"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:steel_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 421 uses.$(br)Harvest level: 3.$(br)Mining efficiency: 6.4.$(br)Material damage bonus: 2.3.$(br)Enchantability: 14.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:steel_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 6, leggings 5, boots 3.$(br2)Toughness per piece: 3.0.$(br)Enchantability: 14."
+    }
+  ]
+}

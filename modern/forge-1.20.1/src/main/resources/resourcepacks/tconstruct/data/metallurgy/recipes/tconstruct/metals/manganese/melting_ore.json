@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/manganese"
+  },
+  "result": {
+    "tag": "forge:molten_manganese",
+    "amount": 180
+  },
+  "temperature": 1100,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/manganese"
+      }
+    }
+  ],
+  "rate": "metal"
+}

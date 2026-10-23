@@ -1,0 +1,130 @@
+{
+  "baselineRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "method": "Lexical Java type-reference inventory, excluding comments; manual active MetallurgyEffects/ModItems initialization review. Not a claim about arbitrary reflection by third-party mods.",
+  "rows": [
+    {
+      "source": "effect/armor/DesichalkosArmorEffectOld.java",
+      "sourceSha256": "2a99d63395105da635f401afe1cb8ab5c8d6740f7c21e96d4087f4d04e73f000",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {
+        "capabilities/entity/EntityData.java": "EntityData is registered, but its initEnderman helper only reads the retired borrowableBlocks table; initEnderman is called solely by DesichalkosArmorEffectOld. Registered default capability fields do not instantiate that old effect."
+      },
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/armor/EximiteArmorEffectOld.java",
+      "sourceSha256": "4518181c082c3f988cb9bf0debec9e4f1a7655d4db747e06870e80804ae8e0d3",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/armor/HaderothArmorEffectOld.java",
+      "sourceSha256": "7b3749a3f654e29489671f8d2fe0d788db6d3a3c0586e3bd12898ec7581567b9",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/armor/ShadowSteelArmorEffectOld.java",
+      "sourceSha256": "07ad56ba3c3754e572c388108de4618df376ce95b8465dc1070fff38d7835ed9",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/armor/VulcaniteArmorEffectOld.java",
+      "sourceSha256": "eba92b8106ebf16a5ca45c3f27340c53e5be18adb27d121511086b8ae23fe610",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/tool/AtlarusAxeEffect.java",
+      "sourceSha256": "10b08eebfce4a95df6c817c634c8e3d87953ba5d450df348ea89b6fddb184fd5",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/tool/DeepIronShadowSteelWeaponEffect.java",
+      "sourceSha256": "9d50dc1ab0b60385f145da23a8509d9b46b05f7283431b610438e55246be652e",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/tool/ShadowSteelToolEffect.java",
+      "sourceSha256": "fb6417a9818b94a2709004c761f8f9786ae26e3fed86f931ddc47f6f50522b62",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "effect/weapon/VulcaniteIgnatiusSwordEffect.java",
+      "sourceSha256": "4cdac4940e749b141ea84720a4f6c73703660f3b0baf4463e3543c51f76e4270",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "entity/ai/AIEndermanPlayerSteal.java",
+      "sourceSha256": "eecb6c5f8de38d5aedfb6a11cb6b83e87669414f3ed43f2579d5b523805e1134",
+      "referencesWithinInertGroup": [
+        "effect/armor/DesichalkosArmorEffectOld.java"
+      ],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "integration/tic/trait/MetallurgyTraitDecay.java",
+      "sourceSha256": "3970a15da6773a2465ac26909578b48c7980ff1148ad8eb34aac32792f3345e6",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    },
+    {
+      "source": "item/gadget/shield/ItemSanguiniteShield.java",
+      "sourceSha256": "a7dfa8d6f7912ae28d18e35d7f0976158cbcb82140673101ec55fce989e45adc",
+      "referencesWithinInertGroup": [],
+      "reviewedDormantReferences": {},
+      "activeReferencesOutsideGroup": [],
+      "automaticSubscriberAnnotation": false,
+      "status": "omitted",
+      "reason": "Not instantiated by active1.4.1 initialization; no automatic subscriber annotation. Any dormant helper reference is recorded separately. Current replacement effects are ported separately."
+    }
+  ]
+}

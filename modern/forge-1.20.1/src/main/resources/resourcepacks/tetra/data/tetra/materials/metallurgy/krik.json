@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_krik",
+  "category": "metal",
+  "primary": 7.1,
+  "secondary": 6.133,
+  "tertiary": 4.75,
+  "durability": 1652,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 102,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 9.5,
+  "tints": {
+    "glyph": "A7D85E",
+    "texture": "A7D85E"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:krik_ingot"
+    ]
+  },
+  "effects": {
+    "quickStrike": 2,
+    "reaching": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

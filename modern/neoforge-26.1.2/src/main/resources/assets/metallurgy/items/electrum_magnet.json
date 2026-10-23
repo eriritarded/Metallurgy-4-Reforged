@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": "{status:1}",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "metallurgy:item/gadget/electrum_magnet_active"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": "{status:2}",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "metallurgy:item/gadget/electrum_magnet_active"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "metallurgy:item/electrum_magnet"
+      }
+    }
+  }
+}

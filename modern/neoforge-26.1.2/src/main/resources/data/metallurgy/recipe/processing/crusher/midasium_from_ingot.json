@@ -1,0 +1,28 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "#metallurgy:processing/crusher_ingots/midasium"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:midasium_dust",
+    "count": 1
+  },
+  "experience": 0,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:midasium_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/crusher_ingots/midasium"
+      }
+    }
+  ]
+}

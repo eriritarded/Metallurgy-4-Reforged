@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:oureclase_ore",
+    {
+      "id": "#forge:ores/oureclase",
+      "required": false
+    },
+    {
+      "id": "#c:ores/oureclase",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "metallurgy:rubracium_ore"
+  },
+  "result": [
+    {
+      "fluid": "metallurgy:rubracium",
+      "amount": 180
+    }
+  ],
+  "energy": 8000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:rubracium_ore"
+    }
+  ]
+}

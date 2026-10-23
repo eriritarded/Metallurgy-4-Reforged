@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_bronze",
+  "category": "metal",
+  "primary": 5.2,
+  "secondary": 6.133,
+  "tertiary": 3.5,
+  "durability": 224,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 96,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 7.0,
+  "tints": {
+    "glyph": "CB8B4B",
+    "texture": "CB8B4B"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:bronze_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

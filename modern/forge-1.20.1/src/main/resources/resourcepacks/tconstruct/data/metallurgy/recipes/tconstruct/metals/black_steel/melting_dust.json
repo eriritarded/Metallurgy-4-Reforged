@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/black_steel"
+  },
+  "result": {
+    "tag": "forge:molten_black_steel",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/black_steel"
+      }
+    }
+  ]
+}

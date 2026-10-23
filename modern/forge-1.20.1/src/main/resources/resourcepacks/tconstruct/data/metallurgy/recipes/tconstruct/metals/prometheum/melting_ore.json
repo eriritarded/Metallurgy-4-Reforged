@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/prometheum"
+  },
+  "result": {
+    "tag": "forge:molten_prometheum",
+    "amount": 180
+  },
+  "temperature": 900,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/prometheum"
+      }
+    }
+  ],
+  "rate": "metal"
+}

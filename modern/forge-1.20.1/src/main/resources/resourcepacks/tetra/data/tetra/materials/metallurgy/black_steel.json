@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_black_steel",
+  "category": "metal",
+  "primary": 6.9,
+  "secondary": 6.133,
+  "tertiary": 3.3,
+  "durability": 976,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 66,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 6.6,
+  "tints": {
+    "glyph": "494949",
+    "texture": "494949"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:black_steel_ingot"
+    ]
+  },
+  "effects": {
+    "howling": [
+      1,
+      1.2
+    ],
+    "unbreaking": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

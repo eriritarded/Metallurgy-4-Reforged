@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/zinc",
+    "#c:dusts/copper",
+    "#c:dusts/copper",
+    "#c:dusts/copper"
+  ],
+  "result": {
+    "id": "metallurgy:brass_dust",
+    "count": 4
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_dust"
+    }
+  ]
+}

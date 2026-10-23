@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_alduorite",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_ceruclase",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_inolashite",
+    "amount": 180
+  },
+  "temperature": 1000
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:storage_blocks/bitumen"
+  ],
+  "result": {
+    "id": "metallurgy:bitumen",
+    "count": 4
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bitumen"
+    }
+  ]
+}

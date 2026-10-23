@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:sulfur_ore"
+  },
+  "result": {
+    "id": "metallurgy:sulfur_dust"
+  },
+  "experience": 0.5,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sulfur_dust"
+    }
+  ]
+}

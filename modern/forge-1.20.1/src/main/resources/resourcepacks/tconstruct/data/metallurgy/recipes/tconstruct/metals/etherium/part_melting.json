@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:etherium",
+  "result": {
+    "tag": "forge:molten_etherium",
+    "amount": 90
+  },
+  "temperature": 1900
+}

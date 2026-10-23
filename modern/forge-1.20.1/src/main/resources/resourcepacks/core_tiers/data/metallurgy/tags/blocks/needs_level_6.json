@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:adamantine_ore",
+    "metallurgy:alduorite_ore",
+    "metallurgy:atlarus_ore",
+    "metallurgy:lutetium_ore"
+  ]
+}

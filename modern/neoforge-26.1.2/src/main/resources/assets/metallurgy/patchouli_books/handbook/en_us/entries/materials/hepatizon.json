@@ -1,0 +1,40 @@
+{
+  "name": "Hepatizon",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:hepatizon_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:hepatizon_ingot",
+      "title": "Making Hepatizon",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Infuscolium + 1 Steel = 2 Hepatizon"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:hepatizon_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 761 uses.$(br)Harvest level: 3.$(br)Mining efficiency: 7.2.$(br)Material damage bonus: 4.2.$(br)Enchantability: 29.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:hepatizon_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 4, leggings 4, boots 3.$(br2)Toughness per piece: 1.0.$(br)Enchantability: 29."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Disarm",
+      "text": "When attacking you have a chance to rob the enemy of some of their equipment."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Cloak & Dagger",
+      "text": "Grants AI invisibility outside of a certain radius depending on how much armor you're wearing."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "thermal:magmatic_fuel",
+  "ingredient": {
+    "fluid": "metallurgy:molten_thermite",
+    "amount": 1000
+  },
+  "energy": 200000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    }
+  ]
+}

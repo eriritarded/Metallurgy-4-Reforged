@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:haderoth_ingot",
+    {
+      "id": "#forge:ingots/haderoth",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/haderoth",
+      "required": false
+    }
+  ]
+}

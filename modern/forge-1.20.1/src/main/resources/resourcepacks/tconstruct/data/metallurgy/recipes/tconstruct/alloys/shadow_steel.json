@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_shadow_iron",
+      "amount": 180
+    },
+    {
+      "tag": "forge:molten_lemurite",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_shadow_steel",
+    "amount": 270
+  },
+  "temperature": 1000
+}

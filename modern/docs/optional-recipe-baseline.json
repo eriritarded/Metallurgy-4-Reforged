@@ -1,0 +1,76 @@
+{
+  "reviewedAt": "2026-10-16",
+  "sourceState": "Primary source and generated examples reviewed; dependency decoding/runtime unverified.",
+  "references": [
+    {
+      "repository": "Team-EnderIO/EnderIO",
+      "ref": "18ee1b17bf6879298e911fff751204b07f2e4228",
+      "path": "src/generated/resources/data/enderio/recipes/alloy_smelting/conductive_alloy_ingot.json",
+      "sha": "5ce2dac34b885d45e56f599273348f8bd2d18211",
+      "url": "https://github.com/Team-EnderIO/EnderIO/blob/18ee1b17bf6879298e911fff751204b07f2e4228/src/generated/resources/data/enderio/recipes/alloy_smelting/conductive_alloy_ingot.json"
+    },
+    {
+      "repository": "Team-EnderIO/EnderIO",
+      "ref": "a25cd60d658b7082d6c508a43b770e46ef45dbac",
+      "path": "enderio/src/generated/resources/data/enderio/recipe/alloy_smelting/conductive_alloy_ingot.json",
+      "sha": "bf1eaf917d49cf5c6d44234c823d07bcb23280ca",
+      "url": "https://github.com/Team-EnderIO/EnderIO/blob/a25cd60d658b7082d6c508a43b770e46ef45dbac/enderio/src/generated/resources/data/enderio/recipe/alloy_smelting/conductive_alloy_ingot.json"
+    },
+    {
+      "repository": "Team-EnderIO/EnderIO",
+      "ref": "63bb172f96167e23cdfbad16c8b3671a6af668e7",
+      "path": "enderio/src/generated/resources/data/enderio/recipe/alloy_smelting/conductive_alloy_ingot.json",
+      "sha": "3a4a5b37cfb202d2ecdbd829019d161c7af91353",
+      "url": "https://github.com/Team-EnderIO/EnderIO/blob/63bb172f96167e23cdfbad16c8b3671a6af668e7/enderio/src/generated/resources/data/enderio/recipe/alloy_smelting/conductive_alloy_ingot.json"
+    },
+    {
+      "repository": "InnovativeOnlineIndustries/Industrial-Foregoing",
+      "ref": "1369806de4ceee84a86fcc0e57cc8f4724ad716f",
+      "path": "src/generated/resources/data/industrialforegoing/recipes/laser_drill_ore/diamond.json",
+      "sha": "f5d54c71087b0f24e95349b82c1bec9b4564b16a",
+      "url": "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/1369806de4ceee84a86fcc0e57cc8f4724ad716f/src/generated/resources/data/industrialforegoing/recipes/laser_drill_ore/diamond.json"
+    },
+    {
+      "repository": "InnovativeOnlineIndustries/Industrial-Foregoing",
+      "ref": "ce2852db4b34af3ab1b9637cff0b327d4bb561d5",
+      "path": "src/generated/resources/data/industrialforegoing/recipe/laser_drill_ore/diamond_ore.json",
+      "sha": "90ae8524156c2a2669fd69346a16f59edf613524",
+      "url": "https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/ce2852db4b34af3ab1b9637cff0b327d4bb561d5/src/generated/resources/data/industrialforegoing/recipe/laser_drill_ore/diamond_ore.json"
+    },
+    {
+      "repository": "CoFH/ThermalExpansion",
+      "ref": "9dc6061173c6732fd3bcdbf4d3c2baf3dc82f089",
+      "path": "src/main/resources/data/thermal/recipes/machines/centrifuge/centrifuge_electrum_dust.json",
+      "sha": "b65f2d20e5f9e2e581c3a13f88ab32470004485f",
+      "url": "https://github.com/CoFH/ThermalExpansion/blob/9dc6061173c6732fd3bcdbf4d3c2baf3dc82f089/src/main/resources/data/thermal/recipes/machines/centrifuge/centrifuge_electrum_dust.json"
+    },
+    {
+      "repository": "CoFH/ThermalExpansion",
+      "ref": "9dc6061173c6732fd3bcdbf4d3c2baf3dc82f089",
+      "path": "src/main/resources/data/thermal/recipes/machines/crucible/crucible_cobblestone_to_lava.json",
+      "sha": "31980d296d9779364d24f49efb6600d09a977ea2",
+      "url": "https://github.com/CoFH/ThermalExpansion/blob/9dc6061173c6732fd3bcdbf4d3c2baf3dc82f089/src/main/resources/data/thermal/recipes/machines/crucible/crucible_cobblestone_to_lava.json"
+    },
+    {
+      "repository": "CoFH/ThermalExpansion",
+      "ref": "9dc6061173c6732fd3bcdbf4d3c2baf3dc82f089",
+      "path": "src/main/resources/data/thermal/recipes/machines/smelter/smelter_alloy_lumium.json",
+      "sha": "e508c7f61a7fec3a7370a114217dfe8b5cab92ba",
+      "url": "https://github.com/CoFH/ThermalExpansion/blob/9dc6061173c6732fd3bcdbf4d3c2baf3dc82f089/src/main/resources/data/thermal/recipes/machines/smelter/smelter_alloy_lumium.json"
+    },
+    {
+      "repository": "CoFH/ThermalCore",
+      "ref": "5892f3303cbedb19064b364e383531d1351d73f2",
+      "path": "src/main/resources/data/thermal/recipes/fuels/magmatic/magmatic_lava.json",
+      "sha": "d49a27c6222c5a4996d2ffa0698df4759c14bbf7",
+      "url": "https://github.com/CoFH/ThermalCore/blob/5892f3303cbedb19064b364e383531d1351d73f2/src/main/resources/data/thermal/recipes/fuels/magmatic/magmatic_lava.json"
+    },
+    {
+      "repository": "SlimeKnights/TinkersConstruct",
+      "ref": "f4e77d43f39ba1047bf93ae816b7e1beaab514c2",
+      "path": "src/main/java/slimeknights/tconstruct/library/recipe/FluidValues.java",
+      "sha": "7dd2100547e5b04caf65f14cc2dc2091c6cfc873",
+      "url": "https://github.com/SlimeKnights/TinkersConstruct/blob/f4e77d43f39ba1047bf93ae816b7e1beaab514c2/src/main/java/slimeknights/tconstruct/library/recipe/FluidValues.java"
+    }
+  ]
+}

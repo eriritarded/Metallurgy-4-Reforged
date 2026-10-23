@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:ingots/ignatius",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "metallurgy:flint_and_ignatius",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:flint_and_ignatius"
+    }
+  ]
+}
