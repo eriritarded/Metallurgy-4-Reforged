@@ -167,8 +167,12 @@ retained locally under `modern/artifacts/`; no GitHub binary release was created
 An earlier unreleased candidate was preserved in local backups when final
 packaging was corrected to include the current credits; no published tag moved.
 
-**Built, not installed or runtime confirmed.** No game or tests were launched.
+**Built and installed; runtime not confirmed.** On 2026-10-23 the ordinary
+port.18 package replaced port.17 in Simply NeoForged (Minecraft 26.1.2,
+NeoForge 26.1.2.122). The installed SHA-256 matches the table above; port.17
+was backed up with its hash verified, and all 276 other files in the mods
+folder remained byte-identical. See the separate
+[installation receipt](hephaestus-traits-install.json). No game or tests were launched.
 Compilation/static inspection does not establish mixin application, actual
 trait activation, tooltip appearance, loot outcomes or multiplayer behavior.
-Hephaestus Tools 1.0.9 and future APIs are unreviewed. The existing installed
-Hephaestus port.17 package is untouched.
+Hephaestus Tools 1.0.9 and future APIs are unreviewed.

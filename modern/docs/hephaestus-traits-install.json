@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "recordedAt": "2026-10-23T10:34:30.0926581Z",
+  "instance": "Simply NeoForged",
+  "minecraft": "26.1.2",
+  "loader": "NeoForge 26.1.2.122",
+  "version": "1.4.1-port.18",
+  "artifact": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18.jar",
+  "sourceCommit": "f22613f903acd0e2c62ab2ee340e311caa6b1f2d",
+  "sourceTag": "metallurgy/mc-26.1.2/v1.4.1-port.18",
+  "installedSha256": "be137c2a9642060ae91eebf32286b034856980addc7604671dc9d6261b498e47",
+  "previousArtifact": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.17.jar",
+  "previousSha256": "a2955f2165cc5591ff5034112c5695ff2651ef38c317f73247d4eb41118f9ddc",
+  "backupVerified": true,
+  "otherFilesUnchanged": true,
+  "otherFileCount": 276,
+  "installed": true,
+  "gameLaunched": false,
+  "runtimeConfirmed": false
+}
