@@ -23,13 +23,15 @@
     "attack_damage": 8.0,
     "attack_speed": 1.0,
     "tier": 6,
-    "enchantability": 25
+    "enchantability": 25,
+    "trait": "metallurgy:sanguinite"
   },
   "handle_stats": {
     "durability_mult": 0.4,
     "speed_mult": 0.1,
     "damage_mult": 0.18,
-    "attack_speed_mult": -0.02
+    "attack_speed_mult": -0.02,
+    "trait": "metallurgy:sanguinite"
   },
   "binding_stats": {
     "durability": 166

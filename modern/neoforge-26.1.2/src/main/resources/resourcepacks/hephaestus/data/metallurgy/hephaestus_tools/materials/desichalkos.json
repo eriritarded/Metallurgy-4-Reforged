@@ -32,6 +32,7 @@
     "attack_speed_mult": -0.02
   },
   "binding_stats": {
-    "durability": 558
+    "durability": 558,
+    "trait": "metallurgy:desichalkos"
   }
 }

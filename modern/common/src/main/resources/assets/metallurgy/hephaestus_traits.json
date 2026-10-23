@@ -1,0 +1,18 @@
+{
+  "source": "Davoleo/Metallurgy-4-Reforged@ef94cb94cfc08ccebe8a0df307ce6b390dcd4704:integration/tic/SetTinkerTraits.java",
+  "roles": ["head", "handle", "binding"],
+  "materials": {
+    "midasium": [["writable", "duplication"], ["writable", "duplication"], ["writable", "duplication"]],
+    "ignatius": [["vulcan"], [], []],
+    "vulcanite": [["vulcan_hot"], ["superheat"], []],
+    "eximite": [["enderference"], [], []],
+    "vyroxeres": [["poisonous"], ["poisonous"], ["poisonous"]],
+    "damascus_steel": [["dense", "duritos"], ["duritos"], ["duritos"]],
+    "shadow_iron": [["obscure"], ["obscure"], ["obscure"]],
+    "sanguinite": [["lifesteal"], ["lifesteal"], []],
+    "tartarite": [["wither"], [], []],
+    "alduorite": [["unnatural"], [], ["unnatural"]],
+    "desichalkos": [[], [], ["king_dice"]],
+    "deep_iron": [["opistognathus"], ["opistognathus"], ["opistognathus"]]
+  }
+}

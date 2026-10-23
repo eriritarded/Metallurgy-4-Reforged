@@ -1,5 +1,15 @@
 # Metallurgy modern packages
 
+## Native26 port.18: Hephaestus tool traits
+
+Source implementation 2026-10-23 restores 14 original tool-trait behaviors over
+12 source-assigned materials, respecting head/handle/binding roles. Includes
+optional API loading, trait presentation, native durability/slot integration and
+server-owned effects/drops. See [source identities, mechanics and limits](HEPHAESTUS-TRAITS.md).
+Eight classes compile. Final production packaging is recorded separately. No
+game/tests or installation; trait activation and mixin loading are unconfirmed.
+Forge1.20.1 port.9 and NeoForge1.21.1 port.10 remain unchanged.
+
 **2026-10-23 source review:** Claude's later Hephaestus build of native26 port.17
 is the installed package and differs from the earlier gauntlet-only port.17.
 The installed and retained Hephaestus hashes match. See [the current fork and

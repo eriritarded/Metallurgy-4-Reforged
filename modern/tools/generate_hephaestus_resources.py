@@ -25,8 +25,8 @@ HANDLE_PARTS={'tool_handle':(90,100),'tough_handle':(270,140)}
 BINDING_PARTS={'tool_binding':(90,100),'tough_binding':(270,140)}
 # Hephaestus HarvestTier ordinals: wood, stone, iron, diamond, gold, netherite, adamantite, aurichalcum.
 TIERS=[0,1,2,3,5,6,7]
-# Built-in Hephaestus traits that are the same effect as a Metallurgy TCon trait.
-TRAITS={'damascus_steel':'dense'}
+# Original per-role assignments, consumed by the optional adapter through markers.
+TRAITS=json.loads((ROOT/'common/src/main/resources/assets/metallurgy/hephaestus_traits.json').read_text(encoding='utf-8'))['materials']
 LAVA,BLAZE='minecraft:lava','hephaestus:molten_blaze'
 
 def dump(path,data):
@@ -41,13 +41,14 @@ def material(m,p):
     if 'head' in p:
         head=p['head'];stats={'durability':max(1,2*head['durability']),'mining_speed':head['mining_speed'],'attack_damage':head['melee_attack'],
             'attack_speed':1.0,'tier':TIERS[max(0,min(6,head['harvest_level']))],'enchantability':tool.get('enchantability',14)}
-        if m['name'] in TRAITS:stats['trait']=TRAITS[m['name']]
         result['head_stats']=stats
     if 'handle' in p:
         speed=p.get('head',{}).get('mining_speed',6);attack=p.get('head',{}).get('melee_attack',2)
         result['handle_stats']={'durability_mult':clamp(p['handle']['multiplier']-1,-.5,.4),'speed_mult':clamp((speed-6)*.02,-.2,.45),
             'damage_mult':clamp((attack-2)*.03,-.1,.25),'attack_speed_mult':clamp(tool.get('attack_speed',0)*.1,-.1,.15)}
     if 'extra' in p:result['binding_stats']={'durability':max(1,p['extra']['durability'])}
+    for key,effects in zip(['head_stats','handle_stats','binding_stats'],TRAITS.get(m['name'],[[],[],[]])):
+        if key in result and effects:result[key]['trait']='metallurgy:'+m['name']
     return result
 
 def main():
@@ -144,7 +145,7 @@ def main():
     dump(lang_path,lang)
     dump(ROOT/'docs/hephaestus-coverage.json',{'target':'neoforge-26.1.2','nativeSnapshot':native['jars'],'materials':materials,'sharedHephaestusFluids':sorted(shared&set(fluids)),
         'counts':{**written,'recipeFiles':len(list((DATA/'recipe').rglob('*.json')))},'ingotMilliBuckets':90,'oreMilliBuckets':180,
-        'fuel':'lava up to 1000, hephaestus:molten_blaze above','traitsMapped':TRAITS,'customTconTraits':'not available: Hephaestus Tools traits are a closed enum',
+        'fuel':'lava up to 1000, hephaestus:molten_blaze above','traitsMapped':TRAITS,'customTconTraits':'optional native adapter and role markers: see HEPHAESTUS-TRAITS.md',
         'armor':'not available: Hephaestus Tools has no armor parts','runtimeChecked':False})
     print(f"Generated Hephaestus data: {written['materials']} tool materials, {written['alloys']} alloys, "+str(len(list((DATA/'recipe').rglob('*.json'))))+f" recipes ({written['skipped']} left to native Hephaestus)")
 

@@ -23,15 +23,18 @@
     "attack_damage": 1.7,
     "attack_speed": 1.0,
     "tier": 2,
-    "enchantability": 19
+    "enchantability": 19,
+    "trait": "metallurgy:deep_iron"
   },
   "handle_stats": {
     "durability_mult": 0.062,
     "speed_mult": 0.004,
     "damage_mult": -0.009,
-    "attack_speed_mult": 0.0
+    "attack_speed_mult": 0.0,
+    "trait": "metallurgy:deep_iron"
   },
   "binding_stats": {
-    "durability": 57
+    "durability": 57,
+    "trait": "metallurgy:deep_iron"
   }
 }

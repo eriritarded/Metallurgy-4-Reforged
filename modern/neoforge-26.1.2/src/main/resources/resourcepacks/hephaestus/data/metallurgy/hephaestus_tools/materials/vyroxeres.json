@@ -23,15 +23,18 @@
     "attack_damage": 6.2,
     "attack_speed": 1.0,
     "tier": 6,
-    "enchantability": 16
+    "enchantability": 16,
+    "trait": "metallurgy:vyroxeres"
   },
   "handle_stats": {
     "durability_mult": 0.4,
     "speed_mult": 0.1,
     "damage_mult": 0.126,
-    "attack_speed_mult": 0.0
+    "attack_speed_mult": 0.0,
+    "trait": "metallurgy:vyroxeres"
   },
   "binding_stats": {
-    "durability": 121
+    "durability": 121,
+    "trait": "metallurgy:vyroxeres"
   }
 }

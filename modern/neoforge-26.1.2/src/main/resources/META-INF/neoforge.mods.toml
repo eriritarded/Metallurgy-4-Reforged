@@ -1,7 +1,7 @@
 license="GPL-3.0-only"
 [[mods]]
 modId="metallurgy"
-version="1.4.1-port.17"
+version="1.4.1-port.18"
 displayName="Metallurgy 4: Reforged"
 authors="Davoleo, Matpac, Metallurgy contributors; Metallurgy Chests by KreloX; modern port by Miles"
 description="Modern port with integrated Metallurgy Chests."
@@ -32,6 +32,16 @@ side="BOTH"
 
 [[mixins]]
 config="metallurgy.mixins.json"
+
+[[mixins]]
+config="metallurgy.hephaestus.mixins.json"
+
+[[dependencies.metallurgy]]
+modId="hephaestus_tools"
+type="optional"
+versionRange="[1.0.8,)"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies.metallurgy]]
 modId="jei"

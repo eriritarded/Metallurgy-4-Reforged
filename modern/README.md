@@ -1,5 +1,10 @@
 # Metallurgy modern ports
 
+**Native26 port.18, 2026-10-23:** restored Reforged's 14 Tinkers trait behaviors
+to 12 Hephaestus materials, with actual part roles and trait tooltips. The eight
+adapter classes compile. Production packaging is recorded separately; this
+update is uninstalled and not gameplay tested. See [traits and exact translations](docs/HEPHAESTUS-TRAITS.md).
+
 **2026-10-23 source synchronization:** Claude added Hephaestus compatibility and
 recorded installing its native26 port.17 build. Its installed hash matches the
 retained Hephaestus package; older installation statements below are historical.
@@ -59,6 +64,8 @@ Current packages, compatibility by target and exact limits are in [RELEASE.md](d
 The explicitly authorized launch/create-world/retry troubleshooting is complete and the owned game is closed. `docs/launch-hold.json` disables further launches for this completed task. The separate private-desktop QA harness uses no Windows input injection and preserves real saves. Ordinary build helpers remain compilation-only.
 
 ## Change history
+
+- 2026-10-23: recovered original Reforged/TConstruct2 tool traits for Hephaestus. Added optional role-based combat/mining/durability/drop effects, Enderference, Writable's native slot translation and part/tool tooltips. Corrected the earlier Dense mapping; no traits invented for unassigned materials. Native26 port.18 classes compile; no game/tests/install. See [the complete behavior record](docs/HEPHAESTUS-TRAITS.md).
 
 - 2026-10-23: reviewed Claude's Hephaestus source/installation commits, verified the installed Hephaestus package identity and created the upstream GitHub fork. Added a guarded source-export workflow that preserves gameplay code/assets while keeping local forensic receipts and machine information out of publication. Source-only work; no new build/test/game/install. See [the fork record](docs/GITHUB-FORK.md).
 

@@ -23,7 +23,8 @@
     "attack_damage": 2.4,
     "attack_speed": 1.0,
     "tier": 5,
-    "enchantability": 11
+    "enchantability": 11,
+    "trait": "metallurgy:ignatius"
   },
   "handle_stats": {
     "durability_mult": -0.358,

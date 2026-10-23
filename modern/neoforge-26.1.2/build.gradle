@@ -9,7 +9,7 @@ neoForge {
 }
 repositories { mavenCentral(); maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei' } } }
 
-version = '1.4.1-port.17'
+version = '1.4.1-port.18'
 group = 'it.hurts.metallurgy_reforged'
 base { archivesName = 'Metallurgy-Reforged-MC-26.1.2-neoforge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
@@ -35,3 +35,11 @@ apply from: '../tools/no-game-launch.gradle'
 
 // Optional JEI API only; no dependency implementation is packaged.
 dependencies { compileOnly "mezz.jei:jei-26.1.2-common-api:29.47.0.111" }
+
+// Optional API only. Supply the author's unmodified Hephaestus Tools 1.0.8 JAR;
+// no dependency implementation or assets are bundled in Metallurgy.
+def hephaestusApi = providers.gradleProperty('hephaestusToolsJar').orElse(providers.environmentVariable('HEPHAESTUS_TOOLS_JAR'))
+if (!hephaestusApi.isPresent()) {
+    throw new GradleException('Set -PhephaestusToolsJar=/path/to/hephaestus_tools-neoforge-26.1.2-1.0.8.jar (or HEPHAESTUS_TOOLS_JAR). See modern/docs/HEPHAESTUS-TRAITS.md.')
+}
+dependencies { compileOnly files(hephaestusApi.get()) }

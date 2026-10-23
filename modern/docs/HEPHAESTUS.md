@@ -1,6 +1,6 @@
 # Hephaestus adaptation
 
-Source implementation, 2026-10-18. Target: NeoForge 26.1.2 with Hephaestus 1.0.17 (`hephaestus`, package `com.titammods`) and Hephaestus Tools 1.0.8 (`hephaestus_tools`, package `com.titammods.hephaestus_tools`), the versions in the Simply NeoForged instance. Hephaestus is its own smeltery mod, not a TConstruct fork: it has no `tconstruct` namespace, no Mantle, no material-fluid or modifier API. So the Tinkers integration is carried over as plain data, with no Hephaestus classes linked.
+Source implementation, 2026-10-18, extended 2026-10-23. Target: NeoForge 26.1.2 with Hephaestus 1.0.17 (`hephaestus`, package `com.titammods`) and Hephaestus Tools 1.0.8 (`hephaestus_tools`, package `com.titammods.hephaestus_tools`), the reviewed installed versions. Hephaestus is its own smeltery/tool system. Smeltery compatibility remains plain data; the optional port.18 trait adapter links the Tools API only while that mod is present. No dependency implementation is bundled.
 
 ## Loading and switches
 
@@ -22,8 +22,8 @@ Hephaestus Tools names a cast part's material after the fluid (`hephaestus_tools
 
 Part roles follow the same TCon source rules and six overrides as the TConstruct branch. Head stats feed the eight head parts, handle stats the two handles and binding stats the two bindings; a metal only casts the parts its roles allow (Rubracium casts handles and bindings only). Head durability is twice the legacy TCon head value, which is Metallurgy's tool durability. Mining speed, attack and enchantability come straight from Metallurgy. Harvest levels 0 to 6 map to Hephaestus wood, stone, iron, diamond, netherite, adamantite and aurichalcum. Level-6 Metallurgy ores are added to the adamantite-incorrect tag, so they still need a level-6 tool.
 
-Hephaestus Tools traits are a closed enum. Damascus Steel keeps Dense; the other Metallurgy traits have no Hephaestus equivalent and are not added. Hephaestus Tools has no armor parts, so the Construct's Armory plating has no counterpart.
+Hephaestus Tools traits are a closed enum. The first adapter kept only native Dense. Port.18 restores the source's 14 trait behaviors across 12 materials using actual head/handle/binding roles, named material markers and an optional event/mixin adapter. This also replaces native Dense's flat durability bonus with the original cubic wear reduction. See [the assignments, exact mechanics and translation choices](HEPHAESTUS-TRAITS.md). Hephaestus Tools has no armor parts, so the Construct's Armory plating still has no counterpart.
 
 ## Status
 
-The data and loader compile (NeoForge26.1.2 build, 2026-10-18; jar in `artifacts/` as `…port.17-hephaestus.jar`; installed in Simply NeoForged on 2026-10-20 as `…port.17.jar`, replacing port.16). Hephaestus loading, smeltery behaviour and assembled tools have not been checked in a running game.
+The original data/loader compiled on 2026-10-18 and its Hephaestus port.17 was installed on 2026-10-20. Port.18 trait adapter compilation and later packaging are documented in [the trait record](HEPHAESTUS-TRAITS.md). The trait update is not installed. Hephaestus loading, smeltery behavior, assembled tools and trait activation remain unconfirmed in a running game.

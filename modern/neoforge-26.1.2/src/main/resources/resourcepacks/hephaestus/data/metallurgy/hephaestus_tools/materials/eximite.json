@@ -23,7 +23,8 @@
     "attack_damage": 4.9,
     "attack_speed": 1.0,
     "tier": 6,
-    "enchantability": 28
+    "enchantability": 28,
+    "trait": "metallurgy:eximite"
   },
   "handle_stats": {
     "durability_mult": 0.4,

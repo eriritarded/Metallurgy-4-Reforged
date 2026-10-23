@@ -23,15 +23,18 @@
     "attack_damage": 5.9,
     "attack_speed": 1.0,
     "tier": 5,
-    "enchantability": 9
+    "enchantability": 9,
+    "trait": "metallurgy:shadow_iron"
   },
   "handle_stats": {
     "durability_mult": -0.24,
     "speed_mult": 0.008,
     "damage_mult": 0.117,
-    "attack_speed_mult": -0.03
+    "attack_speed_mult": -0.03,
+    "trait": "metallurgy:shadow_iron"
   },
   "binding_stats": {
-    "durability": 29
+    "durability": 29,
+    "trait": "metallurgy:shadow_iron"
   }
 }
