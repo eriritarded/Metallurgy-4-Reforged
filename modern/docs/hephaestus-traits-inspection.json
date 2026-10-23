@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "recordedAt": "2026-10-23T09:15:23.538236+00:00",
+  "sourceCommit": "f22613f903acd0e2c62ab2ee340e311caa6b1f2d",
+  "artifacts": [
+    {
+      "file": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18.jar",
+      "sha256": "be137c2a9642060ae91eebf32286b034856980addc7604671dc9d6261b498e47",
+      "bytes": 4941481
+    },
+    {
+      "file": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18-sources.jar",
+      "sha256": "57ae81e407b6499d211f0942e082467e98a134a2ba04727b5b38ece40355d277",
+      "bytes": 4563292
+    }
+  ],
+  "classCount": 273,
+  "classFileMajors": [
+    69
+  ],
+  "compiledClassBytesMatch": true,
+  "unchangedPngCount": 1175,
+  "unchangedRecipeJsonCount": 2504,
+  "foreignImplementationClasses": 0,
+  "optionalMixinTargetSignatures": [
+    {
+      "target": "com.titammods.hephaestus_tools.tools.helper.ToolDurability",
+      "method": "hurt",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;ILnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V",
+      "disassemblySha256": "4aebc59b8333f501ed4aa4cf7c6a054582838ece3052d4f24b1835a451b4f66a"
+    },
+    {
+      "target": "com.titammods.hephaestus_tools.table.ToolUpgrades",
+      "method": "unlockedSlots",
+      "descriptor": "(Lnet/minecraft/world/item/ItemStack;)I",
+      "disassemblySha256": "75f9ae3d3e7683efb1a205888f277986d0e298dcaaa42737de32dab5569017c7"
+    },
+    {
+      "target": "com.titammods.hephaestus_tools.tools.helper.ToolTooltipBuilder",
+      "method": "partStats",
+      "descriptor": "(Lcom/titammods/hephaestus_tools/materials/MaterialId;I)Ljava/util/List;",
+      "disassemblySha256": "087883657c4aba3f7bb5e7ced9745f6d33c0c4ff2d5d61fc60b9626171132c20"
+    }
+  ],
+  "pseudoMixins": 3,
+  "currentLicenseAndNoticeMatch": true,
+  "testsRun": false,
+  "gameLaunched": false,
+  "installed": false,
+  "runtimeConfirmed": false,
+  "scope": "Archive contents, JSON/TOML syntax and javap native descriptors only; no mixin transformation or gameplay execution"
+}

@@ -147,8 +147,28 @@ The API input is compile-only; players without this optional mod can load the
 ordinary Metallurgy package. Older target build inputs are unchanged.
 
 The eight changed/new classes compile against the pinned native runtime and
-optional API. Final source-linked production packaging is recorded separately
-after committing source. No game, tests or installation is authorized by this
-implementation request. Compilation/static inspection does not establish mixin
-application, actual trait activation, tooltip appearance, loot outcomes or
-multiplayer behavior. Hephaestus Tools 1.0.9 and other future APIs are unreviewed.
+optional API from source commit `f22613f903acd0e2c62ab2ee340e311caa6b1f2d`.
+This is incremental compilation over the retained ordinary Hephaestus port.17,
+not a full clean rebuild. All 265 other compiled classes, 1,175 PNGs and 2,504
+recipe JSONs remain byte-identical. The production package contains 273 own
+classes, Java classfile major 69, with no dependency JARs/classes or test hooks.
+Current licenses/credits and all three optional mixin target descriptors match
+the inspected inputs. All packaged JSON/TOML files parse.
+
+| Local ordinary deliverable | SHA-256 |
+|---|---|
+| `Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18.jar` | `be137c2a9642060ae91eebf32286b034856980addc7604671dc9d6261b498e47` |
+| `Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18-sources.jar` | `57ae81e407b6499d211f0942e082467e98a134a2ba04727b5b38ece40355d277` |
+
+See [compilation/packaging](hephaestus-traits-build.json),
+[archive/signature inspection](hephaestus-traits-inspection.json) and
+[disposable-source/build cleanup](hephaestus-traits-cleanup.json). Packages are
+retained locally under `modern/artifacts/`; no GitHub binary release was created.
+An earlier unreleased candidate was preserved in local backups when final
+packaging was corrected to include the current credits; no published tag moved.
+
+**Built, not installed or runtime confirmed.** No game or tests were launched.
+Compilation/static inspection does not establish mixin application, actual
+trait activation, tooltip appearance, loot outcomes or multiplayer behavior.
+Hephaestus Tools 1.0.9 and future APIs are unreviewed. The existing installed
+Hephaestus port.17 package is untouched.

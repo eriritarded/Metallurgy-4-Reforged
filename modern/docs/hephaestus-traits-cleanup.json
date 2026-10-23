@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "recordedAt": "2026-10-23T05:15:47.5209113-04:00",
+  "sourceCommit": "f22613f903acd0e2c62ab2ee340e311caa6b1f2d",
+  "ownedScratchName": "metallurgy-hephaestus-traits-12779174a3a64371a05ae6988e06f39e",
+  "removed": true,
+  "filesRemoved": 3266,
+  "processesUsingScratch": 0,
+  "allFilesUnlocked": true,
+  "retained": "Maintained source, concise source/build/inspection records, ordinary production/source packages and required unreleased-candidate backups",
+  "testsRun": false,
+  "gameLaunched": false
+}

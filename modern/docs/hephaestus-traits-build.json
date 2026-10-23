@@ -1,0 +1,432 @@
+{
+  "schema": 1,
+  "recordedAt": "2026-10-23T09:12:54.908768+00:00",
+  "sourceCommit": "f22613f903acd0e2c62ab2ee340e311caa6b1f2d",
+  "sourceDirty": false,
+  "target": "NeoForge26.1.2.122",
+  "java": 25,
+  "version": "1.4.1-port.18",
+  "compilerExitCode": 0,
+  "buildMode": "Changed-class compilation against pinned ordinary Hephaestus port.17 and native runtime; not a full clean rebuild",
+  "baseline": {
+    "file": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.17-hephaestus.jar",
+    "sha256": "a2955f2165cc5591ff5034112c5695ff2651ef38c317f73247d4eb41118f9ddc"
+  },
+  "optionalDependency": {
+    "file": "hephaestus_tools-neoforge-26.1.2-1.0.8.jar",
+    "sha256": "6f41198cf8eb8e2b415bcaa5a6be41fa6718a51132b7a94919373c861e3453ed"
+  },
+  "compiledSources": [
+    {
+      "path": "common/src/main/java/it/hurts/metallurgy_reforged/compat/HephaestusData.java",
+      "sha256": "f36d5d7a21f00fc8d3d31208f4163f7c338a9c7c598a062746c45a152e69065f"
+    },
+    {
+      "path": "common/src/main/java/it/hurts/metallurgy_reforged/compat/HephaestusTraitData.java",
+      "sha256": "6b89f6e5ae1c3fbf3927c09434855c636000603bf040489ffaa62df29b21cd70"
+    },
+    {
+      "path": "neoforge-26.1.2/src/main/java/it/hurts/metallurgy_reforged/Metallurgy.java",
+      "sha256": "8e7f1bcb218c4fd5e6109d8608b1139281b4714d62ece867bcafe746532f5897"
+    },
+    {
+      "path": "neoforge-26.1.2/src/main/java/it/hurts/metallurgy_reforged/compat/hephaestus/HephaestusTraits.java",
+      "sha256": "f050ed5dfc759151f7905627fa2d2e89de12ab1ad1b590c0fa3d3cb34ddf7f3c"
+    },
+    {
+      "path": "neoforge-26.1.2/src/main/java/it/hurts/metallurgy_reforged/compat/hephaestus/mixin/DurabilityMixin.java",
+      "sha256": "2b9743a80033e0be139c4210d3b018c3fc59389df09ee36a5f21bb7556a3532c"
+    },
+    {
+      "path": "neoforge-26.1.2/src/main/java/it/hurts/metallurgy_reforged/compat/hephaestus/mixin/PartTooltipMixin.java",
+      "sha256": "68868cf94ce1f6d333b33f6c8c3fc2908d8e840091a6c0927e7366845465fc39"
+    },
+    {
+      "path": "neoforge-26.1.2/src/main/java/it/hurts/metallurgy_reforged/compat/hephaestus/mixin/UpgradesMixin.java",
+      "sha256": "bb026560691bc95100fafd948649cefc542954ee47533c315b51c1e80bf3721c"
+    }
+  ],
+  "compiledClasses": [
+    {
+      "path": "it/hurts/metallurgy_reforged/Metallurgy.class",
+      "sha256": "79f9b5e53aee0681bced06fa35e8c44cb02913549d354f77ac1be102b92ce3bf"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/HephaestusData.class",
+      "sha256": "7a63bd9df9ebb477642c9fb880c55761167d06f710824a5ecb94ce45f5ad5601"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/HephaestusTraitData.class",
+      "sha256": "60c871613738f14c877ec4a5f6af2f58cfad8a22957df28961378ce7be20510b"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/hephaestus/HephaestusTraits$1.class",
+      "sha256": "b6bfa4eec33eb1e7c4f8ad9b3d9e2d9a7e80f86e3161a2b8255e7ef88720fc30"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/hephaestus/HephaestusTraits.class",
+      "sha256": "3ee21bf7e117205ffdc8410f3569990c1eedb47faea9af9c010af9aba837899f"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/hephaestus/mixin/DurabilityMixin.class",
+      "sha256": "97b91a3db27f48c17459b873587c68550cbf55df9cdce9c45a23d6f8af79eee9"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/hephaestus/mixin/PartTooltipMixin.class",
+      "sha256": "87e9d1fa2b152a60bd8132b33ae2720866e5fb881268b4315c345b7f3386ac23"
+    },
+    {
+      "path": "it/hurts/metallurgy_reforged/compat/hephaestus/mixin/UpgradesMixin.class",
+      "sha256": "fd0b879880c5e3304fe1ab21cf50eb7eac19062fca0569a39bcec4f6e5d1a71d"
+    }
+  ],
+  "libraries": [
+    {
+      "file": "minecraft-client-patched-26.1.2.122.jar",
+      "sha256": "0621b17307aa4e75340366bf90970bc296ace07b286a5f194f2a78a98aec4346"
+    },
+    {
+      "file": "neoforge-26.1.2.122-universal.jar",
+      "sha256": "650705f7000994a12b2619fabfcaa3d23b5b3361e658a56a17ce7ae2e9b9c213"
+    },
+    {
+      "file": "ForgeWrapper-prism-2026-08-01.jar",
+      "sha256": "2be07e9bfd5bd237bec7511163b06123a055f4697bee398683c8668c9b37c83e"
+    },
+    {
+      "file": "earlydisplay-11.0.15.jar",
+      "sha256": "5abb1a589a6544b6d52ace65390b2fa39d0f012789142a0483236c8ac3d7c18f"
+    },
+    {
+      "file": "loader-11.0.15.jar",
+      "sha256": "dad0947efdfbc1b09f52c7779c86c3660ed6d385fd5c07b3b649332f6f75a429"
+    },
+    {
+      "file": "accesstransformers-11.0.2.jar",
+      "sha256": "e5f175eca04f3ab68dab45742323f5c38d1b61cf9a098b5ad85bd1d19621cdba"
+    },
+    {
+      "file": "asm-commons-9.9.1.jar",
+      "sha256": "c2319e014ce7199f2b7f7d56d6bb991863168c3f4b6cd6c9f542a4937ef7ef88"
+    },
+    {
+      "file": "mergetool-2.0.7-api.jar",
+      "sha256": "e78f586e085206e3b5699bf0a8de3ee94c59dd34d8cd5b4033e8c58e5ac9c2ec"
+    },
+    {
+      "file": "asm-util-9.9.1.jar",
+      "sha256": "c5ebbbeaf68126af094b42fa4800f59bc4413abd02d95b9aefad722cd257e207"
+    },
+    {
+      "file": "asm-analysis-9.9.1.jar",
+      "sha256": "6260bffc8ec008dd1b713702c7994e2c94d188a3da5bef9e87278a16df6a7522"
+    },
+    {
+      "file": "asm-tree-9.9.1.jar",
+      "sha256": "0f3555096b720b820bbacab0b515589bee0200bee099bda14c561738ae837ba1"
+    },
+    {
+      "file": "bus-8.0.5.jar",
+      "sha256": "705e24f37752809499a5cd0c7dd31eaabf3d933c5d3b2060168e94e9ef62593a"
+    },
+    {
+      "file": "asm-9.9.1.jar",
+      "sha256": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd"
+    },
+    {
+      "file": "toml-3.8.3.jar",
+      "sha256": "ccb92882264bf071e3916ab122fe5ea3e211b8ebf199201698a1324f151f928f"
+    },
+    {
+      "file": "core-3.8.3.jar",
+      "sha256": "971dc88c1c22085611ee1c300f5bbf8595938178e819befbb5e98c3cbd272b79"
+    },
+    {
+      "file": "JarJarSelector-0.5.0.jar",
+      "sha256": "15ca1bf4d49d9baae4b2d78ca47619125759f3a3c1bbfa223330139bde4bf2cb"
+    },
+    {
+      "file": "JarJarMetadata-0.5.0.jar",
+      "sha256": "f618f4cc199dda2f05cdc102c899b27d8151f130d1c56bc3338829c41eece3de"
+    },
+    {
+      "file": "maven-artifact-3.9.9.jar",
+      "sha256": "30f015d1c1a393e19c18cd4f43532089c36d4ca328608ce3dda78b74d3d31515"
+    },
+    {
+      "file": "typetools-0.6.3.jar",
+      "sha256": "408300867804be05d1083cc0287dd3a21295a9e76090e288013ba5a4182dc96d"
+    },
+    {
+      "file": "terminalconsoleappender-1.3.0.jar",
+      "sha256": "1afea1bca095068f7f4483f061feed94753be34233ddb0df9ec380fc14d5a985"
+    },
+    {
+      "file": "sponge-mixin-0.17.4+mixin.0.8.7.jar",
+      "sha256": "1f0ae44db7295f8626f33b1dc0ad7f043d8954a8d6847247875fcc5dfcecc934"
+    },
+    {
+      "file": "at-parser-11.0.2.jar",
+      "sha256": "546bf36537c606b4d14cb1a313873f41fba13837d067987a32170c4a3199f08a"
+    },
+    {
+      "file": "jline-reader-3.20.0.jar",
+      "sha256": "acd1c94d1e228aa7b7962f69b21ed3a9fd828eb3a63e4baf9086954e626af1f0"
+    },
+    {
+      "file": "jline-terminal-3.20.0.jar",
+      "sha256": "12125170e795519ba6dc8010c070b53c76aae92b485c1e37530e54ab5dd08d43"
+    },
+    {
+      "file": "srgutils-1.0.10.jar",
+      "sha256": "e4cbc878bc44627196b0507291d09a445fcc8ba8407601944a06d1baa03adc5c"
+    },
+    {
+      "file": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+    },
+    {
+      "file": "error_prone_annotations-2.41.0.jar",
+      "sha256": "a56e782b5b50811ac204073a355a21d915a2107fce13ec711331ad036f660fcc"
+    },
+    {
+      "file": "j2objc-annotations-3.1.jar",
+      "sha256": "84d3a150518485f8140ea99b8a985656749629f6433c92b80c75b36aba3b099b"
+    },
+    {
+      "file": "plexus-utils-3.5.1.jar",
+      "sha256": "86e0255d4c879c61b4833ed7f13124e8bb679df47debb127326e7db7dd49a07b"
+    },
+    {
+      "file": "lz4-java-1.10.1.jar",
+      "sha256": "a58a84c4271e50df4c96ed916ccb7e48a869f8ed9cdcda1ad5d3d4c33b0214a3"
+    },
+    {
+      "file": "azure-json-1.4.0.jar",
+      "sha256": "c50bc998cd1a6c689f8644b51c206217bf2da09d5b949e777490a60290cc3a0d"
+    },
+    {
+      "file": "oshi-core-6.9.0.jar",
+      "sha256": "b29ba9bce041e6ea822203d5b5a692660c87551241510ebc76eedffe684844c7"
+    },
+    {
+      "file": "gson-2.13.2.jar",
+      "sha256": "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+    },
+    {
+      "file": "failureaccess-1.0.3.jar",
+      "sha256": "cbfc3906b19b8f55dd7cfd6dfe0aa4532e834250d7f080bd8d211a3e246b59cb"
+    },
+    {
+      "file": "guava-33.5.0-jre.jar",
+      "sha256": "1e301f0c52ac248b0b14fdc3d12283c77252d4d6f48521d572e7d8c4c2cc4ac7"
+    },
+    {
+      "file": "icu4j-77.1.jar",
+      "sha256": "b3640b9f416a4411fd33c59abbeea8fd57d024c23e1819bf9673220a97499fe3"
+    },
+    {
+      "file": "msal4j-1.23.1.jar",
+      "sha256": "414d4fe3c66c7bb1a741014f352e5f0a8329172703e7fbb0020d232a8c8385b1"
+    },
+    {
+      "file": "authlib-7.0.63.jar",
+      "sha256": "44de93d9df077fa1d4829ada260efe9d126476b9b7abdfba30cfbb5db145cb2f"
+    },
+    {
+      "file": "blocklist-1.0.10.jar",
+      "sha256": "830bfd639c8db49236bbd8e45d3a2b8c96c56ff654a10118654958a6235d4c44"
+    },
+    {
+      "file": "brigadier-1.3.10.jar",
+      "sha256": "c8ee4136e474ac7723ca2b432ec8d1a2bc88ef7d1ec57c314ba9e33cdc83dd75"
+    },
+    {
+      "file": "datafixerupper-9.0.19.jar",
+      "sha256": "9653a39cf5c4853cc98628d902dcb23ffeb2755122ecc563bde38c8f60c0b61e"
+    },
+    {
+      "file": "jtracy-1.0.37.jar",
+      "sha256": "8bb68d0b65e8eceb92de2bd1d9e1443a8c9a9dd1b5818a5e54870b0f8253672a"
+    },
+    {
+      "file": "jtracy-natives-windows-1.0.37.jar",
+      "sha256": "219c2aab0f1453901df8cd39886659dc5159a9c1139264c14f06baebf49b9730"
+    },
+    {
+      "file": "logging-1.6.11.jar",
+      "sha256": "5d803eb7348a27468c6172daef2f0d77260dd63cde377ebfa73e36789ae8fcee"
+    },
+    {
+      "file": "patchy-2.2.10.jar",
+      "sha256": "16d70e7968b45caffc81576268eb000f473fb60bf257182d3447dea8ec919d5a"
+    },
+    {
+      "file": "text2speech-1.18.11.jar",
+      "sha256": "587f08aa316ee4d6a9f39f77d3ba7d8a83425da53aa74938a1f034a4e3fc255f"
+    },
+    {
+      "file": "commons-codec-1.19.0.jar",
+      "sha256": "5c3881e4f556855e9c532927ee0c9dfde94cc66760d5805c031a59887070af5f"
+    },
+    {
+      "file": "commons-io-2.20.0.jar",
+      "sha256": "df90bba0fe3cb586b7f164e78fe8f8f4da3f2dd5c27fa645f888100ccc25dd72"
+    },
+    {
+      "file": "netty-buffer-4.2.7.Final.jar",
+      "sha256": "b81613c8ed22b1cc39eccf2a28bd0c1d4561fb2e5e542061617ef4ce1d228bf5"
+    },
+    {
+      "file": "netty-codec-base-4.2.7.Final.jar",
+      "sha256": "6360415b7c87160afcde5e7d4946c35539b9f043e8166c91a7fff95cc6067d9f"
+    },
+    {
+      "file": "netty-codec-compression-4.2.7.Final.jar",
+      "sha256": "edd53ad34991804301a46571113d8ffb4d6f67e6d874674dafbb915724275cb3"
+    },
+    {
+      "file": "netty-codec-http-4.2.7.Final.jar",
+      "sha256": "2984dd38420a61c4dd68fcacc51ffc528eb46f73f7795cdafdb3a4d6fcb76862"
+    },
+    {
+      "file": "netty-common-4.2.7.Final.jar",
+      "sha256": "2345bc0ed5843fa57aa49eba67529485c3a1d420fcf0429324c8220c7a80e9a6"
+    },
+    {
+      "file": "netty-handler-4.2.7.Final.jar",
+      "sha256": "21d063409c12dbcec46d380c8856a0f7b6a5b68bb5f1d005eb065b4d64146cb3"
+    },
+    {
+      "file": "netty-resolver-4.2.7.Final.jar",
+      "sha256": "7e4d569867e6c08437fb21a220ea01c294b0e38f01149b683c895a1bcd928438"
+    },
+    {
+      "file": "netty-transport-classes-epoll-4.2.7.Final.jar",
+      "sha256": "4492948e6a7694398e5197cf15ed2e21d6662a739d010ae666fa276e7222853c"
+    },
+    {
+      "file": "netty-transport-classes-kqueue-4.2.7.Final.jar",
+      "sha256": "a3eb1c94ae1a6be9e1d1ec52c3f5c510a75b04b8ef1ea86b7e77b3f1287ae3cc"
+    },
+    {
+      "file": "netty-transport-native-unix-common-4.2.7.Final.jar",
+      "sha256": "736703b3f6d127e182f5be888b6e15732b0c08d6634e00725352a6a9d19974b2"
+    },
+    {
+      "file": "netty-transport-4.2.7.Final.jar",
+      "sha256": "aadc6fb05c14fb789368ca3f854721549c72f6c0d81798bbccf9de1bb716892b"
+    },
+    {
+      "file": "fastutil-8.5.18.jar",
+      "sha256": "9094ae67d01d0ad246f886f11ad557fc2e79c72cbf3feed83e1512a8ae90a74a"
+    },
+    {
+      "file": "jna-platform-5.17.0.jar",
+      "sha256": "b7e3d46c87bad2eb409b0e704916bcd81206168e357312dfddd0e253679cd9e0"
+    },
+    {
+      "file": "jna-5.17.0.jar",
+      "sha256": "b3a9408e7c51e08ef0e3bfcc08f443f6ec0f6191ba8cd7c18d53d2b22e5bdbc0"
+    },
+    {
+      "file": "jopt-simple-5.0.4.jar",
+      "sha256": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28"
+    },
+    {
+      "file": "commons-compress-1.28.0.jar",
+      "sha256": "e1522945218456f3649a39bc4afd70ce4bd466221519dba7d378f2141a4642ca"
+    },
+    {
+      "file": "commons-lang3-3.19.0.jar",
+      "sha256": "32733ab4bc90b45b63eb72677d886961003fd4ed113e07b1028f9877cb2ac735"
+    },
+    {
+      "file": "log4j-api-2.25.2.jar",
+      "sha256": "9fd66c9fe0bea06fa9666c147989a46cafaa92b4a88753697d3945cc43338cbb"
+    },
+    {
+      "file": "log4j-core-2.25.2.jar",
+      "sha256": "e50db7701430ff907981850ef527a41d51a53dd0017f53a0860afcbab8570277"
+    },
+    {
+      "file": "log4j-slf4j2-impl-2.25.2.jar",
+      "sha256": "faffe8c867d59f813fb4bd1edf5354bfe86125811a7c9b305e5d225da8e7ea54"
+    },
+    {
+      "file": "jorbis-0.0.17.jar",
+      "sha256": "e067f29a3701426b67ed973036949c6e58ca5bb53eef7240b2e71e286d252a9e"
+    },
+    {
+      "file": "joml-1.10.8.jar",
+      "sha256": "bf19510145178df82cd3bd37edd514c13f411531ec5545299fd3abcbc98fe7c2"
+    },
+    {
+      "file": "jspecify-1.0.0.jar",
+      "sha256": "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+    },
+    {
+      "file": "slf4j-api-2.0.17.jar",
+      "sha256": "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832"
+    },
+    {
+      "file": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.17-hephaestus.jar",
+      "sha256": "a2955f2165cc5591ff5034112c5695ff2651ef38c317f73247d4eb41118f9ddc"
+    },
+    {
+      "file": "hephaestus_tools-neoforge-26.1.2-1.0.8.jar",
+      "sha256": "6f41198cf8eb8e2b415bcaa5a6be41fa6718a51132b7a94919373c861e3453ed"
+    }
+  ],
+  "compilerLogSha256": "e393bdd1af322d15c75bc8f596bd9c7e2e0f239927c9b85b22691ebf4f294731",
+  "annotationProcessing": false,
+  "testsRun": false,
+  "gameLaunched": false,
+  "installed": false,
+  "runtimeConfirmed": false,
+  "packaged": true,
+  "artifacts": [
+    {
+      "file": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18.jar",
+      "sha256": "be137c2a9642060ae91eebf32286b034856980addc7604671dc9d6261b498e47",
+      "bytes": 4941481
+    },
+    {
+      "file": "Metallurgy-Reforged-MC-26.1.2-neoforge-1.4.1-port.18-sources.jar",
+      "sha256": "57ae81e407b6499d211f0942e082467e98a134a2ba04727b5b38ece40355d277",
+      "bytes": 4563292
+    }
+  ],
+  "changedEntries": [
+    "META-INF/neoforge.mods.toml",
+    "NOTICE.md",
+    "assets/metallurgy/lang/en_us.json",
+    "it/hurts/metallurgy_reforged/Metallurgy.class",
+    "it/hurts/metallurgy_reforged/compat/HephaestusData.class",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/alduorite.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/damascus_steel.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/deep_iron.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/desichalkos.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/eximite.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/ignatius.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/midasium.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/sanguinite.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/shadow_iron.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/tartarite.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/vulcanite.json",
+    "resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials/vyroxeres.json"
+  ],
+  "addedEntries": [
+    "META-INF/metallurgy-build.json",
+    "assets/metallurgy/hephaestus_traits.json",
+    "it/hurts/metallurgy_reforged/compat/HephaestusTraitData.class",
+    "it/hurts/metallurgy_reforged/compat/hephaestus/HephaestusTraits$1.class",
+    "it/hurts/metallurgy_reforged/compat/hephaestus/HephaestusTraits.class",
+    "it/hurts/metallurgy_reforged/compat/hephaestus/mixin/DurabilityMixin.class",
+    "it/hurts/metallurgy_reforged/compat/hephaestus/mixin/PartTooltipMixin.class",
+    "it/hurts/metallurgy_reforged/compat/hephaestus/mixin/UpgradesMixin.class",
+    "metallurgy.hephaestus.mixins.json"
+  ],
+  "unchangedPngCount": 1175,
+  "unchangedClassCount": 265
+}

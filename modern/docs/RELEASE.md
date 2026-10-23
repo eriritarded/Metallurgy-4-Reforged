@@ -6,8 +6,13 @@ Source implementation 2026-10-23 restores 14 original tool-trait behaviors over
 12 source-assigned materials, respecting head/handle/binding roles. Includes
 optional API loading, trait presentation, native durability/slot integration and
 server-owned effects/drops. See [source identities, mechanics and limits](HEPHAESTUS-TRAITS.md).
-Eight classes compile. Final production packaging is recorded separately. No
-game/tests or installation; trait activation and mixin loading are unconfirmed.
+Eight classes compile and the ordinary binary/source packages are retained in
+`modern/artifacts/`, linked to source commit
+`f22613f903acd0e2c62ab2ee340e311caa6b1f2d`. Archive/native-descriptor inspection
+preserves all 265 other classes, 1,175 PNGs and 2,504 recipe JSONs. Owned scratch
+was removed. [Hashes and receipts](HEPHAESTUS-TRAITS.md) distinguish this
+incremental build from a full clean rebuild. No game/tests or installation;
+trait activation and mixin loading are unconfirmed.
 Forge1.20.1 port.9 and NeoForge1.21.1 port.10 remain unchanged.
 
 **2026-10-23 source review:** the agent's later Hephaestus build of native26 port.17

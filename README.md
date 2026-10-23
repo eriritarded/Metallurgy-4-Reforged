@@ -36,9 +36,9 @@ For native26 port.18, append `-PhephaestusToolsJar=/path/to/hephaestus_tools-neo
 
 The source is already generated and checked in; regeneration is unnecessary for an ordinary build. Historical workstation install/incremental-release scripts are retained for reference, with personal paths anonymized. They are not portable build/install entry points. Keep build/cache/temporary outputs outside source history. Automated assistants must honor their workspace's storage rules and must not launch a game or tests implicitly.
 
-## Publication status — 2026-10-23
+## Initial source publication — 2026-10-23
 
-This branch imports the reviewed committed modern source, including the agent's additions. No game, tests, fresh compiler build, binary release or installation was performed for this GitHub publication. Historical build/install records retain their original dates and limitations. The existing installed Hephaestus JAR was hash-compared with its retained local package; that is not a new gameplay check. Earlier distinct port.17 binaries remain historical identities; future gameplay changes need a new version.
+The initial import preserved the reviewed modern source, including the agent's additions, without a new compiler build, game, test, binary release or installation. The later port.18 trait adapter was compiled and packaged locally; see [its current status and limits](modern/docs/HEPHAESTUS-TRAITS.md). Historical build/install records retain their original dates and limitations. The existing installed Hephaestus JAR was hash-compared with its retained local package; that is not a new gameplay check. Earlier distinct port.17 binaries remain historical identities; future gameplay changes need a new version.
 
 Original authors and licenses are preserved in [LICENSE](LICENSE) and [modern/NOTICE.md](modern/NOTICE.md). This fork does not imply their endorsement.
 
