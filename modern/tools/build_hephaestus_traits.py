@@ -82,6 +82,7 @@ def main():
         resources['assets/metallurgy/lang/en_us.json']=(common/'assets/metallurgy/lang/en_us.json').read_bytes()
         resources['META-INF/neoforge.mods.toml']=(TARGET/'src/main/resources/META-INF/neoforge.mods.toml').read_bytes()
         resources['metallurgy.hephaestus.mixins.json']=(TARGET/'src/main/resources/metallurgy.hephaestus.mixins.json').read_bytes()
+        for name in ['LICENSE','NOTICE.md']:resources[name]=(ROOT/name).read_bytes()
         folder=TARGET/'src/main/resources/resourcepacks/hephaestus/data/metallurgy/hephaestus_tools/materials'
         assignments=json.loads(resources['assets/metallurgy/hephaestus_traits.json'])['materials']
         for metal in assignments:
