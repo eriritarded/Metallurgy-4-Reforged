@@ -14,9 +14,12 @@ The maintained standalone clone is
 `H:/AI_MC_Modding/Metallurgy-4-Reforged`, with `origin` pointing to that fork and
 `upstream` pointing to Davoleo's repository. The branch `codex/modern-ports`
 preserves upstream history and carries the three-target project under `modern/`.
-The original legacy root is retained. A later local publication receipt records
-the exact committed snapshot and pushed branch identity; creating the fork alone
-does not establish that the source has been uploaded.
+The original legacy root is retained. Initial source import commit
+`5e40c600b557b061324b5f57ccd855f3a4cff9ed` was pushed and independently read back
+through GitHub. `codex/modern-ports` is the fork's default branch. It imports local
+source snapshot `974840245e3b5ac6ffa4c3b0bab86256d7620b5b`, preserving all 18,019
+runtime/source/resource/build-input files byte for byte. The publication audit
+is in `modern/PUBLICATION-REVIEW.json`; local forensic receipts remain local.
 
 ## Changes since the gauntlet tool update
 
