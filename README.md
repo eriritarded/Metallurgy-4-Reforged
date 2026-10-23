@@ -8,7 +8,7 @@ The complete modern project lives in **[`modern/`](modern/)** on **`codex/modern
 |---|---|---:|---|
 | 1.20.1 | Forge 47.4.10 | 17 | 1.4.1-port.9 |
 | 1.21.1 | NeoForge 21.1.262 | 21 | 1.4.1-port.10 |
-| 26.1.2 | NeoForge 26.1.2.122 | 25 | 1.4.1-port.17, including Hephaestus |
+| 26.1.2 | NeoForge 26.1.2.122 | 25 | 1.4.1-port.18, including recovered Hephaestus tool traits |
 
 ## Included work
 
@@ -17,6 +17,7 @@ The complete modern project lives in **[`modern/`](modern/)** on **`codex/modern
 - Optional Patchouli handbook, corrected item models and fluid tinting, goggles inventory performance changes, magnet mode feedback, native gauntlet arm rendering and the later registration/recipe/atlas fixes.
 - Rubracium gauntlets with iron pickaxe/shovel harvesting, base mining speed 6.0, native tool enchantments and shovel path/campfire use.
 - The direct-melee-only Divine Grace correction for upstream issue #388.
+- Source-defined Hephaestus tool traits across 12 materials, including Vulcan, Lifesteal, King Dice, Dense/Duritos, Writable and role-aware tooltips. See [trait coverage and translations](modern/docs/HEPHAESTUS-TRAITS.md).
 
 Read [the modern project index](modern/README.md), [feature coverage and limitations](modern/docs/PORT-STATUS.md), [integrations](modern/docs/MODULAR-COMPAT.md), [Hephaestus adaptation](modern/docs/HEPHAESTUS.md), and [source provenance](modern/SOURCE-PROVENANCE.md). Support differs by target; a data implementation or successful compile is not proof of gameplay parity.
 
@@ -30,6 +31,8 @@ cd modern/forge-1.20.1        # or neoforge-1.21.1 / neoforge-26.1.2
 ```
 
 On Windows, use `gradlew.bat --no-daemon build -x test`. Forge's `jar` task finalizes with `reobfJar`; use its production output. The target's `build/libs/` contains the binary and source JARs. Install exactly one matching binary; source JARs and original 1.12 JARs are not modern mods.
+
+For native26 port.18, append `-PhephaestusToolsJar=/path/to/hephaestus_tools-neoforge-26.1.2-1.0.8.jar` (or set `HEPHAESTUS_TOOLS_JAR`) to provide the optional API for compilation. The dependency is not bundled and is not required to play without the Hephaestus integration. See [the exact API input and supported scope](modern/docs/HEPHAESTUS-TRAITS.md).
 
 The source is already generated and checked in; regeneration is unnecessary for an ordinary build. Historical workstation install/incremental-release scripts are retained for reference, with personal paths anonymized. They are not portable build/install entry points. Keep build/cache/temporary outputs outside source history. Automated assistants must honor their workspace's storage rules and must not launch a game or tests implicitly.
 

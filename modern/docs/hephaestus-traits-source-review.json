@@ -1,0 +1,132 @@
+{
+  "reviewedOn": "2026-10-23",
+  "metallurgyRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "legacySources": [
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/SetTinkerTraits.java",
+      "sha256": "847ff6b03ce333ea497171917abcbc4537ee2260934b018454f6922e98c89b87"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/IMetallurgyTrait.java",
+      "sha256": "ad9c586aecd3b198f1985173d555786eea439969851e7f2d20b354e394b004c5"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitDecay.java",
+      "sha256": "3970a15da6773a2465ac26909578b48c7980ff1148ad8eb34aac32792f3345e6"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitDuplication.java",
+      "sha256": "b08c8d2f053949ebaaac859681e7cb83f207a3978088ccd3317b345f030867de"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitKingDice.java",
+      "sha256": "33080c0269a2ca71ea4536c353081b667102cb86bd0346f53d63b4555c1b4c0b"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitLifeSteal.java",
+      "sha256": "ad031508ef942e14e1e418bddaf5c8f8d7a7a3e464c4249483098b3acc60c687"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitObscure.java",
+      "sha256": "b7240658b70a7bf252998407d45bad16689946a51a18367e35e23403ac8c0377"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitOpistognathus.java",
+      "sha256": "1914d01ab1984d24e3c49bae599b05f855d5c28abbb903a58a70c15938240e63"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitVulcan.java",
+      "sha256": "07224557f87153f13a46fc0a607d736aff48a0956969cab3079ee94bd3f80f0b"
+    },
+    {
+      "path": "src/main/java/it/hurts/metallurgy_reforged/integration/tic/trait/MetallurgyTraitWither.java",
+      "sha256": "6962ee4f538c76a3e5372ea0fcac5146badcfa89de3c2c8870bd9dc8f51dc924"
+    }
+  ],
+  "tconstruct2": {
+    "coordinate": "slimeknights:TConstruct:1.12.2-2.13.0.184:sources",
+    "sha256": "38f03b5008cb0d6cc89a9299d819a461a208d69259c15ecfc2053033f0527a7c",
+    "reviewedTraits": [
+      {
+        "file": "TraitDense.java",
+        "sha256": "5d19c02367f7f6a26b2a332fe0126c1c6260d154d924c330fe947dbc59b90fb6"
+      },
+      {
+        "file": "TraitDuritos.java",
+        "sha256": "3aa476cc27a1c1db79be15f5d2eb260a2bbd5667ca5e3abb97bab0bd7e55e10a"
+      },
+      {
+        "file": "TraitEnderference.java",
+        "sha256": "281a9e1f665057e7cc07b0b4d7110c7245b7538151470499bc800eb15e32298a"
+      },
+      {
+        "file": "TraitPoisonous.java",
+        "sha256": "1dae242a555d96eafb6c9e8889c9b18bd131ecc62a739fb29a029bd274dc0c55"
+      },
+      {
+        "file": "TraitSuperheat.java",
+        "sha256": "c58e58b600ba94be75035cbeb7607b3057724d5179ff53a8912198b18d19bf94"
+      },
+      {
+        "file": "TraitUnnatural.java",
+        "sha256": "dda7fee5f5c2f66d09a2c913e9e2591694d644ad574e1395f1fade032791df1c"
+      }
+    ]
+  },
+  "plustic": {
+    "repository": "TeamDman/PlusTiC",
+    "branch": "1.12",
+    "revision": "107f2b7196961b87b7a4db559ff0c703b68067a9",
+    "scope": "Checked src/main/java for metallurgy, midasium, tartarite, vyroxeres; no matches; no Metallurgy behavior inferred"
+  },
+  "extraTiC": {
+    "version": "1.7.10",
+    "originalImplementationRecovered": false,
+    "traitsImported": false
+  },
+  "hephaestusTools": {
+    "version": "1.0.8",
+    "sha256": "6f41198cf8eb8e2b415bcaa5a6be41fa6718a51132b7a94919373c861e3453ed",
+    "reviewedClasses": [
+      {
+        "path": "com/titammods/hephaestus_tools/materials/MaterialStats.class",
+        "sha256": "0107c85490c86a77f12a9a1cfd30b6f6f9154812d9d7fa3bac0a6bbfbdbcf8d7"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/materials/trait/MaterialTrait.class",
+        "sha256": "a497164bf51a67cc8f868629436cefad6a93b0676b4a262a5c452a13e49ef585"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/tools/helper/ToolBuildHandler.class",
+        "sha256": "9aeca2bd72729580bba909ff649f622d1daa5a9104eebb7577b3fe54bc1092da"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/tools/helper/ToolDurability.class",
+        "sha256": "77864704e81de67f27f0e4142166415b905640be8b5e24fbb39e16524a8465e8"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/table/ToolUpgrades.class",
+        "sha256": "2927a3f2fe6bc24cf1c45c6150a87710d819c7d594178a61c49422a03591bec7"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/tools/helper/ToolTooltipBuilder.class",
+        "sha256": "97e6fb798e30b7172a79bc95a6cb1649333f5f57ce0a337713c0f0b49a11e700"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/tools/helper/ToolCombat.class",
+        "sha256": "b95d1a96429115c9ce695ecc9871c5816a8e288d9848313eb95e069891123f7c"
+      },
+      {
+        "path": "com/titammods/hephaestus_tools/materials/MaterialManager.class",
+        "sha256": "925342ad62246e9df6e932cee09b5883a9b7eabfe2133638fed1aa4714475772"
+      }
+    ],
+    "sourceRepository": "https://github.com/titammods/hephaestustools",
+    "scope": "Exact installed bytecode/signatures and locally decompiled methods; upstream current source is not substituted for the installed artifact"
+  },
+  "materialAssignments": 12,
+  "distinctTraitBehaviors": 14,
+  "testsRun": false,
+  "gameLaunched": false,
+  "runtimeConfirmed": false
+}

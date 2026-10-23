@@ -23,15 +23,18 @@
     "attack_damage": 4,
     "attack_speed": 1.0,
     "tier": 5,
-    "enchantability": 28
+    "enchantability": 28,
+    "trait": "metallurgy:midasium"
   },
   "handle_stats": {
     "durability_mult": -0.4,
     "speed_mult": 0.08,
     "damage_mult": 0.06,
-    "attack_speed_mult": -0.03
+    "attack_speed_mult": -0.03,
+    "trait": "metallurgy:midasium"
   },
   "binding_stats": {
-    "durability": 30
+    "durability": 30,
+    "trait": "metallurgy:midasium"
   }
 }

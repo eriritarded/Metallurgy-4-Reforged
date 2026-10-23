@@ -213,9 +213,123 @@
   "oreMilliBuckets": 180,
   "fuel": "lava up to 1000, hephaestus:molten_blaze above",
   "traitsMapped": {
-    "damascus_steel": "dense"
+    "midasium": [
+      [
+        "writable",
+        "duplication"
+      ],
+      [
+        "writable",
+        "duplication"
+      ],
+      [
+        "writable",
+        "duplication"
+      ]
+    ],
+    "ignatius": [
+      [
+        "vulcan"
+      ],
+      [],
+      []
+    ],
+    "vulcanite": [
+      [
+        "vulcan_hot"
+      ],
+      [
+        "superheat"
+      ],
+      []
+    ],
+    "eximite": [
+      [
+        "enderference"
+      ],
+      [],
+      []
+    ],
+    "vyroxeres": [
+      [
+        "poisonous"
+      ],
+      [
+        "poisonous"
+      ],
+      [
+        "poisonous"
+      ]
+    ],
+    "damascus_steel": [
+      [
+        "dense",
+        "duritos"
+      ],
+      [
+        "duritos"
+      ],
+      [
+        "duritos"
+      ]
+    ],
+    "shadow_iron": [
+      [
+        "obscure"
+      ],
+      [
+        "obscure"
+      ],
+      [
+        "obscure"
+      ]
+    ],
+    "sanguinite": [
+      [
+        "lifesteal"
+      ],
+      [
+        "lifesteal"
+      ],
+      []
+    ],
+    "tartarite": [
+      [
+        "wither"
+      ],
+      [],
+      []
+    ],
+    "alduorite": [
+      [
+        "unnatural"
+      ],
+      [],
+      [
+        "unnatural"
+      ]
+    ],
+    "desichalkos": [
+      [],
+      [],
+      [
+        "king_dice"
+      ]
+    ],
+    "deep_iron": [
+      [
+        "opistognathus"
+      ],
+      [
+        "opistognathus"
+      ],
+      [
+        "opistognathus"
+      ]
+    ]
   },
-  "customTconTraits": "not available: Hephaestus Tools traits are a closed enum",
+  "customTconTraits": "Optional native26 role/event/mixin adapter; 14 behaviors, 12 materials; HEPHAESTUS-TRAITS.md",
   "armor": "not available: Hephaestus Tools has no armor parts",
-  "runtimeChecked": false
+  "runtimeChecked": false,
+  "traitAdapterRuntimeConfirmed": false
 }

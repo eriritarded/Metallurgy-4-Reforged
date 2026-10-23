@@ -15,6 +15,8 @@ def main():
         if name in ['inventory/MetalChestItem.java', 'client/ChestItemRenderer.java','client/GadgetProperties.java','client/GadgetRenderTypes.java','client/GadgetOverlay.java','client/KnucklesModel.java','client/KnucklesRenderer.java','client/GauntletHandRenderer.java','recipe/ProcessingRecipe.java']:
             continue
         t = path.read_text(encoding='utf-8').replace('ResourceLocation', 'Identifier')
+        if name == 'Metallurgy.java':
+            t = t.replace('Content.register(bus);', 'Content.register(bus);\n        if(net.neoforged.fml.ModList.get().isLoaded("hephaestus_tools"))\n            it.hurts.metallurgy_reforged.compat.hephaestus.HephaestusTraits.register(bus);')
         if name == 'content/Content.java':
             continue
         if name == 'compat/JeiCrafting.java':

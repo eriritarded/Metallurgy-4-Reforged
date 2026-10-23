@@ -23,13 +23,15 @@
     "attack_damage": 3.8,
     "attack_speed": 1.0,
     "tier": 6,
-    "enchantability": 19
+    "enchantability": 19,
+    "trait": "metallurgy:vulcanite"
   },
   "handle_stats": {
     "durability_mult": 0.4,
     "speed_mult": 0.056,
     "damage_mult": 0.054,
-    "attack_speed_mult": 0.0
+    "attack_speed_mult": 0.0,
+    "trait": "metallurgy:vulcanite"
   },
   "binding_stats": {
     "durability": 178

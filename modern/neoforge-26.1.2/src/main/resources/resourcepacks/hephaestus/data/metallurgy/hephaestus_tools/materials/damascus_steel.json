@@ -24,15 +24,17 @@
     "attack_speed": 1.0,
     "tier": 3,
     "enchantability": 27,
-    "trait": "dense"
+    "trait": "metallurgy:damascus_steel"
   },
   "handle_stats": {
     "durability_mult": 0.391,
     "speed_mult": 0.0,
     "damage_mult": 0.015,
-    "attack_speed_mult": 0.0
+    "attack_speed_mult": 0.0,
+    "trait": "metallurgy:damascus_steel"
   },
   "binding_stats": {
-    "durability": 98
+    "durability": 98,
+    "trait": "metallurgy:damascus_steel"
   }
 }

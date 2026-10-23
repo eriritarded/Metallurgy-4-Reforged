@@ -23,7 +23,8 @@
     "attack_damage": 10,
     "attack_speed": 1.0,
     "tier": 7,
-    "enchantability": 14
+    "enchantability": 14,
+    "trait": "metallurgy:tartarite"
   },
   "handle_stats": {
     "durability_mult": 0.4,

@@ -11,7 +11,6 @@ public final class HephaestusData {
     private static final String MATERIALS="hephaestus_tools/materials/",METALS="recipe/hephaestus/metals/";
     /** Hephaestus HarvestTier ordinals for Metallurgy harvest levels0-6 (ordinal4 is gold). */
     private static final int[] TIERS={0,1,2,3,5,6,7};
-    private static final Map<String,String> TRAITS=Map.of("damascus_steel","dense");
     public static boolean enabled(String name) {
         return GeneralConfig.tiCIntegration && Materials.BY_NAME.containsKey(name) && !Arrays.asList(GeneralConfig.tinkerMaterialsBlacklist).contains(name);
     }
@@ -34,7 +33,6 @@ public final class HephaestusData {
             value.addProperty("attack_speed",1.0);
             value.addProperty("tier",TIERS[Math.max(0,Math.min(6,head.get("harvest_level").getAsInt()))]);
             value.addProperty("enchantability",(int)m.tool("enchantability",14));
-            if(TRAITS.containsKey(m.name())) value.addProperty("trait",TRAITS.get(m.name()));
             data.add("head_stats",value);
         }
         if(handle!=null) {
@@ -47,6 +45,7 @@ public final class HephaestusData {
             data.add("handle_stats",value);
         }
         if(extra!=null) {var value=new JsonObject();value.addProperty("durability",Math.max(1,extra.get("durability").getAsInt()));data.add("binding_stats",value);}
+        HephaestusTraitData.decorate(data,m.name());
     }
     public static byte[] transform(String path,byte[] bytes) {
         if(path.startsWith(MATERIALS)) {
