@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/root",
+  "display": {
+    "icon": {
+      "id": "metallurgy:deep_iron_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.deep_iron"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.deep_iron.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/deep_iron"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/deep_iron"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/deep_iron"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": "#c:ingots/inolashite",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:inolashite_pickaxe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_pickaxe"
+    }
+  ]
+}

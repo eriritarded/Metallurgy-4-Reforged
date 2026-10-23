@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_mithril",
+  "category": "metal",
+  "primary": 8.5,
+  "secondary": 5.067,
+  "tertiary": 4.5,
+  "durability": 1111,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 108,
+  "toolLevel": "metallurgy:level_5",
+  "toolEfficiency": 9.0,
+  "tints": {
+    "glyph": "69D3BE",
+    "texture": "69D3BE"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:mithril_ingot"
+    ]
+  },
+  "effects": {
+    "intuit": 3,
+    "stabilizing": 20
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

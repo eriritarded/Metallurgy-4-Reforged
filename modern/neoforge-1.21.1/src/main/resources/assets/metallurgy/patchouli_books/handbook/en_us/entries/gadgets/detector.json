@@ -1,0 +1,28 @@
+{
+  "name": "Ore Detector",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:ore_detector",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:ore_detector",
+      "title": "Ore Detector",
+      "text": "Craft an empty Ore Detector with one to three nonalloy metal ingots to program it. Its three lights follow the chosen metals. Craft the detector by itself to clear its program before choosing new materials."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Right-click a programmed detector to scan loaded terrain up to eight blocks along each axis. The scan is visible for about four seconds. It outlines the selected ores through walls and uses lights and beeps to help locate them. Each selected metal supplies 25 uses; scanning has a five-second cooldown."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "After its last charge, the next use clears it to an empty detector. The detector does not generate new chunks or guarantee that a selected ore exists in the current realm."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/ore_detector"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:ore_detector": 3
+  }
+}

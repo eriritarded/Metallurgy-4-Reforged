@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/lemurite"
+  },
+  "result": {
+    "tag": "forge:molten_lemurite",
+    "amount": 10
+  },
+  "temperature": 1700,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/lemurite"
+      }
+    }
+  ]
+}

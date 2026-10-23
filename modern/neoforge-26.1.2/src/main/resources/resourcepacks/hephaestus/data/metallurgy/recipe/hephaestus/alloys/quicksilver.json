@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_silver"
+    },
+    {
+      "amount": 90,
+      "id": "metallurgy:astral_silver"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:quicksilver"
+  },
+  "temperature": 1300
+}

@@ -1,0 +1,6 @@
+{
+  "type": "metallurgy:ore_batch",
+  "config": {
+    "dimension": "overworld"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "target": "Minecraft26.1.2/NeoForge26.1.2.122",
+  "source": "Exact target NeoForm sources merged with native loader patches; inspection only",
+  "files": [
+    {
+      "path": "net/minecraft/world/level/dimension/DimensionType.java",
+      "sha256": "df66529c3e4e2ce5ed74b060c90a05f66df105961f0543b476b2c954c4a1e4e8"
+    },
+    {
+      "path": "net/minecraft/world/attribute/EnvironmentAttributes.java",
+      "sha256": "64914d530213a299c64005adc1cf29258dc339e4976700c1cdfd69c6883f0d66"
+    },
+    {
+      "path": "net/minecraft/world/attribute/EnvironmentAttributeMap.java",
+      "sha256": "00d918db8e161be6c288987644a4b78cf54658a89d7ee08e9df83b3539742b44"
+    }
+  ],
+  "change": "DimensionType.natural/ultraWarm were removed. Native26 adapter uses hasSkyLight plus OVERWORLD skybox, and dimension-level WATER_EVAPORATES applied to its native default. Explicit ID overrides take precedence.",
+  "limits": "Custom-dimension classification is a documented heuristic for removed provider flags. No generated world or runtime evidence."
+}

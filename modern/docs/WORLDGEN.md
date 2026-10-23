@@ -1,0 +1,29 @@
+# Ore generation, tar and existing chunks
+
+Source baseline: Metallurgy1.4.1 commit `ef94cb94cfc08ccebe8a0df307ce6b390dcd4704`, `world/ModWorldGen`, `world/WorldTickHandler`, `world/spawn/*` and `config/WorldGenerationConfig`. Original profile definitions and numeric values remain in `assets/metallurgy/legacy_worldgen.json`. Exact input hashes are retained in the project baselines/coverage.
+
+`OreProfiles` applies the original per-ore configuration to34 ordered profiles. Native `OreBatchFeature` uses modern ore placement with source attempt order, inclusive height ranges and warm-chunk, fortress, outer-island, high-Y and cumulative lava-adjacency predicates. Stone additionally accepts deepslate. Removed biome IDs are translated as described in CONFIGURATION.md. The custom-dimension follow-up below replaces the initial vanilla-ID-only routing. Native vein geometry and RNG consumption differ from the1.12 `WorldGenMinable` implementation.
+
+Tar lakes retain the original20-in-500 default attempt and y0..255 probing, with native lake carving/terrain validation and the configured dimension whitelist. The native all-biome modifier makes placement possible in explicitly whitelisted custom dimensions. See FLUIDS.md for contact, hardening, temperature and bucket behavior.
+
+## Retrogen
+
+`RetrogenEvents` records completion per chunk. Forge retains the original `MetallurgyOreGeneration/generated` NBT key; NeoForge uses the persisted `metallurgy:ore_generated` chunk attachment, using each exact target's serialization API. New native chunks are marked generated at their first load and never queued for a duplicate ore pass. Missing/false completion on an existing loaded chunk queues ore generation when `retrogen` is true. Tar lakes are not retroactively added.
+
+The source seeded retrogen with `nextLong() >> 2 + 1L`, whose Java precedence is a shift of3. The port preserves that seed calculation, using a native legacy random source for feature placement. Native geometry remains an adaptation.
+
+The queue processes at most one chunk per dimension at the end of a server tick and checks no more than four queue entries. The chunk and its surrounding3x3 area must already be fully loaded. Border entries rotate until neighbors load; unloaded chunks are removed and may queue on their next load. No world reads or generation run in the asynchronous chunk data-load event, and no unloaded neighbor is requested. Completion is saved only after processing; a pending saved chunk remains pending after restart. Verbose logging is optional. Weak level references prevent completed worlds being retained.
+
+This corrects two source defects deliberately: the old `generated` local was never populated from its NBT value, and saving a queued chunk marked it complete before retrogen finished. Neither old defect is reproduced. Disabling retrogen preserves missing completion so it can be enabled on a later restart.
+
+All three target compilers passed; exact staged-source manifests are in `evidence/config-confirmed-compile-checkpoint.json`. No game, world generation test, save migration test or terrain distribution review was run for this addition. The user's real worlds and profiles are unchanged.
+
+## Custom-dimension follow-up
+
+Implemented and all three compilers passed2026-10-16; exact source receipt is `evidence/native-config-compile-checkpoint.json`. Original `ModWorldGen.generateWorld` chooses surface-provider ores first, Nether-provider ores second, and End ores for every other dimension. The initial port compared only vanilla dimension IDs. `OreRealms` now uses native `DimensionType.natural`, then `ultraWarm`, then End as the equivalent fallback. Both new-chunk placement and retrogen use the same decision. Native dimension properties are an adaptation of the removed provider API; explicit overrides handle dimensions whose properties do not express their intended ore realm.26.1.2 removed both flags: its adapter uses an Overworld skybox with skylight for the surface heuristic and dimension-level `WATER_EVAPORATES` for the hot-dimension flag. It reads dimension attributes rather than position-dependent biome values. Vanilla IDs remain explicitly pinned. This cannot infer every custom dimension's intent; see `worldgen26-api-review.json`.
+
+`worldgen.json` → `ore_generation.oreDimensionOverrides` accepts unique strings `dimension_id=overworld`, `=nether`, `=end` or `=none`. Defaults pin the three vanilla IDs to their expected realms. For example, append `mymod:moon=end` or `mymod:arena=none`. Invalid/duplicate IDs or realm names fail configuration loading. Settings require a restart. Changing a mapping does not automatically clear existing chunk completion flags or regenerate an already completed chunk.
+
+Three native `metallurgy:ore_realms` biome modifiers attach the realm features to all biomes. Eligibility is checked inside each feature, allowing custom dimensions and shared vanilla biome IDs without relying on vanilla biome realm tags. At most one ore realm places per dimension. Ineligible features may still consume native placement-stage RNG; exact1.12 random sequences are not claimed. Original per-ore biome whitelists, terrain targets, heights and special predicates remain in force.
+
+Optional block tags `metallurgy:ore_replaceables/overworld`, `/nether` and `/end` extend terrain targets without replacing the original stone/deepslate, netherrack/NetherEx variants or End stone checks. Their bundled values are empty. Pack authors may add custom terrain blocks using their target's native block-tag data directory. Terrain without a matching block target does not acquire ores merely from being in a classified dimension. All placement/retrogen remains server-authoritative; no dimension is loaded or created by this feature.

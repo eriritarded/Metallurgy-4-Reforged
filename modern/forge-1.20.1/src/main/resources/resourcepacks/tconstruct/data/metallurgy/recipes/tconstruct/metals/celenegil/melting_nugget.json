@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/celenegil"
+  },
+  "result": {
+    "tag": "forge:molten_celenegil",
+    "amount": 10
+  },
+  "temperature": 1500,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/celenegil"
+      }
+    }
+  ]
+}

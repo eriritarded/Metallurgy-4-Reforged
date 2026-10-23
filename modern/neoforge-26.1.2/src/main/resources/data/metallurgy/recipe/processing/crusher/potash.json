@@ -1,0 +1,21 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "metallurgy:potash"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:potash_fertilizer",
+    "count": 1
+  },
+  "experience": 1,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:potash_fertilizer"
+    }
+  ]
+}

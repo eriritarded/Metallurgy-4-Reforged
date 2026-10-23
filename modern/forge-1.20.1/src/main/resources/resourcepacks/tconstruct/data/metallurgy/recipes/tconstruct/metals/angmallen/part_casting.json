@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/angmallen",
+    "amount": 90
+  },
+  "output": "metallurgy:angmallen",
+  "temperature": 1100
+}

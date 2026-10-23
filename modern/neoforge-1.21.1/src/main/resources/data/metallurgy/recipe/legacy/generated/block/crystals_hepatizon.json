@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/hepatizon"
+    },
+    "N": {
+      "tag": "c:nuggets/hepatizon"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "id": "metallurgy:hepatizon_crystals",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:hepatizon_crystals"
+    }
+  ]
+}

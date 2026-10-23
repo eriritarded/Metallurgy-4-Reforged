@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/manganese",
+    "#c:dusts/manganese",
+    "#c:dusts/manganese",
+    "#c:dusts/iron"
+  ],
+  "result": {
+    "id": "metallurgy:steel_dust",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:steel_dust"
+    }
+  ]
+}

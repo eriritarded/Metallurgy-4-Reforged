@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:vulcanite_ore",
+    {
+      "id": "#forge:ores/vulcanite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/vulcanite",
+      "required": false
+    }
+  ]
+}

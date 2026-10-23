@@ -1,0 +1,18 @@
+{
+  "name": "Immersive Engineering",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:crusher",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:crusher",
+      "title": "Immersive Engineering",
+      "text": "A supported External Heater can warm the Metallurgy Crusher or Alloyer. It spends the heater's energy budget and requires a valid recipe and output room to add useful processing progress."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Redstone can keep the machine warm. Electrical heating uses its own progress behavior rather than multiplying a previously used Thermite or Ignatius fuel boost."
+    }
+  ],
+  "flag": "mod:immersiveengineering"
+}

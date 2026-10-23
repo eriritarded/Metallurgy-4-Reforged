@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:copper_ingot",
+    "metallurgy:copper_dust",
+    {
+      "id": "#forge:ingots/copper",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/copper",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/copper",
+      "required": false
+    }
+  ]
+}

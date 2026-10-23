@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": "#c:nuggets/deep_iron"
+  },
+  "result": {
+    "id": "metallurgy:deep_iron_ingot",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:deep_iron_ingot"
+    }
+  ]
+}

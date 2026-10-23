@@ -1,0 +1,33 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 7500,
+  "experience": 0.25,
+  "inputs": [
+    {
+      "tag": "c:ingots/kalendrite",
+      "count": 1
+    },
+    {
+      "tag": "c:ingots/platinum",
+      "count": 1
+    }
+  ],
+  "output": {
+    "id": "metallurgy:amordrine_ingot",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:amordrine_ingot"
+    }
+  ]
+}

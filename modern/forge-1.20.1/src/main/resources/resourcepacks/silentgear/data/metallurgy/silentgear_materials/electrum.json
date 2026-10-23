@@ -1,0 +1,172 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "can_salvage": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "metallurgy:electrum_ingot"
+    },
+    "subs": {}
+  },
+  "name": {
+    "translate": "material.metallurgy.electrum.name"
+  },
+  "stats": {
+    "main": {
+      "durability": 366,
+      "harvest_speed": 7.9,
+      "enchantment_value": 17,
+      "melee_damage": 2.7,
+      "armor_durability": 32,
+      "armor": 14,
+      "armor/boots": 2,
+      "armor/leggings": 4,
+      "armor/chestplate": 5,
+      "armor/helmet": 3,
+      "armor_toughness": 1.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "ranged_speed": 0,
+      "charging_value": 1
+    },
+    "rod": {
+      "durability": {
+        "add": 54.9
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 54.9
+      },
+      "harvest_speed": {
+        "add": 0.79
+      },
+      "melee_damage": {
+        "add": 0.405
+      }
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FFEFEF57"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#FFEFEF57"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#FFEFEF57"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FFEFEF57"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FFEFEF57"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base",
+        "color": "#FFEFEF57"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FFEFEF57"
+      },
+      "silentgear:tip_shine"
+    ]
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:mighty",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magnetic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:mighty",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magnetic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:mighty",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magnetic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

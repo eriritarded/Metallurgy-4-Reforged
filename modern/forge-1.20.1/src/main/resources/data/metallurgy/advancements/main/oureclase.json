@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier3",
+  "display": {
+    "icon": {
+      "item": "metallurgy:oureclase_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.oureclase"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.oureclase.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/oureclase"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/oureclase"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/oureclase"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

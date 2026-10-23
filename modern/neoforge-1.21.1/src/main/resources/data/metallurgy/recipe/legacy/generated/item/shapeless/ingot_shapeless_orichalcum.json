@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/orichalcum"
+    }
+  ],
+  "result": {
+    "id": "metallurgy:orichalcum_ingot",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:orichalcum_ingot"
+    }
+  ]
+}

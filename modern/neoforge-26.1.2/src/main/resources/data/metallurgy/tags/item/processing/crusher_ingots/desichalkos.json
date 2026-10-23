@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:desichalkos_ingot",
+    {
+      "id": "#forge:ingots/desichalkos",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/desichalkos",
+      "required": false
+    }
+  ]
+}

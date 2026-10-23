@@ -1,0 +1,21 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "metallurgy:potash_ore"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:potash",
+    "count": 4
+  },
+  "experience": 0.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:potash"
+    }
+  ]
+}

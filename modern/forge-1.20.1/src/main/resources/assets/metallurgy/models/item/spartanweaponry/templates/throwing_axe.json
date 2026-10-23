@@ -1,0 +1,23 @@
+{
+  "parent": "spartanweaponry:item/base/tomahawk",
+  "overrides": [
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/throwing_axe_throwing",
+      "predicate": {
+        "spartanweaponry:empty": 0,
+        "spartanweaponry:throwing": 1
+      }
+    },
+    {
+      "model": "spartanweaponry:item/base/tomahawk_empty",
+      "predicate": {
+        "spartanweaponry:empty": 1
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "metallurgy:spartanweaponry/items/custom/throwing_axe_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/throwing_axe_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/throwing_axe_layer_2"
+  }
+}

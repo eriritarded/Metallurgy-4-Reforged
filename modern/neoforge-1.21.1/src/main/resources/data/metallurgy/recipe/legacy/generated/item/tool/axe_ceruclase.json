@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/ceruclase"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "metallurgy:ceruclase_axe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ceruclase_axe"
+    }
+  ]
+}

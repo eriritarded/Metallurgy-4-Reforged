@@ -1,0 +1,10 @@
+{
+  "parent": "spartanweaponry:item/base/rapier_throwing",
+  "loader": "spartanweaponry:oil_coated_item",
+  "textures": {
+    "coating": "spartanweaponry:item/coating/rapier",
+    "layer0": "metallurgy:spartanweaponry/items/custom/rapier_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/rapier_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/rapier_layer_2"
+  }
+}

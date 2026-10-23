@@ -1,0 +1,27 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "components": {
+      "hephaestus_tools:part_material": "hephaestus_tools:damascus_steel"
+    },
+    "items": "hephaestus_tools:tough_handle",
+    "strict": false
+  },
+  "result": {
+    "amount": 270,
+    "id": "metallurgy:damascus_steel"
+  },
+  "temperature": 900,
+  "time": 140,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    }
+  ]
+}

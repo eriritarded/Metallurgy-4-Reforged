@@ -1,0 +1,10 @@
+{
+  "parent": "spartanweaponry:item/base/greatsword_throwing",
+  "loader": "spartanweaponry:oil_coated_item",
+  "textures": {
+    "coating": "spartanweaponry:item/coating/greatsword",
+    "layer0": "metallurgy:spartanweaponry/items/custom/greatsword_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/greatsword_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/greatsword_layer_2"
+  }
+}

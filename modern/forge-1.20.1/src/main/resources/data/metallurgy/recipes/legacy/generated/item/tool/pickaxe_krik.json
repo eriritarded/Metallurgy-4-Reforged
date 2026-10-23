@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/krik"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:krik_pickaxe",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_pickaxe"
+    }
+  ]
+}

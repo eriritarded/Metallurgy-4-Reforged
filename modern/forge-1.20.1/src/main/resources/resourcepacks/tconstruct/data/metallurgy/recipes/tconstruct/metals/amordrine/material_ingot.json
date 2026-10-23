@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:ingots/amordrine"
+  },
+  "material": "metallurgy:amordrine",
+  "needed": 1,
+  "value": 1,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/amordrine"
+      }
+    }
+  ]
+}

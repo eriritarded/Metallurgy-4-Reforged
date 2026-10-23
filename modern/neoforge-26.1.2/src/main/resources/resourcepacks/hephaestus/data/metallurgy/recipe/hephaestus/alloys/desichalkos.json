@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:eximite"
+    },
+    {
+      "amount": 90,
+      "id": "metallurgy:meutoite"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:desichalkos"
+  },
+  "temperature": 1700
+}

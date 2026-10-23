@@ -1,0 +1,18 @@
+{
+  "name": "Alduorite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:alduorite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:alduorite_ore",
+      "title": "Finding Alduorite",
+      "text": "Default deposits: Nether, Y 70 to 127. Veins target up to 4 blocks, with 7 placement attempts per chunk. Mining requirement: level 6."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Alduorite",
+      "text": "Smelt Alduorite Ore or Alduorite Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    }
+  ]
+}

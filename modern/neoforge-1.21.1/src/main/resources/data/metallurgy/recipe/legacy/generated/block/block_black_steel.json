@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/black_steel"
+    }
+  },
+  "result": {
+    "id": "metallurgy:black_steel_block",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:black_steel_block"
+    }
+  ]
+}

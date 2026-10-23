@@ -1,0 +1,1371 @@
+{
+  "complete": false,
+  "rows": [
+    {
+      "source": "challenges/bucklers.json",
+      "sourceSha256": "cd93bb169e2939c16e13d8ebb9ce1b291b6a3738530c5d47edeadc49738c130b",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/bucklers.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/chameleon_metal.json",
+      "sourceSha256": "614016bc74337c2246db99714c3fe3a5b2a36622c2bd3fe9a673c1eb70da105f",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/chameleon_metal.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/jack_of_all_trades.json",
+      "sourceSha256": "5fccb3c4be527ffc24d1cd1a234211e3b6bd999d41d44ebf71ccb12dafbb6d40",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/jack_of_all_trades.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/low_temperatures.json",
+      "sourceSha256": "b8bd19e5db207340826a8b28f25f27f966085bb0b5fe51c5175ae0741884abff",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/low_temperatures.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/loyal_friends.json",
+      "sourceSha256": "a041ef97720be8c00f3b89705858b9209dd0029bffae2cacd1ce39234447b2bf",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/loyal_friends.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/metal_rainbow.json",
+      "sourceSha256": "0ce86b033c42c44ea05491d813153d5db136913b3b88af9ce939cd28ae116fb9",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/metal_rainbow.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/overclocked_tools.json",
+      "sourceSha256": "9d163b4a4bab17e6bc9c4c6323e8a8a71c487524e80ac611b05e503a92c5e1a6",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/overclocked_tools.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/root.json",
+      "sourceSha256": "7e6e73691c76dc38f7e8f3d1b6ad667d39dc32d3538af854c4a92a3a03aac3a0",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/root.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/strong_opponent.json",
+      "sourceSha256": "3968df9969d633347359f6d3d8669f987037bad644e9cc7f04fd34903b1771f9",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/strong_opponent.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/yin_yang.json",
+      "sourceSha256": "90d5e8d9eaca589ea5d6fabfc2f5cc360abd99c04df8ab5c2d835e882420b86f",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/challenges/yin_yang.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/adamantine.json",
+      "sourceSha256": "2df6c66d2a8441f30c21e554d9367982b321c364a1d6598ec0a6d9203477d225",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/adamantine.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/alduorite.json",
+      "sourceSha256": "1ebefd5a55f705b3099e644c8041b7940954fbd74c6c914813ee7a8596b4eaa7",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/alduorite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/amordrine.json",
+      "sourceSha256": "d6000734c9723acdab6a9282dc4170c585591c9dc7940a1e16888db8ea5f1b38",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/amordrine.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/angmallen.json",
+      "sourceSha256": "6ed17b0a2faea7a79aa30adfa1ec729e5171e360b192f507275b3612fa223254",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/angmallen.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/astral_silver.json",
+      "sourceSha256": "6ce270876c02044b9603dbf9c81f6ca46965ea7944774c495c0a744bf2764f51",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/astral_silver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/atlarus.json",
+      "sourceSha256": "59e996957e54c044bacf289c18a2788f89aa7e3920d68760accb80176b0116d5",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/atlarus.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/black_steel.json",
+      "sourceSha256": "4739ffd30a669465b215a5cfeb0eebff62be6e2d6c19722dd66e989984485000",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/black_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/brass.json",
+      "sourceSha256": "bfc2c54c952a080bfe029b11de1126be0dccc7a2d42da372ecedcafd617af320",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/brass.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/bronze.json",
+      "sourceSha256": "7a3a3b01607ad26aafbca4466361845f298c6101c195b128e78ad08984c927ec",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/bronze.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/carmot.json",
+      "sourceSha256": "4b7924a0c174af53aac1bf2dd87d41df33b0abbad8189e3d4dff6b06ad233c9d",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/carmot.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/celenegil.json",
+      "sourceSha256": "95c3ca292159e332ec0c85559d2957d429ef81af46dea0343b5535cd3db99a65",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/celenegil.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/ceruclase.json",
+      "sourceSha256": "84856850f59b8979eb19cd53581cc06304194a42607beda07324159a1875d0a8",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/ceruclase.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/copper.json",
+      "sourceSha256": "8f4561bb9a3b4605cd516717ff4612d820162e5efb7c5639110ff690a70eb110",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/copper.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/damascus_steel.json",
+      "sourceSha256": "6b69b9bd600b645df786f10eb5c121cedd1eebc19e916894cbb1b11e9c185f4c",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/damascus_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/deep_iron.json",
+      "sourceSha256": "07b1eba864f07ba4b15847d11d52f9f99a90e138c8c92be91d252cc1c585d749",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/deep_iron.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/desichalkos.json",
+      "sourceSha256": "db0bfb744ae2f21789f5f4921beab841e0b3597956400d57e98e88de00f44354",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/desichalkos.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/electrum.json",
+      "sourceSha256": "171926f6753568a7c77ac5a2c520393b1456aac50a503b738a0ac1e65a000dcc",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/electrum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/etherium.json",
+      "sourceSha256": "6757bd4d260f152172104909b04c25bf07c54ddc0422bc25bf789e58ff1d7fad",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/etherium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/eximite.json",
+      "sourceSha256": "d4c1b4b3b2fcbf1f7ced20d5ce8ac9cccf22f311bfd6ef7c809d8864d5f6ea4a",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/eximite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/haderoth.json",
+      "sourceSha256": "e0e57883776c31f6a96185c94db9eeac835c160ca944751fc1c4e659482d6096",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/haderoth.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/hepatizon.json",
+      "sourceSha256": "f97846a4598b6c11af999f2316b8840a6d6deee354bffeb8ec023d2f2d6d90b2",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/hepatizon.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/ignatius.json",
+      "sourceSha256": "c3f2bdb8bd338b6154cb2bb1c0c5ca710f85cca8d3b82ac5c2fd8c56b3737a22",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/ignatius.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/infuscolium.json",
+      "sourceSha256": "eaac962ab298d4df20546776317ab70fff4878661b1664b64a5df4448908b118",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/infuscolium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/inolashite.json",
+      "sourceSha256": "cbd98f56a7080376e5e37ef532d685ac021af44cd8aec43602f60dc500704e7c",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/inolashite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/kalendrite.json",
+      "sourceSha256": "2f5f3a5f94df9664db1c3414fca34a227b6da42443aee182d27c82e2615bc10e",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/kalendrite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/krik.json",
+      "sourceSha256": "6fe066e2d7d69b4322b226d7889991375a3b2c9545f04a82465128786c7460dd",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/krik.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/lemurite.json",
+      "sourceSha256": "a0a1f27f48620777c281b197f1d5826443caa5063ee19b62bf5ed70a0f0a284b",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/lemurite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/lutetium.json",
+      "sourceSha256": "ac3779a0853e7cc549e60ed2cf626d55452bdc6571bd6c87664e86a497951434",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/lutetium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/manganese.json",
+      "sourceSha256": "60e803fce69d1642e3ab5f24ee2dd9a1419887b6f851104f444d3093bd0c43bd",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/manganese.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/meutoite.json",
+      "sourceSha256": "1d53dc595872c514e38948721a2817c388edb12f355645855e06f5a9788a72db",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/meutoite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/midasium.json",
+      "sourceSha256": "24aa9412d41282675ad508dc97e2df19a34ad11d64be202e429443a34145d2ca",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/midasium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/mithril.json",
+      "sourceSha256": "13237fde8f3813ad1e7cfa52737f4e6bc62562ab511340a2db8e96a41e2e45aa",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/mithril.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/orichalcum.json",
+      "sourceSha256": "6a39f19b8bb78d15a4bdc0eed42563da579096906659d5f15960afd7ee07dd96",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/orichalcum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/osmium.json",
+      "sourceSha256": "440792be7171aac74058ca65bccdc690052dfb00a797a53c2a0353b057173c0b",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/osmium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/oureclase.json",
+      "sourceSha256": "bc2c4dca047ea1d055d0a576dc3789209db8c035aca0ff6b932efe9d8a00169d",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/oureclase.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/platinum.json",
+      "sourceSha256": "d3b614a76c8cc44633847ecab9883c6e2e563b3a972953873830b8cd688f13bd",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/platinum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/prometheum.json",
+      "sourceSha256": "4b65bbd5a7ab420f442830e329460e8d8e20af14a39158436778e34f963bd392",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/prometheum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/quicksilver.json",
+      "sourceSha256": "98bd8d93c3556a1515cb9ebd1a937096a79bc53b6d7871d6874289d5a0029043",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/quicksilver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/root.json",
+      "sourceSha256": "96fbb9873232c77c85026ab475f9dfbc0ab84d03a3630a9a448ffef84f988f62",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/root.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/rubracium.json",
+      "sourceSha256": "16cc21524dda884112489da489ae81f2627204cc128664bde500accd26dd492d",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/rubracium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/sanguinite.json",
+      "sourceSha256": "01b6a776cac567dee180c13cf13af4aa16c37d542c43e5e74d703474e07fcd0e",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/sanguinite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/shadow_iron.json",
+      "sourceSha256": "5aa2faad81445637244d9d0dd6a66b21e46bab909f386066f15ed75d3d930b0a",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/shadow_iron.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/shadow_steel.json",
+      "sourceSha256": "b97586151d169bdd797a2d9abf8b0ab7dcef5e25e64b534ea4854cee7a4d97e9",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/shadow_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/silver.json",
+      "sourceSha256": "e76535b5914c886bd3debb697fb1c4767a95ebf3b8cec8da66f703f690db5bbd",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/silver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/steel.json",
+      "sourceSha256": "c9310a3c8a1eec79d74534c88701604bf3cb52e0097678e2024add166d70cabe",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tartarite.json",
+      "sourceSha256": "23986bfff1342fe94f3f6d20e9284cca7ca91bc1a2e1d81ccda1f058bb9f6026",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tartarite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier2.json",
+      "sourceSha256": "9c706940455ebc5eef873e3136723f50037ba5243904ad727ff13967dfaabb7b",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tier2.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier3.json",
+      "sourceSha256": "bb74483f597691ef56c0f80ced8efcf8f619a03c7a9daceba4ef42a7036357fb",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tier3.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier4.json",
+      "sourceSha256": "366ce47800cb997733dab510241d3552ae2c6c4107df9ce52f49ab7341bda6eb",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tier4.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier5.json",
+      "sourceSha256": "f248302b06e99faf2f9f768abc09cc4e21aef91a06dbc8fc76baef8945a27163",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tier5.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier6.json",
+      "sourceSha256": "d22463bbcc34c1ae118ec747828ee3c6f97ee8057cfe23b5165721e93684966d",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tier6.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tin.json",
+      "sourceSha256": "55cc823a4bff09bad4dc211ba56027ee072114e24c4a8f5cc520248820d4927e",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/tin.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/vulcanite.json",
+      "sourceSha256": "3edb3c228eca793b722bb240c635e6d46a318b4b6872e95840fcdb91ea546318",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/vulcanite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/vyroxeres.json",
+      "sourceSha256": "57038aade69fa690a40bab3dea0e7933807f1acbbb7f9d9ab2cd1bc7d59404b1",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/vyroxeres.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/zinc.json",
+      "sourceSha256": "f42a0a482f28c733e3c2b1cd985ecb09e8ab09a5d0afddf230b6cd411da0d004",
+      "target": "forge-1.20.1",
+      "output": "forge-1.20.1/src/main/resources/data/metallurgy/advancements/main/zinc.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/bucklers.json",
+      "sourceSha256": "cd93bb169e2939c16e13d8ebb9ce1b291b6a3738530c5d47edeadc49738c130b",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/bucklers.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/chameleon_metal.json",
+      "sourceSha256": "614016bc74337c2246db99714c3fe3a5b2a36622c2bd3fe9a673c1eb70da105f",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/chameleon_metal.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/jack_of_all_trades.json",
+      "sourceSha256": "5fccb3c4be527ffc24d1cd1a234211e3b6bd999d41d44ebf71ccb12dafbb6d40",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/jack_of_all_trades.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/low_temperatures.json",
+      "sourceSha256": "b8bd19e5db207340826a8b28f25f27f966085bb0b5fe51c5175ae0741884abff",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/low_temperatures.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/loyal_friends.json",
+      "sourceSha256": "a041ef97720be8c00f3b89705858b9209dd0029bffae2cacd1ce39234447b2bf",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/loyal_friends.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/metal_rainbow.json",
+      "sourceSha256": "0ce86b033c42c44ea05491d813153d5db136913b3b88af9ce939cd28ae116fb9",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/metal_rainbow.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/overclocked_tools.json",
+      "sourceSha256": "9d163b4a4bab17e6bc9c4c6323e8a8a71c487524e80ac611b05e503a92c5e1a6",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/overclocked_tools.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/root.json",
+      "sourceSha256": "7e6e73691c76dc38f7e8f3d1b6ad667d39dc32d3538af854c4a92a3a03aac3a0",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/root.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/strong_opponent.json",
+      "sourceSha256": "3968df9969d633347359f6d3d8669f987037bad644e9cc7f04fd34903b1771f9",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/strong_opponent.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/yin_yang.json",
+      "sourceSha256": "90d5e8d9eaca589ea5d6fabfc2f5cc360abd99c04df8ab5c2d835e882420b86f",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/challenges/yin_yang.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/adamantine.json",
+      "sourceSha256": "2df6c66d2a8441f30c21e554d9367982b321c364a1d6598ec0a6d9203477d225",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/adamantine.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/alduorite.json",
+      "sourceSha256": "1ebefd5a55f705b3099e644c8041b7940954fbd74c6c914813ee7a8596b4eaa7",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/alduorite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/amordrine.json",
+      "sourceSha256": "d6000734c9723acdab6a9282dc4170c585591c9dc7940a1e16888db8ea5f1b38",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/amordrine.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/angmallen.json",
+      "sourceSha256": "6ed17b0a2faea7a79aa30adfa1ec729e5171e360b192f507275b3612fa223254",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/angmallen.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/astral_silver.json",
+      "sourceSha256": "6ce270876c02044b9603dbf9c81f6ca46965ea7944774c495c0a744bf2764f51",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/astral_silver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/atlarus.json",
+      "sourceSha256": "59e996957e54c044bacf289c18a2788f89aa7e3920d68760accb80176b0116d5",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/atlarus.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/black_steel.json",
+      "sourceSha256": "4739ffd30a669465b215a5cfeb0eebff62be6e2d6c19722dd66e989984485000",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/black_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/brass.json",
+      "sourceSha256": "bfc2c54c952a080bfe029b11de1126be0dccc7a2d42da372ecedcafd617af320",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/brass.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/bronze.json",
+      "sourceSha256": "7a3a3b01607ad26aafbca4466361845f298c6101c195b128e78ad08984c927ec",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/bronze.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/carmot.json",
+      "sourceSha256": "4b7924a0c174af53aac1bf2dd87d41df33b0abbad8189e3d4dff6b06ad233c9d",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/carmot.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/celenegil.json",
+      "sourceSha256": "95c3ca292159e332ec0c85559d2957d429ef81af46dea0343b5535cd3db99a65",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/celenegil.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/ceruclase.json",
+      "sourceSha256": "84856850f59b8979eb19cd53581cc06304194a42607beda07324159a1875d0a8",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/ceruclase.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/copper.json",
+      "sourceSha256": "8f4561bb9a3b4605cd516717ff4612d820162e5efb7c5639110ff690a70eb110",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/copper.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/damascus_steel.json",
+      "sourceSha256": "6b69b9bd600b645df786f10eb5c121cedd1eebc19e916894cbb1b11e9c185f4c",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/damascus_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/deep_iron.json",
+      "sourceSha256": "07b1eba864f07ba4b15847d11d52f9f99a90e138c8c92be91d252cc1c585d749",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/deep_iron.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/desichalkos.json",
+      "sourceSha256": "db0bfb744ae2f21789f5f4921beab841e0b3597956400d57e98e88de00f44354",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/desichalkos.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/electrum.json",
+      "sourceSha256": "171926f6753568a7c77ac5a2c520393b1456aac50a503b738a0ac1e65a000dcc",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/electrum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/etherium.json",
+      "sourceSha256": "6757bd4d260f152172104909b04c25bf07c54ddc0422bc25bf789e58ff1d7fad",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/etherium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/eximite.json",
+      "sourceSha256": "d4c1b4b3b2fcbf1f7ced20d5ce8ac9cccf22f311bfd6ef7c809d8864d5f6ea4a",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/eximite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/haderoth.json",
+      "sourceSha256": "e0e57883776c31f6a96185c94db9eeac835c160ca944751fc1c4e659482d6096",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/haderoth.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/hepatizon.json",
+      "sourceSha256": "f97846a4598b6c11af999f2316b8840a6d6deee354bffeb8ec023d2f2d6d90b2",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/hepatizon.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/ignatius.json",
+      "sourceSha256": "c3f2bdb8bd338b6154cb2bb1c0c5ca710f85cca8d3b82ac5c2fd8c56b3737a22",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/ignatius.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/infuscolium.json",
+      "sourceSha256": "eaac962ab298d4df20546776317ab70fff4878661b1664b64a5df4448908b118",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/infuscolium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/inolashite.json",
+      "sourceSha256": "cbd98f56a7080376e5e37ef532d685ac021af44cd8aec43602f60dc500704e7c",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/inolashite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/kalendrite.json",
+      "sourceSha256": "2f5f3a5f94df9664db1c3414fca34a227b6da42443aee182d27c82e2615bc10e",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/kalendrite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/krik.json",
+      "sourceSha256": "6fe066e2d7d69b4322b226d7889991375a3b2c9545f04a82465128786c7460dd",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/krik.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/lemurite.json",
+      "sourceSha256": "a0a1f27f48620777c281b197f1d5826443caa5063ee19b62bf5ed70a0f0a284b",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/lemurite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/lutetium.json",
+      "sourceSha256": "ac3779a0853e7cc549e60ed2cf626d55452bdc6571bd6c87664e86a497951434",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/lutetium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/manganese.json",
+      "sourceSha256": "60e803fce69d1642e3ab5f24ee2dd9a1419887b6f851104f444d3093bd0c43bd",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/manganese.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/meutoite.json",
+      "sourceSha256": "1d53dc595872c514e38948721a2817c388edb12f355645855e06f5a9788a72db",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/meutoite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/midasium.json",
+      "sourceSha256": "24aa9412d41282675ad508dc97e2df19a34ad11d64be202e429443a34145d2ca",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/midasium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/mithril.json",
+      "sourceSha256": "13237fde8f3813ad1e7cfa52737f4e6bc62562ab511340a2db8e96a41e2e45aa",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/mithril.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/orichalcum.json",
+      "sourceSha256": "6a39f19b8bb78d15a4bdc0eed42563da579096906659d5f15960afd7ee07dd96",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/orichalcum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/osmium.json",
+      "sourceSha256": "440792be7171aac74058ca65bccdc690052dfb00a797a53c2a0353b057173c0b",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/osmium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/oureclase.json",
+      "sourceSha256": "bc2c4dca047ea1d055d0a576dc3789209db8c035aca0ff6b932efe9d8a00169d",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/oureclase.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/platinum.json",
+      "sourceSha256": "d3b614a76c8cc44633847ecab9883c6e2e563b3a972953873830b8cd688f13bd",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/platinum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/prometheum.json",
+      "sourceSha256": "4b65bbd5a7ab420f442830e329460e8d8e20af14a39158436778e34f963bd392",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/prometheum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/quicksilver.json",
+      "sourceSha256": "98bd8d93c3556a1515cb9ebd1a937096a79bc53b6d7871d6874289d5a0029043",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/quicksilver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/root.json",
+      "sourceSha256": "96fbb9873232c77c85026ab475f9dfbc0ab84d03a3630a9a448ffef84f988f62",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/root.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/rubracium.json",
+      "sourceSha256": "16cc21524dda884112489da489ae81f2627204cc128664bde500accd26dd492d",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/rubracium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/sanguinite.json",
+      "sourceSha256": "01b6a776cac567dee180c13cf13af4aa16c37d542c43e5e74d703474e07fcd0e",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/sanguinite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/shadow_iron.json",
+      "sourceSha256": "5aa2faad81445637244d9d0dd6a66b21e46bab909f386066f15ed75d3d930b0a",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/shadow_iron.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/shadow_steel.json",
+      "sourceSha256": "b97586151d169bdd797a2d9abf8b0ab7dcef5e25e64b534ea4854cee7a4d97e9",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/shadow_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/silver.json",
+      "sourceSha256": "e76535b5914c886bd3debb697fb1c4767a95ebf3b8cec8da66f703f690db5bbd",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/silver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/steel.json",
+      "sourceSha256": "c9310a3c8a1eec79d74534c88701604bf3cb52e0097678e2024add166d70cabe",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tartarite.json",
+      "sourceSha256": "23986bfff1342fe94f3f6d20e9284cca7ca91bc1a2e1d81ccda1f058bb9f6026",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tartarite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier2.json",
+      "sourceSha256": "9c706940455ebc5eef873e3136723f50037ba5243904ad727ff13967dfaabb7b",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tier2.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier3.json",
+      "sourceSha256": "bb74483f597691ef56c0f80ced8efcf8f619a03c7a9daceba4ef42a7036357fb",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tier3.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier4.json",
+      "sourceSha256": "366ce47800cb997733dab510241d3552ae2c6c4107df9ce52f49ab7341bda6eb",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tier4.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier5.json",
+      "sourceSha256": "f248302b06e99faf2f9f768abc09cc4e21aef91a06dbc8fc76baef8945a27163",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tier5.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier6.json",
+      "sourceSha256": "d22463bbcc34c1ae118ec747828ee3c6f97ee8057cfe23b5165721e93684966d",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tier6.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tin.json",
+      "sourceSha256": "55cc823a4bff09bad4dc211ba56027ee072114e24c4a8f5cc520248820d4927e",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/tin.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/vulcanite.json",
+      "sourceSha256": "3edb3c228eca793b722bb240c635e6d46a318b4b6872e95840fcdb91ea546318",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/vulcanite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/vyroxeres.json",
+      "sourceSha256": "57038aade69fa690a40bab3dea0e7933807f1acbbb7f9d9ab2cd1bc7d59404b1",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/vyroxeres.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/zinc.json",
+      "sourceSha256": "f42a0a482f28c733e3c2b1cd985ecb09e8ab09a5d0afddf230b6cd411da0d004",
+      "target": "neoforge-1.21.1",
+      "output": "neoforge-1.21.1/src/main/resources/data/metallurgy/advancement/main/zinc.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/bucklers.json",
+      "sourceSha256": "cd93bb169e2939c16e13d8ebb9ce1b291b6a3738530c5d47edeadc49738c130b",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/bucklers.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/chameleon_metal.json",
+      "sourceSha256": "614016bc74337c2246db99714c3fe3a5b2a36622c2bd3fe9a673c1eb70da105f",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/chameleon_metal.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/jack_of_all_trades.json",
+      "sourceSha256": "5fccb3c4be527ffc24d1cd1a234211e3b6bd999d41d44ebf71ccb12dafbb6d40",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/jack_of_all_trades.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/low_temperatures.json",
+      "sourceSha256": "b8bd19e5db207340826a8b28f25f27f966085bb0b5fe51c5175ae0741884abff",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/low_temperatures.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/loyal_friends.json",
+      "sourceSha256": "a041ef97720be8c00f3b89705858b9209dd0029bffae2cacd1ce39234447b2bf",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/loyal_friends.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/metal_rainbow.json",
+      "sourceSha256": "0ce86b033c42c44ea05491d813153d5db136913b3b88af9ce939cd28ae116fb9",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/metal_rainbow.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/overclocked_tools.json",
+      "sourceSha256": "9d163b4a4bab17e6bc9c4c6323e8a8a71c487524e80ac611b05e503a92c5e1a6",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/overclocked_tools.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/root.json",
+      "sourceSha256": "7e6e73691c76dc38f7e8f3d1b6ad667d39dc32d3538af854c4a92a3a03aac3a0",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/root.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/strong_opponent.json",
+      "sourceSha256": "3968df9969d633347359f6d3d8669f987037bad644e9cc7f04fd34903b1771f9",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/strong_opponent.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "challenges/yin_yang.json",
+      "sourceSha256": "90d5e8d9eaca589ea5d6fabfc2f5cc360abd99c04df8ab5c2d835e882420b86f",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/challenges/yin_yang.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/adamantine.json",
+      "sourceSha256": "2df6c66d2a8441f30c21e554d9367982b321c364a1d6598ec0a6d9203477d225",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/adamantine.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/alduorite.json",
+      "sourceSha256": "1ebefd5a55f705b3099e644c8041b7940954fbd74c6c914813ee7a8596b4eaa7",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/alduorite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/amordrine.json",
+      "sourceSha256": "d6000734c9723acdab6a9282dc4170c585591c9dc7940a1e16888db8ea5f1b38",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/amordrine.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/angmallen.json",
+      "sourceSha256": "6ed17b0a2faea7a79aa30adfa1ec729e5171e360b192f507275b3612fa223254",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/angmallen.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/astral_silver.json",
+      "sourceSha256": "6ce270876c02044b9603dbf9c81f6ca46965ea7944774c495c0a744bf2764f51",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/astral_silver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/atlarus.json",
+      "sourceSha256": "59e996957e54c044bacf289c18a2788f89aa7e3920d68760accb80176b0116d5",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/atlarus.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/black_steel.json",
+      "sourceSha256": "4739ffd30a669465b215a5cfeb0eebff62be6e2d6c19722dd66e989984485000",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/black_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/brass.json",
+      "sourceSha256": "bfc2c54c952a080bfe029b11de1126be0dccc7a2d42da372ecedcafd617af320",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/brass.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/bronze.json",
+      "sourceSha256": "7a3a3b01607ad26aafbca4466361845f298c6101c195b128e78ad08984c927ec",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/bronze.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/carmot.json",
+      "sourceSha256": "4b7924a0c174af53aac1bf2dd87d41df33b0abbad8189e3d4dff6b06ad233c9d",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/carmot.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/celenegil.json",
+      "sourceSha256": "95c3ca292159e332ec0c85559d2957d429ef81af46dea0343b5535cd3db99a65",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/celenegil.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/ceruclase.json",
+      "sourceSha256": "84856850f59b8979eb19cd53581cc06304194a42607beda07324159a1875d0a8",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/ceruclase.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/copper.json",
+      "sourceSha256": "8f4561bb9a3b4605cd516717ff4612d820162e5efb7c5639110ff690a70eb110",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/copper.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/damascus_steel.json",
+      "sourceSha256": "6b69b9bd600b645df786f10eb5c121cedd1eebc19e916894cbb1b11e9c185f4c",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/damascus_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/deep_iron.json",
+      "sourceSha256": "07b1eba864f07ba4b15847d11d52f9f99a90e138c8c92be91d252cc1c585d749",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/deep_iron.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/desichalkos.json",
+      "sourceSha256": "db0bfb744ae2f21789f5f4921beab841e0b3597956400d57e98e88de00f44354",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/desichalkos.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/electrum.json",
+      "sourceSha256": "171926f6753568a7c77ac5a2c520393b1456aac50a503b738a0ac1e65a000dcc",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/electrum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/etherium.json",
+      "sourceSha256": "6757bd4d260f152172104909b04c25bf07c54ddc0422bc25bf789e58ff1d7fad",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/etherium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/eximite.json",
+      "sourceSha256": "d4c1b4b3b2fcbf1f7ced20d5ce8ac9cccf22f311bfd6ef7c809d8864d5f6ea4a",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/eximite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/haderoth.json",
+      "sourceSha256": "e0e57883776c31f6a96185c94db9eeac835c160ca944751fc1c4e659482d6096",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/haderoth.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/hepatizon.json",
+      "sourceSha256": "f97846a4598b6c11af999f2316b8840a6d6deee354bffeb8ec023d2f2d6d90b2",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/hepatizon.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/ignatius.json",
+      "sourceSha256": "c3f2bdb8bd338b6154cb2bb1c0c5ca710f85cca8d3b82ac5c2fd8c56b3737a22",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/ignatius.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/infuscolium.json",
+      "sourceSha256": "eaac962ab298d4df20546776317ab70fff4878661b1664b64a5df4448908b118",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/infuscolium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/inolashite.json",
+      "sourceSha256": "cbd98f56a7080376e5e37ef532d685ac021af44cd8aec43602f60dc500704e7c",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/inolashite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/kalendrite.json",
+      "sourceSha256": "2f5f3a5f94df9664db1c3414fca34a227b6da42443aee182d27c82e2615bc10e",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/kalendrite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/krik.json",
+      "sourceSha256": "6fe066e2d7d69b4322b226d7889991375a3b2c9545f04a82465128786c7460dd",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/krik.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/lemurite.json",
+      "sourceSha256": "a0a1f27f48620777c281b197f1d5826443caa5063ee19b62bf5ed70a0f0a284b",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/lemurite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/lutetium.json",
+      "sourceSha256": "ac3779a0853e7cc549e60ed2cf626d55452bdc6571bd6c87664e86a497951434",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/lutetium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/manganese.json",
+      "sourceSha256": "60e803fce69d1642e3ab5f24ee2dd9a1419887b6f851104f444d3093bd0c43bd",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/manganese.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/meutoite.json",
+      "sourceSha256": "1d53dc595872c514e38948721a2817c388edb12f355645855e06f5a9788a72db",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/meutoite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/midasium.json",
+      "sourceSha256": "24aa9412d41282675ad508dc97e2df19a34ad11d64be202e429443a34145d2ca",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/midasium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/mithril.json",
+      "sourceSha256": "13237fde8f3813ad1e7cfa52737f4e6bc62562ab511340a2db8e96a41e2e45aa",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/mithril.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/orichalcum.json",
+      "sourceSha256": "6a39f19b8bb78d15a4bdc0eed42563da579096906659d5f15960afd7ee07dd96",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/orichalcum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/osmium.json",
+      "sourceSha256": "440792be7171aac74058ca65bccdc690052dfb00a797a53c2a0353b057173c0b",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/osmium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/oureclase.json",
+      "sourceSha256": "bc2c4dca047ea1d055d0a576dc3789209db8c035aca0ff6b932efe9d8a00169d",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/oureclase.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/platinum.json",
+      "sourceSha256": "d3b614a76c8cc44633847ecab9883c6e2e563b3a972953873830b8cd688f13bd",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/platinum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/prometheum.json",
+      "sourceSha256": "4b65bbd5a7ab420f442830e329460e8d8e20af14a39158436778e34f963bd392",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/prometheum.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/quicksilver.json",
+      "sourceSha256": "98bd8d93c3556a1515cb9ebd1a937096a79bc53b6d7871d6874289d5a0029043",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/quicksilver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/root.json",
+      "sourceSha256": "96fbb9873232c77c85026ab475f9dfbc0ab84d03a3630a9a448ffef84f988f62",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/root.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/rubracium.json",
+      "sourceSha256": "16cc21524dda884112489da489ae81f2627204cc128664bde500accd26dd492d",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/rubracium.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/sanguinite.json",
+      "sourceSha256": "01b6a776cac567dee180c13cf13af4aa16c37d542c43e5e74d703474e07fcd0e",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/sanguinite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/shadow_iron.json",
+      "sourceSha256": "5aa2faad81445637244d9d0dd6a66b21e46bab909f386066f15ed75d3d930b0a",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/shadow_iron.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/shadow_steel.json",
+      "sourceSha256": "b97586151d169bdd797a2d9abf8b0ab7dcef5e25e64b534ea4854cee7a4d97e9",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/shadow_steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/silver.json",
+      "sourceSha256": "e76535b5914c886bd3debb697fb1c4767a95ebf3b8cec8da66f703f690db5bbd",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/silver.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/steel.json",
+      "sourceSha256": "c9310a3c8a1eec79d74534c88701604bf3cb52e0097678e2024add166d70cabe",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/steel.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tartarite.json",
+      "sourceSha256": "23986bfff1342fe94f3f6d20e9284cca7ca91bc1a2e1d81ccda1f058bb9f6026",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tartarite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier2.json",
+      "sourceSha256": "9c706940455ebc5eef873e3136723f50037ba5243904ad727ff13967dfaabb7b",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tier2.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier3.json",
+      "sourceSha256": "bb74483f597691ef56c0f80ced8efcf8f619a03c7a9daceba4ef42a7036357fb",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tier3.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier4.json",
+      "sourceSha256": "366ce47800cb997733dab510241d3552ae2c6c4107df9ce52f49ab7341bda6eb",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tier4.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier5.json",
+      "sourceSha256": "f248302b06e99faf2f9f768abc09cc4e21aef91a06dbc8fc76baef8945a27163",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tier5.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tier6.json",
+      "sourceSha256": "d22463bbcc34c1ae118ec747828ee3c6f97ee8057cfe23b5165721e93684966d",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tier6.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/tin.json",
+      "sourceSha256": "55cc823a4bff09bad4dc211ba56027ee072114e24c4a8f5cc520248820d4927e",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/tin.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/vulcanite.json",
+      "sourceSha256": "3edb3c228eca793b722bb240c635e6d46a318b4b6872e95840fcdb91ea546318",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/vulcanite.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/vyroxeres.json",
+      "sourceSha256": "57038aade69fa690a40bab3dea0e7933807f1acbbb7f9d9ab2cd1bc7d59404b1",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/vyroxeres.json",
+      "state": "adapted; native resource loading unverified"
+    },
+    {
+      "source": "main/zinc.json",
+      "sourceSha256": "f42a0a482f28c733e3c2b1cd985ecb09e8ab09a5d0afddf230b6cd411da0d004",
+      "target": "neoforge-26.1.2",
+      "output": "neoforge-26.1.2/src/main/resources/data/metallurgy/advancement/main/zinc.json",
+      "state": "adapted; native resource loading unverified"
+    }
+  ],
+  "limits": "Source adaptation only; no game/resource loading or progression checks."
+}

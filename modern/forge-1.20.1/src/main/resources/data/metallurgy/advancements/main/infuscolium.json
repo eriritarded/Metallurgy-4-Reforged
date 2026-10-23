@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier2",
+  "display": {
+    "icon": {
+      "item": "metallurgy:infuscolium_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.infuscolium"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.infuscolium.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/infuscolium"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/infuscolium"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/infuscolium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

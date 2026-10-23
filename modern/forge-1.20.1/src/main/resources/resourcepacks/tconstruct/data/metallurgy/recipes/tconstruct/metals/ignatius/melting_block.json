@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/ignatius"
+  },
+  "result": {
+    "tag": "forge:molten_ignatius",
+    "amount": 810
+  },
+  "temperature": 1300,
+  "time": 136,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/ignatius"
+      }
+    }
+  ]
+}

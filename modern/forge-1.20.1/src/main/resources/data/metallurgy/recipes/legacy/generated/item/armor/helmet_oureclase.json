@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/oureclase"
+    }
+  },
+  "result": {
+    "item": "metallurgy:oureclase_helmet",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:oureclase_helmet"
+    }
+  ]
+}

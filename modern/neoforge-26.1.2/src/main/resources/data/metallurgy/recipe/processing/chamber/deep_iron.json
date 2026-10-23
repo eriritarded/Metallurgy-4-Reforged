@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:deep_iron_block"
+  ],
+  "amounts": [
+    4
+  ],
+  "effect": "minecraft:water_breathing",
+  "duration": 24000,
+  "amplifier": 0
+}

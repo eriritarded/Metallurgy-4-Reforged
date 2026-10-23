@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/shadow_iron"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/lemurite"
+    }
+  ],
+  "amounts": [
+    2,
+    1
+  ],
+  "result": {
+    "id": "metallurgy:shadow_steel_ingot",
+    "count": 3
+  },
+  "experience": 1.5,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/shadow_iron"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/lemurite"
+      }
+    }
+  ]
+}

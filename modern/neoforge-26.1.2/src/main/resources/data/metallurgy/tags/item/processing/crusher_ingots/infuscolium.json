@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:infuscolium_ingot",
+    {
+      "id": "#forge:ingots/infuscolium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/infuscolium",
+      "required": false
+    }
+  ]
+}

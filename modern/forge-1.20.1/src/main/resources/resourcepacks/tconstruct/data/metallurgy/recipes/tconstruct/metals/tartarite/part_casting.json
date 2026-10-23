@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/tartarite",
+    "amount": 90
+  },
+  "output": "metallurgy:tartarite",
+  "temperature": 1900
+}

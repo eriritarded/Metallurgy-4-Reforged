@@ -1,0 +1,33 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 6000,
+  "experience": 0.25,
+  "inputs": [
+    {
+      "tag": "c:ingots/eximite",
+      "count": 1
+    },
+    {
+      "tag": "c:ingots/meutoite",
+      "count": 1
+    }
+  ],
+  "output": {
+    "id": "metallurgy:desichalkos_ingot",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:desichalkos_ingot"
+    }
+  ]
+}

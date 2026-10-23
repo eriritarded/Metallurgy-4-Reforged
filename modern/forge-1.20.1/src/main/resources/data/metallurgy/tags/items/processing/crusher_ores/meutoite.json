@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:meutoite_ore",
+    {
+      "id": "#forge:ores/meutoite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/meutoite",
+      "required": false
+    }
+  ]
+}

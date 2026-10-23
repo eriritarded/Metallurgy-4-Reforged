@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/adamantine"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:adamantine_sword",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:adamantine_sword"
+    }
+  ]
+}

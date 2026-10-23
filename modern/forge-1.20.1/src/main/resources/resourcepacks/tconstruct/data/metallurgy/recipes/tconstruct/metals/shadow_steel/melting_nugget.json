@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/shadow_steel"
+  },
+  "result": {
+    "tag": "forge:molten_shadow_steel",
+    "amount": 10
+  },
+  "temperature": 1700,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/shadow_steel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:tartarite_ingot",
+    {
+      "id": "#forge:ingots/tartarite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/tartarite",
+      "required": false
+    }
+  ]
+}

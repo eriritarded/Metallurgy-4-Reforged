@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_carmot",
+  "category": "metal",
+  "primary": 4.4,
+  "secondary": 4.5,
+  "tertiary": 2.45,
+  "durability": 414,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 42,
+  "toolLevel": "metallurgy:level_5",
+  "toolEfficiency": 4.9,
+  "tints": {
+    "glyph": "C39C69",
+    "texture": "C39C69"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:carmot_ingot"
+    ]
+  },
+  "effects": {
+    "extraction": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

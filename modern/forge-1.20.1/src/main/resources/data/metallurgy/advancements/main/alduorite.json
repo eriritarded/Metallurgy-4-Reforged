@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier6",
+  "display": {
+    "icon": {
+      "item": "metallurgy:alduorite_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.alduorite"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.alduorite.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/alduorite"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/alduorite"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/alduorite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

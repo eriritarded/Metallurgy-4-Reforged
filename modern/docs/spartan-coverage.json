@@ -1,0 +1,39 @@
+{
+  "target": "forge-1.20.1",
+  "dependency": "SpartanWeaponry1.20.1-forge3.2.1/API12",
+  "materials": 39,
+  "weaponForms": {
+    "dagger": "dagger",
+    "longsword": "longsword",
+    "katana": "katana",
+    "saber": "saber",
+    "rapier": "rapier",
+    "greatsword": "greatsword",
+    "hammer": "battle_hammer",
+    "warhammer": "warhammer",
+    "spear": "spear",
+    "halberd": "halberd",
+    "pike": "pike",
+    "lance": "lance",
+    "throwing_knife": "throwing_knife",
+    "throwing_axe": "tomahawk",
+    "javelin": "javelin",
+    "boomerang": "boomerang",
+    "battleaxe": "battleaxe",
+    "mace": "flanged_mace",
+    "glaive": "glaive",
+    "staff": "quarterstaff",
+    "parrying_dagger": "parrying_dagger",
+    "longbow": "longbow",
+    "crossbow": "heavy_crossbow"
+  },
+  "itemAndRecipeCount": 897,
+  "recipeSources": 897,
+  "nativeModelsAdapted": 69,
+  "nativeDecodingOrClientBehaviorObserved": false,
+  "unsupportedTargets": [
+    "neoforge-1.21.1",
+    "neoforge-26.1.2"
+  ],
+  "effects": "Original Spartan items do not implement Metallurgy IToolEffect/IMetalItem; no extra base-equipment powers are invented."
+}

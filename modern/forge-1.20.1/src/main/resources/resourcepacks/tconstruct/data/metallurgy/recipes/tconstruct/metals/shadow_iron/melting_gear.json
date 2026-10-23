@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:gears/shadow_iron"
+  },
+  "result": {
+    "tag": "forge:molten_shadow_iron",
+    "amount": 360
+  },
+  "temperature": 1300,
+  "time": 104,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/shadow_iron"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/amordrine"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:amordrine_pickaxe",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:amordrine_pickaxe"
+    }
+  ]
+}

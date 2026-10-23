@@ -1,0 +1,27 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "item": "metallurgy:angmallen_ingot",
+    "count": 2
+  },
+  "experience": 1.25,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:angmallen_ingot"
+    }
+  ]
+}

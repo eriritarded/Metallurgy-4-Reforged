@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/mithril"
+    },
+    "N": {
+      "tag": "forge:nuggets/mithril"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "item": "metallurgy:mithril_crystals",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:mithril_crystals"
+    }
+  ]
+}

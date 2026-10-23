@@ -1,0 +1,18 @@
+{
+  "name": "Tinkers' Construct",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:amordrine_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:amordrine_ingot",
+      "title": "Tinkers' Construct",
+      "text": "Metallurgy adds native Tinkers' Construct materials, part stats, adapted traits, and melting/alloying/casting recipes. Use Tinkers' own tool-building and smeltery systems for these parts."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Supported armor roles use Tinkers' plating and maille materials. This is the modern Tinkers' armor path, so a separate old Construct's Armory jar is not required. Traits apply to suitable parts and tools rather than copying every standalone equipment effect."
+    }
+  ],
+  "flag": "mod:tconstruct"
+}

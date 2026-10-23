@@ -1,0 +1,172 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:diamond",
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "can_salvage": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "metallurgy:quicksilver_ingot"
+    },
+    "subs": {}
+  },
+  "name": {
+    "translate": "material.metallurgy.quicksilver.name"
+  },
+  "stats": {
+    "main": {
+      "durability": 452,
+      "harvest_speed": 10.0,
+      "enchantment_value": 24,
+      "melee_damage": 2.5,
+      "armor_durability": 50,
+      "armor": 18,
+      "armor/boots": 5,
+      "armor/leggings": 5,
+      "armor/chestplate": 4,
+      "armor/helmet": 4,
+      "armor_toughness": 0.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "ranged_speed": 0,
+      "charging_value": 1
+    },
+    "rod": {
+      "durability": {
+        "add": 67.8
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 67.8
+      },
+      "harvest_speed": {
+        "add": 1.0
+      },
+      "melee_damage": {
+        "add": 0.375
+      }
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FF62AAA2"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#FF62AAA2"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#FF62AAA2"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FF62AAA2"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FF62AAA2"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base",
+        "color": "#FF62AAA2"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FF62AAA2"
+      },
+      "silentgear:tip_shine"
+    ]
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:light",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:mighty",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:light",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:mighty",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:light",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:mighty",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

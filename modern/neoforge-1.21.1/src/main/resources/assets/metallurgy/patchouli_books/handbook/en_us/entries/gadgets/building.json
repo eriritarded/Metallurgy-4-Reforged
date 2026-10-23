@@ -1,0 +1,39 @@
+{
+  "name": "Workshop Fixtures",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:phosphorus_lamp",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:phosphorus_lamp",
+      "title": "Workshop Fixtures",
+      "text": "Phosphorus Lamps provide configurable workshop lighting and can use their supported floor, wall, or hanging placement. Road Blocks and Striped Road Blocks provide a faster route through a base."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Vulcanite TNT is a genuine terrain explosive. Clear valuables and storage before ignition; it is different from the terrain-safe retaliation of a Vulcanite Buckler."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/phosphorus_lamp"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/block/road"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/block/striped_road"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/block/vtnt"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:phosphorus_lamp": 2,
+    "metallurgy:road_block": 3,
+    "metallurgy:striped_road_block": 4,
+    "metallurgy:vulcanite_tnt": 5
+  }
+}

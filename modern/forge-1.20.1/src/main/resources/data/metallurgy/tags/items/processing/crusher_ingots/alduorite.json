@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:alduorite_ingot",
+    {
+      "id": "#forge:ingots/alduorite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/alduorite",
+      "required": false
+    }
+  ]
+}

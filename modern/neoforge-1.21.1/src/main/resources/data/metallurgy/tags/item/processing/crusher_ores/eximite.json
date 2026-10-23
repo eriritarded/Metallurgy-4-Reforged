@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:eximite_ore",
+    {
+      "id": "#forge:ores/eximite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/eximite",
+      "required": false
+    }
+  ]
+}

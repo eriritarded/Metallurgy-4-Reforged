@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:prometheum_ingot",
+    "metallurgy:prometheum_dust",
+    {
+      "id": "#forge:ingots/prometheum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/prometheum",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/prometheum",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/prometheum",
+      "required": false
+    }
+  ]
+}

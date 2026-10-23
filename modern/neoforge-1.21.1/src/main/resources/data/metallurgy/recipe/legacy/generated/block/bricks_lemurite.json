@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IDI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/lemurite"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "id": "metallurgy:lemurite_bricks",
+    "count": 48
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lemurite_bricks"
+    }
+  ]
+}

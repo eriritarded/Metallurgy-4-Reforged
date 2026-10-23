@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:haderoth_dust"
+  },
+  "result": {
+    "id": "metallurgy:haderoth_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:haderoth_ingot"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:angmallen"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:angmallen"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:haderoth_ingot",
+    "count": 3
+  },
+  "result": [
+    {
+      "item": "metallurgy:mithril_ingot",
+      "count": 1
+    },
+    {
+      "item": "metallurgy:rubracium_ingot",
+      "count": 2
+    }
+  ],
+  "energy": 8000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:haderoth_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:mithril_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:rubracium_ingot"
+    }
+  ]
+}

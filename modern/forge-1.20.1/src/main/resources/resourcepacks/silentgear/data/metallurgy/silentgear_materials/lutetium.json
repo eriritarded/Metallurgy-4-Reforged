@@ -1,0 +1,83 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:wood",
+  "availability": {
+    "tier": 0,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "can_salvage": true,
+    "gear_blacklist": [
+      "tool",
+      "projectile"
+    ]
+  },
+  "crafting_items": {
+    "main": {
+      "item": "metallurgy:lutetium_ingot"
+    },
+    "subs": {}
+  },
+  "name": {
+    "translate": "material.metallurgy.lutetium.name"
+  },
+  "stats": {
+    "main": {
+      "armor_durability": 50,
+      "armor": 20,
+      "armor/boots": 5,
+      "armor/leggings": 6,
+      "armor/chestplate": 5,
+      "armor/helmet": 4,
+      "armor_toughness": 3.0,
+      "enchantment_value": 17,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "ranged_speed": 0,
+      "charging_value": 1
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FF777221"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FF777221"
+      }
+    ]
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:light",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

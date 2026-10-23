@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:electrum_ingot",
+    "metallurgy:electrum_dust",
+    {
+      "id": "#forge:ingots/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/electrum",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/electrum",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/electrum",
+      "required": false
+    }
+  ]
+}

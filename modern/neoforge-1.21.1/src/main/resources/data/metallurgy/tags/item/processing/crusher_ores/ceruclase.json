@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:ceruclase_ore",
+    {
+      "id": "#forge:ores/ceruclase",
+      "required": false
+    },
+    {
+      "id": "#c:ores/ceruclase",
+      "required": false
+    }
+  ]
+}

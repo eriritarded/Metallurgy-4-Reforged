@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/black_steel"
+  },
+  "result": {
+    "id": "metallurgy:black_steel_chestplate",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:black_steel_chestplate"
+    }
+  ]
+}

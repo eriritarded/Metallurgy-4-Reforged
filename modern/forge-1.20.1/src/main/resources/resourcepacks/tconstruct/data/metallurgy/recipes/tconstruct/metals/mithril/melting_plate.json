@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:plates/mithril"
+  },
+  "result": {
+    "tag": "forge:molten_mithril",
+    "amount": 90
+  },
+  "temperature": 1700,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/mithril"
+      }
+    }
+  ]
+}

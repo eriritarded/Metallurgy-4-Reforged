@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/damascus_steel"
+  },
+  "result": {
+    "tag": "forge:molten_damascus_steel",
+    "amount": 10
+  },
+  "temperature": 900,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/damascus_steel"
+      }
+    }
+  ]
+}

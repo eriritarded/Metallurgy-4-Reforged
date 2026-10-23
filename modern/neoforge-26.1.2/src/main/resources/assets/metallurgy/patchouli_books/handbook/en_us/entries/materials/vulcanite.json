@@ -1,0 +1,45 @@
+{
+  "name": "Vulcanite",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:vulcanite_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:vulcanite_ore",
+      "title": "Finding Vulcanite",
+      "text": "Default deposits: Nether, Y 27 to 39. Veins target up to 5 blocks, with 7 placement attempts per chunk. Mining requirement: level 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Vulcanite",
+      "text": "Smelt Vulcanite Ore or Vulcanite Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:vulcanite_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 712 uses.$(br)Harvest level: 5.$(br)Mining efficiency: 8.8.$(br)Material damage bonus: 3.8.$(br)Enchantability: 19.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:vulcanite_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 6, leggings 6, boots 3.$(br2)Toughness per piece: 4.0.$(br)Enchantability: 19."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Fuse",
+      "text": "Right clicking the weapon ignites it, and on the next strike within 5 seconds will create an explosion whose strength depends on how much time is left on the fuse, if 5 seconds run out before you attack any enemy the explosion will affect the user."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tool: Fissure",
+      "text": "Breaking a block has a chance of breaking another one adjacent to it, chance scales with fortune."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Explosion",
+      "text": "Receiving damage causes explosions that damage all the entities around the player damage scales with armor level, when more than 2 pieces are worn explosions also cause fire in the area around and the user is given 10 seconds of fire resistance."
+    }
+  ]
+}

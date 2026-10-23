@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/carmot"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:carmot",
+  "ingredient": {
+    "tag": "c:ingots/carmot"
+  },
+  "color": 12819561,
+  "head_stats": {
+    "durability": 414,
+    "mining_speed": 4.9,
+    "attack_damage": 1.4,
+    "attack_speed": 1.0,
+    "tier": 6,
+    "enchantability": 7
+  },
+  "handle_stats": {
+    "durability_mult": 0.4,
+    "speed_mult": -0.022,
+    "damage_mult": -0.018,
+    "attack_speed_mult": -0.03
+  },
+  "binding_stats": {
+    "durability": 103
+  }
+}

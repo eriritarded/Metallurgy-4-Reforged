@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:adamantine",
+  "result": {
+    "tag": "forge:molten_adamantine",
+    "amount": 90
+  },
+  "temperature": 1900
+}

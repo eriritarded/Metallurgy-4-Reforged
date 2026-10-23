@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/alduorite"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/ceruclase"
+    }
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "item": "metallurgy:inolashite_ingot",
+    "count": 2
+  },
+  "experience": 1.25,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/alduorite"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/ceruclase"
+      }
+    }
+  ]
+}

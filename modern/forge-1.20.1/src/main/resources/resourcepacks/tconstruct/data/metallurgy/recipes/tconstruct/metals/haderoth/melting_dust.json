@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/haderoth"
+  },
+  "result": {
+    "tag": "forge:molten_haderoth",
+    "amount": 90
+  },
+  "temperature": 1700,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/haderoth"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "metallurgy:lutetium_dust",
+  "result": {
+    "id": "metallurgy:lutetium_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_ingot"
+    }
+  ]
+}

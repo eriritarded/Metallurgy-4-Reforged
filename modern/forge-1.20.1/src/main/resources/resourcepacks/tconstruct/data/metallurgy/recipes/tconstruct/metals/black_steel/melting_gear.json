@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:gears/black_steel"
+  },
+  "result": {
+    "tag": "forge:molten_black_steel",
+    "amount": 360
+  },
+  "temperature": 1100,
+  "time": 104,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/black_steel"
+      }
+    }
+  ]
+}

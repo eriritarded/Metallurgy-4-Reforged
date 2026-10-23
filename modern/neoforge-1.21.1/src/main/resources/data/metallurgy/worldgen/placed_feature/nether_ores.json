@@ -1,0 +1,11 @@
+{
+  "feature": "metallurgy:nether_ores",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

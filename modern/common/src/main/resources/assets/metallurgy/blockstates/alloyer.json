@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "burning=false,facing=north": {
+      "model": "metallurgy:block/alloyer"
+    },
+    "burning=false,facing=east": {
+      "model": "metallurgy:block/alloyer",
+      "y": 90
+    },
+    "burning=false,facing=south": {
+      "model": "metallurgy:block/alloyer",
+      "y": 180
+    },
+    "burning=false,facing=west": {
+      "model": "metallurgy:block/alloyer",
+      "y": 270
+    },
+    "burning=true,facing=north": {
+      "model": "metallurgy:block/lit_alloyer"
+    },
+    "burning=true,facing=east": {
+      "model": "metallurgy:block/lit_alloyer",
+      "y": 90
+    },
+    "burning=true,facing=south": {
+      "model": "metallurgy:block/lit_alloyer",
+      "y": 180
+    },
+    "burning=true,facing=west": {
+      "model": "metallurgy:block/lit_alloyer",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/copper"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:copper_pickaxe",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:copper_pickaxe"
+    }
+  ]
+}

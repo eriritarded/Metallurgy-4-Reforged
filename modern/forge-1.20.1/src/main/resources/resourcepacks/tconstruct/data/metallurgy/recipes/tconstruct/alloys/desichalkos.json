@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_eximite",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_meutoite",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_desichalkos",
+    "amount": 180
+  },
+  "temperature": 1000
+}

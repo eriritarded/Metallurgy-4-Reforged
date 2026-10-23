@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/shadow_steel"
+    }
+  },
+  "result": {
+    "item": "metallurgy:shadow_steel_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_ingot"
+    }
+  ]
+}

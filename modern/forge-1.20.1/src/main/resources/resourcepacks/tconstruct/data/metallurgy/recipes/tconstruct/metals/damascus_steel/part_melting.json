@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:damascus_steel",
+  "result": {
+    "tag": "forge:molten_damascus_steel",
+    "amount": 90
+  },
+  "temperature": 900
+}

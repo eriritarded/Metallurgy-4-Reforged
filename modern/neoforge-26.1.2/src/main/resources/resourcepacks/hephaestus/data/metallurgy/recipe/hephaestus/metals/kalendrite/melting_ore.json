@@ -1,0 +1,23 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:ores/kalendrite",
+  "result": {
+    "amount": 180,
+    "id": "metallurgy:kalendrite"
+  },
+  "temperature": 1500,
+  "time": 150,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/kalendrite"
+      }
+    }
+  ]
+}

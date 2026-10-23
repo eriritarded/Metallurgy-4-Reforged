@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/carmot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "metallurgy:carmot_pickaxe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:carmot_pickaxe"
+    }
+  ]
+}

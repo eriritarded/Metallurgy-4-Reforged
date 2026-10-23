@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": "#c:ingots/deep_iron",
+    "N": "#c:nuggets/deep_iron",
+    "D": "metallurgy:bimetal_structure_block"
+  },
+  "result": {
+    "id": "metallurgy:deep_iron_crystals",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:deep_iron_crystals"
+    }
+  ]
+}

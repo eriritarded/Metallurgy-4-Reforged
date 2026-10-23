@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/bronze",
+    "#c:dusts/bronze",
+    "#c:dusts/iron"
+  ],
+  "result": {
+    "id": "metallurgy:damascus_steel_dust",
+    "count": 3
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_dust"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:copper_ingot",
+    {
+      "id": "#forge:ingots/copper",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/copper",
+      "required": false
+    }
+  ]
+}

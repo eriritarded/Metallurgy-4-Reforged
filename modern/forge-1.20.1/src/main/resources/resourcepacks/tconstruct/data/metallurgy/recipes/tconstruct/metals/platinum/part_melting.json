@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:platinum",
+  "result": {
+    "tag": "forge:molten_platinum",
+    "amount": 90
+  },
+  "temperature": 1500
+}

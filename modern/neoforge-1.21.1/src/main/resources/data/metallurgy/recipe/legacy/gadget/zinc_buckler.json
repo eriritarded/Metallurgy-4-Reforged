@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Z ",
+    "ZWZ",
+    " Z "
+  ],
+  "key": {
+    "Z": {
+      "tag": "c:ingots/zinc"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "metallurgy:zinc_buckler",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:zinc_buckler"
+    }
+  ]
+}

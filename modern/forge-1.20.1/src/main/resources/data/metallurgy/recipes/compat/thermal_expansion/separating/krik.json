@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:krik_ingot",
+    "count": 2
+  },
+  "result": [
+    {
+      "item": "metallurgy:lutetium_ingot",
+      "count": 1
+    },
+    {
+      "item": "metallurgy:osmium_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:osmium_ingot"
+    }
+  ]
+}

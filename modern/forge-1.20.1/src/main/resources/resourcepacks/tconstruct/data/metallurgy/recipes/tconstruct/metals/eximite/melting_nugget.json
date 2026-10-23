@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/eximite"
+  },
+  "result": {
+    "tag": "forge:molten_eximite",
+    "amount": 10
+  },
+  "temperature": 1500,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/eximite"
+      }
+    }
+  ]
+}

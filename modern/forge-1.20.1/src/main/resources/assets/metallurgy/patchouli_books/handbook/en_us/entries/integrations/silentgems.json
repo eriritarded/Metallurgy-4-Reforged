@@ -1,0 +1,18 @@
+{
+  "name": "Silent's Gems",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:astral_silver_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:astral_silver_ingot",
+      "title": "Silent's Gems",
+      "text": "Modern Silent's Gems and Silent Gear have distinct jobs. Gems supplies its gem content; Metallurgy's modular equipment materials are supplied through the installed Silent Gear integration."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If Silent Gear is also loaded, its section explains how to build with the Metallurgy metals. Ordinary common-tag recipe matching still depends on the materials and recipes present in the pack."
+    }
+  ],
+  "flag": "mod:silentgems"
+}

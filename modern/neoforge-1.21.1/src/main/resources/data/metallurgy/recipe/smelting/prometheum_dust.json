@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:prometheum_dust"
+  },
+  "result": {
+    "id": "metallurgy:prometheum_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:prometheum_ingot"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:hepatizon"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:hepatizon"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I",
+    " I",
+    "IP"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/shadow_iron"
+    },
+    "P": {
+      "item": "spartanweaponry:pole"
+    }
+  },
+  "result": {
+    "item": "metallurgy:glaive_shadow_iron",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

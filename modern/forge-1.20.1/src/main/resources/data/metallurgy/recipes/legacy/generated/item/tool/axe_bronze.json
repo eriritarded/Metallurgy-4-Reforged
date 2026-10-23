@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/bronze"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:bronze_axe",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bronze_axe"
+    }
+  ]
+}

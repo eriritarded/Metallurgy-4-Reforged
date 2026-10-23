@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/inolashite"
+    },
+    "N": {
+      "tag": "c:nuggets/inolashite"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "id": "metallurgy:inolashite_crystals",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_crystals"
+    }
+  ]
+}

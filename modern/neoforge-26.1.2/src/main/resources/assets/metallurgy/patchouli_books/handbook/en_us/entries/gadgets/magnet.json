@@ -1,0 +1,24 @@
+{
+  "name": "Electrum Magnet",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:electrum_magnet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:electrum_magnet",
+      "title": "Electrum Magnet",
+      "text": "Sneak-use cycles Off, Metals Only, All Items, then Off. Carry an active magnet to pull nearby dropped items toward your feet. Metals Only accepts recognized ingots, dusts, ores, and Metallurgy material items."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its collection area extends about six blocks in each direction. The active icon helps distinguish a running magnet from a disabled one. Turn it off when working beside dropped items you want to leave in place."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/electrum_magnet"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:electrum_magnet": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": "#c:ingots/brass",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:brass_sword",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_sword"
+    }
+  ]
+}

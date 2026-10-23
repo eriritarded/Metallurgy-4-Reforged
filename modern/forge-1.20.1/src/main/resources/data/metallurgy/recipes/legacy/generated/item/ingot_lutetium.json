@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/lutetium"
+    }
+  },
+  "result": {
+    "item": "metallurgy:lutetium_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_ingot"
+    }
+  ]
+}

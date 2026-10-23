@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:nugget_cast",
+  "cooling_time": 33,
+  "fluid": {
+    "amount": 10,
+    "id": "metallurgy:quicksilver"
+  },
+  "result": {
+    "id": "metallurgy:quicksilver_nugget"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_nugget"
+    }
+  ]
+}

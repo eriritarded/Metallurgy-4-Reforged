@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/oureclase"
+    },
+    "N": {
+      "tag": "c:nuggets/oureclase"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "id": "metallurgy:oureclase_crystals",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:oureclase_crystals"
+    }
+  ]
+}

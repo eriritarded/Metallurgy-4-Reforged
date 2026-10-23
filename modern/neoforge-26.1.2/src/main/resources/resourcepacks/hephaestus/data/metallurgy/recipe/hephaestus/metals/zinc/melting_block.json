@@ -1,0 +1,47 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:storage_blocks/zinc",
+  "result": {
+    "amount": 810,
+    "id": "hephaestus:molten_zinc"
+  },
+  "temperature": 900,
+  "time": 200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:storage_blocks/zinc"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "alltheores",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "ftbmaterials",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:orichalcum_block"
+  ],
+  "amounts": [
+    3
+  ],
+  "effect": "minecraft:strength",
+  "duration": 21600,
+  "amplifier": 1
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/amordrine"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:amordrine_sword",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:amordrine_sword"
+    }
+  ]
+}

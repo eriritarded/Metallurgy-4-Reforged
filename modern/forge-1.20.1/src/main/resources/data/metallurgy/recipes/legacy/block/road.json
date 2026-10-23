@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:dusts/bitumen"
+    }
+  },
+  "result": {
+    "item": "metallurgy:road_block",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:road_block"
+    }
+  ]
+}

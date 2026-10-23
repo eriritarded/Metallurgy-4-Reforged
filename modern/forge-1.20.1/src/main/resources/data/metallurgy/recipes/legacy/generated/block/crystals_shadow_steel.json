@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/shadow_steel"
+    },
+    "N": {
+      "tag": "forge:nuggets/shadow_steel"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "item": "metallurgy:shadow_steel_crystals",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_crystals"
+    }
+  ]
+}

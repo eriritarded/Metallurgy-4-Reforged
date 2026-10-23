@@ -1,0 +1,8 @@
+{
+  "parent": "metallurgy:block/ore",
+  "textures": {
+    "particle": "minecraft:block/stone",
+    "filler": "minecraft:block/stone",
+    "vein": "metallurgy:blocks/astral_silver_ore"
+  }
+}

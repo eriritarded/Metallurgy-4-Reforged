@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/lutetium"
+    }
+  },
+  "result": {
+    "id": "metallurgy:lutetium_helmet",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_helmet"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HI"
+  ],
+  "key": {
+    "H": {
+      "item": "spartanweaponry:handle"
+    },
+    "I": {
+      "tag": "forge:ingots/desichalkos"
+    }
+  },
+  "result": {
+    "item": "metallurgy:throwing_knife_desichalkos",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/steel"
+    },
+    {
+      "tag": "forge:dusts/infuscolium"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:hepatizon_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:hepatizon_dust"
+    }
+  ]
+}

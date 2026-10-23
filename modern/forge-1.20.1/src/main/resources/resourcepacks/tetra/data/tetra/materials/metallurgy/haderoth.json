@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_haderoth",
+  "category": "metal",
+  "primary": 7.0,
+  "secondary": 6.133,
+  "tertiary": 6,
+  "durability": 80,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 114,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 12.0,
+  "tints": {
+    "glyph": "351F22",
+    "texture": "351F22"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:haderoth_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 3,
+    "stabilizing": 20
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

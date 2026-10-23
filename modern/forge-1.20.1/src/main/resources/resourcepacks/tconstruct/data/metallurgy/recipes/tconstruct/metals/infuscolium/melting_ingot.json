@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/infuscolium"
+  },
+  "result": {
+    "tag": "forge:molten_infuscolium",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/infuscolium"
+      }
+    }
+  ]
+}

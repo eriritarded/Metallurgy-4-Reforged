@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/brass"
+  },
+  "result": {
+    "tag": "forge:molten_brass",
+    "amount": 180
+  },
+  "temperature": 900,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/brass"
+      }
+    }
+  ],
+  "rate": "metal"
+}

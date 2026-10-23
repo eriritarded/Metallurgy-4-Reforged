@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/orichalcum",
+    "amount": 90
+  },
+  "output": "metallurgy:orichalcum",
+  "temperature": 1500
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/osmium"
+    },
+    {
+      "tag": "forge:dusts/lutetium"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:krik_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_dust"
+    }
+  ]
+}

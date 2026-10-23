@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_ingot",
+    "metallurgy:iron_dust"
+  ]
+}

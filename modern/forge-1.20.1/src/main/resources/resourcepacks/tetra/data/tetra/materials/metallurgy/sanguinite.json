@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_sanguinite",
+  "category": "metal",
+  "primary": 11.0,
+  "secondary": 5.0,
+  "tertiary": 5.5,
+  "durability": 666,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 150,
+  "toolLevel": "metallurgy:level_5",
+  "toolEfficiency": 11.0,
+  "tints": {
+    "glyph": "C34F4F",
+    "texture": "C34F4F"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:sanguinite_ingot"
+    ]
+  },
+  "effects": {
+    "bleeding": 2,
+    "bloodbound": [
+      10,
+      3
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

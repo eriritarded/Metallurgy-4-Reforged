@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/adamantine"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:adamantine_nugget",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:adamantine_nugget"
+    }
+  ]
+}

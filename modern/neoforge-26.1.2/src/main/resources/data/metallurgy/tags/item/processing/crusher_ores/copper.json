@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:copper_ore",
+    {
+      "id": "#forge:ores/copper",
+      "required": false
+    },
+    {
+      "id": "#c:ores/copper",
+      "required": false
+    }
+  ]
+}

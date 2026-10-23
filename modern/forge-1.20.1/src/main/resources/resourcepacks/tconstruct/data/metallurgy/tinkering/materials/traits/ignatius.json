@@ -1,0 +1,49 @@
+{
+  "default": [],
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "metallurgy:vulcan",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "metallurgy:vulcan",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [],
+    "tconstruct:plating_leggings": [],
+    "tconstruct:plating_chestplate": [],
+    "tconstruct:plating_helmet": [],
+    "tconstruct:maille": [
+      {
+        "name": "metallurgy:armor_legacy",
+        "level": 1
+      }
+    ]
+  }
+}

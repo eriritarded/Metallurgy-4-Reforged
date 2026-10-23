@@ -1,0 +1,43 @@
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens1"
+  },
+  "output": {
+    "item": "metallurgy:sanguinite_ore",
+    "count": 1
+  },
+  "rarity": [
+    {
+      "depth_min": 0,
+      "depth_max": 255,
+      "weight": 5,
+      "whitelist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:nether_wastes",
+          "minecraft:crimson_forest",
+          "minecraft:warped_forest",
+          "minecraft:soul_sand_valley",
+          "minecraft:basalt_deltas"
+        ]
+      },
+      "blacklist": {}
+    }
+  ],
+  "pointer": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "industrialforegoing"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sanguinite_ore"
+    }
+  ]
+}

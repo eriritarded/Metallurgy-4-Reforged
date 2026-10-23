@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/celenegil"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "metallurgy:celenegil_shovel",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:celenegil_shovel"
+    }
+  ]
+}

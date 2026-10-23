@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:krik_ingot",
+    "metallurgy:krik_dust",
+    {
+      "id": "#forge:ingots/krik",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/krik",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/krik",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/krik",
+      "required": false
+    }
+  ]
+}

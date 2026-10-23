@@ -1,0 +1,28 @@
+{
+  "name": "Crusher",
+  "category": "metallurgy:machines",
+  "icon": "metallurgy:crusher",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:crusher",
+      "title": "Crusher",
+      "text": "Place the input in the Crusher's input slot and a valid furnace fuel in its fuel slot. Crushing metal ore normally gives two dusts; smelt those dusts to recover ingots. A full output slot stops processing."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The Crusher also breaks ingots into dust and handles several nonmetal resources. Compatible ores from other mods may be accepted through their common material tags. Check the current recipe display for the actual output."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "One ordinary operation takes 140 ticks, or seven seconds. Special fuels can speed it up. Remove finished output by hand to collect the machine's stored experience."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/block/crusher"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:crusher": 3
+  }
+}

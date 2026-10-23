@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/thermite"
+    },
+    {
+      "tag": "forge:dusts/ignatius"
+    },
+    {
+      "tag": "forge:dusts/phosphorus"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:ignatius_fuel",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ignatius_fuel"
+    }
+  ]
+}

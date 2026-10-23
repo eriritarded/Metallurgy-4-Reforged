@@ -1,0 +1,27 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "metallurgy:meutoite_block"
+  },
+  "result": [
+    {
+      "fluid": "metallurgy:meutoite",
+      "amount": 810
+    }
+  ],
+  "energy": 36000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_block"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "it.hurts.metallurgy_reforged.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LiquidBlockMixin",
+    "LivingArmorMixin",
+    "LivingAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "TooltipFrameMixin",
+    "BlockModelRenderAccess",
+    "CorpseRenderMixin"
+  ]
+}

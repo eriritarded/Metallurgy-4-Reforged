@@ -1,0 +1,291 @@
+{
+  "reason": "Move native Ender IO recipes into dependency-gated configurable built-in pack; native recipe IDs unchanged",
+  "files": [
+    {
+      "target": "forge-1.20.1",
+      "recipes": [
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\amordrine_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\amordrine_ingot.json",
+          "sha256": "9AD0B6DFF907EFCE63C1ADBD5A2CC2B2ECCB75F93B5123D1028FA3BB89842020"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\angmallen_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\angmallen_ingot.json",
+          "sha256": "3719DA538E009E4889BF17B497C0E534DCEB8A016B0913BFFEF27A58A47D4CE9"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\black_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\black_steel_ingot.json",
+          "sha256": "AA5D98DB61D7898A99D116DAE4DD0D60E98B0B11C83453B38B01FED76784E091"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\brass_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\brass_ingot.json",
+          "sha256": "8C1F2410372AC3D9E6F2E2014F2583FC22841A4E1F09A17BF950A4505187151C"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\bronze_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\bronze_ingot.json",
+          "sha256": "46797F0983B54FA3987650FE4AE8B93CC3D4F7DDAD14FF5C321D07B3E45A2AC9"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\celenegil_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\celenegil_ingot.json",
+          "sha256": "4D6AEB0A7C4092B0EEDAF3F849F49F588EE8971EE847507157EDD581CE4A69CD"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\damascus_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\damascus_steel_ingot.json",
+          "sha256": "AE87AD26DEF9B3CC706640567C3FF74448CD6A42057EE5C3546A6B689A7683FD"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\desichalkos_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\desichalkos_ingot.json",
+          "sha256": "8BD58213560604E1AE9711F3C066DA9E59A8ACD0ADB9D6A645E09FC0996A82B4"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\electrum_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\electrum_ingot.json",
+          "sha256": "692AE32CAE3774CD15D3FD3AF9A96210C64E522B05E4E64D0E1C709270485676"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\etherium_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\etherium_ingot.json",
+          "sha256": "2897370658BC5A9FA8816844854794C8FA79C21255DAD0D30B52925FACE5B24F"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\haderoth_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\haderoth_ingot.json",
+          "sha256": "ECD192050FA0EB58FDD44556815B44D6C4A796B35146B9D00C65828D9F0838F2"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\hepatizon_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\hepatizon_ingot.json",
+          "sha256": "C1F5FD8489A5C2287A176453CAE3F9A47D5D9319D9C8A366264FAA86844AE0A7"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\inolashite_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\inolashite_ingot.json",
+          "sha256": "99031B384DF4B170144E2C8597A307A1A321C0C1A52B6D55B39234CC4E625E82"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\krik_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\krik_ingot.json",
+          "sha256": "E55C54BE633F57E5DADCC06DABA47831CB06601131F49F031EE5571F99090A35"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\quicksilver_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\quicksilver_ingot.json",
+          "sha256": "1A3CD38E265C3FE76426381575F199C922443F49E331BC9AB44585936A1A5261"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\shadow_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\shadow_steel_ingot.json",
+          "sha256": "B3D93AA56C3E3B4F50615F1F88C41590A4D5D55CDF23DB9D5606EC8E86791CF3"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\steel_ingot.json",
+          "sha256": "04865F41DDEB889E5180FBC83D9A53B019E8CCCAC7EA5134AF46660F6AF2B2F4"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\data\\metallurgy\\recipes\\compat\\enderio\\tartarite_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\forge-1.20.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipes\\compat\\enderio\\tartarite_ingot.json",
+          "sha256": "F49B5E31B60E21F04135C6CE267811095448DB410E7A1287CC7B02B293486EC1"
+        }
+      ]
+    },
+    {
+      "target": "neoforge-1.21.1",
+      "recipes": [
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\amordrine_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\amordrine_ingot.json",
+          "sha256": "E6CD0ED2D1C8D16B596509E1594206B342E7AF78CF7ED79DA874045E2A9B57B6"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\angmallen_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\angmallen_ingot.json",
+          "sha256": "580D7CC48BCA1C775389D4BE0CEC0BDC36D3EE445D7F65CAF10473C9165BF2A8"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\black_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\black_steel_ingot.json",
+          "sha256": "BED22507D4CC0871DF0934328F1FEFC39A3D9388793535128F4CA414040EE0EF"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\brass_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\brass_ingot.json",
+          "sha256": "3EEBDCA74B206EF67B7F465C41583FF901555E278C57514C0B48AEDE293900D1"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\bronze_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\bronze_ingot.json",
+          "sha256": "20A0433BDA24260A4904CA2677158A1FA2A8377C073ADAE6BA97C59A98A80DC9"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\celenegil_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\celenegil_ingot.json",
+          "sha256": "21A9E9207A7FD3A546EED1A591FE9B2DA2EDA53C41757D6DF193F3CE41FA1DCE"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\damascus_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\damascus_steel_ingot.json",
+          "sha256": "EC125AB5CD6DC05944F10BA8168B8B8F28001F95C09336427E045600489180E8"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\desichalkos_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\desichalkos_ingot.json",
+          "sha256": "5E13A3718FB1B18C9959EA2A6C9DF26173B045D428A249DBED1806FC45C264D2"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\electrum_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\electrum_ingot.json",
+          "sha256": "CEA05B19C0B68C5198C4F42B3EE44214241B2F640C0506DDB7B9605935CADEDB"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\etherium_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\etherium_ingot.json",
+          "sha256": "FF619A0CFB9E2D7F9625F1EA080699F022B938E26045273A1C4C11BF07F41EBE"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\haderoth_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\haderoth_ingot.json",
+          "sha256": "054A42C23EFE553BD11094F8F2E949EDC1B809941E535244240E306DA2199D54"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\hepatizon_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\hepatizon_ingot.json",
+          "sha256": "4ED28D9315708E8E5D54BDC7A50814300B24F6C32C5EFD569840621F214EE2C1"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\inolashite_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\inolashite_ingot.json",
+          "sha256": "8A4846EA1D58C508099BB7C2265E99CD395EAB430406E83AACDEDEFE739AA0A3"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\krik_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\krik_ingot.json",
+          "sha256": "200E65A4EDEF6EB5BB55E9F1F07F24A3A79FF226833BD2B4A43C720595FD3243"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\quicksilver_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\quicksilver_ingot.json",
+          "sha256": "813DA3829A93493D1F8A77B4BBE4BEC4FAEFAFB11218A0728BD5ADA4A302F1F2"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\shadow_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\shadow_steel_ingot.json",
+          "sha256": "D59F0B31C2CFD3D984E61AEE34CC402713E4D57AE15EC4C767C7E548045AB436"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\steel_ingot.json",
+          "sha256": "B2AD00C7F981160E3170DDDAD2685F264B9F65B7B01AC77A96196E1035822C1A"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\tartarite_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-1.21.1\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\tartarite_ingot.json",
+          "sha256": "CEA95209C890E8BA89748C939DABAE8D7734DD06B26D810E0B0AA9D04FE7435C"
+        }
+      ]
+    },
+    {
+      "target": "neoforge-26.1.2",
+      "recipes": [
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\amordrine_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\amordrine_ingot.json",
+          "sha256": "861CE5381329E9981878BAF36D20DAFE3465F52F646FB2986A400E6D98C45CBC"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\angmallen_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\angmallen_ingot.json",
+          "sha256": "2C5402B86EAD56F9515E087E08A7FB0DF53FE01C54363E70C792647F3FFCA117"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\black_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\black_steel_ingot.json",
+          "sha256": "A49BDC6C8872C8583419B997E7E143BCE5879A3D771BF44F6A605BA889A6F439"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\brass_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\brass_ingot.json",
+          "sha256": "394F6F5DAAF60219D15C9585B6E242979860AF7E167D9A5C446B622125DCE904"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\bronze_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\bronze_ingot.json",
+          "sha256": "D98E2BB3922B307FEF2D64558E6477C6CEE31BC68E0FF637C60A19B9F2F63FDB"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\celenegil_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\celenegil_ingot.json",
+          "sha256": "B24FE8459ABCD0AFCC4D53C42D7BD40CB94C001EA5629229F86B480AFF35E7CE"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\damascus_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\damascus_steel_ingot.json",
+          "sha256": "F9BB3457D466374299F817371900C9E3E1F5A5DCDF15AA65A8222ABAF4CFF7E4"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\desichalkos_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\desichalkos_ingot.json",
+          "sha256": "D2C296029F84E6895F23CBA273EB343F9A7CEE851546AB9160D29CE509260EA2"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\electrum_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\electrum_ingot.json",
+          "sha256": "0E27BBEC33D35A2EE9F604D444CD6E897C28C44AD74300FA62C22B04EFDAE1D0"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\etherium_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\etherium_ingot.json",
+          "sha256": "900AB5B137BA02EC794F04D8C7A41A88B3B97906EA5E65F1CF725C40EAEAB8E7"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\haderoth_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\haderoth_ingot.json",
+          "sha256": "79CE6C82D52EBD2F1F02E99279237A5FB8BF7F23DD413141152C5EECC7CF3E4D"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\hepatizon_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\hepatizon_ingot.json",
+          "sha256": "4B62DABA30EE26ECF3FF94DD552EA524A56455CA7011586E9274097754679B75"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\inolashite_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\inolashite_ingot.json",
+          "sha256": "08DB5752C6A4B9C1683DFBCCF893FD2A0363B39293A42E5533594E8866E09F9A"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\krik_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\krik_ingot.json",
+          "sha256": "EE9B08AE743D59D8D4D84A0F8D71B88D63F3F8E027CADF3C35A0F90B52052562"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\quicksilver_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\quicksilver_ingot.json",
+          "sha256": "2FAEFA7809CF752F89B72E589BA330655D036248949D8E0E9D1F9EFAC23D028D"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\shadow_steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\shadow_steel_ingot.json",
+          "sha256": "A4060D5D41719E392C54D7EA1283BAE40A371D86F297E218028B08BF4E94055B"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\steel_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\steel_ingot.json",
+          "sha256": "082ECFB02FCC710B938D28258D17538E9B8DF0B9C2CE24D9ADC4C36415B8BE1E"
+        },
+        {
+          "source": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\data\\metallurgy\\recipe\\compat\\enderio\\tartarite_ingot.json",
+          "destination": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\neoforge-26.1.2\\src\\main\\resources\\resourcepacks\\enderio\\data\\metallurgy\\recipe\\compat\\enderio\\tartarite_ingot.json",
+          "sha256": "80DD7DBC330F307DE5C1A99F9E27FAE418D72420FC89E49388379432D61EECB3"
+        }
+      ]
+    }
+  ],
+  "hashesChecked": true
+}

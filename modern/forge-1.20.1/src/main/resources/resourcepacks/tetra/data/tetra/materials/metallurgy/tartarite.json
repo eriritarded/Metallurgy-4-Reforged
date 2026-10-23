@@ -1,0 +1,34 @@
+{
+  "key": "metallurgy_tartarite",
+  "category": "metal",
+  "primary": 12.0,
+  "secondary": 6.133,
+  "tertiary": 6,
+  "durability": 3782,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 84,
+  "toolLevel": "metallurgy:level_7",
+  "toolEfficiency": 12.0,
+  "tints": {
+    "glyph": "EF7823",
+    "texture": "EF7823"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:tartarite_ingot"
+    ]
+  },
+  "effects": {
+    "armorPenetration": 20,
+    "unbreaking": 2,
+    "intuit": 2
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

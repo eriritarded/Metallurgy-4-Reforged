@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/manganese"
+    }
+  },
+  "result": {
+    "item": "metallurgy:manganese_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:manganese_ingot"
+    }
+  ]
+}

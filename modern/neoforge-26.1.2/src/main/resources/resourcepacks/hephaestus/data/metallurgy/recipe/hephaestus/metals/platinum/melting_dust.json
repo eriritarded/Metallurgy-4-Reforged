@@ -1,0 +1,47 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "hephaestus:molten_blaze"
+  },
+  "ingredient": "#c:dusts/platinum",
+  "result": {
+    "amount": 90,
+    "id": "hephaestus:molten_platinum"
+  },
+  "temperature": 1500,
+  "time": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/platinum"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "alltheores",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "ftbmaterials",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    }
+  ]
+}

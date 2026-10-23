@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/lutetium"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:lutetium_nugget",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_nugget"
+    }
+  ]
+}

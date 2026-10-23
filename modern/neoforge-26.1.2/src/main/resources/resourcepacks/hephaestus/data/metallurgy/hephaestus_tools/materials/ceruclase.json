@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/ceruclase"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:ceruclase",
+  "ingredient": {
+    "tag": "c:ingots/ceruclase"
+  },
+  "color": 10407893,
+  "head_stats": {
+    "durability": 102,
+    "mining_speed": 5.0,
+    "attack_damage": 3.5,
+    "attack_speed": 1.0,
+    "tier": 5,
+    "enchantability": 16
+  },
+  "handle_stats": {
+    "durability_mult": -0.29,
+    "speed_mult": -0.02,
+    "damage_mult": 0.045,
+    "attack_speed_mult": -0.01
+  },
+  "binding_stats": {
+    "durability": 25
+  }
+}

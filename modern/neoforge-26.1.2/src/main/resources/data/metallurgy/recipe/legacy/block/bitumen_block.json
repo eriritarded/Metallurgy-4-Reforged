@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "II"
+  ],
+  "key": {
+    "I": "#c:dusts/bitumen"
+  },
+  "result": {
+    "id": "metallurgy:bitumen_block",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bitumen_block"
+    }
+  ]
+}

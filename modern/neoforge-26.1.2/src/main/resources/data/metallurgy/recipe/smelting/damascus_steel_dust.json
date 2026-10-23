@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "metallurgy:damascus_steel_dust",
+  "result": {
+    "id": "metallurgy:damascus_steel_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_ingot"
+    }
+  ]
+}

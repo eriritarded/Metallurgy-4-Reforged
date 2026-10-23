@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_silver",
+  "category": "metal",
+  "primary": 6.4,
+  "secondary": 3.767,
+  "tertiary": 5.6,
+  "durability": 75,
+  "integrityCost": 2,
+  "integrityGain": 5,
+  "magicCapacity": 114,
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": 11.2,
+  "tints": {
+    "glyph": "CDD3D3",
+    "texture": "CDD3D3"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:silver_ingot"
+    ]
+  },
+  "effects": {
+    "armorPenetration": 5
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

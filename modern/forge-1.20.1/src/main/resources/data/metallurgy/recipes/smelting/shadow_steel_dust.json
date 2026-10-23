@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:shadow_steel_dust"
+  },
+  "result": "metallurgy:shadow_steel_ingot",
+  "experience": 0.6,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_steel_ingot"
+    }
+  ]
+}

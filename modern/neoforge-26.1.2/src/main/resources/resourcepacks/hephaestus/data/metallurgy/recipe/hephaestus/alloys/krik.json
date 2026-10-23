@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:lutetium"
+    },
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_osmium"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:krik"
+  },
+  "temperature": 1900
+}

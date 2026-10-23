@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_mithril",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_rubracium",
+      "amount": 180
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_haderoth",
+    "amount": 270
+  },
+  "temperature": 1000
+}

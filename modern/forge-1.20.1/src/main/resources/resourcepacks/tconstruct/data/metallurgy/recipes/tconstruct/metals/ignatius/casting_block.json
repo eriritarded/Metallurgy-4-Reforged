@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_ignatius",
+    "amount": 810
+  },
+  "result": {
+    "tag": "forge:storage_blocks/ignatius"
+  },
+  "cooling_time": 194,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/ignatius"
+      }
+    }
+  ]
+}

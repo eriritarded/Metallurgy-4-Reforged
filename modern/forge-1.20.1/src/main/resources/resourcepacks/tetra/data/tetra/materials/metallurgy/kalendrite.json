@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_kalendrite",
+  "category": "metal",
+  "primary": 7.0,
+  "secondary": 4.367,
+  "tertiary": 4.05,
+  "durability": 212,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 114,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 8.1,
+  "tints": {
+    "glyph": "E381EA",
+    "texture": "E381EA"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:kalendrite_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 1,
+    "intuit": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

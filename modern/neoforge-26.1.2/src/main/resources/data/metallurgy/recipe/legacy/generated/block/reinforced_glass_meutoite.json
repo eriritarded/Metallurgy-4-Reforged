@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GDG",
+    "IGI"
+  ],
+  "key": {
+    "I": "#c:ingots/meutoite",
+    "G": "minecraft:glass",
+    "D": "metallurgy:bimetal_structure_block"
+  },
+  "result": {
+    "id": "metallurgy:meutoite_reinforced_glass",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_reinforced_glass"
+    }
+  ]
+}

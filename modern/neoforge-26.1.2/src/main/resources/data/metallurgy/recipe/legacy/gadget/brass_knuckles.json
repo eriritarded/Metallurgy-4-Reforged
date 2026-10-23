@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/brass"
+  },
+  "result": {
+    "id": "metallurgy:brass_knuckles",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_knuckles"
+    }
+  ]
+}

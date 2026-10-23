@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "metallurgy:thermite_dust"
+  },
+  "result": {
+    "fluid": "metallurgy:molten_thermite",
+    "amount": 1000
+  },
+  "temperature": 100,
+  "time": 80
+}

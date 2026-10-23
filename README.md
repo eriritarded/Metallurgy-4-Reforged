@@ -1,3 +1,48 @@
+# Metallurgy 4: Reforged — modern ports
+
+Unofficial continuation of [Davoleo/Metallurgy-4-Reforged](https://github.com/Davoleo/Metallurgy-4-Reforged), with Metallurgy Chests merged into the same mod.
+
+The complete modern project lives in **[`modern/`](modern/)** on **`codex/modern-ports`**. The original Minecraft 1.12 source and history remain at the repository root and on `master`.
+
+| Minecraft | Loader | Java | Current source version |
+|---|---|---:|---|
+| 1.20.1 | Forge 47.4.10 | 17 | 1.4.1-port.9 |
+| 1.21.1 | NeoForge 21.1.262 | 21 | 1.4.1-port.10 |
+| 26.1.2 | NeoForge 26.1.2.122 | 25 | 1.4.1-port.17, including Hephaestus |
+
+## Included work
+
+- Native metals, ores, alloys, tools, armor, machines, fluids, gadgets and the five integrated Metallurgy Chests tiers.
+- Optional, target-specific integrations including Tinkers' Construct, Tetra, Silent Gear/Silent's Gems, JEI and the documented processing integrations. NeoForge 26.1.2 includes Claude's Hephaestus/Hephaestus Tools integration.
+- Optional Patchouli handbook, corrected item models and fluid tinting, goggles inventory performance changes, magnet mode feedback, native gauntlet arm rendering and the later registration/recipe/atlas fixes.
+- Rubracium gauntlets with iron pickaxe/shovel harvesting, base mining speed 6.0, native tool enchantments and shovel path/campfire use.
+- The direct-melee-only Divine Grace correction for upstream issue #388.
+
+Read [the modern project index](modern/README.md), [feature coverage and limitations](modern/docs/PORT-STATUS.md), [integrations](modern/docs/MODULAR-COMPAT.md), [Hephaestus adaptation](modern/docs/HEPHAESTUS.md), and [source provenance](modern/SOURCE-PROVENANCE.md). Support differs by target; a data implementation or successful compile is not proof of gameplay parity.
+
+## Build from source
+
+Use a matching JDK and the checked-in wrapper **inside the chosen modern target**. Do not use the legacy root wrapper to build the modern port. A fresh build resolves the pinned platform/API dependencies from the repositories in that target's Gradle settings.
+
+```sh
+cd modern/forge-1.20.1        # or neoforge-1.21.1 / neoforge-26.1.2
+./gradlew --no-daemon build -x test
+```
+
+On Windows, use `gradlew.bat --no-daemon build -x test`. Forge's `jar` task finalizes with `reobfJar`; use its production output. The target's `build/libs/` contains the binary and source JARs. Install exactly one matching binary; source JARs and original 1.12 JARs are not modern mods.
+
+The source is already generated and checked in; regeneration is unnecessary for an ordinary build. Historical workstation install/incremental-release scripts are retained for reference, with personal paths anonymized. They are not portable build/install entry points. Keep build/cache/temporary outputs outside source history. Automated assistants must honor their workspace's storage rules and must not launch a game or tests implicitly.
+
+## Publication status — 2026-10-23
+
+This branch imports the reviewed committed modern source, including Claude's additions. No game, tests, fresh compiler build, binary release or installation was performed for this GitHub publication. Historical build/install records retain their original dates and limitations. The existing installed Hephaestus JAR was hash-compared with its retained local package; that is not a new gameplay check. Earlier distinct port.17 binaries remain historical identities; future gameplay changes need a new version.
+
+Original authors and licenses are preserved in [LICENSE](LICENSE) and [modern/NOTICE.md](modern/NOTICE.md). This fork does not imply their endorsement.
+
+---
+
+## Original upstream README
+
 # Metallurgy 4: Reforged
 
 #### an unofficial port of `Metallurgy 4 by ShadowClaimer` developed by Davoleo & Matpac

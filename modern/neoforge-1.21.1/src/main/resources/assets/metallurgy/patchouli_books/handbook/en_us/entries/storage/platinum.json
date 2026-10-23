@@ -1,0 +1,20 @@
+{
+  "name": "Platinum Chest",
+  "category": "metallurgy:storage",
+  "icon": "metallurgy:platinum_chest",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:platinum_chest",
+      "title": "Platinum Chest",
+      "text": "This tier holds 108 slots. Its full inventory is available to normal chest interactions, hoppers, and compatible item pipes. Use the recipe below to build this storage tier."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:platinum_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:platinum_chest": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:manganese_ingot",
+    {
+      "id": "#forge:ingots/manganese",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/manganese",
+      "required": false
+    }
+  ]
+}

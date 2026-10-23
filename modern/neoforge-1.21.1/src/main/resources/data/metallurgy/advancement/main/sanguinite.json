@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier5",
+  "display": {
+    "icon": {
+      "id": "metallurgy:sanguinite_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.sanguinite"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.sanguinite.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/sanguinite"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/sanguinite"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/sanguinite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

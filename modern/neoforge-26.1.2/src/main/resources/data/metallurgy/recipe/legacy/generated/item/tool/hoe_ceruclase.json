@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    " S",
+    " S"
+  ],
+  "key": {
+    "I": "#c:ingots/ceruclase",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:ceruclase_hoe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ceruclase_hoe"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:raw_materials/infuscolium"
+  },
+  "result": {
+    "tag": "forge:molten_infuscolium",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:raw_materials/infuscolium"
+      }
+    }
+  ],
+  "rate": "metal"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:vyroxeres",
+  "result": {
+    "tag": "forge:molten_vyroxeres",
+    "amount": 90
+  },
+  "temperature": 1700
+}

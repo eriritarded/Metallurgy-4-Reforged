@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:mithril_ingot",
+    {
+      "id": "#forge:ingots/mithril",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/mithril",
+      "required": false
+    }
+  ]
+}

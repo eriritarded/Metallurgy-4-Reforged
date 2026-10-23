@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "VPV",
+    "VBV",
+    "SFS"
+  ],
+  "key": {
+    "V": {
+      "tag": "forge:ingots/vyroxeres"
+    },
+    "S": {
+      "tag": "forge:ingots/steel"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "P": {
+      "item": "minecraft:brewing_stand"
+    },
+    "B": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "item": "metallurgy:sublimation_chamber",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:sublimation_chamber"
+    }
+  ]
+}

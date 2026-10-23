@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-10-23",
+  "reviewedStagedTree": "fc04782b088c940eb3f81dbdb8c8bcc261c6bc47",
+  "sourceCollectionCommit": "974840245e3b5ac6ffa4c3b0bab86256d7620b5b",
+  "sourceProjectTree": "dd6878a1714b8f145cf4ac9b619b52d13da7a988",
+  "unchangedSourceResourceBuildFiles": 18019,
+  "runtimeSourceSetSha256": "7d809bc687b20c169f6f831fd6273367986550d6c3bac184a0f2a7c64ebd927f",
+  "reviewedFiles": 22743,
+  "credentialPatternMatches": 0,
+  "personalHomePathMatches": 0,
+  "unexpectedBinaryArtifacts": 0,
+  "originalUpstreamHistoryRetained": true,
+  "localEvidenceExcluded": true,
+  "built": false,
+  "testsRun": false,
+  "gameLaunched": false,
+  "installed": false,
+  "scope": "Static committed-source/staged-tree byte comparison and publication audit; does not validate compilation or gameplay"
+}

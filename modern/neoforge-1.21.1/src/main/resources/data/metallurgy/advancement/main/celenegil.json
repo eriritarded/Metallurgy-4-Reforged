@@ -1,0 +1,42 @@
+{
+  "parent": "metallurgy:main/tier4",
+  "display": {
+    "icon": {
+      "id": "metallurgy:celenegil_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.celenegil"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.celenegil.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/celenegil"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/celenegil"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust"
+    ]
+  ]
+}

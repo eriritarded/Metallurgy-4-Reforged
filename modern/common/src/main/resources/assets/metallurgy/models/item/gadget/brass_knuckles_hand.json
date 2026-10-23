@@ -1,0 +1,76 @@
+{
+  "textures": {
+    "particle": "metallurgy:items/gadgets/brass_knuckles"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        280,
+        50
+      ],
+      "translation": [
+        2.4,
+        4.8,
+        -4.8
+      ],
+      "scale": [
+        0.4,
+        0.5,
+        0.4
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        100,
+        -50
+      ],
+      "translation": [
+        2.4,
+        4.8,
+        -4.8
+      ],
+      "scale": [
+        0.4,
+        0.5,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        1.28,
+        -1.76,
+        -2.08
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -90,
+        180,
+        0
+      ],
+      "translation": [
+        0.96,
+        -2.08,
+        -2.08
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  },
+  "elements": []
+}

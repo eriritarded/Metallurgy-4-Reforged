@@ -1,0 +1,18 @@
+{
+  "name": "Infuscolium",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:infuscolium_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:infuscolium_ore",
+      "title": "Finding Infuscolium",
+      "text": "Default deposits: Overworld, Y 18 to 72. Veins target up to 5 blocks, with 7 placement attempts per chunk. Mining requirement: level 2."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Infuscolium",
+      "text": "Smelt Infuscolium Ore or Infuscolium Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    }
+  ]
+}

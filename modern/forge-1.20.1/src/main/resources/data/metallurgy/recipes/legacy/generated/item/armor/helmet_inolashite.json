@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/inolashite"
+    }
+  },
+  "result": {
+    "item": "metallurgy:inolashite_helmet",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_helmet"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:infuscolium_ore",
+    {
+      "id": "#forge:ores/infuscolium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/infuscolium",
+      "required": false
+    }
+  ]
+}

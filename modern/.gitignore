@@ -1,0 +1,14 @@
+.gradle/
+**/build/
+**/run/
+*.log
+__pycache__/
+dist/
+
+# Local receipts, releases and launcher state stay outside source publication.
+/artifacts/
+/evidence/
+/.test-runtime/
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IDI",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/gold",
+    "D": "metallurgy:bimetal_structure_block"
+  },
+  "result": {
+    "id": "metallurgy:gold_bricks",
+    "count": 48
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:gold_bricks"
+    }
+  ]
+}

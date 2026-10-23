@@ -1,0 +1,9 @@
+{
+  "target": "neoforge-26.1.2",
+  "overlaps": [
+    {
+      "path": "assets/minecraft/atlases/blocks.json",
+      "same": false
+    }
+  ]
+}

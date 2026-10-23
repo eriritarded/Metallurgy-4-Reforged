@@ -1,0 +1,40 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:inolashite_ingot",
+    "count": 2
+  },
+  "result": [
+    {
+      "item": "metallurgy:alduorite_ingot",
+      "count": 1
+    },
+    {
+      "item": "metallurgy:ceruclase_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:alduorite_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ceruclase_ingot"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/brass"
+    }
+  },
+  "result": {
+    "id": "metallurgy:brass_helmet",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_helmet"
+    }
+  ]
+}

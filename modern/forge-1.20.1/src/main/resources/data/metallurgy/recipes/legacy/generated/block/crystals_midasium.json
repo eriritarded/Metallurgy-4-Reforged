@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/midasium"
+    },
+    "N": {
+      "tag": "forge:nuggets/midasium"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "item": "metallurgy:midasium_crystals",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:midasium_crystals"
+    }
+  ]
+}

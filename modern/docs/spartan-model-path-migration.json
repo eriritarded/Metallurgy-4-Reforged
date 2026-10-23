@@ -1,0 +1,135 @@
+{
+  "reason": "Preserve source model definitions as maintained reference data; exclude obsolete unreferenced dependency paths from production assets",
+  "from": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\common\\src\\main\\resources\\assets\\metallurgy\\models\\item\\spartanweaponry",
+  "to": "C:/Users/USER\\Documents\\ChatGPT\\terraria_modding\\MetallurgyModern\\content\\legacy-spartan-models",
+  "files": [
+    {
+      "file": "battleaxe.json",
+      "sha256": "96A4F294EAB8135D98F20AD6019C370DA1FE48B8538D6B906FDBCC8ADA186AF6"
+    },
+    {
+      "file": "boomerang.json",
+      "sha256": "A2AAD80206243103931BB5F053198888E76921D5501FA9061F64F56A9CACDCBD"
+    },
+    {
+      "file": "crossbow_custom_firing.json",
+      "sha256": "E2163CA7FA95771F6A326F6BD214D22ED7082FC4EDE3666026F9B0BC4036C0CB"
+    },
+    {
+      "file": "crossbow_custom_loaded.json",
+      "sha256": "D3DEA4C79AD80C33FB1DF137EEA35391ECA24DC8F16E0E870CC47EE0FEB544EB"
+    },
+    {
+      "file": "crossbow_custom_pulling_0.json",
+      "sha256": "D83EA8E694FAE5D5D5CD6ACEBF53564E2A2C4348E360821708B00F488EA22650"
+    },
+    {
+      "file": "crossbow_custom_pulling_1.json",
+      "sha256": "625CD878E13D53A419C25E9DBB70596E7408F6526D658AB3FB30EEF59D2DF4CE"
+    },
+    {
+      "file": "crossbow_custom_pulling_2.json",
+      "sha256": "FB3578B77C3815D07125979B9C9A565495BF579071E2BAA6517D0FC0A07A2D01"
+    },
+    {
+      "file": "crossbow.json",
+      "sha256": "9342636C12BB9A4676E41FDF5A1FA47246A4DA7A266E9725E41D808475321586"
+    },
+    {
+      "file": "dagger.json",
+      "sha256": "65B7B2A415045CA1CCC339F1E247987F142D03F7C2FBAE3C1EF679ED5BB76820"
+    },
+    {
+      "file": "glaive.json",
+      "sha256": "6D17B8C607C4C2979365624274906EEEC979EBBD5722B43441E48A0C0AD40772"
+    },
+    {
+      "file": "greatsword.json",
+      "sha256": "C1C369A4502F5704CD345B48A6B5C0428CFAEDE46013F0776C9CCD13BA173E46"
+    },
+    {
+      "file": "halberd.json",
+      "sha256": "E20FC2C791C7BDEA5954C2D839210FAEC0D6E4FF5353E4484D225F3EA7068541"
+    },
+    {
+      "file": "hammer.json",
+      "sha256": "2A55386EC4B95803178F8E8EE4FA7B66A6799EFCEB2E2EB23BDE0C53AA5B0D1B"
+    },
+    {
+      "file": "javelin.json",
+      "sha256": "823DCBAE8E415EC3E02A6E1867F8A32FB95854A6BB92584710BE3E4F0BFFFDD6"
+    },
+    {
+      "file": "katana.json",
+      "sha256": "C2F7FE1963401F121CE769893A82190BD84C2FC80849E2B0AD3283310A96A83B"
+    },
+    {
+      "file": "lance.json",
+      "sha256": "D24F9A9573BD7332CEF50900468173961FBF488EA299494C090BD8568C96A1A7"
+    },
+    {
+      "file": "longbow_custom_pulling_0.json",
+      "sha256": "204540EFB0CBDE6B0C326E3E2FC4FC1B3C87D3DE48A41CC258D2189D28408613"
+    },
+    {
+      "file": "longbow_custom_pulling_1.json",
+      "sha256": "496B03063664AB2517FF9D62D675B7E6BA4C033F1FB9BF2017C2DF4EF2BD9D4A"
+    },
+    {
+      "file": "longbow_custom_pulling_2.json",
+      "sha256": "F1B04F47841741E460856FEA3835360B1FCF59EBDEA6DB42D028B01B4C27C5E1"
+    },
+    {
+      "file": "longbow.json",
+      "sha256": "F692846DEEDDA6536B4A8645D9BF430AF488177FA59BA2E6DFA686B4EEF2BEB2"
+    },
+    {
+      "file": "longsword.json",
+      "sha256": "2653DBFA6BB263F7DB485807953DE6C451D0C2C1F0F714D013E2C7F4547A3A6C"
+    },
+    {
+      "file": "mace.json",
+      "sha256": "9FCA6B6122CBA4333A126265C985EF75367CAB0DDF16FA7B3C9600739BAA5110"
+    },
+    {
+      "file": "parrying_dagger_blocking.json",
+      "sha256": "A0B845574A35E8C62299E23FC38AECF7493D6EDC19CCE3712E24601EE2FDFE42"
+    },
+    {
+      "file": "parrying_dagger.json",
+      "sha256": "E5005B5D4C39194B8523826C4E50BBBB4B2B259F74C8D1B04A5FF9ECCABE46E4"
+    },
+    {
+      "file": "pike.json",
+      "sha256": "FF386F4C82C17BF45E387060C0EF53294A38B32E268F0E3E2423E0D088C1B009"
+    },
+    {
+      "file": "rapier.json",
+      "sha256": "4D6D7E79182C8D3034041F7B29BC7E81E03FAE97FFFB75DAC138CE0498FE0FB3"
+    },
+    {
+      "file": "saber.json",
+      "sha256": "184519C68395C0EA8D78E7DD447D0B6BB72136F18B8901B0566B30F44560A7E8"
+    },
+    {
+      "file": "spear.json",
+      "sha256": "86B989E1C6B1002445DF1B134FBC0611515C88F6181DF478687A5FD3B366F3FB"
+    },
+    {
+      "file": "staff.json",
+      "sha256": "60A250E1F0243F305FEBE0CAF4F73913943901B8EA0601FEF7C64972E0F33003"
+    },
+    {
+      "file": "throwing_axe.json",
+      "sha256": "34651DE50C5AF6E9228A5BD2D10411325CE3DE2A1440870FFABF25364D81D4B8"
+    },
+    {
+      "file": "throwing_knife.json",
+      "sha256": "508D9ECB26E19494066DCDA7FCE3A18F623E87160B420109403EE9DD81763632"
+    },
+    {
+      "file": "warhammer.json",
+      "sha256": "ABE8D6AC36CE5E256F9CBCAD6A726E262A2FCCCFB981EBE77E7A499381EF7C37"
+    }
+  ]
+}

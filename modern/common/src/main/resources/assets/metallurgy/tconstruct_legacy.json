@@ -1,0 +1,152 @@
+{
+  "sourceRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "sourceHashes": {
+    "integration/tic/SetTinkerTraits.java": "847ff6b03ce333ea497171917abcbc4537ee2260934b018454f6922e98c89b87",
+    "integration/tic/IntegrationTIC.java": "215075855242af76d321c57542476b5b9f1ef8a6ecf65800c4d6a398134d5e83",
+    "integration/tic/MetallurgyTinkerFuels.java": "97e386652f539779da405518b9f69f16808846d1c0c989fd652d60b390f0a9c1",
+    "integration/tic/material/TinkerMetals.java": "66e747661b6e21cd4175605773a1d9ae416abfdaa848c0294ae7b771babb942c",
+    "integration/tic/material/MetallurgyTiCStats.java": "28cffcbac73a8235e05f77f91f7ed733883dcb07baf5ea29813f6e4ef6947e85",
+    "util/Utils.java": "01557b9e83e1d0812cb87e6b6fa3b1c516c38c5321d129aac1928812036b9e65",
+    "integration/conarm/IntegrationCArmory.java": "202ec811054761b84b85aefc5765653b33618830b7267f2216d6bc3ed6385021",
+    "integration/conarm/MetallurgyArmorTraits.java": "8ea4d62d1f0b916ca49182acb08f179a842e3b7011391f204150d3237c806182",
+    "integration/conarm/MetallurgyConArmorStats.java": "8970de5b50a51e87fb56696f5369368a71f5d7c2b3527113527bea6b35d29688",
+    "integration/conarm/SetArmorTraits.java": "449776a1f49ca483447734b856e4433a2cabcfe31dc17d93d0db78fdbff19ed7",
+    "integration/conarm/traits/IConarmMetallurgyTrait.java": "68d09ab1af2ca91a3d2502b31cf84b561f1ef778881d23efacaa8101c320b62b",
+    "integration/conarm/traits/TraitBlindness.java": "231ea09782324d15cdc57bb959a083ecb57fcde262d500d25f6fbdaeceff82f3",
+    "integration/conarm/traits/TraitCatEyes.java": "ce77a07040e8e24805110b577d8d8490e36219979e36a809db606d36c74fdcf2",
+    "integration/conarm/traits/TraitDeeply.java": "d47a7cb60d4fe037f4ec085b6945204965e134874f45440f62f944bca99be637",
+    "integration/conarm/traits/TraitFoodly.java": "bd4a864170f43d255eb1a2bf34e6ffba312ca673960ac7f1db07902002f02bb9",
+    "integration/conarm/traits/TraitJumpMaster.java": "4ff1b78bf2d511ab949558b7be4bbde1b5de452b6393555c2e7becde01d1179e",
+    "integration/conarm/traits/TraitPrometheum.java": "32a8abf1f4887f1363af5cbca8b4c5af93190e6476e0b9999fb45bbd4d1f819e",
+    "integration/conarm/traits/TraitQuickly.java": "f6cc0d87124c505c91974018054a14f826ab83194eb37a3aa37810ef46fc730b",
+    "integration/conarm/traits/TraitResistence.java": "846f8250949e690225a1d52adb1d14032221534081e025555d3e04e9ba16a0da",
+    "integration/conarm/traits/TraitStrongly.java": "0c72fb8dfd5eceabd68d6a1285cd09695413249ce463f0087f640eb17734ea65",
+    "integration/conarm/traits/TraitVolcano.java": "26132a869940b0fa9d77593a4bdd20882074eca018db844402dc2bcd5d0a7439"
+  },
+  "excludedNativeMaterials": [
+    "copper",
+    "bronze",
+    "zinc",
+    "tin",
+    "silver",
+    "steel",
+    "electrum"
+  ],
+  "native3ExistingMaterials": [
+    "hepatizon",
+    "osmium"
+  ],
+  "defaultParts": [
+    "head",
+    "handle",
+    "extra",
+    "bow"
+  ],
+  "overrides": {
+    "alduorite": {
+      "head": {
+        "durability": 600,
+        "mining_speed": 14,
+        "melee_attack": 5,
+        "harvest_level": 4
+      },
+      "handle": {
+        "multiplier": 0.55,
+        "durability": 215
+      },
+      "extra": {
+        "durability": 40
+      }
+    },
+    "infuscolium": {
+      "head": {
+        "durability": 180,
+        "mining_speed": 25,
+        "melee_attack": 6,
+        "harvest_level": 3
+      },
+      "handle": {
+        "multiplier": 0.45,
+        "durability": 190
+      },
+      "extra": {
+        "durability": 15
+      },
+      "bow": {
+        "draw_speed": 1.4142135623730951,
+        "range": 2.0833333333333335,
+        "bonus_damage": 0.5
+      }
+    },
+    "rubracium": {
+      "handle": {
+        "multiplier": 0.75,
+        "durability": 300
+      },
+      "extra": {
+        "durability": 47
+      }
+    },
+    "midasium": {
+      "head": {
+        "durability": 300,
+        "mining_speed": 10,
+        "melee_attack": 4,
+        "harvest_level": 4
+      },
+      "handle": {
+        "multiplier": 0.6,
+        "durability": 200
+      },
+      "extra": {
+        "durability": 30
+      }
+    },
+    "tartarite": {
+      "head": {
+        "durability": 400,
+        "mining_speed": 16,
+        "melee_attack": 10,
+        "harvest_level": 7
+      },
+      "handle": {
+        "auto": true
+      },
+      "extra": {
+        "auto": true
+      }
+    },
+    "platinum": {
+      "head": {
+        "auto": true
+      },
+      "handle": {
+        "multiplier": 1.11,
+        "durability": 45
+      },
+      "extra": {
+        "durability": 157
+      }
+    }
+  },
+  "kingDiceEffects": [
+    "blindness",
+    "levitation",
+    "hunger",
+    "instant_damage",
+    "nausea",
+    "night_vision",
+    "poison",
+    "slowness",
+    "regeneration"
+  ],
+  "fuel": {
+    "fluid": "metallurgy:molten_thermite",
+    "amount": 50,
+    "duration": 100
+  },
+  "legacyDependency": {
+    "coordinate": "slimeknights:TConstruct:1.12.2-2.13.0.184",
+    "sourcesSha256": "38f03b5008cb0d6cc89a9299d819a461a208d69259c15ecfc2053033f0527a7c"
+  }
+}

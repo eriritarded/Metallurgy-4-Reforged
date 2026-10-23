@@ -1,0 +1,42 @@
+{
+  "parent": "metallurgy:main/tier2",
+  "display": {
+    "icon": {
+      "item": "metallurgy:angmallen_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.angmallen"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.angmallen.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/angmallen"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/angmallen"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust"
+    ]
+  ]
+}

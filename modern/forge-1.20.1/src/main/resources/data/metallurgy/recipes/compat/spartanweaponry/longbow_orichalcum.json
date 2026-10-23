@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HSI",
+    "S R",
+    "IRR"
+  ],
+  "key": {
+    "H": {
+      "item": "spartanweaponry:handle"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "tag": "forge:ingots/orichalcum"
+    },
+    "R": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "metallurgy:longbow_orichalcum",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

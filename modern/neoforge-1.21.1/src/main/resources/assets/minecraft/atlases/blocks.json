@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:blocks/molten_metal_still"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:blocks/molten_metal_flow"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_8"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_9"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:particles/ore_particle_10"
+    }
+  ]
+}

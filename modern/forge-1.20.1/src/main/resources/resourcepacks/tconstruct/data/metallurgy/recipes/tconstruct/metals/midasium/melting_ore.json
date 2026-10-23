@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/midasium"
+  },
+  "result": {
+    "tag": "forge:molten_midasium",
+    "amount": 180
+  },
+  "temperature": 1500,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/midasium"
+      }
+    }
+  ],
+  "rate": "metal"
+}

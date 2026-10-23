@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:nuggets/quicksilver"
+  },
+  "material": "metallurgy:quicksilver",
+  "needed": 9,
+  "value": 1,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/quicksilver"
+      }
+    }
+  ]
+}

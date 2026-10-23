@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/angmallen"
+  },
+  "result": {
+    "tag": "forge:molten_angmallen",
+    "amount": 10
+  },
+  "temperature": 1100,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/angmallen"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OPO",
+    "OBO",
+    "SFS"
+  ],
+  "key": {
+    "O": {
+      "tag": "c:ingots/oureclase"
+    },
+    "S": {
+      "tag": "c:ingots/steel"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "B": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "id": "metallurgy:crusher",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:crusher"
+    }
+  ]
+}

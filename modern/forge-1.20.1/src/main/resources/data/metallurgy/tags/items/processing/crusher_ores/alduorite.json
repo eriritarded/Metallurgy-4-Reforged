@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:alduorite_ore",
+    {
+      "id": "#forge:ores/alduorite",
+      "required": false
+    },
+    {
+      "id": "#c:ores/alduorite",
+      "required": false
+    }
+  ]
+}

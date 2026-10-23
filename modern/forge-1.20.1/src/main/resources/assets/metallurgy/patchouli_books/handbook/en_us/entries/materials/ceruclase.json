@@ -1,0 +1,45 @@
+{
+  "name": "Ceruclase",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:ceruclase_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:ceruclase_ore",
+      "title": "Finding Ceruclase",
+      "text": "Default deposits: Nether, Y 0 to 127. Veins target up to 5 blocks, with 3 placement attempts per chunk. Mining requirement: level 4."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Ceruclase",
+      "text": "Smelt Ceruclase Ore or Ceruclase Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:ceruclase_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 103 uses.$(br)Harvest level: 4.$(br)Mining efficiency: 5.0.$(br)Material damage bonus: 3.5.$(br)Enchantability: 16.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:ceruclase_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 4, chestplate 5, leggings 4, boots 3.$(br2)Toughness per piece: 0.0.$(br)Enchantability: 50."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Flash Freeze",
+      "text": "Has a 75% chance to completely freeze an enemy in place on hit for 3 seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Blizzard",
+      "text": "Mobs are slowed, fatigued and weakened depending on how much armor you wear, both players and entities are extinguished if they were on fire."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tool: Cold Snap",
+      "text": "Blocks will be mined instantly if they can be harvested and if they're harvested with the correct tool type."
+    }
+  ]
+}

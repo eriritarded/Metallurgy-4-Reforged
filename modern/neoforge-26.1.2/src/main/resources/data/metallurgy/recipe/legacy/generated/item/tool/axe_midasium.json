@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    "IS",
+    " S"
+  ],
+  "key": {
+    "I": "#c:ingots/midasium",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:midasium_axe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:midasium_axe"
+    }
+  ]
+}

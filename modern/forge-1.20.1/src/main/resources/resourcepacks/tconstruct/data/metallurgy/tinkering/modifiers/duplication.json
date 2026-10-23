@@ -1,0 +1,9 @@
+{
+  "level_display": "tconstruct:single_level",
+  "modules": [
+    {
+      "type": "metallurgy:legacy_trait",
+      "effect": "duplication"
+    }
+  ]
+}

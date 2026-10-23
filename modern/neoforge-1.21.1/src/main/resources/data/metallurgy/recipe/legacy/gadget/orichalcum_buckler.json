@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OEO",
+    "OWO",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "tag": "c:ingots/orichalcum"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "id": "metallurgy:orichalcum_buckler",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:orichalcum_buckler"
+    }
+  ]
+}

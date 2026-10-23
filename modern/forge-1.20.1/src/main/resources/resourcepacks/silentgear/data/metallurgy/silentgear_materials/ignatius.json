@@ -1,0 +1,202 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:netherite",
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "can_salvage": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "metallurgy:ignatius_ingot"
+    },
+    "subs": {}
+  },
+  "name": {
+    "translate": "material.metallurgy.ignatius.name"
+  },
+  "stats": {
+    "main": {
+      "durability": 84,
+      "harvest_speed": 4.0,
+      "enchantment_value": 11,
+      "melee_damage": 2.4,
+      "armor_durability": 5,
+      "armor": 11,
+      "armor/boots": 2,
+      "armor/leggings": 3,
+      "armor/chestplate": 4,
+      "armor/helmet": 2,
+      "armor_toughness": 0.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "ranged_speed": 0,
+      "charging_value": 1
+    },
+    "rod": {
+      "durability": {
+        "add": 12.6
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 12.6
+      },
+      "harvest_speed": {
+        "add": 0.4
+      },
+      "melee_damage": {
+        "add": 0.36
+      }
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FFFD9663"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#FFFD9663"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#FFFD9663"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FFFD9663"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FFFD9663"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base",
+        "color": "#FFFD9663"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FFFD9663"
+      },
+      "silentgear:tip_shine"
+    ]
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:fiery",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magmatic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:fireproof",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:fiery",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magmatic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:fireproof",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:fiery",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:magmatic",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:fireproof",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

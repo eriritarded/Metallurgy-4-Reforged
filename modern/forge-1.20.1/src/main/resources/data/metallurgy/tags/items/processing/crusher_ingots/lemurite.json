@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:lemurite_ingot",
+    {
+      "id": "#forge:ingots/lemurite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lemurite",
+      "required": false
+    }
+  ]
+}

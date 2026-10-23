@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/damascus_steel"
+    }
+  },
+  "result": {
+    "id": "metallurgy:damascus_steel_helmet",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_helmet"
+    }
+  ]
+}

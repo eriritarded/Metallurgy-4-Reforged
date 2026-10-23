@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:silver_ore",
+    {
+      "id": "#forge:ores/silver",
+      "required": false
+    },
+    {
+      "id": "#c:ores/silver",
+      "required": false
+    }
+  ]
+}

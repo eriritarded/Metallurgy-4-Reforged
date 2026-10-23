@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HI"
+  ],
+  "key": {
+    "H": {
+      "item": "spartanweaponry:handle"
+    },
+    "I": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "metallurgy:throwing_knife_brass",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

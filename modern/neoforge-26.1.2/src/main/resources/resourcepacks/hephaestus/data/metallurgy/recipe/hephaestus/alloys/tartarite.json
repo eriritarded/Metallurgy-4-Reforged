@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:adamantine"
+    },
+    {
+      "amount": 90,
+      "id": "metallurgy:atlarus"
+    }
+  ],
+  "output": {
+    "amount": 90,
+    "id": "metallurgy:tartarite"
+  },
+  "temperature": 1900
+}

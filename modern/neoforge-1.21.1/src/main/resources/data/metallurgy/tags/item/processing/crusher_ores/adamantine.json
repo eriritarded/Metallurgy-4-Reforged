@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:adamantine_ore",
+    {
+      "id": "#forge:ores/adamantine",
+      "required": false
+    },
+    {
+      "id": "#c:ores/adamantine",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_steel",
+  "category": "metal",
+  "primary": 5.3,
+  "secondary": 6.133,
+  "tertiary": 3.2,
+  "durability": 421,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 84,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 6.4,
+  "tints": {
+    "glyph": "BCBCBC",
+    "texture": "BCBCBC"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:steel_ingot"
+    ]
+  },
+  "effects": {
+    "unbreaking": 1,
+    "stabilizing": 5
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

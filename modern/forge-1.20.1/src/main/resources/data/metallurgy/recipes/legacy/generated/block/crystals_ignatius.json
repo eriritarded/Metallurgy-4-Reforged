@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NIN",
+    "IDI"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/ignatius"
+    },
+    "N": {
+      "tag": "forge:nuggets/ignatius"
+    },
+    "D": {
+      "item": "metallurgy:bimetal_structure_block"
+    }
+  },
+  "result": {
+    "item": "metallurgy:ignatius_crystals",
+    "count": 32
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ignatius_crystals"
+    }
+  ]
+}

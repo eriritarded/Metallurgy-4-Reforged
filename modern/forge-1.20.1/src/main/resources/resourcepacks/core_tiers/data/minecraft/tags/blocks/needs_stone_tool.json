@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:alloyer",
+    "metallurgy:bitumen_block",
+    "metallurgy:brass_chest",
+    "metallurgy:charcoal_block",
+    "metallurgy:crusher",
+    "metallurgy:electrum_chest",
+    "metallurgy:phosphorite_ore",
+    "metallurgy:phosphorus_lamp",
+    "metallurgy:platinum_chest",
+    "metallurgy:potash_ore",
+    "metallurgy:rubracium_chest",
+    "metallurgy:silver_chest",
+    "metallurgy:sublimation_chamber",
+    "metallurgy:sulfur_block",
+    "metallurgy:sulfur_ore",
+    "metallurgy:tar_ore"
+  ]
+}

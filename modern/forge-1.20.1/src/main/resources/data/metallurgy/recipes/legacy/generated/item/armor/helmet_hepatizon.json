@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/hepatizon"
+    }
+  },
+  "result": {
+    "item": "metallurgy:hepatizon_helmet",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:hepatizon_helmet"
+    }
+  ]
+}

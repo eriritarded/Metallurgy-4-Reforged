@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_inolashite",
+  "category": "metal",
+  "primary": 8.0,
+  "secondary": 6.133,
+  "tertiary": 3.6,
+  "durability": 1028,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 132,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 7.2,
+  "tints": {
+    "glyph": "92D2D2",
+    "texture": "92D2D2"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:inolashite_ingot"
+    ]
+  },
+  "effects": {
+    "reaching": 2,
+    "intuit": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

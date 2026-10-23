@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:adamantine_ore",
+    "metallurgy:alduorite_ore",
+    "metallurgy:atlarus_ore",
+    "metallurgy:carmot_ore",
+    "metallurgy:lemurite_ore",
+    "metallurgy:lutetium_ore",
+    "metallurgy:meutoite_ore",
+    "metallurgy:mithril_ore",
+    "metallurgy:sanguinite_ore",
+    "metallurgy:vyroxeres_ore"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:sanguinite_ingot",
+    {
+      "id": "#forge:ingots/sanguinite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/sanguinite",
+      "required": false
+    }
+  ]
+}

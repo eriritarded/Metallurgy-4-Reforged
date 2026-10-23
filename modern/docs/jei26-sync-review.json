@@ -1,0 +1,29 @@
+{
+  "reviewed": "2026-10-16",
+  "state": "Dedicated26-only payload implemented and compiled; no game/runtime reproduction",
+  "repository": "mezz/JustEnoughItems",
+  "revision": "34efbaf307cad1ed0facc49c392ff226c0afe66b",
+  "file": "NeoForge/src/main/java/mezz/jei/neoforge/startup/StartEventObserver.java",
+  "blob": "9dfaa193306ce9db7855c5394b9884e452865182",
+  "finding": "onRecipesReceivedEvent treats any nonempty requested-type set as a complete synced recipe source. Metallurgy currently requests only processing; client-only JEI may consequently lose fallback vanilla crafting if server JEI is absent.",
+  "next": "Replace26 processing recipe-map sync with a bounded dedicated native processing-list payload, delivered before native recipe sync and cleared on disconnect; keep vanilla20/21 synchronization. Then finish special crafting examples/subtypes without relying on JEI internals.",
+  "gameLaunched": false,
+  "implementationPlan": [
+    "Generate26-only ProcessingNetwork from generate_processing_adapters.py; register native clientbound payload on mod bus and remove sendRecipes(TYPE) from generated Metallurgy constructor",
+    "Use OnDatapackSyncEvent to encode one recipe snapshot from authoritative ProcessingAccess, send relevant players before normal native sync",
+    "Bound count4096, packet chunk256KiB, total8MiB; native registry-aware ProcessingRecipe serializer preserves custom ingredients/item components; generation/part metadata supports atomic client replacement",
+    "Clear pending/client snapshot on disconnect; preserve vanilla20/21 sync. Keep custom data ready before JEI LOWEST recipe event starts its viewer",
+    "Do not link JEI implementation classes or mutate its private recipe map; native JEI server/client availability remains optional",
+    "Then implement detector/Paragon JEI crafting examples/extensions/subtypes based on actual native recipes; native APIs differ across15/19/29"
+  ],
+  "implementation": "neoforge-26.1.2/src/main/java/it/hurts/metallurgy_reforged/network/ProcessingNetwork.java",
+  "limits": {
+    "recipes": 4096,
+    "entriesPerPart": 32,
+    "partBytes": 262144,
+    "totalBytes": 8388608,
+    "parts": 256,
+    "idCharacters": 256
+  },
+  "compileReceipt": "evidence/processing-sync26-compile-checkpoint.json"
+}

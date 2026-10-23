@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_etherium",
+  "category": "metal",
+  "primary": 9.0,
+  "secondary": 6.133,
+  "tertiary": 6,
+  "durability": 2056,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 180,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 16.0,
+  "tints": {
+    "glyph": "A6C69B",
+    "texture": "A6C69B"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:etherium_ingot"
+    ]
+  },
+  "effects": {
+    "reaching": 1,
+    "quickStrike": 2
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

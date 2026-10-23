@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "metallurgy:block/striped_road_block"
+    },
+    "facing=south": {
+      "model": "metallurgy:block/striped_road_block"
+    },
+    "facing=east": {
+      "model": "metallurgy:block/striped_road_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "metallurgy:block/striped_road_block",
+      "y": 90
+    }
+  }
+}

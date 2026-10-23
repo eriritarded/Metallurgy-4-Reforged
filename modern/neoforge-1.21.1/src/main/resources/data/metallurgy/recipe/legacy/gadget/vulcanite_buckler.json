@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FV ",
+    "VWV",
+    " VF"
+  ],
+  "key": {
+    "V": {
+      "tag": "c:ingots/vulcanite"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "F": {
+      "item": "metallurgy:flint_and_vulcanite"
+    }
+  },
+  "result": {
+    "id": "metallurgy:vulcanite_buckler",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vulcanite_buckler"
+    }
+  ]
+}

@@ -1,0 +1,1460 @@
+{
+  "date": "2026-10-16",
+  "skill": "H:/AI_SKILLS/Minecraft-Skills-main/SKILL.md",
+  "sourceRevisions": {
+    "upstream": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+    "chests": "f8f0b1853d93471d1abc4dd5436429475f0ef4c0",
+    "mdk-1.21.1": "3bca8f1e0756c001e4b71f266c328d1568d29363",
+    "mdk-26.1.2": "992ae7fda4efc0e85887ca966d188bf1e8efc61c"
+  },
+  "originals": [
+    {
+      "path": "C:/Users/USER\\Downloads\\Metallurgy-4-Reforged-1.4.1.jar",
+      "sha256": "feac090c1808cba5ce7e9ab559dce3a6e81da84f6c632e371511e73c0f821397"
+    },
+    {
+      "path": "C:/Users/USER\\Downloads\\metallurgychests-1.2.0.jar",
+      "sha256": "62288ec74d89065256b05778667b5992cc551ba9dc05059a5774f13d928d302a"
+    }
+  ],
+  "scratch": "H:\\CodexScratch\\terraria_modding\\.test-runtime\\metallurgy-port-db483af2b05d489dbffdbf8f18398e4c",
+  "targets": {
+    "forge-1.20.1": {
+      "minecraft": "1.20.1",
+      "loader": "forge",
+      "version": "47.4.10",
+      "java": 17
+    },
+    "neoforge-1.21.1": {
+      "minecraft": "1.21.1",
+      "loader": "neoforge",
+      "version": "21.1.262",
+      "java": 21
+    },
+    "neoforge-26.1.2": {
+      "minecraft": "26.1.2",
+      "loader": "neoforge",
+      "version": "26.1.2.122",
+      "java": 25
+    }
+  },
+  "status": "implementation-in-progress",
+  "sourceFiles": [
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\Metallurgy.java",
+      "sha256": "bdc290885f85c5a18c22c6d3642b8058cf487b86f99319dab3b1db423e6a27d9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\BaseCriterionInstance.java",
+      "sha256": "09d2661285d051facbca5f849cfc8a953bf9961ae1a0dfc53af9a3e9ab7e3ad6"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\CommonCriterionInstances.java",
+      "sha256": "757d3dbf7f191a0acaaaf69c9c334f72faf27b4ef56f07185cf5ed5471113773"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\MetallurgyTrigger.java",
+      "sha256": "f7de60bdb1841bb67f0ebfea8203add9766bf2456efa32b8dde334f16cd8be3c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\ModAdvancements.java",
+      "sha256": "4b6eb106cc97d7e67a312b34e9e85ddd5342339397720cfdc40f1354b30f7991"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\package-info.java",
+      "sha256": "f1df391d89f52907af51d847ede2028eb0551f0739726345f535e094d26cfcb3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\TriggerDispatcher.java",
+      "sha256": "54ff81e38a673579e03d9b0e4e9d05166656f5cabc90684f6cc4b9889440e0d0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\BlockMetal.java",
+      "sha256": "b5daab746782396690d97a738850175dd639c31bd2d1851fc421e619f31099a4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\BlockOre.java",
+      "sha256": "d62289418569f06d30c0c682f5c3f3672b9d962648522565694a368fa7da805b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\BlockOrientable.java",
+      "sha256": "c5d2e515e05a001baee815dcafe1ed3017803667f6b218a50d3f5457860cfe1f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\BlockTypes.java",
+      "sha256": "992843ca32dfcf57160c95e685307c57c928abb6478155ab8b074a6d618ba7da"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\ModBlocks.java",
+      "sha256": "380afc1f492590e91b0e6007953fcf913ca7e229b60f8dd1a64088fca9e67ea9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\ConfigPack.java",
+      "sha256": "177f793f7cd7e15346050324246bc3526b626860f291493c4d1aa35619c80334"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\EffectsRosterConfig.java",
+      "sha256": "e510656253c10f1af90504bd7307ff2f9432c74f581c3a926caadef75776f5c9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\EffectTweaksConfig.java",
+      "sha256": "a4c855aa8ce4825b5960eee7ad592dcf68be96757b29f97faff6d19b7ac9d113"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\GadgetsConfig.java",
+      "sha256": "0308157fec5bcf51b7a38d09b9c128171580567496a90c94ece64339715a153a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\GeneralConfig.java",
+      "sha256": "9141d4cf40ec084bb2681ead9afabb18a899f5dbd2f9080e62bb49f5e7e8d51a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\RegistrationConfig.java",
+      "sha256": "2561956f076cd0b8c8d1e150357245357cb6571d58bdd6e332db9b5060f010e2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\config\\WorldGenerationConfig.java",
+      "sha256": "3aa3ddb5b901b55ad5de02da2d70dac38fe34267805237fcb8f85d5b4dccfd99"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\container\\ContainerAlloyer.java",
+      "sha256": "6036a901564b7f6dd918a26528e3c282e2e2278bc608733bf8a5f0220d812303"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\container\\ContainerCrusher.java",
+      "sha256": "3387151bca910674e273c121328ff45e2bc3b76ef3837ac314b36430d82ef367"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\container\\ContainerNull.java",
+      "sha256": "0796315c1917150707c7569fac0667c7a177443c3adb201bc71ad92f7280bc03"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\BaseMetallurgyEffect.java",
+      "sha256": "24b9e1f401d0796f788504352b21e7e9c983d68e8c57bfea2f8cec4d39afff9a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\EnumEffectCategory.java",
+      "sha256": "04645143ae8de2b357ab8662e49a963552fdbdc3bc0af195312c89331b3daa2f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\IProgressiveEffect.java",
+      "sha256": "ca7f7db3776b85e0c472514ca81381433a7b5d2885b9d86c94b1eeb3632a954d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\MetallurgyEffects.java",
+      "sha256": "1ad85d1ac3ae4e1d1deec73ec06ed72c5f16c9c66fb1346d543506233c17a9bb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\EntityPierKnight.java",
+      "sha256": "7f99d0582192013f18785a01227947c1e6b23f5a6e230fbb35003e8104d4596e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\MetallurgyPrimedTNT.java",
+      "sha256": "f63acd7754eb1824e7a022e813d9ab60c5b7febe27b4d481ffa585b987283ac0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\fluid\\FluidEvents.java",
+      "sha256": "00930a6de887ac5b0f5196fc7cc9208399fd4e8d69de9af4aa63ec6257623957"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\fluid\\FluidMolten.java",
+      "sha256": "c8948fe9eedb6bec895adf1d209ffd524f99e3f8f7581803b6202c9872e1a93f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\fluid\\ModFluids.java",
+      "sha256": "776f9e97bbe8f42db03b46ae967a278b4fc6a4c9907907ec952a1242fdf51a65"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\GuiAlloyer.java",
+      "sha256": "bced3d3cfc42170d42caac8271858c9278f25f9f82a5e44bd1c4ceee4baab893"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\GuiCrusher.java",
+      "sha256": "ef6f470e72343d8ba8e3f9dc0464564cd733aaf4f0faa51858ce5ac27188797d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\GuiHandler.java",
+      "sha256": "2f88b8327f5928188cbdcce2cc628a5bab6d7dcf505eb306c569474facce8e60"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\TooltipRenderHandler.java",
+      "sha256": "cbc83c1f9fbb11ce8f029190ed3b672a91afbec8a75bd9a317ba6c50dfa5654f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\ClientEventsHandler.java",
+      "sha256": "a53e1728660ec2ab6ce5ae5c7a77cae9beec384b1aafb38f572948a117e57a1b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\EventHandler.java",
+      "sha256": "21cc02f29162db5f76afa6472d6a12dbdb95a4f72c0b60ec9c4b61458abe9899"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\FuelHandler.java",
+      "sha256": "21217a583cef549b1f4127fb5b067d8a39363c97b4720c01846c4fe9be961a85"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\GadgetsHandler.java",
+      "sha256": "a594fd6336a375de4bd772a0b7a5549e4261766d39161e290628380513cb0482"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\OreDictHandler.java",
+      "sha256": "62c2053c8af061c5f1f219b095da00c0c8d24245176e4bc9b53298e24e937c1b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\ProgressiveEffectsHandler.java",
+      "sha256": "4c3434d1f647077c05353bd97ac6f51623ee4ecbd378df365a1bbbdacea1a228"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\RegistrationHandler.java",
+      "sha256": "8dbdb4c357fa45bed91668db1faefba5ae28d5966ee2fba6d24e08d0c2876d49"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\SpawnHandler.java",
+      "sha256": "ddbceceaf4eb6a7f136fe29a41e96725aa3e5d9538b22b7aa4f9e5ba62399777"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\handler\\TileEntityHandler.java",
+      "sha256": "d1c0462437bdb183daaa1251ce2f40d531ac52e4ae8f21035b841d40645ff7cc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationChisel.java",
+      "sha256": "07c9d2f236fc95e7684d5c830100f83c8023a75ea01e57d0ef548fb108e7b4e5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationEnderIO.java",
+      "sha256": "dc927f0ddf0133ad831b184a5e54d33f22554f5c4f38575d32f14861ca066b29"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationIF.java",
+      "sha256": "2e019769b034b812c31f0a4bc523561616573885a00484b5a32a0d34ed43b8ec"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationMekanism.java",
+      "sha256": "1ef25ee81362ca1cf72062d4710d66c95aee499d61746964361460fcf6c34ebb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationProjectE.java",
+      "sha256": "05d9dba6c6e82521ca4a1e1f65dc258b91f0bfa5f9b2529a26894c6563f155ae"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationSW.java",
+      "sha256": "c6d000ac37f2d1baebfba95e02392b1574f9b182b2b041d1b82255ce0d273ca5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\IntegrationThermal.java",
+      "sha256": "ab5bfe4b83588dee832c774fc3f206a636a35189a34254e668ce3496a02db9ff"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\IMetalItem.java",
+      "sha256": "a76855400562c40012af8edc969bf804099b4cedcfd75208772020af6b391c82"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\ItemBase.java",
+      "sha256": "6f9a1bc139e917edf47f055854664b60983a9660c0bb0a6231da1347c89c0049"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\ItemBlockOre.java",
+      "sha256": "e80c8881a0556cdace0a708e43837c24b4b581acb976211af058b1ff0f25117d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\ItemExtra.java",
+      "sha256": "68167b207ff0ed4404f4e193c320de83bd17253da5b1ccace6567c93baf3a777"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\ItemMetal.java",
+      "sha256": "604121261caff05e3924e4aa2c8caf58b8cbbff798f166d9315e8cf88c0ee0b9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\ItemTypes.java",
+      "sha256": "3d5512575b250b5fdfc2506ac2ae410e235ebca749ea9c9f4704b31ee23748e7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\ModItems.java",
+      "sha256": "ede5ed4ed418e36c54af8206c9ffe6deff2632c12eed8571c7d70a041f3bd006"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\material\\ArmorStats.java",
+      "sha256": "70573ed604ba6a0af275e0739393c404e3f34defc1b520bd1e8e4df99bd039cb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\material\\JsonMaterialHelper.java",
+      "sha256": "07a69ad86beea17b7af533d1b55ac695e633e8734977b69eb34c630eb7530a0d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\material\\Metal.java",
+      "sha256": "466371690265abc90b427b0a0a2840e9350c207657baf9a9527d41d3ac8c1fa3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\material\\MetalStats.java",
+      "sha256": "30a202f9c7ad95f2dc4b9ae00c584c8c696a70013939293de638135bc99b2836"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\material\\ModMetals.java",
+      "sha256": "3a04d7956da2b3bf76b4a117ed2a2516960dcc325b691d0a552c13ecff577704"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\material\\ToolStats.java",
+      "sha256": "89c882ddc65d1fb351a5e6bc78d8b14c7bf63efeaa0424d2f9976c4c2fdf9eca"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\model\\Drop.java",
+      "sha256": "83083b8f7a9055d8c4d39bace34e9996ba68d25426ab01d2afb8ab21c29f56a9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\model\\MetalSample.java",
+      "sha256": "59b60b40b57e444937ef7e497d4543c7b62fb9fd47f54be909594a92e64f4382"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\PacketManager.java",
+      "sha256": "c9b162d3558c83d331410f10554e7889d30e0273832f44b96d01ad63eabd16b0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\particle\\ParticleOre.java",
+      "sha256": "d806177c3ff1ea59659f15769572d34fa12fc2a06e0802d5c83e6e2725668c9a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\particle\\ParticleOreEmitter.java",
+      "sha256": "8958eac9a063d00a6d1d04f4115269271daa72236ce2d2bddd54cc423f3f7a88"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\proxy\\ClientProxy.java",
+      "sha256": "080b9366e20b4accb713a5f2951ad0838133320c3b9e3539d3f7a65249fbb4d4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\proxy\\IProxy.java",
+      "sha256": "e17d4102589efae823a1a79d73a52dc20de20dc20a3be46dd63f9c401d5a1f6b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\proxy\\ServerProxy.java",
+      "sha256": "42bdfff48554e75d4f530df80eab4668918546d1e843736b3adf4375966b1482"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\AlloyerRecipes.java",
+      "sha256": "b0c927fda59d7570ff7c1edef23af1def0c5a266e768b91e84d5020f6df5beb5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\CrusherRecipes.java",
+      "sha256": "9485216dc89c371994513da9cb9ed74c374c7e4534953c3bb5d3005045375670"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\IngredientMetal.java",
+      "sha256": "d5db476efd3bc4387732dbb2a17cfa2f0b34b512e12b3069bd5575701691170c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\IRecipeMetal.java",
+      "sha256": "8511ce6f980b48b505f13c3fab7125c124a2a63124d62a17ae18d79cccc72cbe"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\IsItemRegisteredConditionFactory.java",
+      "sha256": "ffcafd58c098362261d9ba16f588d7690de730b027c5c1e08bca91235e8977ea"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\ModRecipes.java",
+      "sha256": "c5e602eaab5f17472d4f8a2ddf55c22487e89a5ce322723aafdb6b6cd7ad30d4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\OreDetectorRecipe.java",
+      "sha256": "01d86125df3efec6d76e8e2ecff1e856ec8b881eb3b1f49a3defe99e46dce113"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\SublimationRecipes.java",
+      "sha256": "90000160fa07c2c47fc4b57ccfd920a965d42cd4b0981a79859debe96f709fdf"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\recipe\\TartariteParagonRecipe.java",
+      "sha256": "349ba3d12839a8016a96691d7a71a4ec8624fc9b534a5e7212d96d95e51396bb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\MetallurgyTNTRenderer.java",
+      "sha256": "5efccec8c572f279f761ec034e45a7e519bdbc9346a0c66e5c37725ab3319227"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\ModRenderers.java",
+      "sha256": "e374dde7d49f85de5ac125395fe13932f11c4a351e6cc3b6c058ddc36c9c5bc0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\PierKnightRenderer.java",
+      "sha256": "c633698baab2f1e44714afa4e1b3d84318185ffd8f03a297b176ee187fbf297f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\SublimationChamberTESR.java",
+      "sha256": "482eebaa8d4906cd4cf9bfd475842b62b49bcb92cedda3763d8236d88d84c062"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\sound\\ModSounds.java",
+      "sha256": "4de9c43a9582a05cb52aa18c48a7aaef23faf15adf068ad3e4b9f41c63b61123"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\sound\\SoundHandler.java",
+      "sha256": "602f718dfd155d0aa9b488164ea70775e312ce22dc488dd1fc3fd66b518968ad"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\tileentity\\TileEntityAlloyer.java",
+      "sha256": "e5d876cc6a5997adc73c527530bdf07561bd965a60247dd2afeb44af71c1b4d9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\tileentity\\TileEntityChamber.java",
+      "sha256": "f8481f2d91b2a9f40c723c3a92238a0f93489a8ee5ccf58c1613d65aec2cdc0e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\tileentity\\TileEntityCrusher.java",
+      "sha256": "353b8995195b822f57f0f6308dc35a2d3d407c78a175ce64c280fe58871bca38"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\BlockUtils.java",
+      "sha256": "be05a15f3851a00727d51a4e49f793e4763c14eda8b58f4c5aa692c0b8e8ac8f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\Constants.java",
+      "sha256": "20db73d6bc64a7a66b7f9561ebdae61b0f39654e72be6a9fc5c5899e379ee271"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\EventUtils.java",
+      "sha256": "3ce2e71866ad186a841d175a512eb11c40cfa885e7e7bf1b4305c6c643b4ae54"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\IntBiFunction.java",
+      "sha256": "1098e146692bb68ff3e97c320ade75a591876447e33b80131d5a35123ee50f30"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\ItemUtils.java",
+      "sha256": "d8a42d8600bd3f7ebf4de0d0c9d12f508b7df03bb1a92c4b7de67260e841decf"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\MetallurgyTabs.java",
+      "sha256": "532371da1424b2dde4aba3025cc9ac82f911826ad83975871e8fd3c37299496a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\MetallurgyTweaks.java",
+      "sha256": "77223f84c71dc4e86d0307552c9148525b4768fd6f959f5ca1b9d25b172d0d0d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\ModChecker.java",
+      "sha256": "c8e6412a78f535f41f838f8d8dbd6d8d8f72bd1229bda455d1896fac1b129edb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\NBTUtils.java",
+      "sha256": "42189314e0ff05bd5fd961c66a5299c021f0aa8d225576e4efd5f12df6856ffe"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\SubEvent.java",
+      "sha256": "82dc617b2c462ae6683bcb8052178805a3c241d95e3fa1d5c4aee7366daa8ca8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\Utils.java",
+      "sha256": "01557b9e83e1d0812cb87e6b6fa3b1c516c38c5321d129aac1928812036b9e65"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\util\\WorldUtils.java",
+      "sha256": "cbc35fc8a6c4918d645f86a60168e049c59a1904c1e159cd9f01213a81496039"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\ModLakeWorldGen.java",
+      "sha256": "372f9bcc20843cfae84b00221e6a88559b2f852b777e371e2e2afbd9cdc404c4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\ModWorldGen.java",
+      "sha256": "af36a405fe2d58c163b9daa62f808b78882691a1bf7e60a02ef336362a982020"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\WorldTickHandler.java",
+      "sha256": "2006c03f11910feab9bb061ce92eeb1860ea84ff7d991e2d893ad5f76a4bfc99"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\AdvancementGrantedTrigger.java",
+      "sha256": "71e9fe5dca00511e1d93ad1b4299d14ea34384e990034d051633b20900b6c69f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\HarvestLevelTrigger.java",
+      "sha256": "1182878b9e2dc415f2e38907aa22175e199d2dc3b84278016fd41c607f51b032"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\JackOfAllTradesTrigger.java",
+      "sha256": "9caead5be10e5e9095c9607ac22635a417a6ce823a8a02a65f0e4fcf9584bd2e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\LowTemperaturesTrigger.java",
+      "sha256": "e1d0e49c94c79a0695a39b4b929b25545a2104fbb3a070645fb5e3011df6b353"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\LoyalFriendsTrigger.java",
+      "sha256": "e23685a9e1716db9128830c585c6cded6227f9ad48947e33f5ec209e28946c00"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\OverclockedToolsTrigger.java",
+      "sha256": "bc7e989da70f9adbef1c45bcb7ee24e44d04fdd0943617d08557cd8c52daae9c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\package-info.java",
+      "sha256": "9477454a61bef7c0fb2687c4dd8242075142c954bad67ee24de0f031a78afff1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\StrongOpponentTrigger.java",
+      "sha256": "b3ae1ff0b21812528e527fa390e46cf6dbf5fb5fce1d9ddb5d09873b9bb9ee10"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\advancement\\trigger\\YinYangTrigger.java",
+      "sha256": "1512c9e2db0528256985caea91152d59fc30d4ccfb617236f56a2325613b2659"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\fluid\\FluidBlockTar.java",
+      "sha256": "396ed888f70786b074ac6be9d1a7316ce3bca7e3dc91068ce40a0055f7bcb541"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\gadget\\BlockIceShield.java",
+      "sha256": "fca07f520e85c7de07fb5dc5cd01df30ce36c341b24086df376c4c64339a21f7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\gadget\\BlockMetallurgyTNT.java",
+      "sha256": "74c6154049a4457ef116a00137656fcb60abee39feab0a116ce525eb05ce3028"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\gadget\\BlockPhosphorusLamp.java",
+      "sha256": "06454d7e8fbb342a7466f9ec464a2db063f16cf1bc9ffcddadeef0dfac3887c3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\gadget\\PhosphorusLampSavedData.java",
+      "sha256": "4728b7954243c3f610682b21e6b6a54e21146b3938defa54e760ef06efd27890"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\machines\\BlockAlloyer.java",
+      "sha256": "14d60f0b77b3a2bb7d830dfdb2e84350314e30e75516460b7b1071223a8c81eb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\machines\\BlockChamber.java",
+      "sha256": "2f77532ea5375c4baf6e89dbfaeedb5a84c97791824f5795011ec55e3421d280"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\machines\\BlockCrusher.java",
+      "sha256": "2701cf5d98c761162db43af3010c4a6f5a371c5655d563b445afe17b927de830"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\block\\machines\\BlockTileEntity.java",
+      "sha256": "78e2855070ee144e2d4a61326166f45da57ded425feaecbee6047e32ebf29c36"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\effect\\BlockInfoDataBundle.java",
+      "sha256": "4552c3f49383cd4e1e9eb018c9c2917b2976aa41751623bea29be31aef94c1b7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\effect\\EffectDataProvider.java",
+      "sha256": "f827eaf28a5068f40f944033ff6fc1a6bcc6b71babd00a483ad72a61ea369ba2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\effect\\EffectDataStorage.java",
+      "sha256": "33cbb7df6266e95d9e7964d263afa4a4fe97d92d45b63db67794bade218fcb2e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\effect\\ExtraFilledDataBundle.java",
+      "sha256": "ea8edbfba12cc05605215c76b0a94532e3e272465dc27b7e72bd7b4820bdbc4c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\effect\\PlayerEffectData.java",
+      "sha256": "58fbfbc86fce5e50cbdb3f4b21a99f710dbc9a6352abb8e96f51e2eee7be478e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\effect\\ProgressiveDataBundle.java",
+      "sha256": "50348d74cdb62f8401698fbe98f897453c5fd1ec4ad97748b722de869a15850a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\entity\\EntityData.java",
+      "sha256": "ae78b76dabf85a80ca49667032ddd8a910f5ffcdeb4f428128b3a34af672e2a3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\entity\\EntityDataProvider.java",
+      "sha256": "295a0e44e34b325ced55c7b093c91c987c0215030097e6d74a2bb0a4ab456c78"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\entity\\EntityDataStorage.java",
+      "sha256": "9eeb233f1bf48e5929fc84762814667615b78379547d66127a9344f81259574f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\punch\\IPunchEffect.java",
+      "sha256": "640e029d41a841ccedeb0a41f3b4c8c515d7bcdb11127294613acba48a535c3c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\punch\\PunchEffect.java",
+      "sha256": "7bb75fb10c19b3eaf306434f20c5847f187929642065127f62d87aecfa9fe9f1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\punch\\PunchEffectProvider.java",
+      "sha256": "cfe28dceacb6c77a289889e91efa4200f4d9367601069e484054ce3a8e8a405b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\capabilities\\punch\\PunchEffectStorage.java",
+      "sha256": "ca41af717522340433f16b85994a9cc612baeddae14c2fd2959c54f027169560"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\container\\slot\\ArmorCustomSlot.java",
+      "sha256": "25f842674dbe7c2dd115e738fcbcfd52f6414094c0ee83e8cb0b3e752f486893"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\container\\slot\\SlotAlloyerOutput.java",
+      "sha256": "c5d114b10fed45951407ffe486684ba85ff9d2e9d70477e340e9475e4b8dd057"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\container\\slot\\SlotCrusherOutput.java",
+      "sha256": "831cbba3722e3743ade24b949b393e93c0f9a8e14d988d826dcc26da30cd49b1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\AdamantineEffect.java",
+      "sha256": "0919d210845c763c306f14d7c7cf044118641f0e98c7a8ec9eabce6c0a0a62af"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\AmordrineEffect.java",
+      "sha256": "05cc6de20539b40989875b9e326a0d419459840de43543fb0b5413b31b1f7495"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\HaderothEffect.java",
+      "sha256": "04bdea2abeba11cc2a629322911a30efb22b6afd3c8173b9214c9217471aacdb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\MithrilEffect.java",
+      "sha256": "90627b7c3981b59c59e1c4775ba2542cba9fbb9132f1f99c923fd4c87a26cb84"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\OrichalcumEffect.java",
+      "sha256": "89486fe1b3acc074d50ba27bb4d2e75873ed45acb6fe3aee3585c19ca68f2ce7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\PlatinumEffect.java",
+      "sha256": "f0390b418cff3a547b25bda9c407fcbad532ce87687faa0067420cb543e3effa"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\PrometheumEffect.java",
+      "sha256": "71f4ae281c2fdf8366dbe5a4b59d7d4b44058adfcac5fc526216d18a1ecdb2fb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\SanguiniteEffect.java",
+      "sha256": "fc4e525a662707408d884c6d55cfd18b050808ce9640f5856a23cb5a8e1a4282"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\ShadowSteelEffect.java",
+      "sha256": "e94b669b42bdb45cfeafaf35047b6a281293f5a2ae522898b4045e8eebb5e6d3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\all\\TartariteEffect.java",
+      "sha256": "a60bff9d14b5ebc57471489e28d04b9905272b177d619a0cd73c6b11a3aeef4a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\AdamantineArmorEffect.java",
+      "sha256": "b855b74a3468f010b6808d8947f3b46f77449770d89d1d705dd25a1c4c91f793"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\AmordrineArmorEffect.java",
+      "sha256": "d840e0d6b2257c8490752628fb6b10cb01ca78a51a8459707f92f3b02c0e8f31"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\AngmallenArmorEffect.java",
+      "sha256": "beec9118a9b5697b6c661a90905690a7a665314707cfaf8ecc6fd252cfea5adc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\AstralSilverArmorEffect.java",
+      "sha256": "de6c45cdf7c347ae94382950efdc4556a6a8c93f9aecdb5ac4072d39b90185b7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\AtlarusArmorEffect.java",
+      "sha256": "83c5a92a87eb5385aa5bde3567298b1cd1f763f5b4172d46d7d9511568d99bbc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\BlackSteelArmorEffect.java",
+      "sha256": "b2b8b547898b57e3480aa870c069e0c3e00af81e71c8878b7045f38c39b60ba9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\CarmotArmorEffect.java",
+      "sha256": "48277ef608f1a8bd5f311fa9093c90a48c7d3584266e823288af272df3d2d11e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\CelenegilArmorEffect.java",
+      "sha256": "9c229b55b75e2706bb1c5130054d2543ca4251818dbbb1f7f3388c06720339b1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\CeruclaseArmorEffect.java",
+      "sha256": "ab5777e93a1d6a11264686e89e84e8e23465b3a037ee3b6ee691b18180ca3169"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\DamascusSteelArmorEffect.java",
+      "sha256": "5cf087eb0e7ca04e94069ded26000fc3b5b932574c7e87d915ef5cb0f8e57e1d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\DeepIronArmorEffect.java",
+      "sha256": "2f57a82fa0c5b217a7544800f10e87920885f129baf973574fa4ef2ea8c7bbe7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\DesichalkosArmorEffect.java",
+      "sha256": "c01c26615611ae56c9c851f440ca982f7cf16b1a78666dd251e4f9bfcc4889f8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\DesichalkosArmorEffectOld.java",
+      "sha256": "2a99d63395105da635f401afe1cb8ab5c8d6740f7c21e96d4087f4d04e73f000"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\ElectrumArmorEffect.java",
+      "sha256": "b4e1468fd2301ed156b5621a7468649279072992f471393a60f89d1cf0a754fb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\EtheriumArmorEffect.java",
+      "sha256": "93b5a86f473df7c43c1279351650018f1845f237050f14230cc32f3f51642d00"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\EximiteArmorEffect.java",
+      "sha256": "4f673ed72aee07bb7c2150a8d57cc84e0d49899731f8cf000721876349243c50"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\EximiteArmorEffectOld.java",
+      "sha256": "4518181c082c3f988cb9bf0debec9e4f1a7655d4db747e06870e80804ae8e0d3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\HaderothArmorEffect.java",
+      "sha256": "9974f8705c080683c7f2f9601b33f08e1a8c18a6eff468ac72e39fdbcc7d071a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\HaderothArmorEffectOld.java",
+      "sha256": "7b3749a3f654e29489671f8d2fe0d788db6d3a3c0586e3bd12898ec7581567b9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\HepatizonArmorEffect.java",
+      "sha256": "cca8c1113e93fe98c030bff0052d619d28ae4b5768546e4785cc294069cad746"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\IgnatiusArmorEffect.java",
+      "sha256": "65a23cacdb0496b30c57c425625673151e0a327c93802754383a199d851fab94"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\InolashiteArmorEffect.java",
+      "sha256": "305a14f3c3fd32a484fb1e5ee0b4f238eadcf6c1a51e944be6677576f50e936e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\KalendriteArmorEffect.java",
+      "sha256": "9c7b34b1625c6155d5bb4170ff143732c54ae0175c360be6422977825b9fc393"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\KrikArmorEffect.java",
+      "sha256": "260e8cb01786a3a0461cfb59283708b97c39f96ce11420024cead0a775c100e0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\OrichalcumArmorEffect.java",
+      "sha256": "0fef51acb62a199560e5f3d0963c676bf4cf25cdf57e4105c7302ae74ef6db21"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\OsmiumArmorEffect.java",
+      "sha256": "c45e911856132f420bd2872b63952128dd5bd70aba406d4f11595ab8083d4ee7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\OureclaseArmorEffect.java",
+      "sha256": "d80be8c1ff3a3e5e45f96f6264365791abeae843085d8e56b8cc37f05b42122b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\PlatinumArmorEffect.java",
+      "sha256": "e1e830dae4f0ea573b5f8ff96f1c2c296be9f327c44c2ee4ac7ba422bf2df1b5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\PrometheumArmorEffect.java",
+      "sha256": "6ad548cf921ea642c12e642fe7730b59ea722b7be57492332410be9be60c2879"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\QuicksilverArmorEffect.java",
+      "sha256": "32471fb1d4905b0e0ab6a138a64123ca017677234a3fef835f82200b3e583730"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\SanguiniteArmorEffect.java",
+      "sha256": "fa0ef5db8b3f6c3cbbadfd2b358a03beb76e8c6772af231eff4af1961fe49113"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\ShadowIronArmorEffect.java",
+      "sha256": "47dd72829260e8acb8cb38c6765b7b28fd7f8fbbd59bf7a0f7930bfd9c4d8094"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\ShadowSteelArmorEffect.java",
+      "sha256": "f3cc192bbf9f457a6c065758c9f0c05245c65734e2804db63c64eeca28d9d203"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\ShadowSteelArmorEffectOld.java",
+      "sha256": "07ad56ba3c3754e572c388108de4618df376ce95b8465dc1070fff38d7835ed9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\VulcaniteArmorEffect.java",
+      "sha256": "1a5c2cbe8266fc1cf2851b4150e158770326a41764d53540c043e7b8b665ef58"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\VulcaniteArmorEffectOld.java",
+      "sha256": "eba92b8106ebf16a5ca45c3f27340c53e5be18adb27d121511086b8ae23fe610"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\armor\\VyroxeresArmorEffect.java",
+      "sha256": "d0ce05c3f46716dfc9c4957efa93721aa9d1017ec7dd1b2d02097efad55891f5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\hoe\\AtlarusHoeEffect.java",
+      "sha256": "0017b5bc4ebfb1050b9696b721b36d775a9331a87fd3e0d869fdfc988a6d5809"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\hoe\\MidasiumHoeEffect.java",
+      "sha256": "567cb4ddb8e3b9bf6368cb45135fb119a9b2e3de10b0e5442c5279c064c091d0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\hoe\\PrometheumHoeEffect.java",
+      "sha256": "3ca67d3122c9bcb1061b1967aa15d235a7a8281759382c01ad22ab52317671c8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\pickaxe\\AngmallenPickaxeEffect.java",
+      "sha256": "c0abdd7f7a8dfe6648b1586b6124214cf762ab5adb614b903163ca9c00e133fe"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\pickaxe\\DamascusSteelPickaxeEffect.java",
+      "sha256": "8341c194438f77291c0efbe9a23e0d2cd48a289a7651f157a2bc2155e600140e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\pickaxe\\MithrilPickaxeEffect.java",
+      "sha256": "ddfff09a74ff5b9353d92cf4283b858094fb8991fcdff78c01a756be56b9cf9b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\pickaxe\\OureclasePickaxeEffect.java",
+      "sha256": "b93a43a336460093482c277327e01517059599c4e8b27f50f4f37f7f92f905b2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\pickaxe\\ShadowIronPickaxeEffect.java",
+      "sha256": "e5189c543dac715f691ec471fb56ce77c90ff2926c5197d9111309b49b8f6b0f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\AstralSilverToolEffect.java",
+      "sha256": "c3fa539dc111b1f1f415f8bbcdc6dd308fbfd926ff3423f9ea737de863f34ec3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\AtlarusAxeEffect.java",
+      "sha256": "10b08eebfce4a95df6c817c634c8e3d87953ba5d450df348ea89b6fddb184fd5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\CarmotToolEffect.java",
+      "sha256": "4a9f230608c2b9c80aee08a8545d39e9c46add6cc59c3beef40db7b3c68e83cc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\CelenegilToolEffect.java",
+      "sha256": "9943e970a1cf51e781cd4fe2f7a267b420d5ffb48b091f954c664de5967a7924"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\CeruclaseToolEffect.java",
+      "sha256": "06e8f6aa5629d8bf085ac851dca02ab2f133eba64e5d087f60bd1001cf4b5f2b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\DeepIronShadowSteelWeaponEffect.java",
+      "sha256": "9d50dc1ab0b60385f145da23a8509d9b46b05f7283431b610438e55246be652e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\DeepIronToolEffect.java",
+      "sha256": "800e0c763b117ed423e87d8667c9117f651e7474acae68cf50724c233402cbb6"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\DesichalkosToolEffect.java",
+      "sha256": "45f7cbf21cdcd056c4eb961c5bc91633ba1753f80e7e747a0f47438c0ac4f843"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\ElectrumToolEffect.java",
+      "sha256": "b908c08066356dc0a97782cf76e62243181a52993b2219134b1450e7da78a2d7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\IgnatiusToolEffect.java",
+      "sha256": "8263706663be5efc80ae9b1ced9745725497ad6f6eb5f97c60bb7b61db6303ac"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\InolashiteToolEffect.java",
+      "sha256": "e0f3ca191b63a10e49fdfb8f1f9d36b7fa3683f0ce754c947a0dd2b00b6fadb4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\KalendriteToolEffect.java",
+      "sha256": "fc1409eaf27ba13cf952752796781a28f45937d161e3b32b5b833710f220ca0e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\KrikToolEffect.java",
+      "sha256": "b7511e9b323d0b623538a22801a960cf3c71b1b3957650864608ac35e3d6cc3f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\MidasiumToolEffect.java",
+      "sha256": "feb6f478e59085c3a85d7d3c0ee1e709dc9f5f3a94796227ba47a402da471096"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\QuicksilverToolEffect.java",
+      "sha256": "589d8d7749d753ffa82414b18113c7391b617cad664f747a06c5b5666b1f7d72"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\SanguiniteToolEffect.java",
+      "sha256": "c4035ef803866ed3fa49660a0ac435ca13f65de1ae72cf04787b2521557d6514"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\ShadowSteelToolEffect.java",
+      "sha256": "fb6417a9818b94a2709004c761f8f9786ae26e3fed86f931ddc47f6f50522b62"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\tool\\VulcaniteToolEffect.java",
+      "sha256": "0a03ab447ef179925971eb6cbcdbf896c199a70b6c2876f1bfe699555c2a3d3e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\AmordrineWeaponEffect.java",
+      "sha256": "cb81cc43087ba8930a1e1c6076e637bec5a82018cefb14f099037b2135cd4959"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\AngmallenWeaponEffect.java",
+      "sha256": "de5b2a3c8e67cd779b82d4d69d0e10c7da88b3ce89d283345f340d11d147a965"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\AstralSilverWeaponEffect.java",
+      "sha256": "4a50e196729c17bbc11681b57798434cee7ce3edcec87fca5f60cfd70091dbf4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\AtlarusWeaponEffect.java",
+      "sha256": "782033b0a28fd937a9a48bfae942cf7262cf6b22c079ccc32e60866d3127d7b2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\BlackSteelWeaponEffect.java",
+      "sha256": "72ffb730c301d63e3a4b1678f85edc50a99550ee882413e8863fce318bc5cdb8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\CarmotWeaponEffect.java",
+      "sha256": "bac1aa80c12c1bdfa821257e92e77361a100964a836afc137ac3c1db48c345dd"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\CelenegilWeaponEffect.java",
+      "sha256": "8feedd0dda6af086f446b3dbea829d354cc6517186adc75f0f5a82a2f5d4e604"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\CeruclaseWeaponEffect.java",
+      "sha256": "f35be612805f7f0f16f6bec02b79f7b15fbd9fc55159a2b0923a8c308c5f8a35"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\DamascusSteelWeaponEffect.java",
+      "sha256": "b72c834585c80939a52738ba18d53a42b9caab4bf4d8a18b1c5a106b68d68ed6"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\DeepIronWeaponEffect.java",
+      "sha256": "d956495ca53a98fade7b9eba8565ce8a729c99b1b082ed4f39e1db3b6e3f3ccc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\DesichalkosWeaponEffect.java",
+      "sha256": "15009f6d1b723a4cc813fabf40637684580b8509be55abe951b51ee10e03b5d8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\ElectrumWeaponEffect.java",
+      "sha256": "51c8f8020a7bd284167f0696a065e56a86de1f724c4775ee644b5e54c7dcf767"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\EtheriumWeaponEffect.java",
+      "sha256": "202d0a79c9598cb27971ccb6b0c8f3afbd5fc5ef68842ac5b2135a1895e2f34e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\EximiteWeaponEffect.java",
+      "sha256": "354535381796d2e7ffecd13056307cb254e2c3331194e2f6ed349b8fc7600448"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\HaderothWeaponEffect.java",
+      "sha256": "66a4801cd038ca0b81e8794593829a9ca642cd1417a4e12fa0f86ee44e4197f0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\HepatizonWeaponEffect.java",
+      "sha256": "d611efa419030eaf746eb505a9f65e9a14a836401c5d23cfe403a437f18e5e06"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\IgnatiusWeaponEffect.java",
+      "sha256": "a9e340e78811ad6457600f18d0c9fb9b962fe504da133c5afaa38c5b1ddf2daa"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\InolashiteWeaponEffect.java",
+      "sha256": "b5d597977688038785e7894bf95f27aa8db3ab3d0174105d78e33db8909467f6"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\KrikWeaponEffect.java",
+      "sha256": "605cdf6a7e0153a9c43bfc607a89382d04b42b6529b67ecd03e8c08b2dddbce4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\MidasiumWeaponEffect.java",
+      "sha256": "2f291c9fe1944875132769a8f824a189df9a388c2e586767f7bc79011479e78d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\MithrilWeaponEffect.java",
+      "sha256": "3bf955bdbbe774a494342ff000278331319f785803abe849e880adb2eb6dcf54"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\OureclaseWeaponEffect.java",
+      "sha256": "17bec8b9b70fc2f7f58e0eba150501e09610a4d962fc8d3dd9f2f5280ab2a2a8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\PlatinumWeaponEffect.java",
+      "sha256": "9eb008babe2e399f64e926d0c6ef5035829073180e25d70aec4c842d31e4bf37"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\QuicksilverWeaponEffect.java",
+      "sha256": "5093d295b5bac99eae183142a652d7ca0ec8b7d3486145940cb5424fec869c2b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\SanguiniteWeaponEffect.java",
+      "sha256": "fd5eaaf147508487448cba650866f3799a8276726b475e56a4c3b9a048b307df"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\ShadowIronWeaponEffect.java",
+      "sha256": "fcbb5a0fc434df0708275c8724cf0aa06dbbd23ff654022c2305b607e5b79469"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\ShadowSteelWeaponEffect.java",
+      "sha256": "f043bb1833d68972de5d3a0c56d8f4fc444dcf7334a1b6bc9acdf9bb538ca92c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\VulcaniteIgnatiusSwordEffect.java",
+      "sha256": "4cdac4940e749b141ea84720a4f6c73703660f3b0baf4463e3543c51f76e4270"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\VulcaniteWeaponEffect.java",
+      "sha256": "4ca5b7e361ec640bc01289d8aa1c9bafe63082648d43455dba0e5254bbbbbfa2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\effect\\weapon\\VyroxeresWeaponEffect.java",
+      "sha256": "e782e0670063c4d185b2f146e2fc29d03f599b1549681efddd15ce8a80255f2e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\ai\\AIEndermanPlayerSteal.java",
+      "sha256": "eecb6c5f8de38d5aedfb6a11cb6b83e87669414f3ed43f2579d5b523805e1134"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\ai\\AIPierKnightFollow.java",
+      "sha256": "e2cb2f8ba10ae35f154d5e785d49caf3603e3dc750c97a06a19601b200e3af69"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\ai\\AIPierOwnerAttack.java",
+      "sha256": "8e6601d6d233dd6d7193ff43ec09b01b5f80c21501dc22f0788951949ad9fa70"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\ai\\AIPierOwnerWasHurt.java",
+      "sha256": "9525203514f56482012c2d450ecaf4320a83d5d2a0397e60032bd57dce92a5ae"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\entity\\model\\MonocleModel.java",
+      "sha256": "e48d92ca4f64fd981410b0efa8b19df2b035e1eedc22127c70fb4880a359089a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\hud\\HUDHandler.java",
+      "sha256": "3a5664e2cae2564a65b756c9633e13b9bf34d7002ebf19739c6dad28b6baf163"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\hud\\KrikArmorHUD.java",
+      "sha256": "96dc4b638dae7fafbad1738bd422f0581cfd76a11b5de8f26f7e988bdffbadf7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\gui\\hud\\SublimationChamberHUD.java",
+      "sha256": "1f2c42aae75ae30f7e8a787289f24c72da31e1193f276078d36fecb91699ce97"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\IntegrationCArmory.java",
+      "sha256": "202ec811054761b84b85aefc5765653b33618830b7267f2216d6bc3ed6385021"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\MetallurgyArmorTraits.java",
+      "sha256": "8ea4d62d1f0b916ca49182acb08f179a842e3b7011391f204150d3237c806182"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\MetallurgyConArmorStats.java",
+      "sha256": "8970de5b50a51e87fb56696f5369368a71f5d7c2b3527113527bea6b35d29688"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\SetArmorTraits.java",
+      "sha256": "449776a1f49ca483447734b856e4433a2cabcfe31dc17d93d0db78fdbff19ed7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\crafttweaker\\CompatAlloyer.java",
+      "sha256": "bc7bf45f624d87245fbf67ffe35586d0e88e841d395715b4d5d527fffd9116ce"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\crafttweaker\\CompatCrusher.java",
+      "sha256": "01c8ae6311ba2a7d82db7194f5b7ca3c4b0541250e0e9732061899904be9bda1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\crafttweaker\\CompatSublimationChamber.java",
+      "sha256": "27d4d4d2d3f84179d124fbc7903da83d4dbc5d0e6dd4cf868a24260a703389af"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\crafttweaker\\IntegrationCT.java",
+      "sha256": "1e24e5b57dd5110684cbd4441a7396ee38ff589800840b52f40e1e5616040f50"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\IntegrationJEI.java",
+      "sha256": "9ee454b947e76f10269481b7dea7e6ea85c7e33dcb08ba5655506d4c3b33ba83"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\MetalRecipeWrapper.java",
+      "sha256": "ff973ec53222ae916af45099f51dd6c9da4db7ff21e999904bc27c394cd8f00a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\OreDetectorWrapper.java",
+      "sha256": "5f95e6186202c39affe9eca5c12f2eb7fe68071702205503c4c6de99210f66c1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\silentgems\\IntegrationSilentGems.java",
+      "sha256": "9edd2a978d7d03c7ab77f2dfa6bb1c05f4dae74e1b123f43dd6c07295fc35d84"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\silentgems\\MetallurgyPartProperties.java",
+      "sha256": "9c274f766be3b2a7501b41c03026b5e85bceef11406285499ad3b32c32f21726"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\silentgems\\MetallurgyToolPart.java",
+      "sha256": "f795a03d6b866276b6cbac1beb2ec5a06b070935ff89d8b7f6c30bbd9a5348f5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\spartanweaponry\\ISpartanWeaponInitalizer.java",
+      "sha256": "64226abfbcdd6883ba8aeb5f316a29d6777820d9d05eb9b2386f52c26d6548a4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\spartanweaponry\\SpartanMetal.java",
+      "sha256": "38eb6d54dbf14316e55c02403a35aff9dcd6b711a7b046c38140161a97c800ac"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\spartanweaponry\\SpartanMetallurgyTab.java",
+      "sha256": "579234d966da2a75c327bebefe4aeb5b08baa3fa9fc5f282273d8c2f80e2d842"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\spartanweaponry\\SpartanWeaponType.java",
+      "sha256": "bf0cc374717903bc0a6bb7838acc6135a4446347225547ef01144c89611b622c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\IntegrationTIC.java",
+      "sha256": "215075855242af76d321c57542476b5b9f1ef8a6ecf65800c4d6a398134d5e83"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\MetallurgyTinkerFuels.java",
+      "sha256": "97e386652f539779da405518b9f69f16808846d1c0c989fd652d60b390f0a9c1"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\MetallurgyTinkerTraits.java",
+      "sha256": "c2399ff700ecf9a81aa64afe501c5c570fe3cf2bdc908603a9b9f433e0d1c540"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\SetTinkerTraits.java",
+      "sha256": "847ff6b03ce333ea497171917abcbc4537ee2260934b018454f6922e98c89b87"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\IConarmMetallurgyTrait.java",
+      "sha256": "68d09ab1af2ca91a3d2502b31cf84b561f1ef778881d23efacaa8101c320b62b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitBlindness.java",
+      "sha256": "231ea09782324d15cdc57bb959a083ecb57fcde262d500d25f6fbdaeceff82f3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitCatEyes.java",
+      "sha256": "ce77a07040e8e24805110b577d8d8490e36219979e36a809db606d36c74fdcf2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitDeeply.java",
+      "sha256": "d47a7cb60d4fe037f4ec085b6945204965e134874f45440f62f944bca99be637"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitFoodly.java",
+      "sha256": "bd4a864170f43d255eb1a2bf34e6ffba312ca673960ac7f1db07902002f02bb9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitJumpMaster.java",
+      "sha256": "4ff1b78bf2d511ab949558b7be4bbde1b5de452b6393555c2e7becde01d1179e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitPrometheum.java",
+      "sha256": "32a8abf1f4887f1363af5cbca8b4c5af93190e6476e0b9999fb45bbd4d1f819e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitQuickly.java",
+      "sha256": "f6cc0d87124c505c91974018054a14f826ab83194eb37a3aa37810ef46fc730b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitResistence.java",
+      "sha256": "846f8250949e690225a1d52adb1d14032221534081e025555d3e04e9ba16a0da"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitStrongly.java",
+      "sha256": "0c72fb8dfd5eceabd68d6a1285cd09695413249ce463f0087f640eb17734ea65"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\conarm\\traits\\TraitVolcano.java",
+      "sha256": "26132a869940b0fa9d77593a4bdd20882074eca018db844402dc2bcd5d0a7439"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\alloyer\\AlloyerRecipeCategory.java",
+      "sha256": "beceb659f01a3877e4112417a047e78cce1a1a06fa27b61279eecf909b44cc59"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\alloyer\\AlloyerRecipeWrapper.java",
+      "sha256": "30b13ed243153ea9e847adc93fbc652d9bdee8d5126d9e3ed0b1af162f90bddd"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\chamber\\ChamberRecipeCategory.java",
+      "sha256": "15e8744bc679cf13ebd85d60ada1dcbb8789c4ff7f4d4146b85b2192ae0a35b3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\chamber\\ChamberRecipeWrapper.java",
+      "sha256": "715303cf84277861dcb3b5b32143b14f6b52bdd265cb4c7f5a426cef293b0ffc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\crusher\\CrusherRecipeCategory.java",
+      "sha256": "64f0f644eca02a7ac44b26274d4deb379f88a521303bafb49d326f3fe6018e21"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\jei\\crusher\\CrusherRecipeWrapper.java",
+      "sha256": "33b69dceed34c733fe59b6cff9a8ea9138333afd462100ce55789305cc0a9e5f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\material\\MetallurgyTiCStats.java",
+      "sha256": "28cffcbac73a8235e05f77f91f7ed733883dcb07baf5ea29813f6e4ef6947e85"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\material\\TiCMaterial.java",
+      "sha256": "26f8e5df4c3deeaff3451344145f07ce564e14c3f1749eecfcf20d6913a54814"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\material\\TiCMaterials.java",
+      "sha256": "f7aff0977b69499d80591d0f3b0b241fe276f5662156faf67b9273639de91a38"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\material\\TinkerMetals.java",
+      "sha256": "66e747661b6e21cd4175605773a1d9ae416abfdaa848c0294ae7b771babb942c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\IMetallurgyTrait.java",
+      "sha256": "ad9c586aecd3b198f1985173d555786eea439969851e7f2d20b354e394b004c5"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitDecay.java",
+      "sha256": "3970a15da6773a2465ac26909578b48c7980ff1148ad8eb34aac32792f3345e6"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitDuplication.java",
+      "sha256": "b08c8d2f053949ebaaac859681e7cb83f207a3978088ccd3317b345f030867de"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitKingDice.java",
+      "sha256": "33080c0269a2ca71ea4536c353081b667102cb86bd0346f53d63b4555c1b4c0b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitLifeSteal.java",
+      "sha256": "ad031508ef942e14e1e418bddaf5c8f8d7a7a3e464c4249483098b3acc60c687"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitObscure.java",
+      "sha256": "b7240658b70a7bf252998407d45bad16689946a51a18367e35e23403ac8c0377"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitOpistognathus.java",
+      "sha256": "1914d01ab1984d24e3c49bae599b05f855d5c28abbb903a58a70c15938240e63"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitVulcan.java",
+      "sha256": "07224557f87153f13a46fc0a607d736aff48a0956969cab3079ee94bd3f80f0b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\integration\\tic\\trait\\MetallurgyTraitWither.java",
+      "sha256": "6962ee4f538c76a3e5372ea0fcac5146badcfa89de3c2c8870bd9dc8f51dc924"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\armor\\ItemArmorBase.java",
+      "sha256": "19b880a761700c7a2ca1803e5b9d381663539e90aa6d35694c9febebc0bb7266"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemElectrumMagnet.java",
+      "sha256": "ac85ee78b9010c9579e07bea4e3c0f0fb585f3926febb6a264b1c0a8f4dfc081"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemEtheriumMonocle.java",
+      "sha256": "a1ed7456f3a5c7eba7c7816fdfe8efd3ba48fe97e0ddbf553318f21bd2dc6938"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemIgnatiusLighter.java",
+      "sha256": "8c85267222129bc0507a80c4692d5fb2211fe2f091b9613ccffda6f98cef2bfb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemKnuckles.java",
+      "sha256": "6a9d3e417bc74efeab7a13052f2c6d106825063d0f04614a101814982931771e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemOreDetector.java",
+      "sha256": "ba3f06b31c90441eef4015df189f44c3aa0fc2304b99fc3789a07555fe94efcf"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemPotashFertilizer.java",
+      "sha256": "c96c0941a1e6f6130f80a5cbbe9468fc20dbc2b65b262c62170a19b5a1b84e54"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\ItemVulcaniteLighter.java",
+      "sha256": "d759dff510e7a629018c2e2043b4e79096c1840ef0fd3ae72ab614697ee388fb"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\EnumTools.java",
+      "sha256": "341c8c11a81999f92332f60c2454f30b849aba2601d96193ca79b5b534868f72"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\ItemAxeBase.java",
+      "sha256": "5fe3ca1cc45d5ad8fcc55f73221f687a8754cef5e608e2b1f6bbba4c6befee02"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\ItemHoeBase.java",
+      "sha256": "b134e649b8ede7aa5f4ca715e1f13809261d6a4d7d0599c2853ece13650e580a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\ItemPickaxeBase.java",
+      "sha256": "ccba9c881bef0f41f806f1b72cb10841320754d5213adf9cf3f95e70de247efe"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\ItemShovelBase.java",
+      "sha256": "b6e1014014c7b8d93968933a4ded5dc7ada4297acc2bad02c870a56aeeb988b9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\ItemSwordBase.java",
+      "sha256": "097c8aea2a3891665bc9c4b9f24af75bf04ef1104f29a4a3ca8aa9aa347f4f54"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\tool\\IToolEffect.java",
+      "sha256": "57d5b361b5b9d297aa1093b8ac861e0621b9d047c335c1d8b148ab6760c38691"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\gauntlet\\GauntletEffect.java",
+      "sha256": "648efc7b0848b26cb830dc4561f0940e9201375671f6b274eb1305a0b2c1b8d8"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\gauntlet\\GauntletEquipHandler.java",
+      "sha256": "e6ef119596fccc9547de6e8334f87ce6925de3ee7b28203a6e2438e54639736c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\gauntlet\\ItemGauntlet.java",
+      "sha256": "36e1fbc1d3560b8846bce67b308dd476ad61c83e77a24a637f2854f935d9787b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemBuckler.java",
+      "sha256": "9ada9a87e6a3911d1b52c6aa1dc3275983ea1d316de9c49160ac41cba8c08f1d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemCeruclaseShield.java",
+      "sha256": "cf9decdc8edcada9d8fdd812dace7182596a365105933e29fe11000c64654391"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemLemuriteShield.java",
+      "sha256": "92bb56ebfe8602ef3946038711120e74a0af85c1951c4cc4db30914e8f02dc2b"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemOrichalcumBuckler.java",
+      "sha256": "2e3ef3b455919845433edc49c37e91091f3d6d1cd17b45e63a0a6c994a0c6e5c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemSanguiniteShield.java",
+      "sha256": "a7dfa8d6f7912ae28d18e35d7f0976158cbcb82140673101ec55fce989e45adc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemShieldBase.java",
+      "sha256": "534d54da954a83ec863d9861d43201d14194927744fa4b776e3376054dc2b69f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemVulcaniteBuckler.java",
+      "sha256": "3ccd2b74407b3ef944d1ac9e23fe48d0a2ce93edc01ac7a5b35e6096c0f61731"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\item\\gadget\\shield\\ItemZincBuckler.java",
+      "sha256": "c9dee4efa9f88e804ba877a61d4c92b2ed26fc8e23a55bd9dad5802c1aa0b9b2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketAdamantineRenderDeathProtection.java",
+      "sha256": "97e9bf4e2e00d2ccf220a754c6b15783de69122ee3cb6a836a8dec47324af605"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketAttachEmitter.java",
+      "sha256": "bac4ff7a74e9f9105d7456750aad885c0d5f754a5d128897e2fb0a2b5ed024e2"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketMetallurgyExplosion.java",
+      "sha256": "ceb37f13acfc62ce1c3629ce2436cbca825db9e72994e1f6d155ed7f343827fc"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketSanguiniteEntityState.java",
+      "sha256": "80cb357e36dddbba4c71eb689126d3130f51959cf4b4d3470c2976a478033016"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketSpawnOreParticles.java",
+      "sha256": "5fb91cb70b743fc20ceae46172e19049dbc24c7380d517bb0a57c652f05fc10d"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketSpawnVanillaParticles.java",
+      "sha256": "33da0b7fa5e7e00a6c2316bc20c60717aeaade0619bbe81c49133f5e8e700429"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketStartStopAmbienceSound.java",
+      "sha256": "b485c7861950726e8b048a1af2d482c97ef468f1fcd74381222f666042726b54"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\client\\PacketSyncEffectBundle.java",
+      "sha256": "3cf849c24e703811fac338338483c213a092f87f596e77119db832e4823f70d3"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\server\\PacketAmordrineJump.java",
+      "sha256": "0d13ac3a61a884d686589a116d1af90abf53792214d9c8fb35636fcf27943750"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\server\\PacketKrikEditPlayerLevel.java",
+      "sha256": "c44dfa936f0094121a5b3f9d7b17f680f3fad69a7aee01eda26d3edce43dfdb9"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\network\\server\\PacketMovePlayer.java",
+      "sha256": "954e599b448c0daacc15cd6fd5684933d9c3294388de2c22c50cb16f8a7597d7"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\font\\FontColor.java",
+      "sha256": "c3491883c591640792953e205cea702b359d869c4b5ae5d8afc1ac6c4146c145"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\font\\ModFontRenderer.java",
+      "sha256": "c840e637dd711d37976c5220633e8fdc08b867db37c138d9b3f3ecce89c991b0"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\knuckles\\BrassKnucklesBakedModel.java",
+      "sha256": "54d97c482fcfc48f70fbea899150cb90c4caf4fb6929917c313218467e7874ca"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\knuckles\\BrassKnucklesModel.java",
+      "sha256": "4d6b1fdd20bba97548044173164ed4f1b035956d0841e6e02c78fd7207db2517"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\render\\knuckles\\BrassKnucklesTEISR.java",
+      "sha256": "a0588c7560c47bc1ac3831a1e5a57e50af312742427bdebee6a62ff6f7ce3b4c"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\explosive\\ExplosiveType.java",
+      "sha256": "34ae37b0afe24cd68cb4c007b6e7937c8b0709bdadc214571b6dd064333ff09a"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\explosive\\MetallurgyExplosion.java",
+      "sha256": "06bb2eb3bfb3ef4025b36235e80fcbd566bc491bc5ac7daaaf3196bcba2a99f4"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\BaseOreSpawn.java",
+      "sha256": "7522558cf3e58cc91540522e4d7bdd9c41db3968eaf16869233a3fffe6300015"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\HighChanceTemperatureSpawn.java",
+      "sha256": "9a44a7370a51f47e1897758581d7ca4c2b898332711948bea59ab8fe28c0bd5f"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\HighChanceYLevelSpawn.java",
+      "sha256": "ad1024f51c1eb7c3d21c84c1267c8699b7906c3e82133b7cfb21ca2102416490"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\IOreSpawn.java",
+      "sha256": "829d99c7b78c136bfa2985dad985dd89a72390a1c38906b4ca9c6bacce02961e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\NearFortressSpawn.java",
+      "sha256": "9fee7573fd5a1fa19b4a5c1e2503c50a294cb84274b5ba5558d797e320a43540"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\NetherOreSpawn.java",
+      "sha256": "015083ef66258c71a1f96c110fbddf7ae819027cca91eca728a28840321f0923"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\SmallIslandsSpawn.java",
+      "sha256": "9c9ed958eaf1d1f27cd67f54407eca01b6f39c4e82f1b105fe32f2fc817a2e3e"
+    },
+    {
+      "path": "src\\main\\java\\it\\hurts\\metallurgy_reforged\\world\\spawn\\VeinNextToBlockSpawn.java",
+      "sha256": "ff6a9aadeac0eb47da7813144868e936bf2be62e91298f058fac533955c82c47"
+    }
+  ]
+}

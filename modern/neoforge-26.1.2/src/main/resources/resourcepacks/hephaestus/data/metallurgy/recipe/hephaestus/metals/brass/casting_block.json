@@ -1,0 +1,41 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "hephaestus:molten_brass"
+  },
+  "result": {
+    "id": "metallurgy:brass_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_block"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "alltheores",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "ftbmaterials",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:rubracium_ingot",
+    "metallurgy:rubracium_dust",
+    {
+      "id": "#forge:ingots/rubracium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/rubracium",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/rubracium",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/rubracium",
+      "required": false
+    }
+  ]
+}

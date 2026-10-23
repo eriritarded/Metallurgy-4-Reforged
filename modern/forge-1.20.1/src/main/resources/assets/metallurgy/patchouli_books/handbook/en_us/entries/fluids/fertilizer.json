@@ -1,0 +1,17 @@
+{
+  "name": "Potash Fertilizer",
+  "category": "metallurgy:fluids",
+  "icon": "metallurgy:potash_fertilizer",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:potash_fertilizer",
+      "title": "Potash Fertilizer",
+      "text": "Use Potash Fertilizer on a plant that accepts bonemeal. A successful use grows the plant through the normal bonemeal behavior and releases warm-colored dripping particles. Unsupported blocks do not consume it."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Prometheum tools and armor offer other farming abilities. Read the Prometheum material entry if you want to grow a workshop's own crop and fuel supply."
+    }
+  ]
+}

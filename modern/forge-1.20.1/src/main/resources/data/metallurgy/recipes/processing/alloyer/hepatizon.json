@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/infuscolium"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/steel"
+    }
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "item": "metallurgy:hepatizon_ingot",
+    "count": 2
+  },
+  "experience": 1.25,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:hepatizon_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/infuscolium"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/steel"
+      }
+    }
+  ]
+}

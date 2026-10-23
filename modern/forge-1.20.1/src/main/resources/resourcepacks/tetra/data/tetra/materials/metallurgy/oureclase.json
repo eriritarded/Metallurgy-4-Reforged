@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_oureclase",
+  "category": "metal",
+  "primary": 7.1,
+  "secondary": 4.5,
+  "tertiary": 4.0,
+  "durability": 198,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 156,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 8.0,
+  "tints": {
+    "glyph": "EC8D69",
+    "texture": "EC8D69"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:oureclase_ingot"
+    ]
+  },
+  "effects": {
+    "crushing": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

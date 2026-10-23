@@ -1,0 +1,142 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:iron",
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "can_salvage": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "metallurgy:copper_ingot"
+    },
+    "subs": {}
+  },
+  "name": {
+    "translate": "material.metallurgy.copper.name"
+  },
+  "stats": {
+    "main": {
+      "durability": 120,
+      "harvest_speed": 6.1,
+      "enchantment_value": 25,
+      "melee_damage": 1.2,
+      "armor_durability": 5,
+      "armor": 8,
+      "armor/boots": 1,
+      "armor/leggings": 2,
+      "armor/chestplate": 3,
+      "armor/helmet": 2,
+      "armor_toughness": 0.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "ranged_speed": 0,
+      "charging_value": 1
+    },
+    "rod": {
+      "durability": {
+        "add": 18.0
+      }
+    },
+    "tip": {
+      "durability": {
+        "add": 18.0
+      },
+      "harvest_speed": {
+        "add": 0.61
+      },
+      "melee_damage": {
+        "add": 0.18
+      }
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#FFE5770A"
+      }
+    ],
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_lc",
+        "color": "#FFE5770A"
+      }
+    ],
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#FFE5770A"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#FFE5770A"
+      }
+    ],
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#FFE5770A"
+      }
+    ],
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base",
+        "color": "#FFE5770A"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#FFE5770A"
+      },
+      "silentgear:tip_shine"
+    ]
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

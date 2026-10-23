@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:lutetium_ore",
+    {
+      "id": "#forge:ores/lutetium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/lutetium",
+      "required": false
+    }
+  ]
+}

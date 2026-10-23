@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": "#c:nuggets/quicksilver"
+  },
+  "result": {
+    "id": "metallurgy:quicksilver_ingot",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_ingot"
+    }
+  ]
+}

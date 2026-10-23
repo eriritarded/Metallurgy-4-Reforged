@@ -1,0 +1,25 @@
+{
+  "name": "Movement Armor",
+  "category": "metallurgy:equipment",
+  "icon": "metallurgy:amordrine_boots",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:amordrine_boots",
+      "title": "Movement Armor",
+      "text": "Amordrine grants extra airborne jumps according to how many matching armor pieces you wear. Press Jump again in the air; landing restores the jump budget."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A full Krik set uses its remappable Raise/Lower controls, initially the Up and Down arrows. Empty main-inventory slots determine the available height. The set also protects against falls."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Inolashite uses sneak-jump to recall an older position and health/food state after a short delay. Etherium uses sneaking against solid blocks to charge phasing. Give these powers room to finish and watch their cooldowns."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Quicksilver armor builds speed while sprinting. At full charge it can run over water; three or more matching pieces also support lava. Slowing down or removing the set ends those movement benefits."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/manganese"
+    }
+  ],
+  "result": {
+    "id": "metallurgy:manganese_nugget",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:manganese_nugget"
+    }
+  ]
+}

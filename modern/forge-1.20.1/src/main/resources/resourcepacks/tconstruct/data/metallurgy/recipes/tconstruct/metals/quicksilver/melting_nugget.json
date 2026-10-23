@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/quicksilver"
+  },
+  "result": {
+    "tag": "forge:molten_quicksilver",
+    "amount": 10
+  },
+  "temperature": 1300,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/quicksilver"
+      }
+    }
+  ]
+}

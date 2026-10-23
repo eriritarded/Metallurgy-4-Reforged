@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/inolashite",
+    "amount": 90
+  },
+  "output": "metallurgy:inolashite",
+  "temperature": 1900
+}

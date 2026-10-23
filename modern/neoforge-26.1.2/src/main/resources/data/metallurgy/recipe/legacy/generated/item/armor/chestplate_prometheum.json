@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/prometheum"
+  },
+  "result": {
+    "id": "metallurgy:prometheum_chestplate",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:prometheum_chestplate"
+    }
+  ]
+}

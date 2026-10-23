@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:black_steel_ingot",
+    {
+      "id": "#forge:ingots/black_steel",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/black_steel",
+      "required": false
+    }
+  ]
+}

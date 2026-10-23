@@ -1,0 +1,30 @@
+{
+  "type": "mekanism:enriching",
+  "input": {
+    "ingredient": {
+      "item": "metallurgy:lutetium_ore"
+    }
+  },
+  "output": {
+    "item": "metallurgy:lutetium_dust",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "mekanism"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_ore"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:lutetium_dust"
+    }
+  ]
+}

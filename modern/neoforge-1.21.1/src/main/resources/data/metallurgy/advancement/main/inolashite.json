@@ -1,0 +1,42 @@
+{
+  "parent": "metallurgy:main/tier6",
+  "display": {
+    "icon": {
+      "id": "metallurgy:inolashite_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.inolashite"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.inolashite.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/inolashite"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/inolashite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust"
+    ]
+  ]
+}

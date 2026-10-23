@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": "{paragon:\"celenegil\",glory_seeker:true}",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "metallurgy:item/tool/shovel/tartarite_shovel_active"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": "{paragon:\"electrum\",voltage_control:true}",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "metallurgy:item/tool/shovel/tartarite_shovel_active"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "metallurgy:item/tartarite_shovel"
+      }
+    }
+  }
+}

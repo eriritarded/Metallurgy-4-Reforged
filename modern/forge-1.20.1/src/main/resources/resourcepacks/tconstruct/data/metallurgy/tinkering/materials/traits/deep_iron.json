@@ -1,0 +1,85 @@
+{
+  "default": [],
+  "perStat": {
+    "tconstruct:head": [
+      {
+        "name": "metallurgy:opistognathus",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "metallurgy:opistognathus",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:binding": [
+      {
+        "name": "metallurgy:opistognathus",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:limb": [
+      {
+        "name": "metallurgy:opistognathus",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "metallurgy:opistognathus",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:legacy_parts",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_boots": [
+      {
+        "name": "metallurgy:armor_deeply",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_leggings": [
+      {
+        "name": "metallurgy:armor_deeply",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_chestplate": [
+      {
+        "name": "metallurgy:armor_deeply",
+        "level": 1
+      }
+    ],
+    "tconstruct:plating_helmet": [
+      {
+        "name": "metallurgy:armor_deeply",
+        "level": 1
+      }
+    ],
+    "tconstruct:maille": [
+      {
+        "name": "metallurgy:armor_deeply",
+        "level": 1
+      },
+      {
+        "name": "metallurgy:armor_legacy",
+        "level": 1
+      }
+    ]
+  }
+}

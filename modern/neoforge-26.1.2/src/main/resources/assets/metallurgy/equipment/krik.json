@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:krik"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:krik"
+      }
+    ]
+  }
+}

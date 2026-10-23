@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:celenegil_ingot",
+    {
+      "id": "#forge:ingots/celenegil",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/celenegil",
+      "required": false
+    }
+  ]
+}

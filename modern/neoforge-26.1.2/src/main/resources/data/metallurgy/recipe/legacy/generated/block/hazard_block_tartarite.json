@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CDC",
+    "ICI"
+  ],
+  "key": {
+    "I": "#c:ingots/tartarite",
+    "C": "minecraft:cobblestone",
+    "D": "metallurgy:bimetal_structure_block"
+  },
+  "result": {
+    "id": "metallurgy:tartarite_hazard_block",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tartarite_hazard_block"
+    }
+  ]
+}

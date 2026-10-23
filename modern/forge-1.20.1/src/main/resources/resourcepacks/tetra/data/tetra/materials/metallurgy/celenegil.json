@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_celenegil",
+  "category": "metal",
+  "primary": 7.8,
+  "secondary": 6.133,
+  "tertiary": 4.1,
+  "durability": 521,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 138,
+  "toolLevel": "metallurgy:level_5",
+  "toolEfficiency": 8.2,
+  "tints": {
+    "glyph": "89EC87",
+    "texture": "89EC87"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:celenegil_ingot"
+    ]
+  },
+  "effects": {
+    "quickStrike": 2,
+    "intuit": 2
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

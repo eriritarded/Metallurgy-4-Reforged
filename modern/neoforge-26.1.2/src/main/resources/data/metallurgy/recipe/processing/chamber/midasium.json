@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:midasium_block"
+  ],
+  "amounts": [
+    3
+  ],
+  "effect": "minecraft:luck",
+  "duration": 21600,
+  "amplifier": 0
+}

@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/prometheum"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "oritech",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "hephaestus_tools:prometheum",
+  "ingredient": {
+    "tag": "c:ingots/prometheum"
+  },
+  "color": 7249505,
+  "head_stats": {
+    "durability": 120,
+    "mining_speed": 4.7,
+    "attack_damage": 2.4,
+    "attack_speed": 1.0,
+    "tier": 2,
+    "enchantability": 14
+  },
+  "handle_stats": {
+    "durability_mult": -0.23,
+    "speed_mult": -0.026,
+    "damage_mult": 0.012,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 30
+  }
+}

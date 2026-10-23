@@ -1,0 +1,221 @@
+{
+  "target": "neoforge-26.1.2",
+  "nativeSnapshot": {
+    "hephaestus": {
+      "file": "hephaestus-neoforge-26.1.2-1.0.17.jar",
+      "sha256": "84aad47a8490601ffe7e33ef0acffc689539e8ecf424f70538bfe0fc6e01de2f",
+      "version": "1.0.17"
+    },
+    "hephaestus_tools": {
+      "file": "hephaestus_tools-neoforge-26.1.2-1.0.8.jar",
+      "sha256": "6f41198cf8eb8e2b415bcaa5a6be41fa6718a51132b7a94919373c861e3453ed",
+      "version": "1.0.8"
+    }
+  },
+  "materials": {
+    "adamantine": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "alduorite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "amordrine": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "angmallen": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "astral_silver": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "atlarus": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "black_steel": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "carmot": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "celenegil": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "ceruclase": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "damascus_steel": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "deep_iron": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "desichalkos": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "etherium": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "eximite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "haderoth": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "hepatizon": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "ignatius": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "infuscolium": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "inolashite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "kalendrite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "krik": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "midasium": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "mithril": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "orichalcum": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "oureclase": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "prometheum": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "quicksilver": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "rubracium": [
+      "binding",
+      "handle"
+    ],
+    "sanguinite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "shadow_iron": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "shadow_steel": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "tartarite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "vulcanite": [
+      "binding",
+      "handle",
+      "head"
+    ],
+    "vyroxeres": [
+      "binding",
+      "handle",
+      "head"
+    ]
+  },
+  "sharedHephaestusFluids": [
+    "brass",
+    "bronze",
+    "copper",
+    "electrum",
+    "osmium",
+    "platinum",
+    "silver",
+    "steel",
+    "tin",
+    "zinc"
+  ],
+  "counts": {
+    "melting": 245,
+    "casting": 147,
+    "parts": 824,
+    "alloys": 14,
+    "materials": 35,
+    "skipped": 15,
+    "recipeFiles": 1221
+  },
+  "ingotMilliBuckets": 90,
+  "oreMilliBuckets": 180,
+  "fuel": "lava up to 1000, hephaestus:molten_blaze above",
+  "traitsMapped": {
+    "damascus_steel": "dense"
+  },
+  "customTconTraits": "not available: Hephaestus Tools traits are a closed enum",
+  "armor": "not available: Hephaestus Tools has no armor parts",
+  "runtimeChecked": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/copper"
+  },
+  "result": {
+    "id": "metallurgy:copper_chestplate",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:copper_chestplate"
+    }
+  ]
+}

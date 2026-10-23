@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:nuggets/amordrine"
+    }
+  },
+  "result": {
+    "item": "metallurgy:amordrine_ingot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:amordrine_ingot"
+    }
+  ]
+}

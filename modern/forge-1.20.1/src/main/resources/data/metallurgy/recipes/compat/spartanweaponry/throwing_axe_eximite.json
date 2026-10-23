@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HI",
+    " I"
+  ],
+  "key": {
+    "H": {
+      "item": "spartanweaponry:handle"
+    },
+    "I": {
+      "tag": "forge:ingots/eximite"
+    }
+  },
+  "result": {
+    "item": "metallurgy:throwing_axe_eximite",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

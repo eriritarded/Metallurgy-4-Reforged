@@ -1,0 +1,37 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+neoForge {
+    version = '26.1.2.122'
+    runs {
+        server { server(); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'metallurgy' }
+    }
+    mods { metallurgy { sourceSet sourceSets.main } }
+}
+repositories { mavenCentral(); maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei' } } }
+
+version = '1.4.1-port.17'
+group = 'it.hurts.metallurgy_reforged'
+base { archivesName = 'Metallurgy-Reforged-MC-26.1.2-neoforge' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+java.withSourcesJar()
+sourceSets.main.java.srcDir('../common/src/main/java')
+// Native 26 recipes use ItemStackTemplate; the older targets retain their ItemStack definition.
+def commonJavaRoot = file('../common/src/main/java').toPath().toAbsolutePath().normalize()
+sourceSets.main.java.exclude { entry ->
+    entry.path == 'it/hurts/metallurgy_reforged/machine/ProcessingDefinition.java' &&
+        entry.file.toPath().toAbsolutePath().normalize().startsWith(commonJavaRoot)
+}
+sourceSets.main.resources.srcDir('../common/src/main/resources')
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar { from('../LICENSE'); from('../NOTICE.md') }
+
+// Explicit test-only source set; never part of an ordinary build.
+if(project.hasProperty('verification')) {
+    sourceSets.main.java.srcDir('../verification/neoforge-26.1.2/java')
+    sourceSets.main.resources.srcDir('../verification/neoforge-26.1.2/resources')
+}
+
+apply from: '../tools/no-game-launch.gradle'
+
+// Optional JEI API only; no dependency implementation is packaged.
+dependencies { compileOnly "mezz.jei:jei-26.1.2-common-api:29.47.0.111" }

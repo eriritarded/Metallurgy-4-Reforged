@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/copper"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/zinc"
+    }
+  ],
+  "amounts": [
+    3,
+    1
+  ],
+  "result": {
+    "item": "metallurgy:brass_ingot",
+    "count": 4
+  },
+  "experience": 1.75,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/copper"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/zinc"
+      }
+    }
+  ]
+}

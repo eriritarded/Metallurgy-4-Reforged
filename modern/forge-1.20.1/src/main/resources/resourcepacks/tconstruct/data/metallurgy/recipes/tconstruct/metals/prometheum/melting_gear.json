@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:gears/prometheum"
+  },
+  "result": {
+    "tag": "forge:molten_prometheum",
+    "amount": 360
+  },
+  "temperature": 900,
+  "time": 104,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/prometheum"
+      }
+    }
+  ]
+}

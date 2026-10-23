@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/etherium",
+    "amount": 90
+  },
+  "output": "metallurgy:etherium",
+  "temperature": 1900
+}

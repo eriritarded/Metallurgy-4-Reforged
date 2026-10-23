@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/atlarus"
+  },
+  "result": {
+    "tag": "forge:molten_atlarus",
+    "amount": 10
+  },
+  "temperature": 1900,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/atlarus"
+      }
+    }
+  ]
+}

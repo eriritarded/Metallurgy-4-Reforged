@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/shadow_steel",
+    "amount": 90
+  },
+  "output": "metallurgy:shadow_steel",
+  "temperature": 1700
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Ceruclase Shield",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:ceruclase_shield",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:ceruclase_shield",
+      "title": "Ceruclase Shield",
+      "text": "The Ceruclase Shield can build a temporary ice shell around the wearer, reaching about five blocks away. The other hand must not be eating or drinking. It has 500 durability and a seven-second cooldown after the dome ends."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The shell uses suitable empty or replaceable space and respects placement protection. Its ice melts after the holder stops maintaining it. The shield also halves accumulated fall distance."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/ceruclase_shield"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:ceruclase_shield": 2
+  }
+}

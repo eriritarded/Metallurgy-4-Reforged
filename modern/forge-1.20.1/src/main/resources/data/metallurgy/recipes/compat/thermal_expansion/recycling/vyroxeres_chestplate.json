@@ -1,0 +1,40 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "metallurgy:vyroxeres_chestplate"
+    }
+  ],
+  "result": [
+    {
+      "item": "metallurgy:vyroxeres_ingot",
+      "count": 4
+    },
+    {
+      "item": "thermal:slag",
+      "chance": 0.25
+    }
+  ],
+  "energy": 6000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vyroxeres_chestplate"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vyroxeres_ingot"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:alduorite_ingot",
+    "metallurgy:alduorite_dust",
+    {
+      "id": "#forge:ingots/alduorite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/alduorite",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/alduorite",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/alduorite",
+      "required": false
+    }
+  ]
+}

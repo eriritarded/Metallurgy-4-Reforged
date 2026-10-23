@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEL",
+    "E  ",
+    "EER"
+  ],
+  "key": {
+    "E": {
+      "tag": "c:ingots/electrum"
+    },
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "metallurgy:electrum_magnet",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:electrum_magnet"
+    }
+  ]
+}

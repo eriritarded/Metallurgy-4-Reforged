@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/shadow_iron"
+    }
+  },
+  "result": {
+    "id": "metallurgy:shadow_iron_block",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_iron_block"
+    }
+  ]
+}

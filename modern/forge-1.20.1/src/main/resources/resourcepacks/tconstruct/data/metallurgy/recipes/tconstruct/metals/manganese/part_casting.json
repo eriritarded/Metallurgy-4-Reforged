@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/manganese",
+    "amount": 90
+  },
+  "output": "metallurgy:manganese",
+  "temperature": 1100
+}

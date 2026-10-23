@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HI",
+    " I"
+  ],
+  "key": {
+    "H": {
+      "item": "spartanweaponry:handle"
+    },
+    "I": {
+      "tag": "forge:ingots/deep_iron"
+    }
+  },
+  "result": {
+    "item": "metallurgy:throwing_axe_deep_iron",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

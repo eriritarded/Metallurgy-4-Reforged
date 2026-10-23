@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/platinum"
+    }
+  },
+  "result": {
+    "id": "metallurgy:platinum_chestplate",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:platinum_chestplate"
+    }
+  ]
+}

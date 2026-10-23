@@ -1,0 +1,54 @@
+{
+  "parent": "metallurgy:challenges/root",
+  "display": {
+    "icon": {
+      "item": "metallurgy:zinc_buckler"
+    },
+    "frame": "goal",
+    "title": {
+      "translate": "advancement.metallurgy.challenges.bucklers"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.challenges.bucklers.desc"
+    }
+  },
+  "criteria": {
+    "zinc_buckler_damaged": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "metallurgy:zinc_buckler"
+          ]
+        }
+      }
+    },
+    "vulcanite_buckler_damaged": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "metallurgy:vulcanite_buckler"
+          ]
+        }
+      }
+    },
+    "orichalcum_buckler_damaged": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "metallurgy:orichalcum_buckler"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "zinc_buckler_damaged",
+      "vulcanite_buckler_damaged",
+      "orichalcum_buckler_damaged"
+    ]
+  ]
+}

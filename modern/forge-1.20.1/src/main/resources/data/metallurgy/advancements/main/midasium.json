@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier4",
+  "display": {
+    "icon": {
+      "item": "metallurgy:midasium_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.midasium"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.midasium.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/midasium"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/midasium"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/midasium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

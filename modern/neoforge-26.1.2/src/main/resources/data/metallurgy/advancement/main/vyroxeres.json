@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier5",
+  "display": {
+    "icon": {
+      "id": "metallurgy:vyroxeres_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.vyroxeres"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.vyroxeres.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/vyroxeres"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/vyroxeres"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/vyroxeres"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

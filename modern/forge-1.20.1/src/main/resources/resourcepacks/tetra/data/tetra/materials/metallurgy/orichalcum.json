@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_orichalcum",
+  "category": "metal",
+  "primary": 9.2,
+  "secondary": 4.833,
+  "tertiary": 3.85,
+  "durability": 1350,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 120,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 7.7,
+  "tints": {
+    "glyph": "9ABC51",
+    "texture": "9ABC51"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:orichalcum_ingot"
+    ]
+  },
+  "effects": {
+    "armorPenetration": 10,
+    "unbreaking": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

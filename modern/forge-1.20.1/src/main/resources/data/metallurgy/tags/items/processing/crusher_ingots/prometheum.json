@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:prometheum_ingot",
+    {
+      "id": "#forge:ingots/prometheum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/prometheum",
+      "required": false
+    }
+  ]
+}

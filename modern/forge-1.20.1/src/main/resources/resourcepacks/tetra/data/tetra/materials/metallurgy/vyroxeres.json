@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_vyroxeres",
+  "category": "metal",
+  "primary": 9.2,
+  "secondary": 4.367,
+  "tertiary": 5.5,
+  "durability": 487,
+  "integrityCost": 3,
+  "integrityGain": 8,
+  "magicCapacity": 96,
+  "toolLevel": "metallurgy:level_5",
+  "toolEfficiency": 11.0,
+  "tints": {
+    "glyph": "5FC83F",
+    "texture": "5FC83F"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:vyroxeres_ingot"
+    ]
+  },
+  "effects": {
+    "bleeding": 1,
+    "armorPenetration": 8
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

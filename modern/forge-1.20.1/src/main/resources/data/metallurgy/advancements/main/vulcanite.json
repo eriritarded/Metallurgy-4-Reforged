@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier4",
+  "display": {
+    "icon": {
+      "item": "metallurgy:vulcanite_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.vulcanite"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.vulcanite.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/vulcanite"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/vulcanite"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/vulcanite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

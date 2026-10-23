@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": "#c:ingots/shadow_iron"
+  },
+  "result": {
+    "id": "metallurgy:shadow_iron_leggings",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_iron_leggings"
+    }
+  ]
+}

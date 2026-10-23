@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/orichalcum"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/platinum"
+    }
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "item": "metallurgy:celenegil_ingot",
+    "count": 2
+  },
+  "experience": 1.25,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:celenegil_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/orichalcum"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/platinum"
+      }
+    }
+  ]
+}

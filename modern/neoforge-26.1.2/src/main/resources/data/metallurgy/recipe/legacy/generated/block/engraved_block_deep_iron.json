@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CDC",
+    "ICI"
+  ],
+  "key": {
+    "I": "#c:ingots/deep_iron",
+    "D": "metallurgy:bimetal_structure_block",
+    "C": "minecraft:chiseled_stone_bricks"
+  },
+  "result": {
+    "id": "metallurgy:deep_iron_engraved_block",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:deep_iron_engraved_block"
+    }
+  ]
+}

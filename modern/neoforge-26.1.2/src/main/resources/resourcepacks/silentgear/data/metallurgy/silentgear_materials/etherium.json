@@ -1,0 +1,147 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": "metallurgy:etherium_ingot",
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.etherium.name"
+    },
+    "name_prefix": "",
+    "color": "#FFA6C69B",
+    "main_texture_type": "HIGH_CONTRAST",
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 2056,
+      "harvest_speed": 16.0,
+      "enchantment_value": 30,
+      "attack_damage": 6.0,
+      "armor_durability": 273,
+      "armor": 18,
+      "armor/boots": 3,
+      "armor/leggings": 5,
+      "armor/chestplate": 6,
+      "armor/helmet": 4,
+      "armor_toughness": 0.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:reach",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:light",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Etherium",
+        "level_hint": "6",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_6"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 308.4
+      },
+      "traits": [
+        {
+          "trait": "silentgear:reach",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:light",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 308.4
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 1.6
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.9
+      },
+      "harvest_tier": {
+        "name": "Etherium",
+        "level_hint": "6",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_6"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:reach",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:light",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

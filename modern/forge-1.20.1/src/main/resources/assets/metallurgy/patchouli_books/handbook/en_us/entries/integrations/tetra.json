@@ -1,0 +1,18 @@
+{
+  "name": "Tetra",
+  "category": "metallurgy:integrations",
+  "icon": "metallurgy:mithril_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:mithril_ingot",
+      "title": "Tetra",
+      "text": "Metallurgy adds native Tetra material definitions for its 39 tool-making metals. Use those materials in the compatible modules at Tetra's workbench."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Materials keep their Metallurgy colors and adapted material stats. A modular component does not automatically receive every complete Metallurgy armor-set or weapon power."
+    }
+  ],
+  "flag": "mod:tetra"
+}

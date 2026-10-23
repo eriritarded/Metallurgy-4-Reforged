@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "H"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/vulcanite"
+    },
+    "H": {
+      "item": "spartanweaponry:handle"
+    }
+  },
+  "result": {
+    "item": "metallurgy:dagger_vulcanite",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

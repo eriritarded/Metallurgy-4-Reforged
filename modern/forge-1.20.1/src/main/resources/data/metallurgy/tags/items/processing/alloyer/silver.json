@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:silver_ingot",
+    "metallurgy:silver_dust",
+    {
+      "id": "#forge:ingots/silver",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/silver",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/silver",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/silver",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/haderoth",
+    "amount": 90
+  },
+  "output": "metallurgy:haderoth",
+  "temperature": 1700
+}

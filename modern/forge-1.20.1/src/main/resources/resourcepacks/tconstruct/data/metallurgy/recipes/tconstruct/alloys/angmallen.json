@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_gold",
+      "amount": 90
+    },
+    {
+      "tag": "forge:molten_iron",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "tag": "forge:molten_angmallen",
+    "amount": 180
+  },
+  "temperature": 1000
+}

@@ -1,0 +1,36 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "metallurgy:damascus_steel_ingot",
+    "count": 3
+  },
+  "result": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "metallurgy:bronze_ingot",
+      "count": 2
+    }
+  ],
+  "energy": 8000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_ingot"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:bronze_ingot"
+    }
+  ]
+}

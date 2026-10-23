@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:orichalcum_ingot",
+    {
+      "id": "#forge:ingots/orichalcum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/orichalcum",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_adamantine",
+  "category": "metal",
+  "primary": 8.0,
+  "secondary": 6.633,
+  "tertiary": 5.25,
+  "durability": 2943,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 132,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 10.5,
+  "tints": {
+    "glyph": "C62C29",
+    "texture": "C62C29"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:adamantine_ingot"
+    ]
+  },
+  "effects": {
+    "crushing": 2,
+    "unbreaking": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

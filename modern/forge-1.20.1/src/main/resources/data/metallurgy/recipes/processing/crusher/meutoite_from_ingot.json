@@ -1,0 +1,30 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/crusher_ingots/meutoite"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "item": "metallurgy:meutoite_dust",
+    "count": 1
+  },
+  "experience": 0,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_dust"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/crusher_ingots/meutoite"
+      }
+    }
+  ]
+}

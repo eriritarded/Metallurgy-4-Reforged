@@ -1,0 +1,8 @@
+{
+  "feature": "metallurgy:tar_lake",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

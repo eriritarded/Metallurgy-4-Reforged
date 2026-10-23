@@ -1,0 +1,31 @@
+plugins { id 'java-library'; id 'net.neoforged.moddev' version '2.0.148' }
+neoForge {
+    version = '21.1.262'
+    runs {
+        server { server(); programArgument '--nogui' }
+        gameTestServer { type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'metallurgy' }
+    }
+    mods { metallurgy { sourceSet sourceSets.main } }
+}
+repositories { mavenCentral(); maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei' } } }
+
+version = '1.4.1-port.10'
+group = 'it.hurts.metallurgy_reforged'
+base { archivesName = 'Metallurgy-Reforged-MC-1.21.1-neoforge' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.withSourcesJar()
+sourceSets.main.java.srcDir('../common/src/main/java')
+sourceSets.main.resources.srcDir('../common/src/main/resources')
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar { from('../LICENSE'); from('../NOTICE.md') }
+
+// Explicit test-only source set; never part of an ordinary build.
+if(project.hasProperty('verification')) {
+    sourceSets.main.java.srcDir('../verification/neoforge-1.21.1/java')
+    sourceSets.main.resources.srcDir('../verification/neoforge-1.21.1/resources')
+}
+
+apply from: '../tools/no-game-launch.gradle'
+
+// Optional JEI API only; no dependency implementation is packaged.
+dependencies { compileOnly "mezz.jei:jei-1.21.1-common-api:19.64.0.455" }

@@ -1,0 +1,21 @@
+{
+  "name": "Moving Items and Experience",
+  "category": "metallurgy:machines",
+  "icon": "minecraft:hopper",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:hopper",
+      "title": "Items and Experience",
+      "text": "Hoppers and compatible item pipes can move items through machine inventories. Only suitable recipe inputs belong in input slots; fuel goes in the fuel slot. Extract finished products from the output."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The machines track recipe experience as they work. Taking completed output manually pays out stored experience. Automated extraction moves the products without creating extra copies or extra experience."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Metal chests also expose their normal inventory to hoppers and item pipes. Upgrading a storage setup does not require changing the kinds of items stored in it."
+    }
+  ]
+}

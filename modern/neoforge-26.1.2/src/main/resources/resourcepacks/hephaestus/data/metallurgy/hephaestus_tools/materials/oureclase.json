@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/oureclase"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:oureclase",
+  "ingredient": {
+    "tag": "c:ingots/oureclase"
+  },
+  "color": 15502697,
+  "head_stats": {
+    "durability": 198,
+    "mining_speed": 8.0,
+    "attack_damage": 4.1,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 26
+  },
+  "handle_stats": {
+    "durability_mult": -0.015,
+    "speed_mult": 0.04,
+    "damage_mult": 0.063,
+    "attack_speed_mult": -0.04
+  },
+  "binding_stats": {
+    "durability": 49
+  }
+}

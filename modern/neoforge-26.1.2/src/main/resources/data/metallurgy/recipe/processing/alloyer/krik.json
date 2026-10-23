@@ -1,0 +1,37 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    "#metallurgy:processing/alloyer/lutetium",
+    "#metallurgy:processing/alloyer/osmium"
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "id": "metallurgy:krik_ingot",
+    "count": 2
+  },
+  "experience": 1.25,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/lutetium"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/osmium"
+      }
+    }
+  ]
+}

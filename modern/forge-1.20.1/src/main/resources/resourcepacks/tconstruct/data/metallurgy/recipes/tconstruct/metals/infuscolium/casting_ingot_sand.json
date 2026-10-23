@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "forge:molten_infuscolium",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/infuscolium"
+  },
+  "cooling_time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/infuscolium"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true
+}

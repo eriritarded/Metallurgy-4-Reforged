@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/quicksilver"
+    }
+  },
+  "result": {
+    "item": "metallurgy:quicksilver_boots",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_boots"
+    }
+  ]
+}

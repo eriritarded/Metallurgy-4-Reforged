@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:eximite_ingot",
+    "metallurgy:eximite_dust",
+    {
+      "id": "#forge:ingots/eximite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/eximite",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/eximite",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/eximite",
+      "required": false
+    }
+  ]
+}

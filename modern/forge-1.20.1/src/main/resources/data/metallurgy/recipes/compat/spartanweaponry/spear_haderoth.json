@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "P"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/haderoth"
+    },
+    "P": {
+      "item": "spartanweaponry:pole"
+    }
+  },
+  "result": {
+    "item": "metallurgy:spear_haderoth",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

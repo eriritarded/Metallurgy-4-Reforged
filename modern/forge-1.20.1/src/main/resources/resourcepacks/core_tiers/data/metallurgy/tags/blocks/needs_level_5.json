@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:carmot_ore",
+    "metallurgy:lemurite_ore",
+    "metallurgy:meutoite_ore",
+    "metallurgy:mithril_ore",
+    "metallurgy:sanguinite_ore",
+    "metallurgy:vyroxeres_ore"
+  ]
+}

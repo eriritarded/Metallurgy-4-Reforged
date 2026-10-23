@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:ingots/celenegil"
+  },
+  "result": {
+    "tag": "forge:molten_celenegil",
+    "amount": 90
+  },
+  "temperature": 1500,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/celenegil"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRI",
+    "RL ",
+    "I H"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "R": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "tag": "forge:ingots/carmot"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "H": {
+      "item": "spartanweaponry:handle"
+    }
+  },
+  "result": {
+    "item": "metallurgy:crossbow_carmot",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Bronze",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:bronze_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:bronze_ingot",
+      "title": "Making Bronze",
+      "text": "Make this alloy in an Alloyer:$(br2)3 Copper + 1 Tin = 4 Bronze"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:bronze_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 224 uses.$(br)Harvest level: 2.$(br)Mining efficiency: 7.0.$(br)Material damage bonus: 2.2.$(br)Enchantability: 16.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:bronze_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 3, chestplate 4, leggings 3, boots 2.$(br2)Toughness per piece: 1.0.$(br)Enchantability: 9."
+    }
+  ]
+}

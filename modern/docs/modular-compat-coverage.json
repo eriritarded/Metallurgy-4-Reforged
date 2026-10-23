@@ -1,0 +1,83 @@
+{
+  "complete": false,
+  "targets": [
+    {
+      "target": "forge-1.20.1",
+      "silentgearMaterials": 41,
+      "tetraMaterials": 39,
+      "state": "source implemented; dependency runtime behavior unverified"
+    },
+    {
+      "target": "neoforge-1.21.1",
+      "silentgearMaterials": 41,
+      "tetraMaterials": 0,
+      "state": "source implemented; dependency runtime behavior unverified"
+    },
+    {
+      "target": "neoforge-26.1.2",
+      "silentgearMaterials": 41,
+      "tetraMaterials": 0,
+      "state": "source implemented; dependency runtime behavior unverified"
+    }
+  ],
+  "materialIds": [
+    "metallurgy:adamantine",
+    "metallurgy:amordrine",
+    "metallurgy:angmallen",
+    "metallurgy:astral_silver",
+    "metallurgy:atlarus",
+    "metallurgy:black_steel",
+    "metallurgy:brass",
+    "metallurgy:bronze",
+    "metallurgy:carmot",
+    "metallurgy:celenegil",
+    "metallurgy:ceruclase",
+    "metallurgy:copper",
+    "metallurgy:damascus_steel",
+    "metallurgy:deep_iron",
+    "metallurgy:desichalkos",
+    "metallurgy:electrum",
+    "metallurgy:etherium",
+    "metallurgy:eximite",
+    "metallurgy:haderoth",
+    "metallurgy:hepatizon",
+    "metallurgy:ignatius",
+    "metallurgy:inolashite",
+    "metallurgy:kalendrite",
+    "metallurgy:krik",
+    "metallurgy:lutetium",
+    "metallurgy:midasium",
+    "metallurgy:mithril",
+    "metallurgy:orichalcum",
+    "metallurgy:osmium",
+    "metallurgy:oureclase",
+    "metallurgy:platinum",
+    "metallurgy:prometheum",
+    "metallurgy:quicksilver",
+    "metallurgy:sanguinite",
+    "metallurgy:shadow_iron",
+    "metallurgy:shadow_steel",
+    "metallurgy:silver",
+    "metallurgy:steel",
+    "metallurgy:tartarite",
+    "metallurgy:vulcanite",
+    "metallurgy:vyroxeres"
+  ],
+  "excluded": [
+    "alduorite",
+    "infuscolium",
+    "lemurite",
+    "manganese",
+    "meutoite",
+    "rubracium",
+    "tin",
+    "zinc"
+  ],
+  "limits": [
+    "Original source-only checkpoint ran no builds or games; see later evidence for resumed compilation.",
+    "No Tetra releases found for the two NeoForge targets; no fabricated port/API adapter.",
+    "Native traits adapt material themes; original full-set powers and Tartarite absorption are not attached to modular parts.",
+    "Silent Gear is the modern tool system formerly in Silent Gems; Gems itself does not have a modern ToolPartRegistry.",
+    "Client tool tinting, workbench construction, repair, trait stacking, salvage, save/reload and mining require future native checks."
+  ]
+}

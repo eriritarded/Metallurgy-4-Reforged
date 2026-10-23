@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm",
+    "mbm",
+    "mcm"
+  ],
+  "key": {
+    "m": {
+      "tag": "metallurgy:ingots/electrum"
+    },
+    "b": {
+      "item": "metallurgy:bimetal_structure_block"
+    },
+    "c": {
+      "tag": "c:chests/silver"
+    }
+  },
+  "result": {
+    "id": "metallurgy:electrum_chest",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:electrum_chest"
+    }
+  ]
+}

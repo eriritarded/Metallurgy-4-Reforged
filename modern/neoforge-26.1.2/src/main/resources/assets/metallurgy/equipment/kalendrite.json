@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:kalendrite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:kalendrite"
+      }
+    ]
+  }
+}

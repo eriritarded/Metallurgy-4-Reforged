@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I",
+    " I",
+    "IP"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/ceruclase"
+    },
+    "P": {
+      "item": "spartanweaponry:pole"
+    }
+  },
+  "result": {
+    "item": "metallurgy:glaive_ceruclase",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

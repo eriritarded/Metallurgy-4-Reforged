@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:ceruclase_ingot",
+    {
+      "id": "#forge:ingots/ceruclase",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/ceruclase",
+      "required": false
+    }
+  ]
+}

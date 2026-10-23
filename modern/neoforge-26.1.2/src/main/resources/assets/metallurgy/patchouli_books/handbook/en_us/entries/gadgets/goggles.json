@@ -1,0 +1,24 @@
+{
+  "name": "Etherium Goggles",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:etherium_goggles",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:etherium_goggles",
+      "title": "Etherium Goggles",
+      "text": "Wear Etherium Goggles in the head slot to reveal the supported redstone-related overlays. They help inspect circuitry without replacing the blocks or changing their stored state."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use them alongside an Ore Detector when investigating a workshop or underground base: the goggles explain machinery, while a programmed detector searches for metals."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/etherium_goggles"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:etherium_goggles": 2
+  }
+}

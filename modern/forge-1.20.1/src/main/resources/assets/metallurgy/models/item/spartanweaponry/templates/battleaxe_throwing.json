@@ -1,0 +1,10 @@
+{
+  "parent": "spartanweaponry:item/base/battleaxe_throwing",
+  "loader": "spartanweaponry:oil_coated_item",
+  "textures": {
+    "coating": "spartanweaponry:item/coating/battleaxe",
+    "layer0": "metallurgy:spartanweaponry/items/custom/battleaxe_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/battleaxe_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/battleaxe_layer_2"
+  }
+}

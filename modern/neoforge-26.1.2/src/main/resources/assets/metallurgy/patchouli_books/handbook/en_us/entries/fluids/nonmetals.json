@@ -1,0 +1,17 @@
+{
+  "name": "Useful Nonmetal Ores",
+  "category": "metallurgy:fluids",
+  "icon": "metallurgy:phosphorite_ore",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:phosphorite_ore",
+      "title": "Useful Nonmetal Ores",
+      "text": "Sulfur Ore, Phosphorite Ore, Potash Ore, and Tar Ore supply workshop materials beyond metal ingots. Furnace and Crusher recipes turn them into their useful products."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sulfur Dust, Phosphorus, Potash, Tar, and Bitumen have different crafting and processing roles. Use Recipes and Uses in an installed recipe viewer before committing a large supply to one route."
+    }
+  ]
+}

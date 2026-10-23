@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/adamantine"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/atlarus"
+    }
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "id": "metallurgy:tartarite_ingot",
+    "count": 1
+  },
+  "experience": 1.5,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tartarite_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/adamantine"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/atlarus"
+      }
+    }
+  ]
+}

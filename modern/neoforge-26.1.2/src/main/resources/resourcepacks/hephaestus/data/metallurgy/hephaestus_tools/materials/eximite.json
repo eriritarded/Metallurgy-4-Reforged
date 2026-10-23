@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/eximite"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:eximite",
+  "ingredient": {
+    "tag": "c:ingots/eximite"
+  },
+  "color": 5813142,
+  "head_stats": {
+    "durability": 788,
+    "mining_speed": 7.8,
+    "attack_damage": 4.9,
+    "attack_speed": 1.0,
+    "tier": 6,
+    "enchantability": 28
+  },
+  "handle_stats": {
+    "durability_mult": 0.4,
+    "speed_mult": 0.036,
+    "damage_mult": 0.087,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 197
+  }
+}

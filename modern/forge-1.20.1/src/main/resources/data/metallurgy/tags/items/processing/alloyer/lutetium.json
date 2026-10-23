@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:lutetium_ingot",
+    "metallurgy:lutetium_dust",
+    {
+      "id": "#forge:ingots/lutetium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/lutetium",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/lutetium",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/lutetium",
+      "required": false
+    }
+  ]
+}

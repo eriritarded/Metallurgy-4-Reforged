@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:midasium_ingot",
+    {
+      "id": "#forge:ingots/midasium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/midasium",
+      "required": false
+    }
+  ]
+}

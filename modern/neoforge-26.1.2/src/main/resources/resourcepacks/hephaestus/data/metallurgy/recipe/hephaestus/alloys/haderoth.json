@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:mithril"
+    },
+    {
+      "amount": 180,
+      "id": "metallurgy:rubracium"
+    }
+  ],
+  "output": {
+    "amount": 270,
+    "id": "metallurgy:haderoth"
+  },
+  "temperature": 1700
+}

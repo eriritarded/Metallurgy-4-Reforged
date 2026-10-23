@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PI"
+  ],
+  "key": {
+    "P": {
+      "item": "spartanweaponry:pole"
+    },
+    "I": {
+      "tag": "forge:ingots/hepatizon"
+    }
+  },
+  "result": {
+    "item": "metallurgy:javelin_hepatizon",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

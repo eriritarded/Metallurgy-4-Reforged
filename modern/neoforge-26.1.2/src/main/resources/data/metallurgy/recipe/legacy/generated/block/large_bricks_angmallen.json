@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "BDB",
+    "IBI"
+  ],
+  "key": {
+    "I": "#c:ingots/angmallen",
+    "D": "metallurgy:bimetal_structure_block",
+    "B": "minecraft:stone_bricks"
+  },
+  "result": {
+    "id": "metallurgy:angmallen_large_bricks",
+    "count": 32
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:angmallen_large_bricks"
+    }
+  ]
+}

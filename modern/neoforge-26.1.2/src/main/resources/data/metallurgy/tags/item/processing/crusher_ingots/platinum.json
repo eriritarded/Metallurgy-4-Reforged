@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:platinum_ingot",
+    {
+      "id": "#forge:ingots/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/platinum",
+      "required": false
+    }
+  ]
+}

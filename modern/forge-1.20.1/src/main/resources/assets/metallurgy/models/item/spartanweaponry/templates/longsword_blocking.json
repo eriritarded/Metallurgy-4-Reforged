@@ -1,0 +1,10 @@
+{
+  "parent": "spartanweaponry:item/base/longsword_blocking",
+  "loader": "spartanweaponry:oil_coated_item",
+  "textures": {
+    "coating": "spartanweaponry:item/coating/longsword",
+    "layer0": "metallurgy:spartanweaponry/items/custom/longsword_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/longsword_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/longsword_layer_2"
+  }
+}

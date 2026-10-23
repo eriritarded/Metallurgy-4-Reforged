@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/astral_silver",
+    "amount": 90
+  },
+  "output": "metallurgy:astral_silver",
+  "temperature": 1300
+}

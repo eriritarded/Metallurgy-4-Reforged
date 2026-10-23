@@ -1,0 +1,30 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/crusher_raw/electrum"
+    }
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:electrum_dust",
+    "count": 2
+  },
+  "experience": 0.75,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:electrum_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/crusher_raw/electrum"
+      }
+    }
+  ]
+}

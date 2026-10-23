@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RER"
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:ingots/etherium"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "metallurgy:etherium_goggles",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:etherium_goggles"
+    }
+  ]
+}

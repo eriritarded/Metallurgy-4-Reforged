@@ -1,0 +1,12 @@
+{
+  "active": false,
+  "gameLaunchesAllowed": false,
+  "testsAllowed": false,
+  "reason": "The explicitly requested2026-10-17 world-load troubleshooting is complete: unmodified port.7 passed, saved and exited0.",
+  "scope": "Completed task; no further game launch/test is scheduled or authorized by this receipt. Ordinary builds remain compilation/packaging only.",
+  "resumeCondition": "A later explicit user request may authorize further runtime work; the workspace no-focus/H: storage/one-window rules still apply.",
+  "maximumMinecraftGameWindows": 1,
+  "backgroundCompilersAllowed": true,
+  "javaLimitClarification": "User explicitly clarified one Minecraft game window maximum; background compilers are okay.",
+  "completedEvidence": "evidence/client-worldload-26.1.2.json"
+}

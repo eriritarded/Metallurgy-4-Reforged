@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:meutoite_dust"
+  },
+  "result": {
+    "id": "metallurgy:meutoite_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_ingot"
+    }
+  ]
+}

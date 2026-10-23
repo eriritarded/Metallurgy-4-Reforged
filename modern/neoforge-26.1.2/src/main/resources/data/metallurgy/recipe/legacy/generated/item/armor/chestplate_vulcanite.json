@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/vulcanite"
+  },
+  "result": {
+    "id": "metallurgy:vulcanite_chestplate",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vulcanite_chestplate"
+    }
+  ]
+}

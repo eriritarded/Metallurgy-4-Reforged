@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "metallurgy:blocks/damascus_steel_hazard_block"
+  }
+}

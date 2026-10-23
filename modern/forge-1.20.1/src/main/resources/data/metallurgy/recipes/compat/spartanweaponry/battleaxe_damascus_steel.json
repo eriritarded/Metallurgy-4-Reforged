@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    " H "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/damascus_steel"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "H": {
+      "item": "spartanweaponry:handle"
+    }
+  },
+  "result": {
+    "item": "metallurgy:battleaxe_damascus_steel",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

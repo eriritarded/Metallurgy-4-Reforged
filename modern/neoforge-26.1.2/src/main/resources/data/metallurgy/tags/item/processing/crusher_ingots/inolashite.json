@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:inolashite_ingot",
+    {
+      "id": "#forge:ingots/inolashite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/inolashite",
+      "required": false
+    }
+  ]
+}

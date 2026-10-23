@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:potash_ore"
+  },
+  "result": "metallurgy:potash",
+  "experience": 0.5,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:potash"
+    }
+  ]
+}

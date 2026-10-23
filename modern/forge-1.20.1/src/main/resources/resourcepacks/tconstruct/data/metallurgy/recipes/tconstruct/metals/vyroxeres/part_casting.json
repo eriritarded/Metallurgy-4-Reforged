@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/vyroxeres",
+    "amount": 90
+  },
+  "output": "metallurgy:vyroxeres",
+  "temperature": 1700
+}

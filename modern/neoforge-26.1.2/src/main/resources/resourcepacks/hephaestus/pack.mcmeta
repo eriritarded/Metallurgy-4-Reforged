@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Metallurgy native Hephaestus smeltery and Hephaestus Tools materials",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": "{voltage_control:true}",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "metallurgy:item/tool/pickaxe/electrum_pickaxe_active"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "metallurgy:item/electrum_pickaxe"
+    }
+  }
+}

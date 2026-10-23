@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:quicksilver_ingot",
+    "metallurgy:quicksilver_dust",
+    {
+      "id": "#forge:ingots/quicksilver",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/quicksilver",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/quicksilver",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/quicksilver",
+      "required": false
+    }
+  ]
+}

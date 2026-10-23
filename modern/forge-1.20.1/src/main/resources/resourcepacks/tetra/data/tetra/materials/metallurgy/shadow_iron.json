@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_shadow_iron",
+  "category": "metal",
+  "primary": 8.9,
+  "secondary": 4.2,
+  "tertiary": 3.2,
+  "durability": 118,
+  "integrityCost": 3,
+  "integrityGain": 7,
+  "magicCapacity": 54,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 6.4,
+  "tints": {
+    "glyph": "806C72",
+    "texture": "806C72"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:shadow_iron_ingot"
+    ]
+  },
+  "effects": {
+    "backstab": 1,
+    "intuit": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

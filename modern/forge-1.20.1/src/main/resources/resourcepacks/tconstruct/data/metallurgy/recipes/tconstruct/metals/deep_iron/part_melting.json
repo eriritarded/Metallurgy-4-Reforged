@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:deep_iron",
+  "result": {
+    "tag": "forge:molten_deep_iron",
+    "amount": 90
+  },
+  "temperature": 900
+}

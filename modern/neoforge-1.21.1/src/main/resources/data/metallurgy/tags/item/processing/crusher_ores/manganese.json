@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:manganese_ore",
+    {
+      "id": "#forge:ores/manganese",
+      "required": false
+    },
+    {
+      "id": "#c:ores/manganese",
+      "required": false
+    }
+  ]
+}

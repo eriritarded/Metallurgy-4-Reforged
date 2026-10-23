@@ -1,0 +1,49 @@
+{
+  "name": "Haderoth",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:haderoth_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:haderoth_ingot",
+      "title": "Making Haderoth",
+      "text": "Make this alloy in an Alloyer:$(br2)1 Mithril + 2 Rubracium = 3 Haderoth"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Alloying Notes",
+      "text": "Supply furnace fuel and the complete ingredient amounts. Most alloy inputs accept ingots or dusts; the Angmallen fallback uses matching forms. Loaded recipes can change these stock equations."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:haderoth_pickaxe",
+      "title": "Default Tool Stats",
+      "text": "Durability: 80 uses.$(br)Harvest level: 6.$(br)Mining efficiency: 12.0.$(br)Material damage bonus: 4.0.$(br)Enchantability: 19.$(br2)These are the supplied material values. The item type, enchantments, and active traits affect final performance."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:haderoth_chestplate",
+      "title": "Default Armor Stats",
+      "text": "Protection: helmet 4, chestplate 6, leggings 5, boots 4.$(br2)Toughness per piece: 6.0.$(br)Enchantability: 19."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Armor: Adaptability",
+      "text": "§fBecomes active only after Metamorph.$(br2)§7Helmet: Immunity to hunger effect.$(br2)Chestplate: Permanent Fire resistance.$(br2)Leggings: Immunity to slowness effect.$(br2)Boots: Immunity to levitation effect."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weapon: Apex",
+      "text": "§fBecomes active only after Metamorph.$(br2)§7Builds up bonus damage when continually killing mobs of the same type.$(br2)$(br2)§8Bonus damage per kill: +1.0$(br2)Maximum bonus damage: +12.0"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Equipment: Metamorph",
+      "text": "After breaking once, the item is replaced with a new and better version of itself.$(br2)Along with significantly higher durability, the second generation gains bonuses depending on the item type:$(br2) Armor: higher protection and toughness values, \"Adaptability\" effect becomes active.$(br2) Weapons: higher damage, \"Apex\" effect"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "becomes active.$(br2) Tools: higher efficiency when breaking blocks."
+    }
+  ]
+}

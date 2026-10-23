@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:lutetium",
+  "result": {
+    "tag": "forge:molten_lutetium",
+    "amount": 90
+  },
+  "temperature": 1900
+}

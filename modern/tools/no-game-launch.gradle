@@ -1,0 +1,13 @@
+// Ordinary production builds stay compilation/packaging only. The authorized
+// real-client QA uses tools/client_worldload_smoke.py with desktop/storage guards.
+if (project.hasProperty('verification')) {
+    throw new GradleException('Use the separate isolated QA harness; ordinary builds exclude verification code.')
+}
+gradle.taskGraph.whenReady { graph ->
+    def forbidden = graph.allTasks.findAll { task ->
+        task.name ==~ /(?i)(run.*|.*gametest.*|.*launch.*|test)/
+    }
+    if (!forbidden.isEmpty()) {
+        throw new GradleException('Unsafe ordinary-build launch/test task; use the isolated QA harness: ' + forbidden*.path.join(', '))
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    " S",
+    " S"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/vulcanite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "metallurgy:vulcanite_hoe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vulcanite_hoe"
+    }
+  ]
+}

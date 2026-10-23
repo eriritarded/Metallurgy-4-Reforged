@@ -1,0 +1,30 @@
+{
+  "type": "hephaestus:casting_table",
+  "cast": "hephaestus:ingot_cast",
+  "cooling_time": 100,
+  "fluid": {
+    "amount": 90,
+    "id": "hephaestus:molten_osmium"
+  },
+  "result": {
+    "id": "metallurgy:osmium_ingot"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:osmium_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "modid": "alltheores",
+            "type": "neoforge:mod_loaded"
+          }
+        ]
+      }
+    }
+  ]
+}

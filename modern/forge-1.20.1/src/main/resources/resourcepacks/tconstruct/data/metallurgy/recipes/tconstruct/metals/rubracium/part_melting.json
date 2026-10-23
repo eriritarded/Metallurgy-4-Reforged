@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:rubracium",
+  "result": {
+    "tag": "forge:molten_rubracium",
+    "amount": 90
+  },
+  "temperature": 1300
+}

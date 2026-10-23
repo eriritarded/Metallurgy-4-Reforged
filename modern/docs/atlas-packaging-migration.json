@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-16",
+  "problem": "Shared ore atlas and target fluid atlas occupied the same ZIP path; processResources rejected duplicate resources.",
+  "oldSharedPath": "MetallurgyModern/common/src/main/resources/assets/minecraft/atlases/blocks.json",
+  "oldSharedSha256": "fb0030d39f10ab1a729ef9095551953af4a1d5a8cf920a93a8243117a944d928",
+  "resolution": "One target-owned atlas merges both original ore frames and fluid sprites; generator ownership updated. No duplicate exclusion or silent overwrite.",
+  "targetResource": "assets/minecraft/atlases/blocks.json"
+}

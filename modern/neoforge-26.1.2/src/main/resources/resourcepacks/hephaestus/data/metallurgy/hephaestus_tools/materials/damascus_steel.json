@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/damascus_steel"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:damascus_steel",
+  "ingredient": {
+    "tag": "c:ingots/damascus_steel"
+  },
+  "color": 12893354,
+  "head_stats": {
+    "durability": 394,
+    "mining_speed": 6.0,
+    "attack_damage": 2.5,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 27,
+    "trait": "dense"
+  },
+  "handle_stats": {
+    "durability_mult": 0.391,
+    "speed_mult": 0.0,
+    "damage_mult": 0.015,
+    "attack_speed_mult": 0.0
+  },
+  "binding_stats": {
+    "durability": 98
+  }
+}

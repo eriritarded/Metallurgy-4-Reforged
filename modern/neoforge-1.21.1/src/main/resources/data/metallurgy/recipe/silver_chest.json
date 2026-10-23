@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm",
+    "mbm",
+    "mcm"
+  ],
+  "key": {
+    "m": {
+      "tag": "metallurgy:ingots/silver"
+    },
+    "b": {
+      "item": "metallurgy:bimetal_structure_block"
+    },
+    "c": {
+      "tag": "c:chests/brass"
+    }
+  },
+  "result": {
+    "id": "metallurgy:silver_chest",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:silver_chest"
+    }
+  ]
+}

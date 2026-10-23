@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:ores/carmot"
+  },
+  "result": {
+    "tag": "forge:molten_carmot",
+    "amount": 180
+  },
+  "temperature": 1700,
+  "time": 82,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ores/carmot"
+      }
+    }
+  ],
+  "rate": "metal"
+}

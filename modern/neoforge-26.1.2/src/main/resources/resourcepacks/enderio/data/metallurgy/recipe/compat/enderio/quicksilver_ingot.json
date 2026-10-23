@@ -1,0 +1,33 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 7500,
+  "experience": 0.25,
+  "inputs": [
+    {
+      "ingredient": "#c:ingots/silver",
+      "count": 1
+    },
+    {
+      "ingredient": "#c:ingots/mithril",
+      "count": 1
+    }
+  ],
+  "output": {
+    "id": "metallurgy:quicksilver_ingot",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_ingot"
+    }
+  ]
+}

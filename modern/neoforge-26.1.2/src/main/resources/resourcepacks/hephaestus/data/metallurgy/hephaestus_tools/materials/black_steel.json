@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/black_steel"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:black_steel",
+  "ingredient": {
+    "tag": "c:ingots/black_steel"
+  },
+  "color": 4802889,
+  "head_stats": {
+    "durability": 976,
+    "mining_speed": 6.6,
+    "attack_damage": 3.9,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 11
+  },
+  "handle_stats": {
+    "durability_mult": 0.093,
+    "speed_mult": 0.012,
+    "damage_mult": 0.057,
+    "attack_speed_mult": -0.06
+  },
+  "binding_stats": {
+    "durability": 244
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:entity/chest/brass_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:entity/chest/silver_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:entity/chest/electrum_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:entity/chest/rubracium_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "metallurgy:entity/chest/platinum_chest"
+    }
+  ]
+}

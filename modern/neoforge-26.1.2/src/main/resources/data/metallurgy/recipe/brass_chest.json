@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm",
+    "mbm",
+    "mcm"
+  ],
+  "key": {
+    "m": "#metallurgy:ingots/brass",
+    "b": "metallurgy:bimetal_structure_block",
+    "c": "#c:chests/wooden"
+  },
+  "result": {
+    "id": "metallurgy:brass_chest",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:brass_chest"
+    }
+  ]
+}

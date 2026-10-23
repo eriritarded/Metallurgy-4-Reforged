@@ -1,0 +1,143 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": {
+      "item": "metallurgy:oureclase_ingot"
+    },
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.oureclase.name"
+    },
+    "name_prefix": "",
+    "color": "#FFEC8D69",
+    "main_texture_type": "HIGH_CONTRAST"
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 198,
+      "harvest_speed": 8.0,
+      "enchantment_value": 26,
+      "attack_damage": 4.1,
+      "armor_durability": 36,
+      "armor": 18,
+      "armor/boots": 4,
+      "armor/leggings": 6,
+      "armor/chestplate": 5,
+      "armor/helmet": 3,
+      "armor_toughness": 2.5,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:hard",
+          "level": 2,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Oureclase",
+        "level_hint": "3",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_3"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 29.7
+      },
+      "traits": [
+        {
+          "trait": "silentgear:hard",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 29.7
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.8
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.615
+      },
+      "harvest_tier": {
+        "name": "Oureclase",
+        "level_hint": "3",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_3"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:hard",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:sturdy",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

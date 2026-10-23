@@ -1,0 +1,28 @@
+{
+  "name": "Alloyer",
+  "category": "metallurgy:machines",
+  "icon": "metallurgy:alloyer",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:alloyer",
+      "title": "Alloyer",
+      "text": "Put the two alloy ingredients in the Alloyer's two input slots and add furnace fuel. Both ingredient amounts must be available, and the result must fit in the output slot. Swapping the two input slots is allowed."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For example, three Copper and one Tin make four Bronze. One Adamantine and one Atlarus make one Tartarite. Each alloy's material entry lists its own exact stock ratio."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Metallurgy alloy inputs usually accept ingots or dusts. Angmallen's Iron/Gold fallback uses two matching forms: ingot with ingot, or dust with dust. A normal operation takes 140 ticks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/block/alloyer"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:alloyer": 3
+  }
+}

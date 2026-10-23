@@ -1,0 +1,42 @@
+{
+  "parent": "metallurgy:main/tier6",
+  "display": {
+    "icon": {
+      "id": "metallurgy:etherium_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.etherium"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.etherium.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/etherium"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/etherium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust"
+    ]
+  ]
+}

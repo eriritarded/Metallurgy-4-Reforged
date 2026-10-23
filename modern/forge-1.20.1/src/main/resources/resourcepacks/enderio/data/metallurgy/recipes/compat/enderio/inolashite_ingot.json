@@ -1,0 +1,37 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 7500,
+  "experience": 0.25,
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/alduorite"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/ceruclase"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:inolashite_ingot",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:inolashite_ingot"
+    }
+  ]
+}

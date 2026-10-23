@@ -1,0 +1,41 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    {
+      "tag": "metallurgy:processing/alloyer/silver"
+    },
+    {
+      "tag": "metallurgy:processing/alloyer/gold"
+    }
+  ],
+  "amounts": [
+    1,
+    1
+  ],
+  "result": {
+    "item": "metallurgy:electrum_ingot",
+    "count": 2
+  },
+  "experience": 1.25,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:electrum_ingot"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/silver"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/gold"
+      }
+    }
+  ]
+}

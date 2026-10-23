@@ -1,0 +1,13 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    "metallurgy:black_steel_block"
+  ],
+  "amounts": [
+    3
+  ],
+  "effect": "minecraft:resistance",
+  "duration": 18000,
+  "amplifier": 0
+}

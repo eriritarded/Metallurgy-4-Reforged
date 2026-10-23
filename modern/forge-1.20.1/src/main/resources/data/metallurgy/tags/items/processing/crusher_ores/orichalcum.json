@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:orichalcum_ore",
+    {
+      "id": "#forge:ores/orichalcum",
+      "required": false
+    },
+    {
+      "id": "#c:ores/orichalcum",
+      "required": false
+    }
+  ]
+}

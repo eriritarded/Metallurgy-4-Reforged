@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier3",
+  "display": {
+    "icon": {
+      "id": "metallurgy:ignatius_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.ignatius"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.ignatius.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/ignatius"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dusts/ignatius"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ores/ignatius"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

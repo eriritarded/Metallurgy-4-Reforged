@@ -1,0 +1,53 @@
+{
+  "parent": "metallurgy:main/tier6",
+  "display": {
+    "icon": {
+      "item": "metallurgy:atlarus_ingot"
+    },
+    "title": {
+      "translate": "advancement.metallurgy.main.atlarus"
+    },
+    "description": {
+      "translate": "advancement.metallurgy.main.atlarus.desc"
+    }
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/atlarus"
+          }
+        ]
+      }
+    },
+    "has_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:dusts/atlarus"
+          }
+        ]
+      }
+    },
+    "has_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ores/atlarus"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingot",
+      "has_dust",
+      "has_ore"
+    ]
+  ]
+}

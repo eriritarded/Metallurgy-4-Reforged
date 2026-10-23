@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:plates/manganese"
+  },
+  "result": {
+    "tag": "forge:molten_manganese",
+    "amount": 90
+  },
+  "temperature": 1100,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/manganese"
+      }
+    }
+  ]
+}

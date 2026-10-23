@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "metallurgy:vulcanite",
+  "result": {
+    "tag": "forge:molten_vulcanite",
+    "amount": 90
+  },
+  "temperature": 1500
+}

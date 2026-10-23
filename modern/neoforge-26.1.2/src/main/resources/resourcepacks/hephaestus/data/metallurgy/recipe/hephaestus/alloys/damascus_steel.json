@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_iron"
+    },
+    {
+      "amount": 180,
+      "id": "hephaestus:molten_bronze"
+    }
+  ],
+  "output": {
+    "amount": 270,
+    "id": "metallurgy:damascus_steel"
+  },
+  "temperature": 900
+}

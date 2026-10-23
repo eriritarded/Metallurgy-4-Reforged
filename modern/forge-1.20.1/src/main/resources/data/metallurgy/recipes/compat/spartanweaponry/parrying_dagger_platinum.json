@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I",
+    "IH"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/platinum"
+    },
+    "H": {
+      "item": "spartanweaponry:handle"
+    }
+  },
+  "result": {
+    "item": "metallurgy:parrying_dagger_platinum",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

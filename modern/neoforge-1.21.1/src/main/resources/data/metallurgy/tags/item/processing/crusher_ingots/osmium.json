@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:osmium_ingot",
+    {
+      "id": "#forge:ingots/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/osmium",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/tin"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:tin_nugget",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tin_nugget"
+    }
+  ]
+}

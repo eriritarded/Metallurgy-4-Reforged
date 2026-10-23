@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "metallurgy:items/tools/electrum_shovel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "active": 1
+      },
+      "model": "metallurgy:item/tool/shovel/electrum_shovel_active"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/quicksilver",
+    "amount": 90
+  },
+  "output": "metallurgy:quicksilver",
+  "temperature": 1300
+}

@@ -1,0 +1,17 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "metallurgy:hepatizon"
+  },
+  "result": {
+    "id": "metallurgy:hepatizon_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:hepatizon_block"
+    }
+  ]
+}

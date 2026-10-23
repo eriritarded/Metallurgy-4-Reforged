@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/vulcanite"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:flint_and_vulcanite",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:flint_and_vulcanite"
+    }
+  ]
+}

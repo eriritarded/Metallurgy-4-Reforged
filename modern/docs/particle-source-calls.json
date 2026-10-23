@@ -1,0 +1,537 @@
+{
+  "sourceVersion": "1.4.1",
+  "sourceRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "scope": "Original call expressions, including vanilla particle calls and reviewed retired candidates; not a completion or runtime claim.",
+  "files": [
+    {
+      "source": "effect/all/AdamantineEffect.java",
+      "sha256": "0919d210845c763c306f14d7c7cf044118641f0e98c7a8ec9eabce6c0a0a62af",
+      "calls": [
+        {
+          "line": 117,
+          "call": "spawnParticle(player, 1F, true, 1);"
+        }
+      ]
+    },
+    {
+      "source": "effect/all/OrichalcumEffect.java",
+      "sha256": "89486fe1b3acc074d50ba27bb4d2e75873ed45acb6fe3aee3585c19ca68f2ce7",
+      "calls": [
+        {
+          "line": 56,
+          "call": "spawnParticle(sourceEnt.world, sourceEnt.posX + halvedLookVec.x, sourceEnt.posY + 1.1F, sourceEnt.posZ + halvedLookVec.z, 0.4F, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/BlackSteelArmorEffect.java",
+      "sha256": "b2b8b547898b57e3480aa870c069e0c3e00af81e71c8878b7045f38c39b60ba9",
+      "calls": [
+        {
+          "line": 64,
+          "call": "spawnParticle(entity, 3F, true, 9);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/CarmotArmorEffect.java",
+      "sha256": "48277ef608f1a8bd5f311fa9093c90a48c7d3584266e823288af272df3d2d11e",
+      "calls": [
+        {
+          "line": 82,
+          "call": "spawnParticle(entity.world, entity.posX + halvedLookVec.x, entity.posY + 1.1F, entity.posZ + halvedLookVec.z, 0.4F, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/CelenegilArmorEffect.java",
+      "sha256": "9c229b55b75e2706bb1c5130054d2543ca4251818dbbb1f7f3388c06720339b1",
+      "calls": [
+        {
+          "line": 89,
+          "call": "spawnParticle(entity.world, entityPos, 4F, true, 6, 0.7D - Math.random() * 1.6D, 0.01D, 0.7D - Math.random() * 1.6D);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/CeruclaseArmorEffect.java",
+      "sha256": "ab5777e93a1d6a11264686e89e84e8e23465b3a037ee3b6ee691b18180ca3169",
+      "calls": [
+        {
+          "line": 72,
+          "call": "spawnParticle(entity, 0.85F, false, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/DesichalkosArmorEffect.java",
+      "sha256": "c01c26615611ae56c9c851f440ca982f7cf16b1a78666dd251e4f9bfcc4889f8",
+      "calls": [
+        {
+          "line": 65,
+          "call": "spawnParticle(event.getEntityLiving(), 3F, true, 2);"
+        },
+        {
+          "line": 84,
+          "call": "spawnParticle(event.getEntityLiving(), 3F, true, Math.min(effectData.desichalkosAbsorbLevel * 2, 9));"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/EximiteArmorEffect.java",
+      "sha256": "4f673ed72aee07bb7c2150a8d57cc84e0d49899731f8cf000721876349243c50",
+      "calls": [
+        {
+          "line": 55,
+          "call": "spawnParticle(shulker, 4F, false, 3);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/IgnatiusArmorEffect.java",
+      "sha256": "65a23cacdb0496b30c57c425625673151e0a327c93802754383a199d851fab94",
+      "calls": [
+        {
+          "line": 136,
+          "call": "spawnParticle(entity, 5F, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/InolashiteArmorEffect.java",
+      "sha256": "305a14f3c3fd32a484fb1e5ee0b4f238eadcf6c1a51e944be6677576f50e936e",
+      "calls": [
+        {
+          "line": 76,
+          "call": "spawnParticle(player.world, warpData.position.getX(), warpData.position.getY(), warpData.position.getZ(), 8, false, 4);"
+        },
+        {
+          "line": 87,
+          "call": "spawnParticle(player.world, player.posX + Math.sin(i), player.posY + 2, player.posZ + Math.cos(i), 1, true, 4);"
+        },
+        {
+          "line": 141,
+          "call": "spawnParticle(entity, 1, true, 4);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/PlatinumArmorEffect.java",
+      "sha256": "e1e830dae4f0ea573b5f8ff96f1c2c296be9f327c44c2ee4ac7ba422bf2df1b5",
+      "calls": [
+        {
+          "line": 69,
+          "call": "spawnParticle(entity.world, entity.posX + halvedLookVec.x, entity.posY + 1.1F, entity.posZ + halvedLookVec.z, 1F, true, 5);"
+        },
+        {
+          "line": 73,
+          "call": "spawnParticle(entity, 1, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/ShadowIronArmorEffect.java",
+      "sha256": "47dd72829260e8acb8cb38c6765b7b28fd7f8fbbd59bf7a0f7930bfd9c4d8094",
+      "calls": [
+        {
+          "line": 68,
+          "call": "spawnParticle(entity.world, entity.posX + halvedLookVec.x, entity.posY + 1.1F, entity.posZ + halvedLookVec.z, 1.25F, true, 2);"
+        }
+      ]
+    },
+    {
+      "source": "effect/armor/VulcaniteArmorEffect.java",
+      "sha256": "1a5c2cbe8266fc1cf2851b4150e158770326a41764d53540c043e7b8b665ef58",
+      "calls": [
+        {
+          "line": 68,
+          "call": "spawnParticle(enemy, 2.5F, true, 3);"
+        }
+      ]
+    },
+    {
+      "source": "effect/hoe/AtlarusHoeEffect.java",
+      "sha256": "0017b5bc4ebfb1050b9696b721b36d775a9331a87fd3e0d869fdfc988a6d5809",
+      "calls": [
+        {
+          "line": 95,
+          "call": "spawnParticle(EnumParticleTypes.CLOUD, pos.getX() + particleX, pos.getY(), pos.getZ() + particleZ, motionX, 0.7D, motionZ);"
+        }
+      ]
+    },
+    {
+      "source": "effect/hoe/MidasiumHoeEffect.java",
+      "sha256": "567cb4ddb8e3b9bf6368cb45135fb119a9b2e3de10b0e5442c5279c064c091d0",
+      "calls": [
+        {
+          "line": 114,
+          "call": "spawnParticle(event.getWorld(), event.getPos(), 2, true, 3, d1, d2, d3);"
+        }
+      ]
+    },
+    {
+      "source": "effect/hoe/PrometheumHoeEffect.java",
+      "sha256": "3ca67d3122c9bcb1061b1967aa15d235a7a8281759382c01ad22ab52317671c8",
+      "calls": [
+        {
+          "line": 55,
+          "call": "spawnParticle(harvester.world, event.getPos(), 1F, true, 6, 0, 0, 0);"
+        }
+      ]
+    },
+    {
+      "source": "effect/pickaxe/AngmallenPickaxeEffect.java",
+      "sha256": "c0abdd7f7a8dfe6648b1586b6124214cf762ab5adb614b903163ca9c00e133fe",
+      "calls": [
+        {
+          "line": 75,
+          "call": "spawnParticle(event.getWorld(), event.getPos(), 1.3F, true, 5, 0, 0.2D, 0);"
+        }
+      ]
+    },
+    {
+      "source": "effect/pickaxe/OureclasePickaxeEffect.java",
+      "sha256": "b93a43a336460093482c277327e01517059599c4e8b27f50f4f37f7f92f905b2",
+      "calls": [
+        {
+          "line": 76,
+          "call": "spawnParticle(event.getWorld(), event.getPos(), 3F, false, 5, 0, 0, 0);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/AstralSilverToolEffect.java",
+      "sha256": "c3fa539dc111b1f1f415f8bbcdc6dd308fbfd926ff3423f9ea737de863f34ec3",
+      "calls": [
+        {
+          "line": 45,
+          "call": "spawnParticle(event.getEntity().world, event.getPos(), 1F, true, Utils.random.nextInt(6), 0, 0, 0);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/IgnatiusToolEffect.java",
+      "sha256": "8263706663be5efc80ae9b1ced9745725497ad6f6eb5f97c60bb7b61db6303ac",
+      "calls": [
+        {
+          "line": 54,
+          "call": "spawnParticle(event.getWorld(), event.getPos(), 2F, true, 3, f1, 0.02, f2);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/InolashiteToolEffect.java",
+      "sha256": "e0f3ca191b63a10e49fdfb8f1f9d36b7fa3683f0ce754c947a0dd2b00b6fadb4",
+      "calls": [
+        {
+          "line": 141,
+          "call": "spawnParticle(EnumParticleTypes.PORTAL, d3, d4, d5, f, f1, f2);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/KalendriteToolEffect.java",
+      "sha256": "fc1409eaf27ba13cf952752796781a28f45937d161e3b32b5b833710f220ca0e",
+      "calls": [
+        {
+          "line": 65,
+          "call": "spawnParticle(player, 2.5F, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/MidasiumToolEffect.java",
+      "sha256": "feb6f478e59085c3a85d7d3c0ee1e709dc9f5f3a94796227ba47a402da471096",
+      "calls": [
+        {
+          "line": 78,
+          "call": "spawnParticle(event.getWorld(), event.getPos(), 1F, true, 5, Math.random() * 0.1 - 0.05, Math.random() * 0.1 - 0.05, Math.random() * 0.1 - 0.05);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/QuicksilverToolEffect.java",
+      "sha256": "589d8d7749d753ffa82414b18113c7391b617cad664f747a06c5b5666b1f7d72",
+      "calls": [
+        {
+          "line": 48,
+          "call": "spawnParticle(world, event.getPos(), 1F, true, 5, 0, 0, 0);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/SanguiniteToolEffect.java",
+      "sha256": "c4035ef803866ed3fa49660a0ac435ca13f65de1ae72cf04787b2521557d6514",
+      "calls": [
+        {
+          "line": 106,
+          "call": "spawnParticle(player.world, event.getPos(), 2F, true, 4, Math.random() * 0.5 - 0.25, Math.random() * 0.5 - 0.25, Math.random() * 0.5 - 0.25);"
+        }
+      ]
+    },
+    {
+      "source": "effect/tool/VulcaniteToolEffect.java",
+      "sha256": "0a03ab447ef179925971eb6cbcdbf896c199a70b6c2876f1bfe699555c2a3d3e",
+      "calls": [
+        {
+          "line": 67,
+          "call": "spawnParticle(world, posToBreak, 1.5F, true, 5, 0, 0, 0);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/AmordrineWeaponEffect.java",
+      "sha256": "cb81cc43087ba8930a1e1c6076e637bec5a82018cefb14f099037b2135cd4959",
+      "calls": [
+        {
+          "line": 54,
+          "call": "spawnParticle(event.getEntityLiving(), 1F + percentage * 2F, true, MathHelper.floor(percentage * 9));"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/AngmallenWeaponEffect.java",
+      "sha256": "de5b2a3c8e67cd779b82d4d69d0e10c7da88b3ce89d283345f340d11d147a965",
+      "calls": [
+        {
+          "line": 59,
+          "call": "spawnParticle(event.getEntityLiving(), 1.5f, true, 9);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/AstralSilverWeaponEffect.java",
+      "sha256": "4a50e196729c17bbc11681b57798434cee7ce3edcec87fca5f60cfd70091dbf4",
+      "calls": [
+        {
+          "line": 54,
+          "call": "spawnParticle(event.getEntity(), 1.5f, true, 9);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/AtlarusWeaponEffect.java",
+      "sha256": "782033b0a28fd937a9a48bfae942cf7262cf6b22c079ccc32e60866d3127d7b2",
+      "calls": [
+        {
+          "line": 80,
+          "call": "spawnParticle(EnumParticleTypes.CLOUD, particleX, particleY, particleZ, motionVector.x, 0, motionVector.z);"
+        },
+        {
+          "line": 96,
+          "call": "spawnParticle(EnumParticleTypes.CLOUD, player.posX, player.posY + 0.4D, player.posZ, 0.7D - Math.random() * 1.4D, 0.1D, 0.7D - Math.random() * 1.4D);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/BlackSteelWeaponEffect.java",
+      "sha256": "72ffb730c301d63e3a4b1678f85edc50a99550ee882413e8863fce318bc5cdb8",
+      "calls": [
+        {
+          "line": 52,
+          "call": "spawnParticle(entity, 3F, true, 9);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/CarmotWeaponEffect.java",
+      "sha256": "bac1aa80c12c1bdfa821257e92e77361a100964a836afc137ac3c1db48c345dd",
+      "calls": [
+        {
+          "line": 83,
+          "call": "spawnParticle(entity, 1.5F, true, 3);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/DamascusSteelWeaponEffect.java",
+      "sha256": "b72c834585c80939a52738ba18d53a42b9caab4bf4d8a18b1c5a106b68d68ed6",
+      "calls": [
+        {
+          "line": 52,
+          "call": "spawnParticle(event.getEntityLiving(), 2F, true, 9);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/DeepIronWeaponEffect.java",
+      "sha256": "d956495ca53a98fade7b9eba8565ce8a729c99b1b082ed4f39e1db3b6e3f3ccc",
+      "calls": [
+        {
+          "line": 48,
+          "call": "spawnParticle(event.getEntityLiving(), 0.6F, false, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/DesichalkosWeaponEffect.java",
+      "sha256": "15009f6d1b723a4cc813fabf40637684580b8509be55abe951b51ee10e03b5d8",
+      "calls": [
+        {
+          "line": 55,
+          "call": "spawnParticle(e, 2F, true, 9);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/ElectrumWeaponEffect.java",
+      "sha256": "51c8f8020a7bd284167f0696a065e56a86de1f724c4775ee644b5e54c7dcf767",
+      "calls": [
+        {
+          "line": 109,
+          "call": "spawnParticle(playerIn.world, playerIn.posX + unitX, playerIn.posY + playerIn.getEyeHeight() + unitY, playerIn.posZ + unitZ, 1.5F, true, 3);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/EtheriumWeaponEffect.java",
+      "sha256": "202d0a79c9598cb27971ccb6b0c8f3afbd5fc5ef68842ac5b2135a1895e2f34e",
+      "calls": [
+        {
+          "line": 78,
+          "call": "spawnParticle(attacker.world, targetVec.x + r1, targetVec.y + r2, targetVec.z + r3, motionVec.x * 0.2, motionVec.y * 0.2, motionVec.z * 0.2, 2F, true, 2);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/EximiteWeaponEffect.java",
+      "sha256": "354535381796d2e7ffecd13056307cb254e2c3331194e2f6ed349b8fc7600448",
+      "calls": [
+        {
+          "line": 51,
+          "call": "spawnParticle(event.getEntityLiving(), 2F, true, 6);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/HaderothWeaponEffect.java",
+      "sha256": "66a4801cd038ca0b81e8794593829a9ca642cd1417a4e12fa0f86ee44e4197f0",
+      "calls": [
+        {
+          "line": 115,
+          "call": "spawnParticle(event.getEntity(), 2F, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/HepatizonWeaponEffect.java",
+      "sha256": "d611efa419030eaf746eb505a9f65e9a14a836401c5d23cfe403a437f18e5e06",
+      "calls": [
+        {
+          "line": 79,
+          "call": "spawnParticle(attacked, 2.5F, false, 3);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/IgnatiusWeaponEffect.java",
+      "sha256": "a9e340e78811ad6457600f18d0c9fb9b962fe504da133c5afaa38c5b1ddf2daa",
+      "calls": [
+        {
+          "line": 65,
+          "call": "spawnParticle(event.getEntity().world, event.getEntity().getPosition(), 2F, true, 3, f1, 0.04, f2);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/KrikWeaponEffect.java",
+      "sha256": "605cdf6a7e0153a9c43bfc607a89382d04b42b6529b67ecd03e8c08b2dddbce4",
+      "calls": [
+        {
+          "line": 51,
+          "call": "spawnParticle(event.getEntityLiving(), 2.5F, false, 4);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/MidasiumWeaponEffect.java",
+      "sha256": "2f291c9fe1944875132769a8f824a189df9a388c2e586767f7bc79011479e78d",
+      "calls": [
+        {
+          "line": 60,
+          "call": "spawnParticle(event.getEntity().world, event.getEntity().getPosition(), 1F, true, 5, Math.random() * 0.1 - 0.05, Math.random() * 0.1 - 0.05, Math.random() * 0.1 - 0.05);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/MithrilWeaponEffect.java",
+      "sha256": "3bf955bdbbe774a494342ff000278331319f785803abe849e880adb2eb6dcf54",
+      "calls": [
+        {
+          "line": 88,
+          "call": "spawnParticle(world, target.posX, target.posY + (0.6 * target.height), target.posZ, r1, r2, r3, 2, true, 6);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/OureclaseWeaponEffect.java",
+      "sha256": "17bec8b9b70fc2f7f58e0eba150501e09610a4d962fc8d3dd9f2f5280ab2a2a8",
+      "calls": [
+        {
+          "line": 51,
+          "call": "spawnParticle(event.getEntity(), 3F, false, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/PlatinumWeaponEffect.java",
+      "sha256": "9eb008babe2e399f64e926d0c6ef5035829073180e25d70aec4c842d31e4bf37",
+      "calls": [
+        {
+          "line": 51,
+          "call": "spawnParticle(target.world, target.posX, target.posY + target.getEyeHeight(), target.posZ, (Math.random() * 0.125) - 0.0625, (Math.random() * 0.125) - 0.0625, (Math.random() * 0.125) - 0.0625, 1.3F, true, 6);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/QuicksilverWeaponEffect.java",
+      "sha256": "5093d295b5bac99eae183142a652d7ca0ec8b7d3486145940cb5424fec869c2b",
+      "calls": [
+        {
+          "line": 94,
+          "call": "spawnParticle(lastAttackedEntity, 2F, true, 5);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/SanguiniteWeaponEffect.java",
+      "sha256": "fd5eaaf147508487448cba650866f3799a8276726b475e56a4c3b9a048b307df",
+      "calls": [
+        {
+          "line": 58,
+          "call": "spawnParticle(target, 2F, true, 6);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/ShadowIronWeaponEffect.java",
+      "sha256": "fcbb5a0fc434df0708275c8724cf0aa06dbbd23ff654022c2305b607e5b79469",
+      "calls": [
+        {
+          "line": 49,
+          "call": "spawnParticle(event.getEntityLiving(), 1.5F, true, 6);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/VulcaniteIgnatiusSwordEffect.java",
+      "sha256": "4cdac4940e749b141ea84720a4f6c73703660f3b0baf4463e3543c51f76e4270",
+      "calls": [
+        {
+          "line": 85,
+          "call": "spawnParticle(EnumParticleTypes.FLAME, hitPos.x, hitPos.y, hitPos.z, x, 0, z);"
+        }
+      ]
+    },
+    {
+      "source": "effect/weapon/VyroxeresWeaponEffect.java",
+      "sha256": "e782e0670063c4d185b2f146e2fc29d03f599b1549681efddd15ce8a80255f2e",
+      "calls": [
+        {
+          "line": 54,
+          "call": "spawnParticle(target, amplifier * 0.5F, true, 5);"
+        }
+      ]
+    }
+  ]
+}

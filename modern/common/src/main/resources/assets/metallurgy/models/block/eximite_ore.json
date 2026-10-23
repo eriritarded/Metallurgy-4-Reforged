@@ -1,0 +1,8 @@
+{
+  "parent": "metallurgy:block/ore",
+  "textures": {
+    "particle": "minecraft:block/end_stone",
+    "filler": "minecraft:block/end_stone",
+    "vein": "metallurgy:blocks/eximite_ore"
+  }
+}

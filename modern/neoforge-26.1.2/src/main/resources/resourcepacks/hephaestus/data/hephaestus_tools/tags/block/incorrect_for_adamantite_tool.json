@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "metallurgy:adamantine_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:alduorite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:atlarus_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lutetium_ore",
+      "required": false
+    }
+  ]
+}

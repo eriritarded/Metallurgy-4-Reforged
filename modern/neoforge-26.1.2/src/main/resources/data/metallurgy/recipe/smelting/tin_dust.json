@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "metallurgy:tin_dust",
+  "result": {
+    "id": "metallurgy:tin_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tin_ingot"
+    }
+  ]
+}

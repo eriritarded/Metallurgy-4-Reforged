@@ -1,0 +1,17 @@
+{
+  "name": "Thermite",
+  "category": "metallurgy:fluids",
+  "icon": "metallurgy:thermite_dust",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:thermite_dust",
+      "title": "Thermite",
+      "text": "Thermite Dust is a high-powered machine fuel. Molten Thermite is a separate, extremely hot fluid with its own bucket. Do not treat the dust item and the liquid as interchangeable recipe inputs."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Molten Thermite burns on contact and has a default temperature of 4000. Store and place it with the same care as other hot fluids."
+    }
+  ]
+}

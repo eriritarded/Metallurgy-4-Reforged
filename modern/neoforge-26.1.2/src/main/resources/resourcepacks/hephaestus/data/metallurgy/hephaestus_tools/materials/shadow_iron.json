@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/shadow_iron"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:shadow_iron",
+  "ingredient": {
+    "tag": "c:ingots/shadow_iron"
+  },
+  "color": 8416370,
+  "head_stats": {
+    "durability": 118,
+    "mining_speed": 6.4,
+    "attack_damage": 5.9,
+    "attack_speed": 1.0,
+    "tier": 5,
+    "enchantability": 9
+  },
+  "handle_stats": {
+    "durability_mult": -0.24,
+    "speed_mult": 0.008,
+    "damage_mult": 0.117,
+    "attack_speed_mult": -0.03
+  },
+  "binding_stats": {
+    "durability": 29
+  }
+}

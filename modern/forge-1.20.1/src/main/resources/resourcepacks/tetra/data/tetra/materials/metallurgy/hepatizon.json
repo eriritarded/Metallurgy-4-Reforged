@@ -1,0 +1,32 @@
+{
+  "key": "metallurgy_hepatizon",
+  "category": "metal",
+  "primary": 7.2,
+  "secondary": 6.133,
+  "tertiary": 3.6,
+  "durability": 761,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 174,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 7.2,
+  "tints": {
+    "glyph": "D54B72",
+    "texture": "D54B72"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:hepatizon_ingot"
+    ]
+  },
+  "effects": {
+    "backstab": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

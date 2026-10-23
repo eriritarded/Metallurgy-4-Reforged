@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:vulcanite_ingot",
+    "metallurgy:vulcanite_dust",
+    {
+      "id": "#forge:ingots/vulcanite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/vulcanite",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/vulcanite",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/vulcanite",
+      "required": false
+    }
+  ]
+}

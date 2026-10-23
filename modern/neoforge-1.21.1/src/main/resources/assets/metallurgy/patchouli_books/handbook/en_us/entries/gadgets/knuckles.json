@@ -1,0 +1,24 @@
+{
+  "name": "Brass Knuckles",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:brass_knuckles",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:brass_knuckles",
+      "title": "Brass Knuckles",
+      "text": "Brass Knuckles are fast close-range equipment with 250 durability. A successful strike slows the victim's horizontal motion and briefly limits repeated damage. They have their own behavior rather than metal sword powers."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "They accept the supported melee and durability enchantments, including Sharpness, Smite, Bane of Arthropods, Unbreaking, and Mending, subject to the normal enchantment rules."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/brass_knuckles"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:brass_knuckles": 2
+  }
+}

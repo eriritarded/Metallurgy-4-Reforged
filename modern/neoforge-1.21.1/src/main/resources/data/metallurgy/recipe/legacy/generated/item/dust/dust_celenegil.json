@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:dusts/platinum"
+    },
+    {
+      "tag": "c:dusts/orichalcum"
+    }
+  ],
+  "result": {
+    "id": "metallurgy:celenegil_dust",
+    "count": 2
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:celenegil_dust"
+    }
+  ]
+}

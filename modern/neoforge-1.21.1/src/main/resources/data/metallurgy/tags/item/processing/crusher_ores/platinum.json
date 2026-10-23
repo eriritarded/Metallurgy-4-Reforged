@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:platinum_ore",
+    {
+      "id": "#forge:ores/platinum",
+      "required": false
+    },
+    {
+      "id": "#c:ores/platinum",
+      "required": false
+    }
+  ]
+}

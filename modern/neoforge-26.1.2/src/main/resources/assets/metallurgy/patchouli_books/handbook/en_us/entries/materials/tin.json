@@ -1,0 +1,18 @@
+{
+  "name": "Tin",
+  "category": "metallurgy:materials",
+  "icon": "metallurgy:tin_ingot",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:tin_ore",
+      "title": "Finding Tin",
+      "text": "Default deposits: Overworld, Y 28 to 50. Veins target up to 8 blocks, with 10 placement attempts per chunk. Mining requirement: level 1."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Working Tin",
+      "text": "Smelt Tin Ore or Tin Dust into ingots. Crushing the ore first normally yields two dusts. Ingots can be stored as metal blocks or converted into the material's other crafting forms."
+    }
+  ]
+}

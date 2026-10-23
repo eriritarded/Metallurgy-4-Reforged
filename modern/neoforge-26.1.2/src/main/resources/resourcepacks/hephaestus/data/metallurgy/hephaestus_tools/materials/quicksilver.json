@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hephaestus_tools"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/quicksilver"
+      }
+    }
+  ],
+  "id": "hephaestus_tools:quicksilver",
+  "ingredient": {
+    "tag": "c:ingots/quicksilver"
+  },
+  "color": 6466210,
+  "head_stats": {
+    "durability": 452,
+    "mining_speed": 10.0,
+    "attack_damage": 2.5,
+    "attack_speed": 1.0,
+    "tier": 3,
+    "enchantability": 24
+  },
+  "handle_stats": {
+    "durability_mult": 0.4,
+    "speed_mult": 0.08,
+    "damage_mult": 0.015,
+    "attack_speed_mult": 0.14
+  },
+  "binding_stats": {
+    "durability": 113
+  }
+}

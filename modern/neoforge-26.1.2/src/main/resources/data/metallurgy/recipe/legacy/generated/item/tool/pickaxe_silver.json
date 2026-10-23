@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "I": "#c:ingots/silver",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "metallurgy:silver_pickaxe",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:silver_pickaxe"
+    }
+  ]
+}

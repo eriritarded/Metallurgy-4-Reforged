@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/vulcanite",
+    "amount": 90
+  },
+  "output": "metallurgy:vulcanite",
+  "temperature": 1500
+}

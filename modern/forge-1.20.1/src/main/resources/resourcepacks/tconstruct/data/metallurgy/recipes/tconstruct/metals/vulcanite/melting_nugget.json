@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/vulcanite"
+  },
+  "result": {
+    "tag": "forge:molten_vulcanite",
+    "amount": 10
+  },
+  "temperature": 1500,
+  "time": 32,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/vulcanite"
+      }
+    }
+  ]
+}

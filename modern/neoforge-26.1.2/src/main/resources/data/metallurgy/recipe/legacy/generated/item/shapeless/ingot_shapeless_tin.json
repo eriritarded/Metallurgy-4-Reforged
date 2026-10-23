@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:storage_blocks/tin"
+  ],
+  "result": {
+    "id": "metallurgy:tin_ingot",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tin_ingot"
+    }
+  ]
+}

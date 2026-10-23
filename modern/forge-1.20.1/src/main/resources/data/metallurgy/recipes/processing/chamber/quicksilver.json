@@ -1,0 +1,15 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "chamber",
+  "ingredients": [
+    {
+      "item": "metallurgy:quicksilver_block"
+    }
+  ],
+  "amounts": [
+    4
+  ],
+  "effect": "minecraft:speed",
+  "duration": 24000,
+  "amplifier": 1
+}

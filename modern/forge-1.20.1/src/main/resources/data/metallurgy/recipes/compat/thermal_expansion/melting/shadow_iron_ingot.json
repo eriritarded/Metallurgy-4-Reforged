@@ -1,0 +1,27 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "metallurgy:shadow_iron_ingot"
+  },
+  "result": [
+    {
+      "fluid": "metallurgy:shadow_iron",
+      "amount": 90
+    }
+  ],
+  "energy": 4000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thermal_expansion"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_iron_ingot"
+    }
+  ]
+}

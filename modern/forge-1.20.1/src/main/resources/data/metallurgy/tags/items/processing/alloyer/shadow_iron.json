@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:shadow_iron_ingot",
+    "metallurgy:shadow_iron_dust",
+    {
+      "id": "#forge:ingots/shadow_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/shadow_iron",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/shadow_iron",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/shadow_iron",
+      "required": false
+    }
+  ]
+}

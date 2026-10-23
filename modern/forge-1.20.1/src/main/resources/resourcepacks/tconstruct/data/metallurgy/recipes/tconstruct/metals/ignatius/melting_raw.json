@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:ore_melting",
+  "ingredient": {
+    "tag": "forge:raw_materials/ignatius"
+  },
+  "result": {
+    "tag": "forge:molten_ignatius",
+    "amount": 90
+  },
+  "temperature": 1300,
+  "time": 65,
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:raw_materials/ignatius"
+      }
+    }
+  ],
+  "rate": "metal"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Electrum Chest",
+  "category": "metallurgy:storage",
+  "icon": "metallurgy:electrum_chest",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:electrum_chest",
+      "title": "Electrum Chest",
+      "text": "This tier holds 81 slots. Its full inventory is available to normal chest interactions, hoppers, and compatible item pipes. Use the recipe below to build this storage tier."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:electrum_chest"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:electrum_chest": 1
+  }
+}

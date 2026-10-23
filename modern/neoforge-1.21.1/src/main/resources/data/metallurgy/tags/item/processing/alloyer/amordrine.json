@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:amordrine_ingot",
+    "metallurgy:amordrine_dust",
+    {
+      "id": "#forge:ingots/amordrine",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/amordrine",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/amordrine",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/amordrine",
+      "required": false
+    }
+  ]
+}

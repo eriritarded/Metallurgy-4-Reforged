@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:function",
+  "function": "metallurgy:kalendriteregendelay",
+  "environment": "minecraft:default",
+  "structure": "metallurgy:empty",
+  "max_ticks": 110,
+  "required": true
+}

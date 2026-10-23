@@ -1,0 +1,36 @@
+{
+  "key": "metallurgy_desichalkos",
+  "category": "metal",
+  "primary": 6.7,
+  "secondary": 6.133,
+  "tertiary": 5.0,
+  "durability": 2232,
+  "integrityCost": 4,
+  "integrityGain": 8,
+  "magicCapacity": 126,
+  "toolLevel": "metallurgy:level_6",
+  "toolEfficiency": 10.0,
+  "tints": {
+    "glyph": "8159DD",
+    "texture": "8159DD"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:desichalkos_ingot"
+    ]
+  },
+  "effects": {
+    "howling": [
+      1,
+      2
+    ],
+    "armorPenetration": 8
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

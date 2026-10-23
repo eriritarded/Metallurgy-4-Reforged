@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:carmot_ore",
+    {
+      "id": "#forge:ores/carmot",
+      "required": false
+    },
+    {
+      "id": "#c:ores/carmot",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "spartanweaponry:item/base/saber",
+  "loader": "spartanweaponry:oil_coated_item",
+  "overrides": [
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/saber_blocking",
+      "predicate": {
+        "spartanweaponry:blocking": 1
+      }
+    },
+    {
+      "model": "metallurgy:item/spartanweaponry/templates/saber_throwing",
+      "predicate": {
+        "spartanweaponry:throwing": 1
+      }
+    }
+  ],
+  "textures": {
+    "coating": "spartanweaponry:item/coating/saber",
+    "layer0": "metallurgy:spartanweaponry/items/custom/saber_layer_0",
+    "layer1": "metallurgy:spartanweaponry/items/custom/saber_layer_1",
+    "layer2": "metallurgy:spartanweaponry/items/custom/saber_layer_2"
+  }
+}

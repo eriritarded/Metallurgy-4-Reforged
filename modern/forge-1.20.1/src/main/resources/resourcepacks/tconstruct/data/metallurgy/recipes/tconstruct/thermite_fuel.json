@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "fluid": "metallurgy:molten_thermite",
+    "amount": 50
+  },
+  "duration": 100,
+  "rate": 10,
+  "temperature": 3700
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Metal Lighters",
+  "category": "metallurgy:gadgets",
+  "icon": "metallurgy:flint_and_ignatius",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "metallurgy:flint_and_ignatius",
+      "title": "Metal Lighters",
+      "text": "Flint and Ignatius has 150 durability. Ordinary use lights fire like flint and steel; sneak-use can attempt a wider three-by-three fire square at a greater durability cost."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Flint and Vulcanite has 500 durability. Ordinary use attempts the wider fire square. Sneak-use places lava for 25 durability and gives a 20-second cooldown outside Creative. Keep it away from a wooden workshop."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/flint_and_ignatius"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "metallurgy:legacy/gadget/flint_and_vulcanite"
+    }
+  ],
+  "extra_recipe_mappings": {
+    "metallurgy:flint_and_ignatius": 2,
+    "metallurgy:flint_and_vulcanite": 3
+  }
+}

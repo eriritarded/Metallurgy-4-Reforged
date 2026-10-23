@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:osmium_ore",
+    {
+      "id": "#forge:ores/osmium",
+      "required": false
+    },
+    {
+      "id": "#c:ores/osmium",
+      "required": false
+    }
+  ]
+}

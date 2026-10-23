@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "GVG",
+    "SGS"
+  ],
+  "key": {
+    "V": {
+      "tag": "c:dusts/vulcanite"
+    },
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "S": {
+      "tag": "c:sands"
+    }
+  },
+  "result": {
+    "id": "metallurgy:vulcanite_tnt",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vulcanite_tnt"
+    }
+  ]
+}

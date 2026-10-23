@@ -1,0 +1,23 @@
+{
+  "type": "hephaestus:melting",
+  "fuel": {
+    "amount": 50,
+    "id": "minecraft:lava"
+  },
+  "ingredient": "#c:ores/deep_iron",
+  "result": {
+    "amount": 180,
+    "id": "metallurgy:deep_iron"
+  },
+  "temperature": 900,
+  "time": 150,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ores/deep_iron"
+      }
+    }
+  ]
+}

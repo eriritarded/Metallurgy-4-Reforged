@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:eximite_ingot",
+    {
+      "id": "#forge:ingots/eximite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/eximite",
+      "required": false
+    }
+  ]
+}

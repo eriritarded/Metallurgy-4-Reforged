@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:etherium_ingot",
+    "metallurgy:etherium_dust",
+    {
+      "id": "#forge:ingots/etherium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/etherium",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/etherium",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/etherium",
+      "required": false
+    }
+  ]
+}

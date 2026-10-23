@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "metallurgy:block/lamp_wall",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "metallurgy:block/lamp_wall"
+    },
+    "facing=south": {
+      "model": "metallurgy:block/lamp_wall",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "metallurgy:block/lamp_wall",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "metallurgy:block/lamp_ground"
+    },
+    "facing=down": {
+      "model": "metallurgy:block/lamp_hanging"
+    }
+  }
+}

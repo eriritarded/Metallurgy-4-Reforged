@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/carmot",
+    "amount": 90
+  },
+  "output": "metallurgy:carmot",
+  "temperature": 1700
+}

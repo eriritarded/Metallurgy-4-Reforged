@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "burning=false,facing=north": {
+      "model": "metallurgy:block/crusher"
+    },
+    "burning=false,facing=east": {
+      "model": "metallurgy:block/crusher",
+      "y": 90
+    },
+    "burning=false,facing=south": {
+      "model": "metallurgy:block/crusher",
+      "y": 180
+    },
+    "burning=false,facing=west": {
+      "model": "metallurgy:block/crusher",
+      "y": 270
+    },
+    "burning=true,facing=north": {
+      "model": "metallurgy:block/lit_crusher"
+    },
+    "burning=true,facing=east": {
+      "model": "metallurgy:block/lit_crusher",
+      "y": 90
+    },
+    "burning=true,facing=south": {
+      "model": "metallurgy:block/lit_crusher",
+      "y": 180
+    },
+    "burning=true,facing=west": {
+      "model": "metallurgy:block/lit_crusher",
+      "y": 270
+    }
+  }
+}

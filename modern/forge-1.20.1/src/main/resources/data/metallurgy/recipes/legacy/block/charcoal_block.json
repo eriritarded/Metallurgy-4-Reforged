@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "metallurgy:charcoal_block",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:charcoal_block"
+    }
+  ]
+}

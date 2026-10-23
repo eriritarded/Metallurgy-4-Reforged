@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:dusts/infuscolium",
+    "#c:dusts/deep_iron",
+    "#c:dusts/deep_iron",
+    "#c:dusts/deep_iron"
+  ],
+  "result": {
+    "id": "metallurgy:black_steel_dust",
+    "count": 4
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:black_steel_dust"
+    }
+  ]
+}

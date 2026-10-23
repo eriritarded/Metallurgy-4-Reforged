@@ -1,0 +1,17 @@
+{
+  "type": "hephaestus:casting_basin",
+  "cooling_time": 200,
+  "fluid": {
+    "amount": 810,
+    "id": "metallurgy:astral_silver"
+  },
+  "result": {
+    "id": "metallurgy:astral_silver_block"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:astral_silver_block"
+    }
+  ]
+}

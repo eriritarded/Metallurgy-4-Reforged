@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I",
+    "I",
+    "S"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/quicksilver"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "metallurgy:quicksilver_sword",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_sword"
+    }
+  ]
+}

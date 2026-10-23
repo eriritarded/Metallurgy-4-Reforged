@@ -1,0 +1,565 @@
+{
+  "target": "forge-1.20.1",
+  "materialDefinitions": 40,
+  "partRoles": {
+    "adamantine": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "alduorite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:grip"
+    ],
+    "amordrine": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "angmallen": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "astral_silver": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "atlarus": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "black_steel": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "brass": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "carmot": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "celenegil": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "ceruclase": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "damascus_steel": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "deep_iron": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "desichalkos": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "etherium": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "eximite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "haderoth": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "ignatius": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "infuscolium": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip"
+    ],
+    "inolashite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "kalendrite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "krik": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "lemurite": [],
+    "lutetium": [
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "manganese": [],
+    "meutoite": [],
+    "midasium": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "mithril": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "orichalcum": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "oureclase": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "platinum": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "prometheum": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "quicksilver": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "rubracium": [
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:grip"
+    ],
+    "sanguinite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "shadow_iron": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "shadow_steel": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "tartarite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "vulcanite": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ],
+    "vyroxeres": [
+      "tconstruct:head",
+      "tconstruct:handle",
+      "tconstruct:binding",
+      "tconstruct:limb",
+      "tconstruct:grip",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:maille"
+    ]
+  },
+  "alloys": 16,
+  "recipes": 738,
+  "nativeIngotMilliBuckets": 90,
+  "nativeOreBaseMilliBuckets": 180,
+  "nativeRawBaseMilliBuckets": 90,
+  "customTraitFamilies": [
+    "obscure",
+    "vulcan",
+    "lifesteal",
+    "wither",
+    "king_dice",
+    "duplication",
+    "opistognathus",
+    "poisonous",
+    "duritos",
+    "dense",
+    "superheat",
+    "unnatural",
+    "legacy_parts",
+    "writable2",
+    "armor_quickly",
+    "armor_strongly",
+    "armor_jump_master",
+    "armor_resistance",
+    "armor_deeply",
+    "armor_volcano",
+    "armor_foodly",
+    "armor_cat_eyes",
+    "armor_prometheum",
+    "armor_blindness",
+    "armor_legacy"
+  ],
+  "sourceExceptions": {
+    "alduorite": {
+      "head": {
+        "durability": 600,
+        "mining_speed": 14,
+        "melee_attack": 5,
+        "harvest_level": 4
+      },
+      "handle": {
+        "multiplier": 0.55,
+        "durability": 215
+      },
+      "extra": {
+        "durability": 40
+      }
+    },
+    "infuscolium": {
+      "head": {
+        "durability": 180,
+        "mining_speed": 25,
+        "melee_attack": 6,
+        "harvest_level": 3
+      },
+      "handle": {
+        "multiplier": 0.45,
+        "durability": 190
+      },
+      "extra": {
+        "durability": 15
+      },
+      "bow": {
+        "draw_speed": 1.4142135623730951,
+        "range": 2.0833333333333335,
+        "bonus_damage": 0.5
+      }
+    },
+    "rubracium": {
+      "handle": {
+        "multiplier": 0.75,
+        "durability": 300
+      },
+      "extra": {
+        "durability": 47
+      }
+    },
+    "midasium": {
+      "head": {
+        "durability": 300,
+        "mining_speed": 10,
+        "melee_attack": 4,
+        "harvest_level": 4
+      },
+      "handle": {
+        "multiplier": 0.6,
+        "durability": 200
+      },
+      "extra": {
+        "durability": 30
+      }
+    },
+    "tartarite": {
+      "head": {
+        "durability": 400,
+        "mining_speed": 16,
+        "melee_attack": 10,
+        "harvest_level": 7
+      },
+      "handle": {
+        "auto": true
+      },
+      "extra": {
+        "auto": true
+      }
+    },
+    "platinum": {
+      "head": {
+        "auto": true
+      },
+      "handle": {
+        "multiplier": 1.11,
+        "durability": 45
+      },
+      "extra": {
+        "durability": 157
+      }
+    }
+  },
+  "nativeApiRuntimeChecked": false,
+  "delegatedNativeMaterials": [
+    "copper",
+    "bronze",
+    "zinc",
+    "tin",
+    "silver",
+    "steel",
+    "electrum",
+    "hepatizon",
+    "osmium"
+  ],
+  "perMaterialCastingTags": true,
+  "canonicalMetalFluidAliases": true,
+  "unsupportedTargets": [
+    "neoforge-1.21.1",
+    "neoforge-26.1.2"
+  ],
+  "armorAdaptation": "Original core to native plating; original plates/trim to native maille, with all ten power families implemented separately"
+}

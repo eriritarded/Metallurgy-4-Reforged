@@ -1,0 +1,147 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "ingredient": "metallurgy:deep_iron_ingot",
+    "categories": [
+      "metal",
+      "intermediate"
+    ],
+    "can_salvage": true,
+    "part_substitutes": {},
+    "gear_type_blacklist": []
+  },
+  "display": {
+    "name": {
+      "translate": "material.metallurgy.deep_iron.name"
+    },
+    "name_prefix": "",
+    "color": "#FF436182",
+    "main_texture_type": "HIGH_CONTRAST",
+    "equippable": {
+      "always_use_tint": true,
+      "asset_id": "silentgear:generic_shiny",
+      "compound_asset_id": "silentgear:generic_shiny",
+      "equip_sound": "minecraft:item.armor.equip_generic"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 230,
+      "harvest_speed": 6.2,
+      "enchantment_value": 19,
+      "attack_damage": 1.7,
+      "armor_durability": 15,
+      "armor": 10,
+      "armor/boots": 1,
+      "armor/leggings": 3,
+      "armor/chestplate": 4,
+      "armor/helmet": 2,
+      "armor_toughness": 1.0,
+      "attack_speed": 0,
+      "ranged_damage": 1,
+      "projectile_speed": 1,
+      "projectile_accuracy": 1,
+      "rarity": 20,
+      "draw_speed": 0,
+      "charging_value": 1,
+      "traits": [
+        {
+          "trait": "silentgear:aquatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:swift_swim",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ],
+      "harvest_tier": {
+        "name": "Deep Iron",
+        "level_hint": "2",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_2"
+      }
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "ADD",
+        "value": 34.5
+      },
+      "traits": [
+        {
+          "trait": "silentgear:aquatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:swift_swim",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 34.5
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 0.62
+      },
+      "attack_damage": {
+        "operation": "ADD",
+        "value": 0.255
+      },
+      "harvest_tier": {
+        "name": "Deep Iron",
+        "level_hint": "2",
+        "incorrect_blocks_for_tool": "metallurgy:incorrect_for_level_2"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:aquatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:swift_swim",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:setting": {}
+  }
+}

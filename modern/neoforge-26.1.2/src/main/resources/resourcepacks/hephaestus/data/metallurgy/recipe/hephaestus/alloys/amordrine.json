@@ -1,0 +1,18 @@
+{
+  "type": "hephaestus:alloy",
+  "inputs": [
+    {
+      "amount": 90,
+      "id": "metallurgy:kalendrite"
+    },
+    {
+      "amount": 90,
+      "id": "hephaestus:molten_platinum"
+    }
+  ],
+  "output": {
+    "amount": 180,
+    "id": "metallurgy:amordrine"
+  },
+  "temperature": 1500
+}

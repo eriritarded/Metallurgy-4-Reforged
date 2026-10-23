@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:carmot_ingot",
+    "metallurgy:carmot_dust",
+    {
+      "id": "#forge:ingots/carmot",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/carmot",
+      "required": false
+    },
+    {
+      "id": "#forge:dusts/carmot",
+      "required": false
+    },
+    {
+      "id": "#c:dusts/carmot",
+      "required": false
+    }
+  ]
+}

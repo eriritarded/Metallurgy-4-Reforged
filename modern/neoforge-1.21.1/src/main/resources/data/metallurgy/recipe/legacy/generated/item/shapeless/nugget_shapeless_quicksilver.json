@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/quicksilver"
+    }
+  ],
+  "result": {
+    "id": "metallurgy:quicksilver_nugget",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_nugget"
+    }
+  ]
+}

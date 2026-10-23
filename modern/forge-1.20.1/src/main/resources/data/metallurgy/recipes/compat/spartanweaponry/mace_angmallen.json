@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " II",
+    " SI",
+    "H  "
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/angmallen"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "H": {
+      "item": "spartanweaponry:handle"
+    }
+  },
+  "result": {
+    "item": "metallurgy:mace_angmallen",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spartanweaponry"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "spartanweaponry"
+    }
+  ]
+}

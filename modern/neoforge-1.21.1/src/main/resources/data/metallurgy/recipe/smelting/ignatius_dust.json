@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:ignatius_dust"
+  },
+  "result": {
+    "id": "metallurgy:ignatius_ingot"
+  },
+  "experience": 0.6,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:ignatius_ingot"
+    }
+  ]
+}

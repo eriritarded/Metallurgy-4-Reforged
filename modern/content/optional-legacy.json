@@ -1,0 +1,807 @@
+{
+  "sourceRevision": "ef94cb94cfc08ccebe8a0df307ce6b390dcd4704",
+  "files": {
+    "industrial_foregoing_laser_stats.json": "acc550f9bbd51317dc55052424c1ea546276af34464a16a581c8b6991c62e966",
+    "recipes/metallurgy_enderio_alloys.xml": "e17bdbeb0d5863b8e8ce4ffc51aac3e421d1f4091c61fec7cb3a1a12eed715c5"
+  },
+  "laser": [
+    {
+      "item": "orePotash",
+      "color": 1,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 15
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 60,
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "item": "oreSulfur",
+      "color": 4,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 5
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 15,
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "item": "orePhosphorite",
+      "color": 12,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 5
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 60,
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "item": "oreTar",
+      "color": 15,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 5
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 15,
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "item": "oreManganese",
+      "color": 6,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 10
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 100,
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "item": "oreZinc",
+      "color": 4,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 7
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 125,
+          "weight": 14
+        }
+      ]
+    },
+    {
+      "item": "orePrometheum",
+      "color": 13,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 15
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 15,
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "item": "oreDeepIron",
+      "color": 7,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 10
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 50,
+          "depth_max": 120,
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "item": "oreInfuscolium",
+      "color": 2,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 25
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 70,
+          "depth_max": 140,
+          "weight": 30
+        }
+      ]
+    },
+    {
+      "item": "oreManganese",
+      "color": 6,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "item": "oreOureclase",
+      "color": 2,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 60,
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "item": "oreAstralSilver",
+      "color": 0,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 60,
+          "depth_max": 120,
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "item": "oreCarmot",
+      "color": 4,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 15
+        }
+      ]
+    },
+    {
+      "item": "oreRubracium",
+      "color": 14,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 11
+        }
+      ]
+    },
+    {
+      "item": "oreOsmium",
+      "color": 11,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 125,
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "item": "oreLutetium",
+      "color": 4,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 125,
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "item": "oreOrichalcum",
+      "color": 5,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 9
+        }
+      ]
+    },
+    {
+      "item": "oreAdamantine",
+      "color": 14,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 3
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 30,
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "item": "oreAtlarus",
+      "color": 14,
+      "rarity": [
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 3
+        },
+        {
+          "whitelist": "",
+          "blacklist": "minecraft:hell, minecraft:sky",
+          "depth_min": 0,
+          "depth_max": 30,
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "item": "oreIgnatius",
+      "color": 4,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 14
+        }
+      ]
+    },
+    {
+      "item": "oreShadowIron",
+      "color": 4,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 12
+        }
+      ]
+    },
+    {
+      "item": "oreLemurite",
+      "color": 0,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 9
+        }
+      ]
+    },
+    {
+      "item": "oreAlduorite",
+      "color": 3,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "item": "oreCeruclase",
+      "color": 11,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "item": "oreMidasium",
+      "color": 1,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "item": "oreVulcanite",
+      "color": 14,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 7
+        }
+      ]
+    },
+    {
+      "item": "oreSanguinite",
+      "color": 1,
+      "rarity": [
+        {
+          "whitelist": "minecraft:hell",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "item": "oreEximite",
+      "color": 10,
+      "rarity": [
+        {
+          "whitelist": "minecraft:sky",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "item": "oreMeutoite",
+      "color": 7,
+      "rarity": [
+        {
+          "whitelist": "minecraft:sky",
+          "blacklist": "",
+          "depth_min": 0,
+          "depth_max": 255,
+          "weight": 25
+        }
+      ]
+    }
+  ],
+  "enderio": [
+    {
+      "name": "Alloy: Bronze (Metallurgy)",
+      "energy": 4500,
+      "experience": 0.75,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "tin",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "copper",
+          "count": 3
+        }
+      ],
+      "result": "metallurgy:bronze_ingot",
+      "count": 4
+    },
+    {
+      "name": "Alloy: Shadow Steel (Metallurgy)",
+      "energy": 4500,
+      "experience": 0.5,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "shadow_iron",
+          "count": 2
+        },
+        {
+          "form": "ingot",
+          "metal": "lemurite",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:shadow_steel_ingot",
+      "count": 3
+    },
+    {
+      "name": "Alloy: Inolashite (Metallurgy)",
+      "energy": 7500,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "alduorite",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "ceruclase",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:inolashite_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Brass (Metallurgy)",
+      "energy": 1500,
+      "experience": 0.75,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "copper",
+          "count": 3
+        },
+        {
+          "form": "ingot",
+          "metal": "zinc",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:brass_ingot",
+      "count": 4
+    },
+    {
+      "name": "Alloy: Black Steel (Metallurgy)",
+      "energy": 4500,
+      "experience": 0.75,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "deep_iron",
+          "count": 3
+        },
+        {
+          "form": "ingot",
+          "metal": "infuscolium",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:black_steel_ingot",
+      "count": 4
+    },
+    {
+      "name": "Alloy: Steel (Metallurgy)",
+      "energy": 6000,
+      "experience": 0.5,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "iron",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "manganese",
+          "count": 2
+        }
+      ],
+      "result": "metallurgy:steel_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Damascus Steel (Metallurgy)",
+      "energy": 6000,
+      "experience": 0.5,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "iron",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "bronze",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:damascus_steel_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Electrum (Metallurgy)",
+      "energy": 3000,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "silver",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "gold",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:electrum_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Celenegil (Metallurgy)",
+      "energy": 9000,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "orichalcum",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "platinum",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:celenegil_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Amordrine (Metallurgy)",
+      "energy": 7500,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "kalendrite",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "platinum",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:amordrine_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Haderoth (Metallurgy)",
+      "energy": 7500,
+      "experience": 0.5,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "mithril",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "rubracium",
+          "count": 2
+        }
+      ],
+      "result": "metallurgy:haderoth_ingot",
+      "count": 3
+    },
+    {
+      "name": "Alloy: Tartarite (Metallurgy)",
+      "energy": 12000,
+      "experience": 0.5,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "adamantine",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "atlarus",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:tartarite_ingot",
+      "count": 1
+    },
+    {
+      "name": "Alloy: Desichalkos (Metallurgy)",
+      "energy": 6000,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "eximite",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "meutoite",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:desichalkos_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Angmallen (Metallurgy)",
+      "energy": 4500,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "gold",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "iron",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:angmallen_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Hepatizon (Metallurgy)",
+      "energy": 4500,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "infuscolium",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "steel",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:hepatizon_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Quicksilver (Metallurgy)",
+      "energy": 7500,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "silver",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "mithril",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:quicksilver_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Krik (Metallurgy)",
+      "energy": 6000,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "lutetium",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "osmium",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:krik_ingot",
+      "count": 2
+    },
+    {
+      "name": "Alloy: Etherium (Metallurgy)",
+      "energy": 12000,
+      "experience": 0.25,
+      "inputs": [
+        {
+          "form": "ingot",
+          "metal": "sanguinite",
+          "count": 1
+        },
+        {
+          "form": "ingot",
+          "metal": "carmot",
+          "count": 1
+        }
+      ],
+      "result": "metallurgy:etherium_ingot",
+      "count": 2
+    }
+  ]
+}

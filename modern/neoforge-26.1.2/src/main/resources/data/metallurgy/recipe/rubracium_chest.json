@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm",
+    "mbm",
+    "mcm"
+  ],
+  "key": {
+    "m": "#metallurgy:ingots/rubracium",
+    "b": "metallurgy:bimetal_structure_block",
+    "c": "#c:chests/electrum"
+  },
+  "result": {
+    "id": "metallurgy:rubracium_chest",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:rubracium_chest"
+    }
+  ]
+}

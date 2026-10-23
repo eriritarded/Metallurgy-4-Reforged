@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "metallurgy:kalendrite_ore"
+  },
+  "result": "metallurgy:kalendrite_ingot",
+  "experience": 1,
+  "cookingtime": 200,
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:kalendrite_ingot"
+    }
+  ]
+}

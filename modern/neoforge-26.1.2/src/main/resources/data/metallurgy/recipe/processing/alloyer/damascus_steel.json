@@ -1,0 +1,37 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "alloyer",
+  "ingredients": [
+    "#metallurgy:processing/alloyer/iron",
+    "#metallurgy:processing/alloyer/bronze"
+  ],
+  "amounts": [
+    1,
+    2
+  ],
+  "result": {
+    "id": "metallurgy:damascus_steel_ingot",
+    "count": 3
+  },
+  "experience": 1.5,
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:damascus_steel_ingot"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/iron"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "metallurgy:processing/alloyer/bronze"
+      }
+    }
+  ]
+}

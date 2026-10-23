@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:kalendrite_ingot",
+    {
+      "id": "#forge:ingots/kalendrite",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/kalendrite",
+      "required": false
+    }
+  ]
+}

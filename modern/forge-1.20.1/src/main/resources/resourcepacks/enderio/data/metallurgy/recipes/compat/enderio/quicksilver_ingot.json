@@ -1,0 +1,37 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 7500,
+  "experience": 0.25,
+  "inputs": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/silver"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/mithril"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "metallurgy:quicksilver_ingot",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "enderio"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:quicksilver_ingot"
+    }
+  ]
+}

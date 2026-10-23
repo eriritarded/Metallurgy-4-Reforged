@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:ingots/krik"
+    }
+  },
+  "result": {
+    "item": "metallurgy:krik_boots",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:krik_boots"
+    }
+  ]
+}

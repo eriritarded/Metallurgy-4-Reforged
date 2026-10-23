@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:vyroxeres_ingot",
+    {
+      "id": "#forge:ingots/vyroxeres",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/vyroxeres",
+      "required": false
+    }
+  ]
+}

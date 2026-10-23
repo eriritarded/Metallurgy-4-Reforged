@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-17",
+  "sourceAdaptationComplete": true,
+  "sourceFiles": {
+    "adapted": 363,
+    "omitted": 19,
+    "unclassified": 0
+  },
+  "ordinaryProductionTargets": [
+    "forge-1.20.1",
+    "neoforge-1.21.1",
+    "neoforge-26.1.2"
+  ],
+  "artifacts": "artifacts/manifest.json",
+  "sourceAndBuildEvidence": "evidence/production-package-checkpoint.json",
+  "staticAssets": "docs/static-asset-inventory.json",
+  "cleanup": "evidence/release-scratch-cleanup.json",
+  "runtimeValidationComplete": false,
+  "gamesLaunchedForFinalWork": true,
+  "testsRunForFinalWork": true,
+  "installed": true,
+  "requestedInstance": {
+    "name": "Simply NeoForged",
+    "minecraft": "26.1.2",
+    "neoforge": "26.1.2.122",
+    "requiredFor26Artifact": "26.1.2.122",
+    "modified": true,
+    "decision": "Port.7 installed on NeoForge26.1.2.122; port.6 backed up, all38 other JARs and70 files preserved. No launcher settings edited."
+  },
+  "limits": "Port.7 passed the bounded native fresh-world/integrated-client/render/ore-particle/save/disconnect check in the copied39-JAR Simply NeoForged pack. Main mods/saves and production JAR bytes are unchanged. This does not establish every gameplay system, optional dependency combination, multiplayer, arbitrary worlds or current validation of the other two ports. Full runtime validation remains false.",
+  "installedTargets": [
+    "neoforge-26.1.2"
+  ],
+  "installationReceipt": "evidence/ore-atlas-fix-26.1.2.json",
+  "installationCleanup": "evidence/simply-neoforged-install-cleanup-2026-10-16.json",
+  "installationScratchCleanupComplete": false,
+  "latest26Version": "1.4.1-port.7",
+  "latest26PackageEvidence": "evidence/ore-atlas-fix-26.1.2.json",
+  "initialInstallationReceipt": "evidence/simply-neoforged-install-2026-10-16.json",
+  "userObservedStartupFailure": {
+    "version": "1.4.1-port.2",
+    "error": "Components not bound yet during shield construction",
+    "correctedVersion": "1.4.1-port.3",
+    "replacementRuntimeConfirmed": false
+  },
+  "inputFixScratchCleanupComplete": true,
+  "inputFixCleanupReceipt": "evidence/input-load-fix-cleanup-26.1.2.json",
+  "maximumMinecraftGameWindows": 1,
+  "backgroundCompilersAllowed": true,
+  "javaLimitClarification": "One Minecraft game window maximum; background compilers allowed. The user explicitly authorized this completed launch/create-world/retry task on2026-10-17.",
+  "startupFailureHistory": [
+    {
+      "version": "1.4.1-port.1",
+      "error": "Abstract InputEvent registration",
+      "correctedVersion": "1.4.1-port.2",
+      "replacementRuntimeConfirmed": false
+    },
+    {
+      "version": "1.4.1-port.2",
+      "error": "Components not bound yet during shield construction",
+      "correctedVersion": "1.4.1-port.3"
+    }
+  ],
+  "componentsFixScratchCleanupComplete": true,
+  "componentsFixCleanupReceipt": "evidence/components-load-fix-cleanup-26.1.2.json",
+  "recipeFixScratchCleanupComplete": true,
+  "userObservedRecipeFailure": {
+    "version": "1.4.1-port.3",
+    "phase": "World-creation recipe preparation",
+    "error": "IllegalArgumentException: Invalid processing output",
+    "log": "C:/Users/USER\\AppData\\Roaming\\PrismLauncher\\instances\\Simply NeoForged\\minecraft\\logs\\latest.log",
+    "logSha256": "049287b8cbfaef647ec6a805a49b87fa8ef77980616a83bd7c59bff9489c44ce",
+    "correctedVersion": "1.4.1-port.4",
+    "replacementRuntimeConfirmed": false
+  },
+  "runtimeFailureHistory": [
+    {
+      "version": "1.4.1-port.3",
+      "phase": "World-creation recipe preparation",
+      "error": "IllegalArgumentException: Invalid processing output",
+      "log": "C:/Users/USER\\AppData\\Roaming\\PrismLauncher\\instances\\Simply NeoForged\\minecraft\\logs\\latest.log",
+      "logSha256": "049287b8cbfaef647ec6a805a49b87fa8ef77980616a83bd7c59bff9489c44ce",
+      "correctedVersion": "1.4.1-port.4",
+      "replacementRuntimeConfirmed": false,
+      "resolvedPathObservedInPort7": "evidence/client-worldload-26.1.2.json"
+    },
+    {
+      "version": "1.4.1-port.5",
+      "phase": "Native recipe-content encoding during integrated-server login",
+      "error": "DetectorRecipe unit codec expected a different object",
+      "correctedVersion": "1.4.1-port.6",
+      "replacementRuntimeConfirmed": false,
+      "evidence": "evidence/singleplayer-disconnect-log-26.1.2.json",
+      "resolvedPathObservedInPort7": "evidence/client-worldload-26.1.2.json"
+    },
+    {
+      "version": "1.4.1-port.6",
+      "phase": "Client ore animateTick after login",
+      "error": "Invalid atlas id: minecraft:textures/atlas/blocks.png",
+      "correctedVersion": "1.4.1-port.7",
+      "replacementRuntimeConfirmed": false,
+      "evidence": "evidence/ore-atlas-crash-26.1.2.json",
+      "resolvedPathObservedInPort7": "evidence/client-worldload-26.1.2.json"
+    }
+  ],
+  "userObservedPort3TitleScreen": true,
+  "recipeFixCleanupReceipt": "evidence/recipe-load-fix-cleanup-26.1.2.json",
+  "latest26AssetEvidence": "evidence/atlas-model-slots-26.1.2.json",
+  "textureFixScratchCleanupComplete": true,
+  "textureFixCleanupReceipt": "evidence/texture-warnings-fix-cleanup-26.1.2.json",
+  "joinFixScratchCleanupComplete": true,
+  "userObservedPort5LoginFailure": {
+    "version": "1.4.1-port.5",
+    "phase": "Native recipe-content encoding during integrated-server login",
+    "error": "DetectorRecipe unit codec expected a different object",
+    "correctedVersion": "1.4.1-port.6",
+    "replacementRuntimeConfirmed": false,
+    "evidence": "evidence/singleplayer-disconnect-log-26.1.2.json"
+  },
+  "userObservedPort5TextureWarningHeaders": 0,
+  "joinFixCleanupReceipt": "evidence/singleplayer-join-fix-cleanup-26.1.2.json",
+  "atlasFixScratchCleanupComplete": true,
+  "userObservedPort6AtlasFailure": {
+    "version": "1.4.1-port.6",
+    "phase": "Client ore animateTick after login",
+    "error": "Invalid atlas id: minecraft:textures/atlas/blocks.png",
+    "correctedVersion": "1.4.1-port.7",
+    "replacementRuntimeConfirmed": false,
+    "evidence": "evidence/ore-atlas-crash-26.1.2.json"
+  },
+  "port6PriorFixObservation": "evidence/port6-before-atlas-crash-observation.json",
+  "atlasFixCleanupReceipt": "evidence/ore-atlas-fix-cleanup-26.1.2.json",
+  "clientWorldLoadCheckComplete": true,
+  "clientWorldLoadEvidence": "evidence/client-worldload-26.1.2.json",
+  "clientWorldLoadScope": "26.1.2/NeoForge26.1.2.122, installed unmodified port.7, full39-JAR pack in isolated H: profile; normal/creative seed701726122;90+ seconds unpaused; saved and exited0",
+  "assistantGameClosed": true,
+  "clientWorldLoadScratchCleanupComplete": true,
+  "clientWorldLoadCleanupReceipt": "evidence/client-worldload-cleanup-26.1.2.json"
+}

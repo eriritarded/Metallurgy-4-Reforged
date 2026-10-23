@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:deep_iron_ingot",
+    {
+      "id": "#forge:ingots/deep_iron",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/deep_iron",
+      "required": false
+    }
+  ]
+}

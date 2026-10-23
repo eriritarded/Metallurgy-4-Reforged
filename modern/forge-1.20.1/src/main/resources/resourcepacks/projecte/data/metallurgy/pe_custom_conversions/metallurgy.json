@@ -1,0 +1,1741 @@
+{
+  "comment": "Original Metallurgy1.4.1 EMC values. Tools use the current native stick EMC; see PROJECTE.md.",
+  "values": {
+    "before": {
+      "metallurgy:iron_dust": 256,
+      "metallurgy:gold_dust": 2048,
+      "metallurgy:potash": 128,
+      "metallurgy:potash_fertilizer": 256,
+      "metallurgy:phosphorus": 128,
+      "metallurgy:bitumen": 256,
+      "metallurgy:tar": 128,
+      "metallurgy:adamantine_ingot": 8192,
+      "metallurgy:adamantine_dust": 8192,
+      "metallurgy:adamantine_nugget": 910,
+      "metallurgy:adamantine_block": 73728,
+      "metallurgy:adamantine_helmet": 40960,
+      "metallurgy:adamantine_chestplate": 65536,
+      "metallurgy:adamantine_leggings": 57344,
+      "metallurgy:adamantine_boots": 32768,
+      "metallurgy:alduorite_ingot": 1024,
+      "metallurgy:alduorite_dust": 1024,
+      "metallurgy:alduorite_nugget": 113,
+      "metallurgy:alduorite_block": 9216,
+      "metallurgy:amordrine_ingot": 3072,
+      "metallurgy:amordrine_dust": 3072,
+      "metallurgy:amordrine_nugget": 341,
+      "metallurgy:amordrine_block": 27648,
+      "metallurgy:amordrine_helmet": 15360,
+      "metallurgy:amordrine_chestplate": 24576,
+      "metallurgy:amordrine_leggings": 21504,
+      "metallurgy:amordrine_boots": 12288,
+      "metallurgy:angmallen_ingot": 1152,
+      "metallurgy:angmallen_dust": 1152,
+      "metallurgy:angmallen_nugget": 128,
+      "metallurgy:angmallen_block": 10368,
+      "metallurgy:angmallen_helmet": 5760,
+      "metallurgy:angmallen_chestplate": 9216,
+      "metallurgy:angmallen_leggings": 8064,
+      "metallurgy:angmallen_boots": 4608,
+      "metallurgy:astral_silver_ingot": 2048,
+      "metallurgy:astral_silver_dust": 2048,
+      "metallurgy:astral_silver_nugget": 227,
+      "metallurgy:astral_silver_block": 18432,
+      "metallurgy:astral_silver_helmet": 10240,
+      "metallurgy:astral_silver_chestplate": 16384,
+      "metallurgy:astral_silver_leggings": 14336,
+      "metallurgy:astral_silver_boots": 8192,
+      "metallurgy:atlarus_ingot": 8192,
+      "metallurgy:atlarus_dust": 8192,
+      "metallurgy:atlarus_nugget": 910,
+      "metallurgy:atlarus_block": 73728,
+      "metallurgy:atlarus_helmet": 40960,
+      "metallurgy:atlarus_chestplate": 65536,
+      "metallurgy:atlarus_leggings": 57344,
+      "metallurgy:atlarus_boots": 32768,
+      "metallurgy:black_steel_ingot": 512,
+      "metallurgy:black_steel_dust": 512,
+      "metallurgy:black_steel_nugget": 56,
+      "metallurgy:black_steel_block": 4608,
+      "metallurgy:black_steel_helmet": 2560,
+      "metallurgy:black_steel_chestplate": 4096,
+      "metallurgy:black_steel_leggings": 3584,
+      "metallurgy:black_steel_boots": 2048,
+      "metallurgy:brass_ingot": 224,
+      "metallurgy:brass_dust": 224,
+      "metallurgy:brass_nugget": 24,
+      "metallurgy:brass_block": 2016,
+      "metallurgy:brass_helmet": 1120,
+      "metallurgy:brass_chestplate": 1792,
+      "metallurgy:brass_leggings": 1568,
+      "metallurgy:brass_boots": 896,
+      "metallurgy:bronze_ingot": 160,
+      "metallurgy:bronze_dust": 160,
+      "metallurgy:bronze_nugget": 17,
+      "metallurgy:bronze_block": 1440,
+      "metallurgy:bronze_helmet": 800,
+      "metallurgy:bronze_chestplate": 1280,
+      "metallurgy:bronze_leggings": 1120,
+      "metallurgy:bronze_boots": 640,
+      "metallurgy:carmot_ingot": 2048,
+      "metallurgy:carmot_dust": 2048,
+      "metallurgy:carmot_nugget": 227,
+      "metallurgy:carmot_block": 18432,
+      "metallurgy:carmot_helmet": 10240,
+      "metallurgy:carmot_chestplate": 16384,
+      "metallurgy:carmot_leggings": 14336,
+      "metallurgy:carmot_boots": 8192,
+      "metallurgy:celenegil_ingot": 4096,
+      "metallurgy:celenegil_dust": 4096,
+      "metallurgy:celenegil_nugget": 455,
+      "metallurgy:celenegil_block": 36864,
+      "metallurgy:celenegil_helmet": 20480,
+      "metallurgy:celenegil_chestplate": 32768,
+      "metallurgy:celenegil_leggings": 28672,
+      "metallurgy:celenegil_boots": 16384,
+      "metallurgy:ceruclase_ingot": 1024,
+      "metallurgy:ceruclase_dust": 1024,
+      "metallurgy:ceruclase_nugget": 113,
+      "metallurgy:ceruclase_block": 9216,
+      "metallurgy:ceruclase_helmet": 5120,
+      "metallurgy:ceruclase_chestplate": 8192,
+      "metallurgy:ceruclase_leggings": 7168,
+      "metallurgy:ceruclase_boots": 4096,
+      "metallurgy:copper_ingot": 128,
+      "metallurgy:copper_dust": 128,
+      "metallurgy:copper_nugget": 14,
+      "metallurgy:copper_block": 1152,
+      "metallurgy:copper_helmet": 640,
+      "metallurgy:copper_chestplate": 1024,
+      "metallurgy:copper_leggings": 896,
+      "metallurgy:copper_boots": 512,
+      "metallurgy:damascus_steel_ingot": 192,
+      "metallurgy:damascus_steel_dust": 192,
+      "metallurgy:damascus_steel_nugget": 21,
+      "metallurgy:damascus_steel_block": 1728,
+      "metallurgy:damascus_steel_helmet": 960,
+      "metallurgy:damascus_steel_chestplate": 1536,
+      "metallurgy:damascus_steel_leggings": 1344,
+      "metallurgy:damascus_steel_boots": 768,
+      "metallurgy:deep_iron_ingot": 192,
+      "metallurgy:deep_iron_dust": 192,
+      "metallurgy:deep_iron_nugget": 21,
+      "metallurgy:deep_iron_block": 1728,
+      "metallurgy:deep_iron_helmet": 960,
+      "metallurgy:deep_iron_chestplate": 1536,
+      "metallurgy:deep_iron_leggings": 1344,
+      "metallurgy:deep_iron_boots": 768,
+      "metallurgy:desichalkos_ingot": 6144,
+      "metallurgy:desichalkos_dust": 6144,
+      "metallurgy:desichalkos_nugget": 682,
+      "metallurgy:desichalkos_block": 55296,
+      "metallurgy:desichalkos_helmet": 30720,
+      "metallurgy:desichalkos_chestplate": 49152,
+      "metallurgy:desichalkos_leggings": 43008,
+      "metallurgy:desichalkos_boots": 24576,
+      "metallurgy:electrum_ingot": 1280,
+      "metallurgy:electrum_dust": 1280,
+      "metallurgy:electrum_nugget": 142,
+      "metallurgy:electrum_block": 11520,
+      "metallurgy:electrum_helmet": 6400,
+      "metallurgy:electrum_chestplate": 10240,
+      "metallurgy:electrum_leggings": 8960,
+      "metallurgy:electrum_boots": 5120,
+      "metallurgy:etherium_ingot": 5120,
+      "metallurgy:etherium_dust": 5120,
+      "metallurgy:etherium_nugget": 568,
+      "metallurgy:etherium_block": 46080,
+      "metallurgy:etherium_helmet": 25600,
+      "metallurgy:etherium_chestplate": 40960,
+      "metallurgy:etherium_leggings": 35840,
+      "metallurgy:etherium_boots": 20480,
+      "metallurgy:eximite_ingot": 8192,
+      "metallurgy:eximite_dust": 8192,
+      "metallurgy:eximite_nugget": 910,
+      "metallurgy:eximite_block": 73728,
+      "metallurgy:eximite_helmet": 40960,
+      "metallurgy:eximite_chestplate": 65536,
+      "metallurgy:eximite_leggings": 57344,
+      "metallurgy:eximite_boots": 32768,
+      "metallurgy:haderoth_ingot": 1024,
+      "metallurgy:haderoth_dust": 1024,
+      "metallurgy:haderoth_nugget": 113,
+      "metallurgy:haderoth_block": 9216,
+      "metallurgy:haderoth_helmet": 5120,
+      "metallurgy:haderoth_chestplate": 8192,
+      "metallurgy:haderoth_leggings": 7168,
+      "metallurgy:haderoth_boots": 4096,
+      "metallurgy:hepatizon_ingot": 384,
+      "metallurgy:hepatizon_dust": 384,
+      "metallurgy:hepatizon_nugget": 42,
+      "metallurgy:hepatizon_block": 3456,
+      "metallurgy:hepatizon_helmet": 1920,
+      "metallurgy:hepatizon_chestplate": 3072,
+      "metallurgy:hepatizon_leggings": 2688,
+      "metallurgy:hepatizon_boots": 1536,
+      "metallurgy:ignatius_ingot": 256,
+      "metallurgy:ignatius_dust": 256,
+      "metallurgy:ignatius_nugget": 28,
+      "metallurgy:ignatius_block": 2304,
+      "metallurgy:ignatius_helmet": 1280,
+      "metallurgy:ignatius_chestplate": 2048,
+      "metallurgy:ignatius_leggings": 1792,
+      "metallurgy:ignatius_boots": 1024,
+      "metallurgy:infuscolium_ingot": 512,
+      "metallurgy:infuscolium_dust": 512,
+      "metallurgy:infuscolium_nugget": 56,
+      "metallurgy:infuscolium_block": 4608,
+      "metallurgy:inolashite_ingot": 1024,
+      "metallurgy:inolashite_dust": 1024,
+      "metallurgy:inolashite_nugget": 113,
+      "metallurgy:inolashite_block": 9216,
+      "metallurgy:inolashite_helmet": 5120,
+      "metallurgy:inolashite_chestplate": 8192,
+      "metallurgy:inolashite_leggings": 7168,
+      "metallurgy:inolashite_boots": 4096,
+      "metallurgy:kalendrite_ingot": 2048,
+      "metallurgy:kalendrite_dust": 2048,
+      "metallurgy:kalendrite_nugget": 227,
+      "metallurgy:kalendrite_block": 18432,
+      "metallurgy:kalendrite_helmet": 10240,
+      "metallurgy:kalendrite_chestplate": 16384,
+      "metallurgy:kalendrite_leggings": 14336,
+      "metallurgy:kalendrite_boots": 8192,
+      "metallurgy:krik_ingot": 512,
+      "metallurgy:krik_dust": 512,
+      "metallurgy:krik_nugget": 56,
+      "metallurgy:krik_block": 4608,
+      "metallurgy:krik_helmet": 2560,
+      "metallurgy:krik_chestplate": 4096,
+      "metallurgy:krik_leggings": 3584,
+      "metallurgy:krik_boots": 2048,
+      "metallurgy:lemurite_ingot": 1024,
+      "metallurgy:lemurite_dust": 1024,
+      "metallurgy:lemurite_nugget": 113,
+      "metallurgy:lemurite_block": 9216,
+      "metallurgy:lutetium_ingot": 512,
+      "metallurgy:lutetium_dust": 512,
+      "metallurgy:lutetium_nugget": 56,
+      "metallurgy:lutetium_block": 4608,
+      "metallurgy:lutetium_helmet": 2560,
+      "metallurgy:lutetium_chestplate": 4096,
+      "metallurgy:lutetium_leggings": 3584,
+      "metallurgy:lutetium_boots": 2048,
+      "metallurgy:manganese_ingot": 2048,
+      "metallurgy:manganese_dust": 2048,
+      "metallurgy:manganese_nugget": 227,
+      "metallurgy:manganese_block": 18432,
+      "metallurgy:meutoite_ingot": 4096,
+      "metallurgy:meutoite_dust": 4096,
+      "metallurgy:meutoite_nugget": 455,
+      "metallurgy:meutoite_block": 36864,
+      "metallurgy:midasium_ingot": 1024,
+      "metallurgy:midasium_dust": 1024,
+      "metallurgy:midasium_nugget": 113,
+      "metallurgy:midasium_block": 9216,
+      "metallurgy:midasium_helmet": 5120,
+      "metallurgy:midasium_chestplate": 8192,
+      "metallurgy:midasium_leggings": 7168,
+      "metallurgy:midasium_boots": 4096,
+      "metallurgy:mithril_ingot": 2048,
+      "metallurgy:mithril_dust": 2048,
+      "metallurgy:mithril_nugget": 227,
+      "metallurgy:mithril_block": 18432,
+      "metallurgy:mithril_helmet": 10240,
+      "metallurgy:mithril_chestplate": 16384,
+      "metallurgy:mithril_leggings": 14336,
+      "metallurgy:mithril_boots": 8192,
+      "metallurgy:orichalcum_ingot": 4096,
+      "metallurgy:orichalcum_dust": 4096,
+      "metallurgy:orichalcum_nugget": 455,
+      "metallurgy:orichalcum_block": 36864,
+      "metallurgy:orichalcum_helmet": 20480,
+      "metallurgy:orichalcum_chestplate": 32768,
+      "metallurgy:orichalcum_leggings": 28672,
+      "metallurgy:orichalcum_boots": 16384,
+      "metallurgy:osmium_ingot": 512,
+      "metallurgy:osmium_dust": 512,
+      "metallurgy:osmium_nugget": 56,
+      "metallurgy:osmium_block": 4608,
+      "metallurgy:osmium_helmet": 2560,
+      "metallurgy:osmium_chestplate": 4096,
+      "metallurgy:osmium_leggings": 3584,
+      "metallurgy:osmium_boots": 2048,
+      "metallurgy:oureclase_ingot": 1024,
+      "metallurgy:oureclase_dust": 1024,
+      "metallurgy:oureclase_nugget": 113,
+      "metallurgy:oureclase_block": 9216,
+      "metallurgy:oureclase_helmet": 5120,
+      "metallurgy:oureclase_chestplate": 8192,
+      "metallurgy:oureclase_leggings": 7168,
+      "metallurgy:oureclase_boots": 4096,
+      "metallurgy:platinum_ingot": 4096,
+      "metallurgy:platinum_dust": 4096,
+      "metallurgy:platinum_nugget": 455,
+      "metallurgy:platinum_block": 36864,
+      "metallurgy:platinum_helmet": 20480,
+      "metallurgy:platinum_chestplate": 32768,
+      "metallurgy:platinum_leggings": 28672,
+      "metallurgy:platinum_boots": 16384,
+      "metallurgy:prometheum_ingot": 256,
+      "metallurgy:prometheum_dust": 256,
+      "metallurgy:prometheum_nugget": 28,
+      "metallurgy:prometheum_block": 2304,
+      "metallurgy:prometheum_helmet": 1280,
+      "metallurgy:prometheum_chestplate": 2048,
+      "metallurgy:prometheum_leggings": 1792,
+      "metallurgy:prometheum_boots": 1024,
+      "metallurgy:quicksilver_ingot": 1280,
+      "metallurgy:quicksilver_dust": 1280,
+      "metallurgy:quicksilver_nugget": 142,
+      "metallurgy:quicksilver_block": 11520,
+      "metallurgy:quicksilver_helmet": 6400,
+      "metallurgy:quicksilver_chestplate": 10240,
+      "metallurgy:quicksilver_leggings": 8960,
+      "metallurgy:quicksilver_boots": 5120,
+      "metallurgy:rubracium_ingot": 1024,
+      "metallurgy:rubracium_dust": 1024,
+      "metallurgy:rubracium_nugget": 113,
+      "metallurgy:rubracium_block": 9216,
+      "metallurgy:sanguinite_ingot": 8192,
+      "metallurgy:sanguinite_dust": 8192,
+      "metallurgy:sanguinite_nugget": 910,
+      "metallurgy:sanguinite_block": 73728,
+      "metallurgy:sanguinite_helmet": 40960,
+      "metallurgy:sanguinite_chestplate": 65536,
+      "metallurgy:sanguinite_leggings": 57344,
+      "metallurgy:sanguinite_boots": 32768,
+      "metallurgy:shadow_iron_ingot": 256,
+      "metallurgy:shadow_iron_dust": 256,
+      "metallurgy:shadow_iron_nugget": 28,
+      "metallurgy:shadow_iron_block": 2304,
+      "metallurgy:shadow_iron_helmet": 1280,
+      "metallurgy:shadow_iron_chestplate": 2048,
+      "metallurgy:shadow_iron_leggings": 1792,
+      "metallurgy:shadow_iron_boots": 1024,
+      "metallurgy:shadow_steel_ingot": 512,
+      "metallurgy:shadow_steel_dust": 512,
+      "metallurgy:shadow_steel_nugget": 56,
+      "metallurgy:shadow_steel_block": 4608,
+      "metallurgy:shadow_steel_helmet": 2560,
+      "metallurgy:shadow_steel_chestplate": 4096,
+      "metallurgy:shadow_steel_leggings": 3584,
+      "metallurgy:shadow_steel_boots": 2048,
+      "metallurgy:silver_ingot": 512,
+      "metallurgy:silver_dust": 512,
+      "metallurgy:silver_nugget": 56,
+      "metallurgy:silver_block": 4608,
+      "metallurgy:silver_helmet": 2560,
+      "metallurgy:silver_chestplate": 4096,
+      "metallurgy:silver_leggings": 3584,
+      "metallurgy:silver_boots": 2048,
+      "metallurgy:steel_ingot": 3200,
+      "metallurgy:steel_dust": 3200,
+      "metallurgy:steel_nugget": 355,
+      "metallurgy:steel_block": 28800,
+      "metallurgy:steel_helmet": 16000,
+      "metallurgy:steel_chestplate": 25600,
+      "metallurgy:steel_leggings": 22400,
+      "metallurgy:steel_boots": 12800,
+      "metallurgy:tartarite_ingot": 16384,
+      "metallurgy:tartarite_dust": 16384,
+      "metallurgy:tartarite_nugget": 1820,
+      "metallurgy:tartarite_block": 147456,
+      "metallurgy:tartarite_helmet": 81920,
+      "metallurgy:tartarite_chestplate": 131072,
+      "metallurgy:tartarite_leggings": 114688,
+      "metallurgy:tartarite_boots": 65536,
+      "metallurgy:tin_ingot": 256,
+      "metallurgy:tin_dust": 256,
+      "metallurgy:tin_nugget": 28,
+      "metallurgy:tin_block": 2304,
+      "metallurgy:vulcanite_ingot": 4096,
+      "metallurgy:vulcanite_dust": 4096,
+      "metallurgy:vulcanite_nugget": 455,
+      "metallurgy:vulcanite_block": 36864,
+      "metallurgy:vulcanite_helmet": 20480,
+      "metallurgy:vulcanite_chestplate": 32768,
+      "metallurgy:vulcanite_leggings": 28672,
+      "metallurgy:vulcanite_boots": 16384,
+      "metallurgy:vyroxeres_ingot": 2048,
+      "metallurgy:vyroxeres_dust": 2048,
+      "metallurgy:vyroxeres_nugget": 227,
+      "metallurgy:vyroxeres_block": 18432,
+      "metallurgy:vyroxeres_helmet": 10240,
+      "metallurgy:vyroxeres_chestplate": 16384,
+      "metallurgy:vyroxeres_leggings": 14336,
+      "metallurgy:vyroxeres_boots": 8192,
+      "metallurgy:zinc_ingot": 512,
+      "metallurgy:zinc_dust": 512,
+      "metallurgy:zinc_nugget": 56,
+      "metallurgy:zinc_block": 4608
+    },
+    "conversion": [
+      {
+        "ingredients": {
+          "metallurgy:adamantine_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:adamantine_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:adamantine_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:adamantine_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:adamantine_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:adamantine_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:adamantine_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:adamantine_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:adamantine_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:adamantine_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:amordrine_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:amordrine_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:amordrine_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:amordrine_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:amordrine_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:amordrine_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:amordrine_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:amordrine_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:amordrine_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:amordrine_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:angmallen_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:angmallen_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:angmallen_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:angmallen_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:angmallen_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:angmallen_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:angmallen_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:angmallen_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:angmallen_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:angmallen_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:astral_silver_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:astral_silver_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:astral_silver_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:astral_silver_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:astral_silver_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:astral_silver_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:astral_silver_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:astral_silver_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:astral_silver_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:astral_silver_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:atlarus_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:atlarus_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:atlarus_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:atlarus_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:atlarus_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:atlarus_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:atlarus_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:atlarus_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:atlarus_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:atlarus_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:black_steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:black_steel_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:black_steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:black_steel_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:black_steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:black_steel_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:black_steel_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:black_steel_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:black_steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:black_steel_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:brass_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:brass_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:brass_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:brass_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:brass_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:brass_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:brass_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:brass_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:brass_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:brass_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:bronze_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:bronze_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:bronze_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:bronze_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:bronze_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:bronze_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:bronze_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:bronze_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:bronze_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:bronze_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:carmot_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:carmot_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:carmot_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:carmot_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:carmot_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:carmot_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:carmot_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:carmot_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:carmot_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:carmot_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:celenegil_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:celenegil_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:celenegil_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:celenegil_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:celenegil_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:celenegil_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:celenegil_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:celenegil_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:celenegil_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:celenegil_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ceruclase_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ceruclase_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ceruclase_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ceruclase_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ceruclase_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ceruclase_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ceruclase_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ceruclase_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ceruclase_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ceruclase_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:copper_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:copper_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:copper_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:copper_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:copper_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:copper_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:copper_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:copper_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:copper_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:copper_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:damascus_steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:damascus_steel_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:damascus_steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:damascus_steel_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:damascus_steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:damascus_steel_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:damascus_steel_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:damascus_steel_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:damascus_steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:damascus_steel_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:deep_iron_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:deep_iron_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:deep_iron_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:deep_iron_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:deep_iron_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:deep_iron_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:deep_iron_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:deep_iron_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:deep_iron_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:deep_iron_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:desichalkos_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:desichalkos_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:desichalkos_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:desichalkos_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:desichalkos_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:desichalkos_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:desichalkos_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:desichalkos_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:desichalkos_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:desichalkos_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:electrum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:electrum_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:electrum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:electrum_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:electrum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:electrum_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:electrum_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:electrum_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:electrum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:electrum_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:etherium_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:etherium_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:etherium_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:etherium_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:etherium_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:etherium_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:etherium_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:etherium_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:etherium_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:etherium_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:eximite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:eximite_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:eximite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:eximite_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:eximite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:eximite_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:eximite_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:eximite_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:eximite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:eximite_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:haderoth_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:haderoth_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:haderoth_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:haderoth_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:haderoth_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:haderoth_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:haderoth_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:haderoth_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:haderoth_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:haderoth_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:hepatizon_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:hepatizon_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:hepatizon_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:hepatizon_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:hepatizon_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:hepatizon_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:hepatizon_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:hepatizon_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:hepatizon_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:hepatizon_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ignatius_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ignatius_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ignatius_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ignatius_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ignatius_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ignatius_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ignatius_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ignatius_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:ignatius_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:ignatius_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:inolashite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:inolashite_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:inolashite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:inolashite_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:inolashite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:inolashite_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:inolashite_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:inolashite_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:inolashite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:inolashite_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:kalendrite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:kalendrite_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:kalendrite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:kalendrite_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:kalendrite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:kalendrite_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:kalendrite_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:kalendrite_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:kalendrite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:kalendrite_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:krik_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:krik_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:krik_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:krik_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:krik_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:krik_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:krik_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:krik_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:krik_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:krik_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:midasium_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:midasium_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:midasium_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:midasium_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:midasium_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:midasium_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:midasium_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:midasium_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:midasium_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:midasium_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:mithril_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:mithril_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:mithril_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:mithril_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:mithril_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:mithril_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:mithril_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:mithril_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:mithril_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:mithril_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:orichalcum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:orichalcum_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:orichalcum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:orichalcum_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:orichalcum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:orichalcum_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:orichalcum_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:orichalcum_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:orichalcum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:orichalcum_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:oureclase_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:oureclase_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:oureclase_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:oureclase_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:oureclase_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:oureclase_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:oureclase_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:oureclase_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:oureclase_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:oureclase_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:platinum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:platinum_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:platinum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:platinum_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:platinum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:platinum_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:platinum_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:platinum_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:platinum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:platinum_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:prometheum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:prometheum_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:prometheum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:prometheum_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:prometheum_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:prometheum_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:prometheum_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:prometheum_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:prometheum_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:prometheum_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:quicksilver_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:quicksilver_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:quicksilver_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:quicksilver_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:quicksilver_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:quicksilver_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:quicksilver_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:quicksilver_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:quicksilver_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:quicksilver_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:sanguinite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:sanguinite_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:sanguinite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:sanguinite_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:sanguinite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:sanguinite_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:sanguinite_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:sanguinite_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:sanguinite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:sanguinite_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_iron_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_iron_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_iron_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_iron_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_iron_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_iron_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_iron_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_iron_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_iron_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_iron_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_steel_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_steel_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_steel_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_steel_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_steel_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:shadow_steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:shadow_steel_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:silver_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:silver_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:silver_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:silver_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:silver_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:silver_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:silver_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:silver_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:silver_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:silver_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:steel_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:steel_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:steel_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:steel_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:steel_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:steel_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:steel_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:steel_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:tartarite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:tartarite_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:tartarite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:tartarite_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:tartarite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:tartarite_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:tartarite_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:tartarite_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:tartarite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:tartarite_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vulcanite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vulcanite_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vulcanite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vulcanite_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vulcanite_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vulcanite_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vulcanite_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vulcanite_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vulcanite_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vulcanite_sword"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vyroxeres_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vyroxeres_axe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vyroxeres_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vyroxeres_hoe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vyroxeres_ingot": 3,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vyroxeres_pickaxe"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vyroxeres_ingot": 1,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vyroxeres_shovel"
+      },
+      {
+        "ingredients": {
+          "metallurgy:vyroxeres_ingot": 2,
+          "minecraft:stick": 2
+        },
+        "output": "metallurgy:vyroxeres_sword"
+      }
+    ]
+  }
+}

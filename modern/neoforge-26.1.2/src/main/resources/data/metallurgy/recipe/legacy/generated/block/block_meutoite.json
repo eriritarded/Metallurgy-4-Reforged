@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": "#c:ingots/meutoite"
+  },
+  "result": {
+    "id": "metallurgy:meutoite_block",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:meutoite_block"
+    }
+  ]
+}

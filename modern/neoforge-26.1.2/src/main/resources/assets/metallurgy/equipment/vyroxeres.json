@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:vyroxeres"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:vyroxeres"
+      }
+    ]
+  }
+}

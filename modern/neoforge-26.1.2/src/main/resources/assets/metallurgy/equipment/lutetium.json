@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "metallurgy:lutetium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "metallurgy:lutetium"
+      }
+    ]
+  }
+}

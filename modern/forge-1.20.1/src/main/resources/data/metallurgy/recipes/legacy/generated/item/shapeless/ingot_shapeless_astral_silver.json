@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/astral_silver"
+    }
+  ],
+  "result": {
+    "item": "metallurgy:astral_silver_ingot",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:astral_silver_ingot"
+    }
+  ]
+}

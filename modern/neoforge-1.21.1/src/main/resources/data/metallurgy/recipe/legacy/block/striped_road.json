@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BWB",
+    "BWB",
+    "BWB"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:dusts/bitumen"
+    },
+    "W": {
+      "tag": "c:dyes/white"
+    }
+  },
+  "result": {
+    "id": "metallurgy:striped_road_block",
+    "count": 16
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:striped_road_block"
+    }
+  ]
+}

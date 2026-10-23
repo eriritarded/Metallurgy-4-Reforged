@@ -1,0 +1,33 @@
+{
+  "key": "metallurgy_astral_silver",
+  "category": "metal",
+  "primary": 5.8,
+  "secondary": 4.167,
+  "tertiary": 4.25,
+  "durability": 523,
+  "integrityCost": 2,
+  "integrityGain": 6,
+  "magicCapacity": 216,
+  "toolLevel": "minecraft:diamond",
+  "toolEfficiency": 8.5,
+  "tints": {
+    "glyph": "1D52A3",
+    "texture": "1D52A3"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "metallurgy:astral_silver_ingot"
+    ]
+  },
+  "effects": {
+    "intuit": 2,
+    "stabilizing": 15
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  }
+}

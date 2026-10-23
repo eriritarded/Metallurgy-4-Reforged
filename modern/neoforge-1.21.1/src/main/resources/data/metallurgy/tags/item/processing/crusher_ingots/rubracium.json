@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "metallurgy:rubracium_ingot",
+    {
+      "id": "#forge:ingots/rubracium",
+      "required": false
+    },
+    {
+      "id": "#c:ingots/rubracium",
+      "required": false
+    }
+  ]
+}

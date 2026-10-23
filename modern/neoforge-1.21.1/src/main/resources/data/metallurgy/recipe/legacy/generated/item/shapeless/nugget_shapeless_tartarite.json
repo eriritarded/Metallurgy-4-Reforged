@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "c:ingots/tartarite"
+    }
+  ],
+  "result": {
+    "id": "metallurgy:tartarite_nugget",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:tartarite_nugget"
+    }
+  ]
+}

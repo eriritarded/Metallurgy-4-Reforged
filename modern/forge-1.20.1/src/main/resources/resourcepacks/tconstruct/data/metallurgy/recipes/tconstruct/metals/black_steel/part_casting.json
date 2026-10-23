@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "metallurgy:molten/black_steel",
+    "amount": 90
+  },
+  "output": "metallurgy:black_steel",
+  "temperature": 1100
+}
