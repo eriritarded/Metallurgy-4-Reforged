@@ -17,6 +17,12 @@ autotest and GameTest clients, and Prism test instances. Before a launch,
 confirm `soundCategory_master:0.0` in that run folder's `options.txt` for the
 target being run; in a new run folder, create the file with that line first.
 
+Before making or updating any review page or document for Oculifelis, load the
+user-level `review-pages` skill (`the user-level skills folderreview-pages/`) and follow
+it: pictures readable when zoomed out, newest items near the top, Good / Needs
+changes / Bad buttons and a notes section on every item. Move existing review
+pages to it on their next update, keeping their links and answers.
+
 The imported `tools/` directory also contains historical workstation helpers.
 Their paths/evidence are not a portable installation or incremental-release
 workflow. Use the target Gradle wrapper for fresh source builds; see root README.
