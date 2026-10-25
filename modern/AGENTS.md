@@ -17,6 +17,15 @@ autotest and GameTest clients, and Prism test instances. Before a launch,
 confirm `soundCategory_master:0.0` in that run folder's `options.txt` for the
 target being run; in a new run folder, create the file with that line first.
 
+Test clients must also never take focus. For each test launch: add a
+test-only client mixin on `Window.createGlfwWindow` (before
+`GLFW.glfwCreateWindow`, `remap = false`) that sets the `GLFW_FOCUSED` and
+`GLFW_FOCUS_ON_SHOW` hints to false when a test system property is set, and
+keep it out of ordinary JARs; set `earlyWindowControl = false` in the run
+folder's `config/fml.toml` for the run and restore it afterwards (NeoForge's
+early window always takes focus); and put `pauseOnLostFocus:false` in that
+run folder's `options.txt`.
+
 Before making or updating any review page or document for Oculifelis, load the
 user-level `review-pages` skill (`the user-level skills folderreview-pages/`) and follow
 it: pictures readable when zoomed out, newest items near the top, Good / Needs
