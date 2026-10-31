@@ -4,9 +4,7 @@
     "amount": 50,
     "id": "metallurgy:molten_thermite"
   },
-  "ingredient": {
-    "item": "metallurgy:thermite_dust"
-  },
+  "ingredient": "metallurgy:thermite_dust",
   "result": {
     "amount": 1000,
     "id": "metallurgy:molten_thermite"
