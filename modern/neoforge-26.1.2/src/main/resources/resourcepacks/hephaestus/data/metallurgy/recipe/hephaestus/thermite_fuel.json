@@ -4,7 +4,7 @@
     "amount": 50,
     "id": "metallurgy:molten_thermite"
   },
-  "ingredient": "metallurgy:thermite_dust",
+  "ingredient": "#c:dusts/thermite",
   "result": {
     "amount": 1000,
     "id": "metallurgy:molten_thermite"
@@ -13,8 +13,11 @@
   "time": 80,
   "neoforge:conditions": [
     {
-      "type": "metallurgy:content_enabled",
-      "content": "metallurgy:thermite_dust"
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/thermite"
+      }
     }
   ]
 }

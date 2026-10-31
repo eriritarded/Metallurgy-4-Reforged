@@ -9,7 +9,7 @@ neoForge {
 }
 repositories { mavenCentral(); maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei' } } }
 
-version = '1.4.1-port.19'
+version = '1.4.1-port.20'
 group = 'it.hurts.metallurgy_reforged'
 base { archivesName = 'Metallurgy-Reforged-MC-26.1.2-neoforge' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
