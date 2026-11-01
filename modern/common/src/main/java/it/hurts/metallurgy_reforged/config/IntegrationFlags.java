@@ -6,6 +6,8 @@ public final class IntegrationFlags {
         case "tconstruct"->GeneralConfig.tiCIntegration;case "conarm"->GeneralConfig.conarmIntegration;
         case "industrialforegoing"->GeneralConfig.inForegoingIntegration;case "projecte"->GeneralConfig.projectEIntegration;
         case "spartanweaponry"->GeneralConfig.spartanWeaponryIntegration;
+        case "thaumaturge"->GeneralConfig.thaumaturgeIntegration;
+        case "thaumaturge_unify"->GeneralConfig.thaumaturgeIntegration&&GeneralConfig.thaumaturgeUnifyMetals;
         case "mekanism","enderio","thermal_expansion","chisel"->true;default->false;
     };}
     private IntegrationFlags() {}

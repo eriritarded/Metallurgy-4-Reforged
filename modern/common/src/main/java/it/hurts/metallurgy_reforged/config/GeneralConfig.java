@@ -20,6 +20,16 @@ public class GeneralConfig {
     @Config.RequiresMcRestart
     public static boolean tetraIntegration = true;
 
+    @Config.Name("Thaumaturge Integration")
+    @Config.Comment("Enable aspects, wand caps, clusters and other Thaumaturge content when Thaumaturge is installed")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeIntegration = true;
+
+    @Config.Name("Unify Metals Shared With Thaumaturge")
+    @Config.Comment("When Thaumaturge is installed, metals both mods have (brass) are made only Thaumaturge's way, so there is one item, not two")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeUnifyMetals = true;
+
 	@Config.Name("Enable On World Join Message")
 	@Config.Comment("When set to true it shows the warning message when joining the world")
 	@Config.RequiresMcRestart

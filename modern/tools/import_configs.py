@@ -24,7 +24,17 @@ def main():
     @Config.Name("Tetra Integration")
     @Config.Comment("Enable native Tetra materials when a supported Tetra version is installed")
     @Config.RequiresMcRestart
-    public static boolean tetraIntegration = true;''')
+    public static boolean tetraIntegration = true;
+
+    @Config.Name("Thaumaturge Integration")
+    @Config.Comment("Enable aspects, wand caps, clusters and other Thaumaturge content when Thaumaturge is installed")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeIntegration = true;
+
+    @Config.Name("Unify Metals Shared With Thaumaturge")
+    @Config.Comment("When Thaumaturge is installed, metals both mods have (brass) are made only Thaumaturge's way, so there is one item, not two")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeUnifyMetals = true;''')
         if name=='WorldGenerationConfig':text=remove_block(text,'@Deprecated\n\tpublic static void proofCheckBiomes')
         text=re.sub(r'^import net\.[^\n]+\n','',text,flags=re.M)
         text=text.replace('Metallurgy.MODID','"metallurgy"')

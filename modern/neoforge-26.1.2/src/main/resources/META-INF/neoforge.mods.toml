@@ -56,3 +56,10 @@ type="optional"
 versionRange="[0,)"
 ordering="AFTER"
 side="BOTH"
+
+[[dependencies.metallurgy]]
+modId="thaumaturge"
+type="optional"
+versionRange="[1.0.2,)"
+ordering="AFTER"
+side="BOTH"

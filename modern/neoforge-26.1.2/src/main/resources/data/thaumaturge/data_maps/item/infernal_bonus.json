@@ -1,0 +1,424 @@
+{
+  "values": {
+    "#c:ores/adamantine": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/adamantine"
+        }
+      ]
+    },
+    "#c:ores/alduorite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/alduorite"
+        }
+      ]
+    },
+    "#c:ores/astral_silver": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/astral_silver"
+        }
+      ]
+    },
+    "#c:ores/atlarus": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/atlarus"
+        }
+      ]
+    },
+    "#c:ores/carmot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/carmot"
+        }
+      ]
+    },
+    "#c:ores/ceruclase": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/ceruclase"
+        }
+      ]
+    },
+    "#c:ores/deep_iron": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/deep_iron"
+        }
+      ]
+    },
+    "#c:ores/eximite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/eximite"
+        }
+      ]
+    },
+    "#c:ores/ignatius": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/ignatius"
+        }
+      ]
+    },
+    "#c:ores/infuscolium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/infuscolium"
+        }
+      ]
+    },
+    "#c:ores/kalendrite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/kalendrite"
+        }
+      ]
+    },
+    "#c:ores/lemurite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/lemurite"
+        }
+      ]
+    },
+    "#c:ores/lutetium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/lutetium"
+        }
+      ]
+    },
+    "#c:ores/manganese": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/manganese"
+        }
+      ]
+    },
+    "#c:ores/meutoite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/meutoite"
+        }
+      ]
+    },
+    "#c:ores/midasium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/midasium"
+        }
+      ]
+    },
+    "#c:ores/mithril": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/mithril"
+        }
+      ]
+    },
+    "#c:ores/orichalcum": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/orichalcum"
+        }
+      ]
+    },
+    "#c:ores/osmium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/osmium"
+        }
+      ]
+    },
+    "#c:ores/oureclase": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/oureclase"
+        }
+      ]
+    },
+    "#c:ores/platinum": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/platinum"
+        }
+      ]
+    },
+    "#c:ores/prometheum": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/prometheum"
+        }
+      ]
+    },
+    "#c:ores/rubracium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/rubracium"
+        }
+      ]
+    },
+    "#c:ores/sanguinite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/sanguinite"
+        }
+      ]
+    },
+    "#c:ores/shadow_iron": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/shadow_iron"
+        }
+      ]
+    },
+    "#c:ores/vulcanite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/vulcanite"
+        }
+      ]
+    },
+    "#c:ores/vyroxeres": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/vyroxeres"
+        }
+      ]
+    },
+    "#c:ores/zinc": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "chance": 0.33,
+          "count": 2,
+          "items": "#c:nuggets/zinc"
+        }
+      ]
+    }
+  }
+}

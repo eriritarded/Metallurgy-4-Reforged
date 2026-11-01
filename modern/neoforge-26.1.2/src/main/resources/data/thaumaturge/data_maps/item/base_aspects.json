@@ -1,0 +1,5458 @@
+{
+  "values": {
+    "metallurgy:copper_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:copper_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:copper_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:copper_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:tin_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:tin_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:tin_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:tin_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/tin": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:zinc_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:zinc_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:zinc_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:zinc_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 9
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/zinc": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:deep_iron_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:deep_iron_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:deep_iron_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:deep_iron_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 9
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/deep_iron": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:prometheum_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:prometheum_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:prometheum_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:prometheum_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 9
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/prometheum": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:infuscolium_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:infuscolium_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:infuscolium_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:infuscolium_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 9
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/infuscolium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:manganese_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:manganese_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:manganese_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:manganese_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/manganese": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:osmium_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:osmium_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:osmium_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:osmium_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/osmium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:silver_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:silver_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:silver_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:silver_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/silver": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:astral_silver_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:auram",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:astral_silver_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:auram",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:astral_silver_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:auram",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:astral_silver_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:auram",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/astral_silver": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:auram",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:oureclase_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:oureclase_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:oureclase_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:oureclase_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/oureclase": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:rubracium_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:rubracium_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:rubracium_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:rubracium_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 9
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/rubracium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:aversio",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:carmot_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:carmot_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:carmot_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:carmot_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/carmot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:orichalcum_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:orichalcum_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:orichalcum_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:orichalcum_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/orichalcum": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:platinum_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        }
+      ]
+    },
+    "metallurgy:platinum_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 2
+        }
+      ]
+    },
+    "metallurgy:platinum_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:platinum_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/platinum": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:mithril_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:mithril_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:mithril_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:mithril_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/mithril": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:adamantine_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:adamantine_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:adamantine_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:adamantine_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/adamantine": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:atlarus_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:atlarus_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:atlarus_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:atlarus_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/atlarus": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:lutetium_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:lutetium_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:lutetium_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:lutetium_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/lutetium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:ignatius_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:ignatius_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:ignatius_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:ignatius_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/ignatius": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:shadow_iron_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:shadow_iron_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:shadow_iron_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:shadow_iron_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/shadow_iron": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:ceruclase_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:ceruclase_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:ceruclase_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:ceruclase_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/ceruclase": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:kalendrite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:kalendrite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:kalendrite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:kalendrite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/kalendrite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:midasium_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 20
+        }
+      ]
+    },
+    "metallurgy:midasium_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:midasium_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:midasium_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/midasium": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:vulcanite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        }
+      ]
+    },
+    "metallurgy:vulcanite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 2
+        }
+      ]
+    },
+    "metallurgy:vulcanite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:vulcanite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/vulcanite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:sanguinite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:sanguinite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:sanguinite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:sanguinite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/sanguinite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:vyroxeres_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:vyroxeres_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:vyroxeres_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:vyroxeres_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/vyroxeres": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:alduorite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:alduorite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:alduorite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:alduorite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/alduorite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:lemurite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:lemurite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:lemurite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:lemurite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/lemurite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vitreus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:eximite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:eximite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:eximite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:eximite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/eximite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:meutoite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:meutoite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:meutoite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:meutoite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/meutoite": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:vacuos",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:angmallen_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:angmallen_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:angmallen_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:angmallen_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:black_steel_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:black_steel_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:black_steel_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:black_steel_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:brass_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:brass_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:brass_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:brass_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:bronze_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:bronze_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:bronze_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:bronze_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:celenegil_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:celenegil_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:celenegil_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:celenegil_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:damascus_steel_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:damascus_steel_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:damascus_steel_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:damascus_steel_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:instrumentum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:desichalkos_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:desichalkos_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:desichalkos_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:desichalkos_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:electrum_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:electrum_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:electrum_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:electrum_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:etherium_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:etherium_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:etherium_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:etherium_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:alienis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:haderoth_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:haderoth_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:haderoth_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 25
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:haderoth_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 75
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:hepatizon_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:hepatizon_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:hepatizon_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:hepatizon_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:inolashite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:inolashite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:inolashite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:inolashite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:gelum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:krik_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:krik_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:krik_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:krik_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:aer",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:motus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:quicksilver_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:quicksilver_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:quicksilver_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:quicksilver_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 45
+        },
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:permutatio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:shadow_steel_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:shadow_steel_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:shadow_steel_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:shadow_steel_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:steel_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:steel_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:steel_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:steel_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:tartarite_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:tartarite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 4
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:tartarite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:tartarite_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 90
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:mortuus",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:praemunio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:amordrine_ingot": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:amordrine_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 1
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:amordrine_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 20
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:amordrine_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 60
+        },
+        {
+          "aspect": "thaumaturge:praecantatio",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:iron_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:gold_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:metallum",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:desiderium",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:perditio",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:sulfur_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:sulfur_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:phosphorus": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:potash": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:potash_fertilizer": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:victus",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:bitumen": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:bitumen_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 9
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "metallurgy:tar": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:aqua",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:vinculum",
+          "amount": 3
+        }
+      ]
+    },
+    "metallurgy:thermite_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 15
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 10
+        }
+      ]
+    },
+    "metallurgy:thermite_nugget": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 2
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 1
+        }
+      ]
+    },
+    "metallurgy:charcoal_block": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:potentia",
+          "amount": 30
+        },
+        {
+          "aspect": "thaumaturge:ordo",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/sulfur": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/phosphorus": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:lux",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        }
+      ]
+    },
+    "#c:ores/potash": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 10
+        },
+        {
+          "aspect": "thaumaturge:alkimia",
+          "amount": 3
+        },
+        {
+          "aspect": "thaumaturge:herba",
+          "amount": 3
+        }
+      ]
+    },
+    "#c:ores/tar": {
+      "neoforge:conditions": [
+        {
+          "type": "metallurgy:integration_enabled",
+          "integration": "thaumaturge"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "aspect": "thaumaturge:terra",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:ignis",
+          "amount": 5
+        },
+        {
+          "aspect": "thaumaturge:tenebrae",
+          "amount": 3
+        }
+      ]
+    }
+  }
+}
