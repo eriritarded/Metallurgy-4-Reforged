@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "G": "metallurgy:wand_rod_eximite",
+    "S": "thaumaturge:primal_charm"
+  },
+  "pattern": [
+    "  S",
+    " G ",
+    "G  "
+  ],
+  "research": {
+    "entry": "thaumaturge:staves"
+  },
+  "result": {
+    "id": "metallurgy:staff_rod_eximite"
+  },
+  "vis": 18
+}

@@ -32,6 +32,22 @@
         "type": "neoforge:tag_empty",
         "tag": "metallurgy:processing/alloyer/astral_silver"
       }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:and",
+        "values": [
+          {
+            "type": "neoforge:mod_loaded",
+            "modid": "thaumaturge"
+          },
+          {
+            "type": "metallurgy:integration_enabled",
+            "integration": "thaumaturge_unify"
+          }
+        ]
+      }
     }
   ]
 }

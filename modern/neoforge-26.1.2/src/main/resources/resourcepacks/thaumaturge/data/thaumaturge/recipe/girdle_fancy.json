@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "#c:ingots/midasium",
+    "I": "#c:ingots/gold",
+    "L": "#c:leathers"
+  },
+  "pattern": [
+    " L ",
+    "LGL",
+    " I "
+  ],
+  "result": {
+    "id": "thaumaturge:girdle_fancy"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/midasium"
+      }
+    }
+  ]
+}

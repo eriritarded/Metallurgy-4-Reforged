@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 6
+    }
+  ],
+  "catalyst": "#c:ingots/vulcanite",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "#c:ingots/vulcanite",
+    "minecraft:blaze_powder",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "thaumaturge:essentia_crystal",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ignis"
+        }
+      }
+    }
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "metallurgy:rod_vulcanite"
+  },
+  "result": {
+    "id": "metallurgy:wand_rod_vulcanite"
+  }
+}

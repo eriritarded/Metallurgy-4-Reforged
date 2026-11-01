@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:wand_cap_bronze",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_shadow_steel",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_etherium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_quicksilver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_tartarite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_krik",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_amordrine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_desichalkos",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_cap_prometheum",
+      "required": false
+    }
+  ]
+}

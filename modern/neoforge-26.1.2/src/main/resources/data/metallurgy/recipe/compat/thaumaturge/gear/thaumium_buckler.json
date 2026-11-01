@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "T": "#c:ingots/thaumium",
+    "W": "#minecraft:planks"
+  },
+  "pattern": [
+    " T ",
+    "TWT",
+    " T "
+  ],
+  "research": {
+    "entry": "metallurgy:thaumium_gadgets"
+  },
+  "result": {
+    "id": "metallurgy:thaumium_buckler"
+  },
+  "vis": 15
+}

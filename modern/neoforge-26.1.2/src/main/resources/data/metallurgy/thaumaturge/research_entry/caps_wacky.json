@@ -1,0 +1,48 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.caps_wacky.title",
+  "parents": [
+    "metallurgy:caps_themed"
+  ],
+  "column": -4,
+  "row": 5,
+  "icons": [
+    "metallurgy:wand_cap_quicksilver"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.caps_wacky.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.caps_wacky.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/cap/quicksilver",
+        "metallurgy:compat/thaumaturge/cap/kalendrite",
+        "metallurgy:compat/thaumaturge/cap/astral_silver",
+        "metallurgy:compat/thaumaturge/cap/tartarite",
+        "metallurgy:compat/thaumaturge/cap/krik",
+        "metallurgy:compat/thaumaturge/cap/amordrine",
+        "metallurgy:compat/thaumaturge/cap/desichalkos",
+        "metallurgy:compat/thaumaturge/cap/prometheum"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 4
+    }
+  ],
+  "complexity": 2
+}

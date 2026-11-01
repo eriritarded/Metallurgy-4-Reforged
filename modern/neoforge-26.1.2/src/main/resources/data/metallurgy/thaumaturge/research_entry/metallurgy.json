@@ -1,0 +1,29 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.metallurgy.title",
+  "parents": [],
+  "column": 0,
+  "row": 0,
+  "icons": [
+    "metallurgy:tartarite_ingot"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.metallurgy.stage_0",
+      "required_research": [
+        "metallurgy:scanned/ores"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    }
+  ],
+  "complexity": 1
+}

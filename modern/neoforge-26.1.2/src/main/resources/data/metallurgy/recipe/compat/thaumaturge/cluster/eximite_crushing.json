@@ -1,0 +1,29 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "metallurgy:cluster_eximite"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:eximite_dust",
+    "count": 3
+  },
+  "experience": 0.5,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:eximite_dust"
+    }
+  ]
+}

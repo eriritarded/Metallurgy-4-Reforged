@@ -1,0 +1,116 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:cluster_adamantine",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_alduorite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_astral_silver",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_atlarus",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_carmot",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_ceruclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_deep_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_ignatius",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_infuscolium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_kalendrite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_lemurite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_lutetium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_manganese",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_meutoite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_midasium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_mithril",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_orichalcum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_osmium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_oureclase",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_platinum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_prometheum",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_rubracium",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_sanguinite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_shadow_iron",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_vyroxeres",
+      "required": false
+    },
+    {
+      "id": "metallurgy:cluster_zinc",
+      "required": false
+    }
+  ]
+}

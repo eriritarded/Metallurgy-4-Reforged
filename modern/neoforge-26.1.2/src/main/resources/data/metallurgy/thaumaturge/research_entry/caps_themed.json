@@ -1,0 +1,50 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.caps_themed.title",
+  "parents": [
+    "metallurgy:caps_tier"
+  ],
+  "column": -4,
+  "row": 3,
+  "icons": [
+    "metallurgy:wand_cap_ignatius"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.caps_themed.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.caps_themed.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/cap/ignatius",
+        "metallurgy:compat/thaumaturge/cap/ceruclase",
+        "metallurgy:compat/thaumaturge/cap/shadow_steel",
+        "metallurgy:compat/thaumaturge/cap/sanguinite",
+        "metallurgy:compat/thaumaturge/cap/midasium",
+        "metallurgy:compat/thaumaturge/cap/etherium"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

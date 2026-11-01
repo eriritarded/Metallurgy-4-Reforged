@@ -13,8 +13,8 @@ public final class EquipmentStats {
         try(State state=VersionBridge.stack(stack)) { return state.flag("reborn_armor"); }
     }
     public static List<Entry> modifiers(ItemStack stack) {
-        if(it.hurts.metallurgy_reforged.gadget.GadgetLogic.is(stack,"brass_knuckles") || it.hurts.metallurgy_reforged.gadget.GadgetLogic.is(stack,"rubracium_gauntlet"))
-            return List.of(new Entry("attack_damage","gadget_damage",it.hurts.metallurgy_reforged.gadget.GadgetLogic.is(stack,"brass_knuckles")?it.hurts.metallurgy_reforged.config.GadgetsConfig.BrassKnuckles.attackDamage:it.hurts.metallurgy_reforged.config.GadgetsConfig.Gauntlet.gauntletAttackDamage,EquipmentSlot.MAINHAND),new Entry("attack_speed","gadget_speed",it.hurts.metallurgy_reforged.gadget.GadgetLogic.is(stack,"brass_knuckles")?it.hurts.metallurgy_reforged.config.GadgetsConfig.BrassKnuckles.attackSpeed:it.hurts.metallurgy_reforged.config.GadgetsConfig.Gauntlet.gauntletAttackSpeed,EquipmentSlot.MAINHAND));
+        if(it.hurts.metallurgy_reforged.gadget.GadgetLogic.knuckles(stack) || it.hurts.metallurgy_reforged.gadget.GadgetLogic.gauntlet(stack))
+            return List.of(new Entry("attack_damage","gadget_damage",(it.hurts.metallurgy_reforged.gadget.GadgetLogic.knuckles(stack)?it.hurts.metallurgy_reforged.config.GadgetsConfig.BrassKnuckles.attackDamage:it.hurts.metallurgy_reforged.config.GadgetsConfig.Gauntlet.gauntletAttackDamage)+(it.hurts.metallurgy_reforged.gadget.GadgetLogic.is(stack,"thaumium_knuckles") || it.hurts.metallurgy_reforged.gadget.GadgetLogic.is(stack,"void_gauntlet")?1:0),EquipmentSlot.MAINHAND),new Entry("attack_speed","gadget_speed",it.hurts.metallurgy_reforged.gadget.GadgetLogic.knuckles(stack)?it.hurts.metallurgy_reforged.config.GadgetsConfig.BrassKnuckles.attackSpeed:it.hurts.metallurgy_reforged.config.GadgetsConfig.Gauntlet.gauntletAttackSpeed,EquipmentSlot.MAINHAND));
         String base=EquipmentEffects.baseMetal(stack);
         var material=Materials.BY_NAME.get(base);
         if(material==null) return List.of();

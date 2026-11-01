@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:terra"
+    },
+    {
+      "amount": 5,
+      "aspect": "thaumaturge:ordo"
+    }
+  ],
+  "key": {
+    "B": "thaumaturge:stone_arcane_brick",
+    "I": "#c:ingots/steel",
+    "R": "minecraft:beacon",
+    "S": "thaumaturge:stone_arcane"
+  },
+  "pattern": [
+    "SSS",
+    "IRI",
+    "BBB"
+  ],
+  "research": {
+    "entry": "thaumaturge:golem_fetter"
+  },
+  "result": {
+    "id": "thaumaturge:golem_fetter"
+  },
+  "vis": 10,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/steel"
+      }
+    }
+  ]
+}

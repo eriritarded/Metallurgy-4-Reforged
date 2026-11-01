@@ -1,0 +1,144 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:adamantine_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:alduorite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:astral_silver_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:atlarus_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:carmot_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:ceruclase_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:copper_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:deep_iron_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:eximite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:ignatius_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:infuscolium_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:kalendrite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lemurite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:lutetium_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:manganese_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:meutoite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:midasium_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:mithril_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:orichalcum_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:osmium_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:oureclase_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:phosphorite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:platinum_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:potash_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:prometheum_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:rubracium_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:sanguinite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:shadow_iron_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:silver_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:sulfur_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:tar_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:tin_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:vulcanite_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:vyroxeres_ore",
+      "required": false
+    },
+    {
+      "id": "metallurgy:zinc_ore",
+      "required": false
+    }
+  ]
+}

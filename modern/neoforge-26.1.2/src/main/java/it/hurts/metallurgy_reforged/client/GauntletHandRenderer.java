@@ -21,7 +21,7 @@ import net.neoforged.neoforge.client.event.RenderHandEvent;
 public final class GauntletHandRenderer {
     @SubscribeEvent
     public static void render(RenderHandEvent event) {
-        if (!GadgetLogic.is(event.getItemStack(), "rubracium_gauntlet")) return;
+        if (!GadgetLogic.gauntlet(event.getItemStack())) return;
         var minecraft = Minecraft.getInstance();
         var player = minecraft.player;
         if (player == null) return;

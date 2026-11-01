@@ -32,9 +32,39 @@ def main():
     public static boolean thaumaturgeIntegration = true;
 
     @Config.Name("Unify Metals Shared With Thaumaturge")
-    @Config.Comment("When Thaumaturge is installed, metals both mods have (brass) are made only Thaumaturge's way, so there is one item, not two")
+    @Config.Comment("When Thaumaturge is installed, metals both mods have (brass, quicksilver) are made only Thaumaturge's way, so there is one item, not two")
     @Config.RequiresMcRestart
-    public static boolean thaumaturgeUnifyMetals = true;''')
+    public static boolean thaumaturgeUnifyMetals = true;
+
+    @Config.Name("Thaumaturge Recipe Swap: Fancy Amulet")
+    @Config.Comment("When Thaumaturge is installed, the Fancy Amulet takes Midasium instead of a diamond")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeSwapFancyAmulet = true;
+
+    @Config.Name("Thaumaturge Recipe Swap: Fancy Ring")
+    @Config.Comment("When Thaumaturge is installed, the Fancy Ring takes Platinum instead of a diamond")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeSwapFancyRing = true;
+
+    @Config.Name("Thaumaturge Recipe Swap: Fancy Girdle")
+    @Config.Comment("When Thaumaturge is installed, the Fancy Girdle takes Midasium instead of a diamond")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeSwapFancyGirdle = true;
+
+    @Config.Name("Thaumaturge Recipe Swap: Recharge Pedestal")
+    @Config.Comment("When Thaumaturge is installed, the Recharge Pedestal takes Orichalcum instead of a diamond")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeSwapRechargePedestal = true;
+
+    @Config.Name("Thaumaturge Recipe Swap: Bellows")
+    @Config.Comment("When Thaumaturge is installed, Thaumaturge's Bellows take Steel instead of iron")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeSwapBellows = true;
+
+    @Config.Name("Thaumaturge Recipe Swap: Golem Fetter")
+    @Config.Comment("When Thaumaturge is installed, the Golem Fetter takes Steel instead of iron")
+    @Config.RequiresMcRestart
+    public static boolean thaumaturgeSwapGolemFetter = true;''')
         if name=='WorldGenerationConfig':text=remove_block(text,'@Deprecated\n\tpublic static void proofCheckBiomes')
         text=re.sub(r'^import net\.[^\n]+\n','',text,flags=re.M)
         text=text.replace('Metallurgy.MODID','"metallurgy"')

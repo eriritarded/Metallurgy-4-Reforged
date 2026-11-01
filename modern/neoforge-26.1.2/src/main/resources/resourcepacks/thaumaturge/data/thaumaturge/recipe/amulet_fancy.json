@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "#c:ingots/midasium",
+    "I": "#c:ingots/gold",
+    "S": "#c:strings"
+  },
+  "pattern": [
+    " S ",
+    "SGS",
+    " I "
+  ],
+  "result": {
+    "id": "thaumaturge:amulet_fancy"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/midasium"
+      }
+    }
+  ]
+}

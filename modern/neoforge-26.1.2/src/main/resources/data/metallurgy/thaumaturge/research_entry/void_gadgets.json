@@ -1,0 +1,43 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.void_gadgets.title",
+  "parents": [
+    "metallurgy:thaumium_gadgets",
+    "thaumaturge:cap_void"
+  ],
+  "column": 4,
+  "row": 3,
+  "icons": [
+    "metallurgy:void_gauntlet"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.void_gadgets.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.void_gadgets.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/gear/void_gauntlet",
+        "metallurgy:compat/thaumaturge/gear/void_buckler"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

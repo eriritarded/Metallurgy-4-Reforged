@@ -1,0 +1,33 @@
+{
+  "background": "thaumaturge:textures/gui/gui_research_back_4.png",
+  "formula": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:fabrico",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 5
+    }
+  ],
+  "icon": "metallurgy:textures/items/tartarite_ingot.png",
+  "index": 30,
+  "overlay_background": "thaumaturge:textures/gui/gui_research_back_over.png",
+  "required_research": "thaumaturge:metallurgy"
+}

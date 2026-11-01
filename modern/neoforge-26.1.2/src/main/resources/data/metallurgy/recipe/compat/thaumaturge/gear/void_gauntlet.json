@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "I": "#c:ingots/void_metal",
+    "L": "#c:leathers"
+  },
+  "pattern": [
+    "L L",
+    "III"
+  ],
+  "research": {
+    "entry": "metallurgy:void_gadgets"
+  },
+  "result": {
+    "id": "metallurgy:void_gauntlet"
+  },
+  "vis": 30
+}

@@ -1,0 +1,69 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.native_clusters.title",
+  "parents": [
+    "metallurgy:metallurgy",
+    "thaumaturge:metal_purification"
+  ],
+  "column": 0,
+  "row": 3,
+  "icons": [
+    "metallurgy:cluster_mithril"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.native_clusters.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.native_clusters.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/cluster/adamantine",
+        "metallurgy:compat/thaumaturge/cluster/alduorite",
+        "metallurgy:compat/thaumaturge/cluster/astral_silver",
+        "metallurgy:compat/thaumaturge/cluster/atlarus",
+        "metallurgy:compat/thaumaturge/cluster/carmot",
+        "metallurgy:compat/thaumaturge/cluster/ceruclase",
+        "metallurgy:compat/thaumaturge/cluster/deep_iron",
+        "metallurgy:compat/thaumaturge/cluster/eximite",
+        "metallurgy:compat/thaumaturge/cluster/ignatius",
+        "metallurgy:compat/thaumaturge/cluster/infuscolium",
+        "metallurgy:compat/thaumaturge/cluster/kalendrite",
+        "metallurgy:compat/thaumaturge/cluster/lemurite",
+        "metallurgy:compat/thaumaturge/cluster/lutetium",
+        "metallurgy:compat/thaumaturge/cluster/manganese",
+        "metallurgy:compat/thaumaturge/cluster/meutoite",
+        "metallurgy:compat/thaumaturge/cluster/midasium",
+        "metallurgy:compat/thaumaturge/cluster/mithril",
+        "metallurgy:compat/thaumaturge/cluster/orichalcum",
+        "metallurgy:compat/thaumaturge/cluster/osmium",
+        "metallurgy:compat/thaumaturge/cluster/oureclase",
+        "metallurgy:compat/thaumaturge/cluster/platinum",
+        "metallurgy:compat/thaumaturge/cluster/prometheum",
+        "metallurgy:compat/thaumaturge/cluster/rubracium",
+        "metallurgy:compat/thaumaturge/cluster/sanguinite",
+        "metallurgy:compat/thaumaturge/cluster/shadow_iron",
+        "metallurgy:compat/thaumaturge/cluster/vulcanite",
+        "metallurgy:compat/thaumaturge/cluster/vyroxeres",
+        "metallurgy:compat/thaumaturge/cluster/zinc"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    }
+  ],
+  "complexity": 2
+}

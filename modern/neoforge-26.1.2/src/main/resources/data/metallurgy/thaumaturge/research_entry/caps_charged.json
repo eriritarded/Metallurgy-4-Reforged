@@ -1,0 +1,51 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.caps_charged.title",
+  "parents": [
+    "metallurgy:caps_tier",
+    "thaumaturge:cap_thaumium"
+  ],
+  "column": -2,
+  "row": 4,
+  "icons": [
+    "metallurgy:wand_cap_mithril"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.caps_charged.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.caps_charged.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/cap/mithril",
+        "metallurgy:compat/thaumaturge/cap/mithril_charge",
+        "metallurgy:compat/thaumaturge/cap/orichalcum",
+        "metallurgy:compat/thaumaturge/cap/orichalcum_charge",
+        "metallurgy:compat/thaumaturge/cap/adamantine",
+        "metallurgy:compat/thaumaturge/cap/adamantine_charge"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

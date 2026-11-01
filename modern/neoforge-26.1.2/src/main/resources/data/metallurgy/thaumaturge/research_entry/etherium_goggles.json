@@ -1,0 +1,42 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.etherium_goggles.title",
+  "parents": [
+    "metallurgy:metallurgy",
+    "thaumaturge:unlock_artifice"
+  ],
+  "column": 4,
+  "row": 5,
+  "icons": [
+    "metallurgy:etherium_goggles"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.etherium_goggles.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.etherium_goggles.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/gear/etherium_goggles"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    }
+  ],
+  "complexity": 2
+}

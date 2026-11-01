@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "E": "#c:ingots/etherium",
+    "R": "minecraft:redstone",
+    "G": "thaumaturge:goggles_revealing"
+  },
+  "pattern": [
+    "RER",
+    "EGE"
+  ],
+  "research": {
+    "entry": "metallurgy:etherium_goggles"
+  },
+  "result": {
+    "id": "metallurgy:etherium_goggles"
+  },
+  "vis": 40
+}

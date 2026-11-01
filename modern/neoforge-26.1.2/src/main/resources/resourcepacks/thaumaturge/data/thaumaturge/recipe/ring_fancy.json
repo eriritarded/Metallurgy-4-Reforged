@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "#c:ingots/platinum",
+    "N": "#c:nuggets/gold"
+  },
+  "pattern": [
+    "NGN",
+    "N N",
+    "NNN"
+  ],
+  "result": {
+    "id": "thaumaturge:ring_fancy"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/platinum"
+      }
+    }
+  ]
+}

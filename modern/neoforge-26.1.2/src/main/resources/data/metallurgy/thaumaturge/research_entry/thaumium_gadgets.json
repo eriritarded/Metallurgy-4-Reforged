@@ -1,0 +1,43 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.thaumium_gadgets.title",
+  "parents": [
+    "metallurgy:metallurgy",
+    "thaumaturge:metallurgy"
+  ],
+  "column": 4,
+  "row": 1,
+  "icons": [
+    "metallurgy:thaumium_knuckles"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.thaumium_gadgets.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.thaumium_gadgets.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/gear/thaumium_knuckles",
+        "metallurgy:compat/thaumaturge/gear/thaumium_buckler"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

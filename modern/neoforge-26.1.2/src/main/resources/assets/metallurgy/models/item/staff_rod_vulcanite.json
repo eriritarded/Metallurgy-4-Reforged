@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "metallurgy:item/staff_rod_vulcanite"
+  }
+}

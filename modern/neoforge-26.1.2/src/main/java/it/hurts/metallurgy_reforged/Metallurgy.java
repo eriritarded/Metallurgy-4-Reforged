@@ -19,6 +19,8 @@ public final class Metallurgy {
         Content.register(bus);
         if(net.neoforged.fml.ModList.get().isLoaded("hephaestus_tools"))
             it.hurts.metallurgy_reforged.compat.hephaestus.HephaestusTraits.register(bus);
+        if(net.neoforged.fml.ModList.get().isLoaded("thaumaturge"))
+            it.hurts.metallurgy_reforged.compat.thaumaturge.ThaumaturgeCompat.register(bus);
         bus.addListener(it.hurts.metallurgy_reforged.network.ProcessingNetwork::register);
         NeoForge.EVENT_BUS.register(EffectEvents.class);
         NeoForge.EVENT_BUS.register(it.hurts.metallurgy_reforged.gadget.BlockGadgetEvents.class);

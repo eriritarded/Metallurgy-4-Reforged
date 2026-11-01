@@ -24,7 +24,8 @@ public final class GadgetTooltips {
             translated(lines,"tooltip.metallurgy.electrum_magnet");
             String mode=switch(GadgetLogic.magnetMode(stack)) {case 1->"metal_only";case 2->"enabled";default->"disabled";};
             lines.add(Component.translatable("tooltip.metallurgy.electrum_magnet_mode").append(" ").append(Component.translatable("tooltip.metallurgy.electrum_magnet_"+mode)));
-        } else if(id.equals("metallurgy:etherium_goggles") || Set.of("metallurgy:lemurite_shield","metallurgy:zinc_buckler","metallurgy:vulcanite_buckler","metallurgy:ceruclase_shield","metallurgy:orichalcum_buckler").contains(id)) translated(lines,"tooltip.metallurgy."+id.substring(11));
+        } else if(id.equals("metallurgy:etherium_goggles") || Set.of("metallurgy:lemurite_shield","metallurgy:zinc_buckler","metallurgy:vulcanite_buckler","metallurgy:ceruclase_shield","metallurgy:orichalcum_buckler","metallurgy:thaumium_buckler","metallurgy:void_buckler").contains(id)) translated(lines,"tooltip.metallurgy."+id.substring(11));
+        else if(id.startsWith("metallurgy:wand_cap_") && net.minecraft.client.resources.language.I18n.exists("tooltip."+id.replace(':','.'))) translated(lines,"tooltip."+id.replace(':','.'));
         else if(id.equals("metallurgy:sublimation_chamber")) {
             var component=stack.get(net.minecraft.core.component.DataComponents.BLOCK_ENTITY_DATA);if(component==null) return;var data=component.copyTagWithoutId();
             String effect=data.getStringOr("effect","");if(effect.isEmpty()) return;

@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 5
+    }
+  ],
+  "catalyst": "metallurgy:wand_cap_mithril_inert",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "metallurgy:caps_charged"
+  },
+  "result": {
+    "id": "metallurgy:wand_cap_mithril"
+  }
+}

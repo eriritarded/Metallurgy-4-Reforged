@@ -1,0 +1,29 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "metallurgy:cluster_vulcanite"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:vulcanite_dust",
+    "count": 3
+  },
+  "experience": 0.5,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:vulcanite_dust"
+    }
+  ]
+}

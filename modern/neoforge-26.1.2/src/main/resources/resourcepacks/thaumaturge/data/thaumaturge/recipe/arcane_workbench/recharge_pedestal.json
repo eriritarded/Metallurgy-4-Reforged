@@ -1,0 +1,38 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer"
+    },
+    {
+      "aspect": "thaumaturge:ordo"
+    }
+  ],
+  "key": {
+    "D": "#c:ingots/orichalcum",
+    "I": "#c:ingots/gold",
+    "R": "thaumaturge:vis_resonator",
+    "S": "#c:stones"
+  },
+  "pattern": [
+    " R ",
+    "DID",
+    "SSS"
+  ],
+  "research": {
+    "entry": "thaumaturge:recharge_pedestal"
+  },
+  "result": {
+    "id": "thaumaturge:recharge_pedestal"
+  },
+  "vis": 100,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/orichalcum"
+      }
+    }
+  ]
+}

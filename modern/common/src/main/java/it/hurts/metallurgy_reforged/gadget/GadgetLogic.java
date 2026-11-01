@@ -26,6 +26,9 @@ public final class GadgetLogic {
         return rgb;
     }
     public static boolean is(ItemStack stack,String id) { return VersionBridge.itemId(stack).equals("metallurgy:"+id); }
+    // Thaumaturge compat adds a void gauntlet and thaumium knuckles that behave like the originals.
+    public static boolean gauntlet(ItemStack stack) { return is(stack,"rubracium_gauntlet") || is(stack,"void_gauntlet"); }
+    public static boolean knuckles(ItemStack stack) { return is(stack,"brass_knuckles") || is(stack,"thaumium_knuckles"); }
     public static int magnetMode(ItemStack stack) {
         try(State state=VersionBridge.stack(stack)) { return Math.max(0,Math.min(2,state.integer("status"))); }
     }
@@ -83,22 +86,22 @@ public final class GadgetLogic {
             }
         }
     }
-    public static boolean dualGauntlets(LivingEntity entity) { return is(entity.getMainHandItem(),"rubracium_gauntlet") && is(entity.getOffhandItem(),"rubracium_gauntlet"); }
+    public static boolean dualGauntlets(LivingEntity entity) { return gauntlet(entity.getMainHandItem()) && gauntlet(entity.getOffhandItem()); }
     public static void equipped(LivingEntity entity,EquipmentSlot slot,ItemStack stack) {
-        if(!(entity instanceof Player player) || !is(stack,"rubracium_gauntlet") || slot!=EquipmentSlot.MAINHAND && slot!=EquipmentSlot.OFFHAND) return;
+        if(!(entity instanceof Player player) || !gauntlet(stack) || slot!=EquipmentSlot.MAINHAND && slot!=EquipmentSlot.OFFHAND) return;
         EquipmentSlot other=slot==EquipmentSlot.MAINHAND?EquipmentSlot.OFFHAND:EquipmentSlot.MAINHAND;
         if(!player.getItemBySlot(other).isEmpty()) return;
         for(int i=0;i<36;i++) {
             ItemStack candidate=player.getInventory().getItem(i);
-            if(candidate!=stack && is(candidate,"rubracium_gauntlet")) { player.setItemSlot(other,candidate.split(1));player.getInventory().setChanged();return; }
+            if(candidate!=stack && gauntlet(candidate)) { player.setItemSlot(other,candidate.split(1));player.getInventory().setChanged();return; }
         }
     }
     public static void hit(ItemStack stack,LivingEntity target,LivingEntity attacker) {
         if(VersionBridge.client(attacker)) return;
-        if(is(stack,"brass_knuckles")) {
+        if(knuckles(stack)) {
             target.setDeltaMovement(target.getDeltaMovement().multiply(0.25,1,0.25));target.hurtTime=10;target.invulnerableTime=13;
             GadgetBridge.damage(attacker,stack,1,EquipmentSlot.MAINHAND);VersionBridge.velocity(target);
-        } else if(is(stack,"rubracium_gauntlet") && attacker instanceof Player) {
+        } else if(gauntlet(stack) && attacker instanceof Player) {
             boolean main=attacker.getRandom().nextBoolean();
             GadgetBridge.damage(attacker,main?stack:attacker.getOffhandItem(),1,main?EquipmentSlot.MAINHAND:EquipmentSlot.OFFHAND);
         }

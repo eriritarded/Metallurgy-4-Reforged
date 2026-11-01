@@ -1,0 +1,44 @@
+{
+  "category": "metallurgy:metallurgy",
+  "name": "research.metallurgy.caps_tier.title",
+  "parents": [
+    "metallurgy:metallurgy",
+    "thaumaturge:cap_gold"
+  ],
+  "column": -2,
+  "row": 2,
+  "icons": [
+    "metallurgy:wand_cap_platinum"
+  ],
+  "stages": [
+    {
+      "text": "research.metallurgy.caps_tier.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.metallurgy.caps_tier.stage_1",
+      "recipes": [
+        "metallurgy:compat/thaumaturge/cap/bronze",
+        "metallurgy:compat/thaumaturge/cap/steel",
+        "metallurgy:compat/thaumaturge/cap/platinum"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

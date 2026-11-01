@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "metallurgy:wand_rod_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_rod_vulcanite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:wand_rod_eximite",
+      "required": false
+    },
+    {
+      "id": "metallurgy:staff_rod_eximite",
+      "required": false
+    }
+  ]
+}

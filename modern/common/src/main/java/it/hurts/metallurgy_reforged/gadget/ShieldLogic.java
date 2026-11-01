@@ -13,9 +13,9 @@ import java.util.*;
 public final class ShieldLogic {
     private static final ThreadLocal<Boolean> RETALIATING=ThreadLocal.withInitial(()->false);
     private static final Map<LivingEntity,List<BlockPos>> DOMES=Collections.synchronizedMap(new WeakHashMap<>());
-    public static boolean buckler(ItemStack stack) { return GadgetLogic.is(stack,"zinc_buckler") || GadgetLogic.is(stack,"vulcanite_buckler") || GadgetLogic.is(stack,"orichalcum_buckler"); }
+    public static boolean buckler(ItemStack stack) { return GadgetLogic.is(stack,"zinc_buckler") || GadgetLogic.is(stack,"vulcanite_buckler") || GadgetLogic.is(stack,"orichalcum_buckler") || GadgetLogic.is(stack,"thaumium_buckler") || GadgetLogic.is(stack,"void_buckler"); }
     public static boolean invisible(LivingEntity entity) { return entity.isUsingItem() && GadgetLogic.is(entity.getUseItem(),"lemurite_shield"); }
-    public static int duration(String id) { return switch(id) {case "zinc_buckler"->40;case "vulcanite_buckler"->50;case "orichalcum_buckler"->30;default->200;}; }
+    public static int duration(String id) { return switch(id) {case "zinc_buckler"->40;case "vulcanite_buckler"->50;case "orichalcum_buckler"->30;case "thaumium_buckler"->40;case "void_buckler"->45;default->200;}; }
     public static void start(Player player,ItemStack stack) {
         if(VersionBridge.client(player)) return;
         if(GadgetLogic.is(stack,"lemurite_shield")) {

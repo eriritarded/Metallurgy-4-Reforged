@@ -21,7 +21,22 @@ public final class DynamicPackData {
     }
     public static boolean accept(String module,String path) {
         if(module.equals("tconstruct")) return TinkerData.accept(path);
+        if(module.equals("thaumaturge")) return thaumaturge(path);
         return !module.equals("hephaestus") || HephaestusData.accept(path);
+    }
+    /** The Thaumaturge pack overrides Thaumaturge's own recipes; each file has its own config switch. */
+    private static boolean thaumaturge(String path) {
+        return switch(path) {
+            case "recipe/amulet_fancy.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeSwapFancyAmulet;
+            case "recipe/ring_fancy.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeSwapFancyRing;
+            case "recipe/girdle_fancy.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeSwapFancyGirdle;
+            case "recipe/arcane_workbench/recharge_pedestal.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeSwapRechargePedestal;
+            case "recipe/arcane_workbench/bellows.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeSwapBellows;
+            case "recipe/arcane_workbench/golem_fetter.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeSwapGolemFetter;
+            // Unified quicksilver: nine nuggets make Metallurgy's ingot, so Thaumaturge's nugget-to-gem recipe goes.
+            case "recipe/nugget_quicksilver_from_nuggets.json"->it.hurts.metallurgy_reforged.config.GeneralConfig.thaumaturgeUnifyMetals;
+            default->true;
+        };
     }
     private static void tetra(JsonObject data,Materials.Definition m) {
         int level=(int)m.tool("harvest_level",0);String color=String.format(Locale.ROOT,"%06X",m.color());

@@ -1,0 +1,29 @@
+{
+  "type": "metallurgy:processing",
+  "kind": "crusher",
+  "ingredients": [
+    "metallurgy:cluster_shadow_iron"
+  ],
+  "amounts": [
+    1
+  ],
+  "result": {
+    "id": "metallurgy:shadow_iron_dust",
+    "count": 3
+  },
+  "experience": 0.5,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:content_enabled",
+      "content": "metallurgy:shadow_iron_dust"
+    }
+  ]
+}

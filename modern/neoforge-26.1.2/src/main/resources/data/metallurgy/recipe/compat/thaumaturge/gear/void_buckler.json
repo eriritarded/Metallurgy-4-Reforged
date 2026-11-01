@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "V": "#c:ingots/void_metal",
+    "W": "#minecraft:planks"
+  },
+  "pattern": [
+    " V ",
+    "VWV",
+    " V "
+  ],
+  "research": {
+    "entry": "metallurgy:void_gadgets"
+  },
+  "result": {
+    "id": "metallurgy:void_buckler"
+  },
+  "vis": 30
+}

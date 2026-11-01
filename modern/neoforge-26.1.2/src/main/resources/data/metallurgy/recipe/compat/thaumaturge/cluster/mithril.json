@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturge"
+    },
+    {
+      "type": "metallurgy:integration_enabled",
+      "integration": "thaumaturge"
+    }
+  ],
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:metallum",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 5
+    }
+  ],
+  "catalyst": "#c:ores/mithril",
+  "research": {
+    "entry": "thaumaturge:metal_purification"
+  },
+  "result": {
+    "id": "metallurgy:cluster_mithril"
+  }
+}
