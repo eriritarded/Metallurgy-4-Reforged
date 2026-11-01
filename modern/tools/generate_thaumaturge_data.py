@@ -87,7 +87,6 @@ OTHER = {
     "metallurgy:bitumen_block": {"terra": 15, "ignis": 15, "tenebrae": 9, "ordo": 5},
     "metallurgy:tar": {"aqua": 5, "tenebrae": 5, "vinculum": 3},
     "metallurgy:thermite_dust": {"ignis": 15, "potentia": 10},
-    "metallurgy:thermite_nugget": {"ignis": 2, "potentia": 1},
     "metallurgy:charcoal_block": {"ignis": 30, "potentia": 30, "ordo": 5},
     "#c:ores/sulfur": {"terra": 5, "ignis": 5, "alkimia": 5},
     "#c:ores/phosphorus": {"terra": 5, "lux": 10, "ignis": 5},

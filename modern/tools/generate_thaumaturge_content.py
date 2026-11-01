@@ -244,7 +244,7 @@ def quicksilver_and_swaps(thaumaturge_recipes):
     dump(os.path.join(pack, "pack.mcmeta"), {"pack": {"description": "Metallurgy recipe swaps for Thaumaturge", "min_format": [101, 1], "max_format": [101, 1]}})
     # Files here replace Thaumaturge's own; DynamicPackData.thaumaturge gives each its config switch.
     dump(os.path.join(pack, "data", "thaumaturge", "recipe", "nugget_quicksilver_from_nuggets.json"),
-         {"neoforge:conditions": [{"type": "neoforge:false"}]})
+         {"neoforge:conditions": [{"type": "neoforge:never"}]})
     for name, (key, tag) in SWAPS.items():
         with open(os.path.join(thaumaturge_recipes, name + ".json"), encoding="utf-8") as f:
             value = json.load(f)

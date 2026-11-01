@@ -5326,24 +5326,6 @@
         }
       ]
     },
-    "metallurgy:thermite_nugget": {
-      "neoforge:conditions": [
-        {
-          "type": "metallurgy:integration_enabled",
-          "integration": "thaumaturge"
-        }
-      ],
-      "neoforge:value": [
-        {
-          "aspect": "thaumaturge:ignis",
-          "amount": 2
-        },
-        {
-          "aspect": "thaumaturge:potentia",
-          "amount": 1
-        }
-      ]
-    },
     "metallurgy:charcoal_block": {
       "neoforge:conditions": [
         {
