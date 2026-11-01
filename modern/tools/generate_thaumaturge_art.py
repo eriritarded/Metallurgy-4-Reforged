@@ -97,31 +97,57 @@ def shade_rod(img, a, b, radius, ramp, outline=True, pattern=None, seed=0):
     return inside
 
 
+def binned_ramp(metal, n=8):
+    """n tones from the ingot: its pixels sorted by brightness, averaged per bin (no single stray pixel wins)."""
+    img = Image.open(os.path.join(TEX, "items", f"{metal}_ingot.png")).convert("RGBA")
+    cols = sorted((p[:3] for p in img.get_flattened_data() if p[3] > 200), key=lum)
+    out = []
+    for i in range(n):
+        part = cols[i * len(cols) // n:max(i * len(cols) // n + 1, (i + 1) * len(cols) // n)]
+        out.append(tuple(round(sum(c[k] for c in part) / len(part)) for k in range(3)))
+    # Outline tone: the darkest bin pushed darker, keeping its hue.
+    h, l, sat = colorsys.rgb_to_hls(*(v / 255 for v in out[0]))
+    return [tuple(round(v * 255) for v in colorsys.hls_to_rgb(h, l * 0.55, sat))] + out
+
+
+# Upright wand cap, rows top to bottom: (half width, part). Centre is between pixel columns 7 and 8.
+CAP_ROWS = [(1, "knob"), (2, "knob"), (1, "neck"), (3, "dome"), (4, "dome"), (5, "body"), (5, "body"),
+            (6, "band_top"), (6, "band"), (5, "under"), (5, "body"), (4, "body"), (5, "rim"), (6, "rim_low")]
+
+
 def cap_item(ramp, frame=None, frames=4):
-    """Original ferrule cap: collar ring, a groove, then a tapered dome tip, pointing up-right."""
+    """Original upright cap: a knob, a domed top, a raised band and a flared rim, lit from the upper left."""
     img = Image.new("RGBA", (16, 16))
-
-    def radius(t):
-        if t < 0.24:
-            return 3.6  # collar ring
-        if t < 0.36:
-            return 2.9  # groove
-        if t < 0.62:
-            return 3.2
-        return 3.2 * math.sqrt(max(0.0, 1 - ((t - 0.62) / 0.38) ** 2))  # rounded dome end
-
-    def pattern(t, k, rng):
-        bump = 0.0
-        if 0.24 <= t < 0.36:
-            bump -= 1.3
-        if t < 0.24 and abs(k) < 0.35:
-            bump += 0.6  # bevel on the collar
-        if frame is not None:  # charged shimmer runs along the cap
-            centre = (frame + 0.5) / frames
-            bump += 1.6 * max(0.0, 1 - abs(t - centre) * 6)
-        return bump
-
-    shade_rod(img, (4.0, 12.0), (11.6, 4.4), radius, ramp, pattern=pattern)
+    top = 1
+    shape = {}
+    for i, (half, part) in enumerate(CAP_ROWS):
+        for x in range(8 - half, 8 + half):
+            shape[(x, top + i)] = (half, part, i)
+    lx, ly, lz = -0.62, -0.45, 0.64  # light: left, up, towards the viewer
+    for (x, y), (half, part, i) in shape.items():
+        u = (x + 0.5 - 8) / half  # -1 left edge .. 1 right edge
+        nx = u
+        ny = {"knob": -0.5, "neck": 0.2, "dome": -0.55 + 0.15 * (i - 3), "band_top": -0.6, "under": 0.55,
+              "rim_low": 0.5}.get(part, 0.0)
+        nz = math.sqrt(max(0.05, 1 - nx * nx - ny * ny))
+        light = max(0.0, (nx * lx + ny * ly + nz * lz) / math.sqrt(nx * nx + ny * ny + nz * nz))
+        level = 1.0 + light * 5.6
+        level += {"band_top": 1.4, "under": -1.6, "rim": 0.6, "rim_low": -1.2, "neck": -1.0}.get(part, 0.0)
+        level -= 0.12 * max(0, i - 9)  # a little darker towards the open end
+        if -0.75 < u < -0.3 and part not in ("under", "rim_low"):
+            level += 0.9  # soft specular streak down the lit side
+        if frame is not None:  # charged shimmer: a bright band sliding down the cap
+            centre = (frame + 0.5) / frames * len(CAP_ROWS)
+            level += 2.2 * max(0.0, 1 - abs(i - centre) / 1.6)
+        edge_r = (x + 1, y) not in shape
+        edge_l = (x - 1, y) not in shape
+        edge_b = (x, y + 1) not in shape
+        edge_t = (x, y - 1) not in shape
+        if edge_r or edge_b:
+            level = 0  # hard outline away from the light
+        elif edge_l or edge_t:
+            level = min(level, 2.4)  # softer outline on the lit side
+        img.putpixel((x, y), ramp[max(0, min(len(ramp) - 1, round(level)))] + (255,))
     return img
 
 
@@ -254,6 +280,7 @@ def main():
     for metal in TIER_CAPS + THEMED_CAPS + WACKY_CAPS:
         ramp = metal_ramp(metal)
         save(cap_model(ramp), out, f"models/wand_cap_{metal}.png")
+        ramp = binned_ramp(metal)
         if metal in CHARGED_CAPS:
             save(cap_item(dull(ramp)), out, f"items/wand_cap_{metal}_inert.png")
             strip = Image.new("RGBA", (16, 64))
