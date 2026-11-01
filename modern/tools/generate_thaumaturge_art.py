@@ -58,15 +58,6 @@ def mix(a, b, t):
     return tuple(round(a[i] + (b[i] - a[i]) * t) for i in range(3))
 
 
-def dull(ramp):
-    """Inert caps: greyer and darker than the charged ones."""
-    out = []
-    for c in ramp:
-        h, l, s = colorsys.rgb_to_hls(*(v / 255 for v in c))
-        out.append(tuple(round(v * 255) for v in colorsys.hls_to_rgb(h, l * 0.85, s * 0.45)))
-    return out
-
-
 def shade_rod(img, a, b, radius, ramp, outline=True, pattern=None, seed=0):
     """Rasterise a lit cylinder from a to b (pixel coords) with a radius profile radius(t)."""
     rng = random.Random(seed)
@@ -95,71 +86,6 @@ def shade_rod(img, a, b, radius, ramp, outline=True, pattern=None, seed=0):
             level = 0 if k > -0.3 else 1
         img.putpixel((x, y), ramp[level] + (255,))
     return inside
-
-
-def binned_ramp(metal, n=8):
-    """n tones from the ingot: its pixels sorted by brightness, averaged per bin (no single stray pixel wins)."""
-    img = Image.open(os.path.join(TEX, "items", f"{metal}_ingot.png")).convert("RGBA")
-    cols = sorted((p[:3] for p in img.get_flattened_data() if p[3] > 200), key=lum)
-    out = []
-    for i in range(n):
-        part = cols[i * len(cols) // n:max(i * len(cols) // n + 1, (i + 1) * len(cols) // n)]
-        out.append(tuple(round(sum(c[k] for c in part) / len(part)) for k in range(3)))
-    # Outline tone: the darkest bin pushed darker, keeping its hue.
-    h, l, sat = colorsys.rgb_to_hls(*(v / 255 for v in out[0]))
-    return [tuple(round(v * 255) for v in colorsys.hls_to_rgb(h, l * 0.55, sat))] + out
-
-
-def cap_item(ramp, frame=None, frames=4):
-    """Small diagonal cone in the size and direction of Thaumaturge's own cap icons (drawn here, not copied):
-    open rim at the upper left, tapering to the tip at the lower right, 8 tones lit from the upper right."""
-    img = Image.new("RGBA", (16, 16))
-    a, b = (4.8, 4.8), (10.9, 10.9)
-    ux, uy = (b[0] - a[0]), (b[1] - a[1])
-    length = math.hypot(ux, uy)
-    ux, uy = ux / length, uy / length
-    shape = {}
-    for y in range(16):
-        for x in range(16):
-            px, py = x + 0.5 - a[0], y + 0.5 - a[1]
-            t = (px * ux + py * uy) / length
-            v = (px * -uy + py * ux)  # + is the lower-left side
-            if -0.18 <= t <= 1.0:
-                r = 3.4 - 1.9 * max(0.0, t) ** 1.4 if t >= 0 else 3.4
-                if abs(v) <= r:
-                    shape[(x, y)] = (t, v / r)
-    for (x, y), (t, k) in shape.items():
-        level = 4.8 - 2.4 * k  # upper-right side lit
-        if -0.7 < k < -0.15:
-            level += 1.4  # highlight running down the cone
-        if t < 0.08:
-            level = 5.6 - 1.5 * k  # bright rim lip at the open end
-        if t < -0.06:
-            level = 1.2 + 0.8 * (1 - abs(k))  # dark inside of the opening
-        if frame is not None:  # charged shimmer sliding to the tip
-            centre = (frame + 0.5) / frames
-            level += 2.0 * max(0.0, 1 - abs(t - centre) * 5)
-        if any((x + dx, y + dy) not in shape for dx, dy in ((1, 0), (0, 1), (-1, 0), (0, -1))):
-            level = min(level, 0.4 if k > -0.2 else 2.2)  # outline: hard below, soft on the lit side
-        img.putpixel((x, y), ramp[max(0, min(len(ramp) - 1, round(level)))] + (255,))
-    return img
-
-
-def cap_model(ramp):
-    """32x32 model texture: two 2x2x2 boxes joined by a 2px stem, at the wand cap UV layout."""
-    img = Image.new("RGBA", (32, 32))
-    face = [3, 4, 2, 1]  # per side face: lit, top-lit, shaded, back
-    for y in (2, 3, 7, 8):
-        for x in range(8):
-            level = face[x // 2] + (1 if y in (2, 7) else 0)
-            img.putpixel((x, y), ramp[min(5, level)] + (255,))
-    for y in (0, 1):
-        for x in range(2, 6):
-            img.putpixel((x, y), ramp[5 if x < 4 else 2] + (255,))
-    for y in (4, 5, 6):
-        for x in (3, 4):
-            img.putpixel((x, y), ramp[3 if x == 3 else 1] + (255,))
-    return img
 
 
 def rod_pattern(metal):
@@ -271,18 +197,8 @@ def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     out = sys.argv[1]
-    for metal in TIER_CAPS + THEMED_CAPS + WACKY_CAPS:
-        ramp = metal_ramp(metal)
-        save(cap_model(ramp), out, f"models/wand_cap_{metal}.png")
-        ramp = binned_ramp(metal)
-        if metal in CHARGED_CAPS:
-            save(cap_item(dull(ramp)), out, f"items/wand_cap_{metal}_inert.png")
-            strip = Image.new("RGBA", (16, 64))
-            for f in range(4):
-                strip.alpha_composite(cap_item(ramp, frame=f), (0, f * 16))
-            save(strip, out, f"items/wand_cap_{metal}.png")
-        else:
-            save(cap_item(ramp), out, f"items/wand_cap_{metal}.png")
+    # Wand caps are recolours of Thaumaturge's own (All Rights Reserved) caps, so they live in a private
+    # art repository for the private pack and are not generated or committed here.
     for metal in RODS:
         save(rod_item(metal, False), out, f"items/wand_rod_{metal}.png")
         save(rod_item(metal, True), out, f"items/staff_rod_{metal}.png")
