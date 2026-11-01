@@ -4,8 +4,8 @@
 
 Everything is drawn here or recoloured from Metallurgy's own GPL textures: caps and rods are
 procedural shapes shaded with each metal's ingot palette; clusters put Metallurgy's ore chips on a
-stone lump drawn here; the knuckles and buckler are palette swaps of
-Metallurgy's brass knuckles and zinc buckler. No Thaumaturge art is copied: only the model UV
+stone lump drawn here; the knuckles, bucklers and gauntlet are palette swaps of
+Metallurgy's brass knuckles, zinc buckler and rubracium gauntlet. No Thaumaturge art is copied: only the model UV
 layout (which pixels a cap or rod box uses) is matched so the textures map onto its wand model.
 Output mirrors assets/metallurgy/textures/. Art ships only after review; see docs/THAUMATURGE.md.
 """
@@ -24,7 +24,6 @@ TIER_CAPS = ["bronze", "steel", "platinum", "mithril", "orichalcum", "adamantine
 THEMED_CAPS = ["ignatius", "ceruclase", "shadow_steel", "sanguinite", "midasium", "etherium"]
 WACKY_CAPS = ["quicksilver", "kalendrite", "astral_silver", "tartarite", "krik", "amordrine", "desichalkos", "prometheum"]
 CHARGED_CAPS = {"mithril", "orichalcum", "adamantine"}  # crafted inert, charged by infusion
-RODS = {"vulcanite": True, "eximite": False}  # metal -> glows
 # Metallurgy ores without a Thaumaturge cluster (it has copper, iron, gold, silver, tin, lead).
 CLUSTERS = ["adamantine", "alduorite", "astral_silver", "atlarus", "carmot", "ceruclase", "deep_iron", "eximite",
             "ignatius", "infuscolium", "kalendrite", "lemurite", "lutetium", "manganese", "meutoite", "midasium",
@@ -86,43 +85,6 @@ def shade_rod(img, a, b, radius, ramp, outline=True, pattern=None, seed=0):
             level = 0 if k > -0.3 else 1
         img.putpixel((x, y), ramp[level] + (255,))
     return inside
-
-
-def rod_pattern(metal):
-    if metal == "vulcanite":  # glowing magma veins
-        return lambda t, k, rng: 1.6 if (int(t * 14) % 4 == 0 and abs(k) < 0.5) else 0.0
-    return lambda t, k, rng: (1.0 if rng.random() < 0.12 else 0.0)  # eximite: starry fleck
-
-
-def rod_item(metal, staff):
-    img = Image.new("RGBA", (16, 16))
-    ramp = metal_ramp(metal)
-    a, b = ((1.5, 14.5), (14.5, 1.5)) if staff else ((3.0, 13.0), (13.0, 3.0))
-
-    def radius(t):
-        return 1.9 if staff and (t < 0.07 or t > 0.93) else 1.45
-    shade_rod(img, a, b, radius, ramp, pattern=rod_pattern(metal), seed=7)
-    return img
-
-
-def rod_model(metal):
-    """32x32 model texture at the rod UV layout: 2x2 ends, four 2px side faces 18 tall."""
-    img = Image.new("RGBA", (32, 32))
-    ramp = metal_ramp(metal)
-    rng = random.Random(11)
-    face = [3, 4, 2, 1]
-    for y in (8, 9):
-        for x in range(2, 6):
-            img.putpixel((x, y), ramp[4] + (255,))
-    for y in range(10, 28):
-        for x in range(8):
-            level = face[x // 2]
-            if metal == "vulcanite" and (y - 10) % 5 == 0 and x % 2 == 0:
-                level = 5
-            elif metal == "eximite" and rng.random() < 0.1:
-                level = 5
-            img.putpixel((x, y), ramp[level] + (255,))
-    return img
 
 
 def gradient_map(img, ramp, select=None):
@@ -197,12 +159,8 @@ def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     out = sys.argv[1]
-    # Wand caps are recolours of Thaumaturge's own (All Rights Reserved) caps, so they live in a private
-    # art repository for the private pack and are not generated or committed here.
-    for metal in RODS:
-        save(rod_item(metal, False), out, f"items/wand_rod_{metal}.png")
-        save(rod_item(metal, True), out, f"items/staff_rod_{metal}.png")
-        save(rod_model(metal), out, f"models/wand_rod_{metal}.png")
+    # Wand caps and rods are recolours of Thaumaturge's own (All Rights Reserved) textures, so they live in a
+    # private art repository for the private pack and are not generated or committed here.
     for metal in CLUSTERS:
         save(cluster(metal), out, f"items/cluster_{metal}.png")
     thaumium = [hexrgb(h) for h in THAUMIUM]
@@ -210,8 +168,11 @@ def main():
     gadgets = os.path.join(TEX, "items", "gadgets")
     for src, dst in (("brass_knuckles.png", "thaumium_knuckles.png"), ("brass_knuckles_item.png", "thaumium_knuckles_item.png")):
         save(gradient_map(Image.open(os.path.join(gadgets, src)).convert("RGBA"), thaumium), out, "items/gadgets/" + dst)
-    save(gradient_map(Image.open(os.path.join(gadgets, "zinc_buckler.png")).convert("RGBA"), void, is_metal),
-         out, "items/gadgets/void_buckler.png")
+    for name, ramp in (("void", void), ("thaumium", thaumium)):
+        save(gradient_map(Image.open(os.path.join(gadgets, "zinc_buckler.png")).convert("RGBA"), ramp, is_metal),
+             out, f"items/gadgets/{name}_buckler.png")
+    save(gradient_map(Image.open(os.path.join(gadgets, "rubracium_gauntlet.png")).convert("RGBA"), void),
+         out, "items/gadgets/void_gauntlet.png")
     print("wrote textures to", out)
 
 
