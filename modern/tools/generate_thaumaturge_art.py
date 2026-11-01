@@ -110,43 +110,37 @@ def binned_ramp(metal, n=8):
     return [tuple(round(v * 255) for v in colorsys.hls_to_rgb(h, l * 0.55, sat))] + out
 
 
-# Upright wand cap, rows top to bottom: (half width, part). Centre is between pixel columns 7 and 8.
-CAP_ROWS = [(1, "knob"), (2, "knob"), (1, "neck"), (3, "dome"), (4, "dome"), (5, "body"), (5, "body"),
-            (6, "band_top"), (6, "band"), (5, "under"), (5, "body"), (4, "body"), (5, "rim"), (6, "rim_low")]
-
-
 def cap_item(ramp, frame=None, frames=4):
-    """Original upright cap: a knob, a domed top, a raised band and a flared rim, lit from the upper left."""
+    """Small diagonal cone in the size and direction of Thaumaturge's own cap icons (drawn here, not copied):
+    open rim at the upper left, tapering to the tip at the lower right, 8 tones lit from the upper right."""
     img = Image.new("RGBA", (16, 16))
-    top = 1
+    a, b = (4.8, 4.8), (10.9, 10.9)
+    ux, uy = (b[0] - a[0]), (b[1] - a[1])
+    length = math.hypot(ux, uy)
+    ux, uy = ux / length, uy / length
     shape = {}
-    for i, (half, part) in enumerate(CAP_ROWS):
-        for x in range(8 - half, 8 + half):
-            shape[(x, top + i)] = (half, part, i)
-    lx, ly, lz = -0.62, -0.45, 0.64  # light: left, up, towards the viewer
-    for (x, y), (half, part, i) in shape.items():
-        u = (x + 0.5 - 8) / half  # -1 left edge .. 1 right edge
-        nx = u
-        ny = {"knob": -0.5, "neck": 0.2, "dome": -0.55 + 0.15 * (i - 3), "band_top": -0.6, "under": 0.55,
-              "rim_low": 0.5}.get(part, 0.0)
-        nz = math.sqrt(max(0.05, 1 - nx * nx - ny * ny))
-        light = max(0.0, (nx * lx + ny * ly + nz * lz) / math.sqrt(nx * nx + ny * ny + nz * nz))
-        level = 1.0 + light * 5.6
-        level += {"band_top": 1.4, "under": -1.6, "rim": 0.6, "rim_low": -1.2, "neck": -1.0}.get(part, 0.0)
-        level -= 0.12 * max(0, i - 9)  # a little darker towards the open end
-        if -0.75 < u < -0.3 and part not in ("under", "rim_low"):
-            level += 0.9  # soft specular streak down the lit side
-        if frame is not None:  # charged shimmer: a bright band sliding down the cap
-            centre = (frame + 0.5) / frames * len(CAP_ROWS)
-            level += 2.2 * max(0.0, 1 - abs(i - centre) / 1.6)
-        edge_r = (x + 1, y) not in shape
-        edge_l = (x - 1, y) not in shape
-        edge_b = (x, y + 1) not in shape
-        edge_t = (x, y - 1) not in shape
-        if edge_r or edge_b:
-            level = 0  # hard outline away from the light
-        elif edge_l or edge_t:
-            level = min(level, 2.4)  # softer outline on the lit side
+    for y in range(16):
+        for x in range(16):
+            px, py = x + 0.5 - a[0], y + 0.5 - a[1]
+            t = (px * ux + py * uy) / length
+            v = (px * -uy + py * ux)  # + is the lower-left side
+            if -0.18 <= t <= 1.0:
+                r = 3.4 - 1.9 * max(0.0, t) ** 1.4 if t >= 0 else 3.4
+                if abs(v) <= r:
+                    shape[(x, y)] = (t, v / r)
+    for (x, y), (t, k) in shape.items():
+        level = 4.8 - 2.4 * k  # upper-right side lit
+        if -0.7 < k < -0.15:
+            level += 1.4  # highlight running down the cone
+        if t < 0.08:
+            level = 5.6 - 1.5 * k  # bright rim lip at the open end
+        if t < -0.06:
+            level = 1.2 + 0.8 * (1 - abs(k))  # dark inside of the opening
+        if frame is not None:  # charged shimmer sliding to the tip
+            centre = (frame + 0.5) / frames
+            level += 2.0 * max(0.0, 1 - abs(t - centre) * 5)
+        if any((x + dx, y + dy) not in shape for dx, dy in ((1, 0), (0, 1), (-1, 0), (0, -1))):
+            level = min(level, 0.4 if k > -0.2 else 2.2)  # outline: hard below, soft on the lit side
         img.putpixel((x, y), ramp[max(0, min(len(ramp) - 1, round(level)))] + (255,))
     return img
 
