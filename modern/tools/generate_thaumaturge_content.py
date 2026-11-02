@@ -113,6 +113,8 @@ def caps(metal):
                           "result": {"id": f"{NS}:{item}"}, "vis": crafts[m] * 3}, research)
         simple_item(f"wand_cap_{m}", f"{NS}:item/wand_cap_{m}")
         lang[f"item.{NS}.wand_cap_{m}"] = ("Charged " if charged else "") + metal(m) + " Cap"
+        # Thaumaturge names a wand from wand.thaumaturge.cap/rod.<path>, whatever mod registered the part.
+        lang[f"wand.thaumaturge.cap.{m}"] = metal(m)
         if charged:
             simple_item(item, f"{NS}:item/{item}")
             lang[f"item.{NS}.{item}"] = f"Inert {metal(m)} Cap"
@@ -138,6 +140,7 @@ def rods(metal):
         simple_item(f"staff_rod_{m}", f"{NS}:item/staff_rod_{m}", "minecraft:item/handheld")
         lang[f"item.{NS}.wand_rod_{m}"] = metal(m) + " Rod"
         lang[f"item.{NS}.staff_rod_{m}"] = metal(m) + " Staff Core"
+        lang[f"wand.thaumaturge.rod.{m}"] = metal(m)  # also names the staff: Thaumaturge drops "_staff"
 
 
 def clusters(metal):
