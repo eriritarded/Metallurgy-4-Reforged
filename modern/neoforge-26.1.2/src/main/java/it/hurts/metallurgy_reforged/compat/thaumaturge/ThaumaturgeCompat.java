@@ -219,7 +219,7 @@ public final class ThaumaturgeCompat {
     private static String capMetal(LivingEntity caster) {
         for (ItemStack stack : List.of(caster.getMainHandItem(), caster.getOffhandItem())) {
             if (!(stack.getItem() instanceof ItemWand)) continue;
-            WandCap cap = WandVisHelper.getParts(stack).cap();
+            WandCap cap = WandVisHelper.partsOf(stack).cap();
             for (Map.Entry<String, Supplier<WandCap>> entry : CAP_BY_METAL.entrySet())
                 if (entry.getValue().get() == cap) return entry.getKey();
             return null;

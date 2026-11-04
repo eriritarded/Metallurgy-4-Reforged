@@ -72,6 +72,6 @@ condition. Effect numbers are data: `data/metallurgy/thaumaturge/tuning.json` (a
 
 ## Building
 
-The 26.1.2 build needs `-PthaumaturgeJar=<thaumaturge-26.1.2-NeoForge-1.0.2.jar>` (compile only, nothing bundled),
+The 26.1.2 build needs `-PthaumaturgeJar=<thaumaturge-26.1.2-NeoForge-1.1.0.jar>` (compile only, nothing bundled),
 like `-PhephaestusToolsJar`.
 

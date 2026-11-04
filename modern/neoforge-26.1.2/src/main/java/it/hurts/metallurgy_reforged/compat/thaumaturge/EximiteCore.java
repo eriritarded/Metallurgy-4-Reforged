@@ -21,8 +21,8 @@ final class EximiteCore implements IWandRodOnUpdate {
         boolean end = player.level().dimension() == Level.END;
         int interval = Math.max(1, (int) ThaumaturgeTuning.get(end ? "eximite_rod.end_interval_ticks" : "eximite_rod.interval_ticks"));
         if (player.tickCount % interval != 0) return;
-        int floor = WandVisHelper.getMaxVis(wand) / 10;
-        List<ResourceKey<IAspect>> low = TTAspects.PRIMALS.stream().filter(primal -> WandVisHelper.getVis(wand, primal) < floor).toList();
-        if (!low.isEmpty()) WandVisHelper.addVis(wand, low.get(player.getRandom().nextInt(low.size())), 1, true);
+        int floor = WandVisHelper.capacityOf(wand) / 10;
+        List<ResourceKey<IAspect>> low = TTAspects.PRIMALS.stream().filter(primal -> WandVisHelper.storedIn(wand, primal) < floor).toList();
+        if (!low.isEmpty()) WandVisHelper.topUp(wand, low.get(player.getRandom().nextInt(low.size())), 1, true);
     }
 }

@@ -44,10 +44,10 @@ if (!hephaestusApi.isPresent()) {
 }
 dependencies { compileOnly files(hephaestusApi.get()) }
 
-// Optional API only. Supply the author's unmodified Thaumaturge 1.0.2 JAR; nothing of it is bundled.
+// Optional API only. Supply the author's unmodified Thaumaturge 1.1.0 JAR; nothing of it is bundled.
 // Cap and rod textures are not in this repository (see docs/THAUMATURGE.md).
 def thaumaturgeApi = providers.gradleProperty('thaumaturgeJar').orElse(providers.environmentVariable('THAUMATURGE_JAR'))
 if (!thaumaturgeApi.isPresent()) {
-    throw new GradleException('Set -PthaumaturgeJar=/path/to/thaumaturge-26.1.2-NeoForge-1.0.2.jar (or THAUMATURGE_JAR). See modern/docs/THAUMATURGE.md.')
+    throw new GradleException('Set -PthaumaturgeJar=/path/to/thaumaturge-26.1.2-NeoForge-1.1.0.jar (or THAUMATURGE_JAR). See modern/docs/THAUMATURGE.md.')
 }
 dependencies { compileOnly files(thaumaturgeApi.get()) }

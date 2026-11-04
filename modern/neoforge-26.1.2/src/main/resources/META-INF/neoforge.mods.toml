@@ -60,6 +60,6 @@ side="BOTH"
 [[dependencies.metallurgy]]
 modId="thaumaturge"
 type="optional"
-versionRange="[1.0.2,)"
+versionRange="[1.1.0,)"
 ordering="AFTER"
 side="BOTH"
