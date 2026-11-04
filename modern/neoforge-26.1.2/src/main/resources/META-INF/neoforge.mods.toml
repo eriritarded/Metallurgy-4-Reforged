@@ -1,7 +1,7 @@
 license="GPL-3.0-only"
 [[mods]]
 modId="metallurgy"
-version="1.4.1-port.22"
+version="1.4.1-port.23"
 displayName="Metallurgy 4: Reforged"
 authors="Davoleo, Matpac, Metallurgy contributors; Metallurgy Chests by KreloX; modern port by Oculifelis"
 description="Modern port with integrated Metallurgy Chests."
